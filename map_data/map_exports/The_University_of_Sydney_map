@@ -1,0 +1,157 @@
+{
+    "id": 6244284838374813467,
+    "name": "The University of Sydney",
+    "rating": 4.4,
+    "popularity": 76,
+    "data_path": "map_data/university_map/The_University_of_Sydney",
+    "amenity": {
+        "affiliation": 6244284838374813467,
+        "amenity_list": [
+            {
+                "id": 6093164147144494303,
+                "name": "University of Sydney Veterinary Clinic",
+                "type": "veterinary"
+            },
+            {
+                "id": 1360561947788998525,
+                "name": "SciTech Library",
+                "type": "library"
+            },
+            {
+                "id": -1123647460707672600,
+                "name": "Manning Bar",
+                "type": "pub"
+            },
+            {
+                "id": -9171859251967414744,
+                "name": "可能感兴趣的地点",
+                "type": "bicycle_parking"
+            },
+            {
+                "id": -7738640808708180418,
+                "name": "NAB",
+                "type": "atm"
+            },
+            {
+                "id": 2798092567710856701,
+                "name": "ANZ",
+                "type": "atm"
+            },
+            {
+                "id": -4734502153997832773,
+                "name": "Commonwealth Bank",
+                "type": "atm"
+            },
+            {
+                "id": -4841781256043157446,
+                "name": "Taste Baguette",
+                "type": "restaurant"
+            },
+            {
+                "id": 910072984757363060,
+                "name": "Parma Cucina and Bar",
+                "type": "cafe"
+            },
+            {
+                "id": 2158830151258933362,
+                "name": "Carslaw Kitchen",
+                "type": "cafe"
+            },
+            {
+                "id": -7196044004122273667,
+                "name": "Subway",
+                "type": "fast_food"
+            },
+            {
+                "id": -4037803709990730564,
+                "name": "Hoochie Mamma Cafe",
+                "type": "cafe"
+            },
+            {
+                "id": 9035453527792497915,
+                "name": "Western Avenue Parking",
+                "type": "parking"
+            },
+            {
+                "id": 9037925441848579302,
+                "name": "Ralph's Cafe",
+                "type": "cafe"
+            },
+            {
+                "id": 1278548874978061161,
+                "name": "Grandstand",
+                "type": "restaurant"
+            },
+            {
+                "id": -6523209675359872520,
+                "name": "Forum",
+                "type": "restaurant"
+            },
+            {
+                "id": 5294287719510864972,
+                "name": "Engo Grill",
+                "type": "cafe"
+            },
+            {
+                "id": 8918111458411213789,
+                "name": "Courtyard Cafe",
+                "type": "cafe"
+            },
+            {
+                "id": 727854585753927197,
+                "name": "St John Paul II Student Centre",
+                "type": "place_of_worship"
+            },
+            {
+                "id": -3980046364609225609,
+                "name": "Camperdown Post Office",
+                "type": "post_office"
+            },
+            {
+                "id": 8605758704477006362,
+                "name": "Hermann's Bar",
+                "type": "bar"
+            },
+            {
+                "id": -1543661879870473804,
+                "name": "Sounds Sydney",
+                "type": "cafe"
+            },
+            {
+                "id": 7790341084116438988,
+                "name": "Seymour Centre",
+                "type": "theatre"
+            },
+            {
+                "id": 3204308814794287252,
+                "name": "Shepherd Street Car Park",
+                "type": "parking"
+            },
+            {
+                "id": -3186189304594960139,
+                "name": "Moore Theological College",
+                "type": "college"
+            },
+            {
+                "id": 1815981426231761918,
+                "name": "Royal Prince Alfred Hospital",
+                "type": "hospital"
+            },
+            {
+                "id": -8667578820789338476,
+                "name": "Newtown North Public School",
+                "type": "school"
+            },
+            {
+                "id": -909611423911154936,
+                "name": "Sand Roll House",
+                "type": "animal_shelter"
+            },
+            {
+                "id": -2124111796678322475,
+                "name": "Coffee @ Fisher",
+                "type": "cafe"
+            }
+        ]
+    }
+}

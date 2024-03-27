@@ -1,0 +1,122 @@
+{
+    "id": 1148590429821174309,
+    "name": "麦吉尔大学",
+    "rating": 4.5,
+    "popularity": 96,
+    "data_path": "map_data/university_map/McGill_University",
+    "amenity": {
+        "affiliation": 1148590429821174309,
+        "amenity_list": [
+            {
+                "id": -9171859251967414744,
+                "name": "可能感兴趣的地点",
+                "type": "bicycle_parking"
+            },
+            {
+                "id": -6529694553371248115,
+                "name": "Pollack Hall",
+                "type": "theatre"
+            },
+            {
+                "id": -4375727515025518395,
+                "name": "Redpath Hall",
+                "type": "theatre"
+            },
+            {
+                "id": -2281388726706651078,
+                "name": "Tanna Schulich Hall",
+                "type": "theatre"
+            },
+            {
+                "id": -2789363541959880411,
+                "name": "McConnell Cafe",
+                "type": "restaurant"
+            },
+            {
+                "id": -7341236354684160855,
+                "name": "Schulich Library of Science and Engineering",
+                "type": "library"
+            },
+            {
+                "id": 255398823589682515,
+                "name": "Birk's Chapel",
+                "type": "place_of_worship"
+            },
+            {
+                "id": -1733719522470840187,
+                "name": "Banque Scotia",
+                "type": "bank"
+            },
+            {
+                "id": -8423775501725063646,
+                "name": "Midnight's Kitchen",
+                "type": "social_facility"
+            },
+            {
+                "id": -4484818207874884242,
+                "name": "Clara Lichtenstein Hall",
+                "type": "theatre"
+            },
+            {
+                "id": -2433437279027208513,
+                "name": "James Square",
+                "type": "theatre"
+            },
+            {
+                "id": 1950377294019284278,
+                "name": "Dispatch Coffee",
+                "type": "cafe"
+            },
+            {
+                "id": 3934876797544711996,
+                "name": "Hot Dog Guy",
+                "type": "fast_food"
+            },
+            {
+                "id": 8515187221955887439,
+                "name": "Bixi",
+                "type": "bicycle_rental"
+            },
+            {
+                "id": -6473259851042659785,
+                "name": "Leacock Amphitheater",
+                "type": "theatre"
+            },
+            {
+                "id": -2481416534286863273,
+                "name": "McLennan Library Building",
+                "type": "library"
+            },
+            {
+                "id": 5989848272737415826,
+                "name": "Redpath Library Building",
+                "type": "library"
+            },
+            {
+                "id": -5967583637910741841,
+                "name": "Fine Arts Core Education (F.A.C.E.) High School",
+                "type": "school"
+            },
+            {
+                "id": 8788696106417146794,
+                "name": "Three Bares",
+                "type": "fountain"
+            },
+            {
+                "id": 1050142804240593840,
+                "name": "Gelber Law Library",
+                "type": "library"
+            },
+            {
+                "id": 6191565611491882449,
+                "name": "Humanities and Social Sciences Library",
+                "type": "library"
+            },
+            {
+                "id": -6153867328883186983,
+                "name": "Hôpital neurologique de Montréal",
+                "type": "hospital"
+            }
+        ]
+    }
+}

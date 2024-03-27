@@ -1,0 +1,27 @@
+{
+    "id": 1490902232252465911,
+    "name": "上海外国语大学",
+    "rating": 4.5,
+    "popularity": 68,
+    "data_path": "map_data/university_map/Shanghai_International_Studies_University",
+    "amenity": {
+        "affiliation": 1490902232252465911,
+        "amenity_list": [
+            {
+                "id": -7955104806924692,
+                "name": "逸夫图书馆",
+                "type": "library"
+            },
+            {
+                "id": 3302687542594458233,
+                "name": "逸夫会堂",
+                "type": "conference_centre"
+            },
+            {
+                "id": 6763556923209399091,
+                "name": "上外食堂",
+                "type": "restaurant"
+            }
+        ]
+    }
+}

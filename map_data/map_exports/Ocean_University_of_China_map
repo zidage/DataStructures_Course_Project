@@ -1,0 +1,77 @@
+{
+    "id": -2766338601592261838,
+    "name": "中国海洋大学",
+    "rating": 4.7,
+    "popularity": 40,
+    "data_path": "map_data/university_map/Ocean_University_of_China",
+    "amenity": {
+        "affiliation": -2766338601592261838,
+        "amenity_list": [
+            {
+                "id": 7721842950618847310,
+                "name": "校医院",
+                "type": "hospital"
+            },
+            {
+                "id": -5304275316225647279,
+                "name": "中国建设银行",
+                "type": "bank"
+            },
+            {
+                "id": 8925818025967574413,
+                "name": "中国银行",
+                "type": "bank"
+            },
+            {
+                "id": -4443211111844226275,
+                "name": "海洋地球科学学院",
+                "type": "research_institute"
+            },
+            {
+                "id": 5097473452082230398,
+                "name": "中国农业银行",
+                "type": "bank"
+            },
+            {
+                "id": -5843591846426947486,
+                "name": "开水房",
+                "type": "drinking_water"
+            },
+            {
+                "id": 316033621378501125,
+                "name": "菜鸟驿站",
+                "type": "parcel_locker"
+            },
+            {
+                "id": -2482543979137063124,
+                "name": "浴室",
+                "type": "shower"
+            },
+            {
+                "id": -9171859251967414744,
+                "name": "可能感兴趣的地点",
+                "type": "parking"
+            },
+            {
+                "id": -4876794176834976100,
+                "name": "第五食堂",
+                "type": "restaurant"
+            },
+            {
+                "id": -7514016617754546114,
+                "name": "第二食堂",
+                "type": "restaurant"
+            },
+            {
+                "id": -8090041638943470676,
+                "name": "中国海洋大学崂山校区图书馆",
+                "type": "library"
+            },
+            {
+                "id": -5855917719842511640,
+                "name": "第一食堂",
+                "type": "restaurant"
+            }
+        ]
+    }
+}

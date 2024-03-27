@@ -1,0 +1,572 @@
+{
+    "id": -2500515143687460793,
+    "name": "清华大学",
+    "rating": 4.6,
+    "popularity": 68,
+    "data_path": "map_data/university_map/Tsinghua_University",
+    "amenity": {
+        "affiliation": -2500515143687460793,
+        "amenity_list": [
+            {
+                "id": 3120267257393974074,
+                "name": "北京银行",
+                "type": "bank"
+            },
+            {
+                "id": -5304275316225647279,
+                "name": "中国建设银行",
+                "type": "bank"
+            },
+            {
+                "id": -7929399138975379747,
+                "name": "中国石化",
+                "type": "fuel"
+            },
+            {
+                "id": -1522552014021565685,
+                "name": "中国邮政",
+                "type": "post_office"
+            },
+            {
+                "id": 8925818025967574413,
+                "name": "中国银行",
+                "type": "atm"
+            },
+            {
+                "id": 1775599145239970574,
+                "name": "DHL",
+                "type": "post_office"
+            },
+            {
+                "id": -1086002437885309166,
+                "name": "中国工商银行",
+                "type": "atm"
+            },
+            {
+                "id": -4955367458660634896,
+                "name": "交通银行",
+                "type": "atm"
+            },
+            {
+                "id": 1410638039805922382,
+                "name": "紫荆公寓邮政所",
+                "type": "post_office"
+            },
+            {
+                "id": -9171859251967414744,
+                "name": "可能感兴趣的地点",
+                "type": "toilets"
+            },
+            {
+                "id": 6454305360426916306,
+                "name": "同仁堂",
+                "type": "pharmacy"
+            },
+            {
+                "id": 1073138645992791341,
+                "name": "清青咖啡",
+                "type": "cafe"
+            },
+            {
+                "id": -3800895530891138454,
+                "name": "澜院教工餐厅",
+                "type": "restaurant"
+            },
+            {
+                "id": 8360205784547249116,
+                "name": "李先生",
+                "type": "restaurant"
+            },
+            {
+                "id": 8646923032544190913,
+                "name": "熙春园餐厅",
+                "type": "restaurant"
+            },
+            {
+                "id": 3924416085034930056,
+                "name": "荷园教工餐厅",
+                "type": "restaurant"
+            },
+            {
+                "id": 5842313550491734637,
+                "name": "1911咖啡",
+                "type": "cafe"
+            },
+            {
+                "id": -1787316149526013332,
+                "name": "Jazz Cafe",
+                "type": "cafe"
+            },
+            {
+                "id": -8571762798725436832,
+                "name": "招商银行",
+                "type": "atm"
+            },
+            {
+                "id": 7450870088038553049,
+                "name": "Paradiso Coffee",
+                "type": "cafe"
+            },
+            {
+                "id": -7336385236840717404,
+                "name": "零零阁",
+                "type": "shelter"
+            },
+            {
+                "id": 744965008165826607,
+                "name": "安家小厨",
+                "type": "cafe"
+            },
+            {
+                "id": -7911054664036872677,
+                "name": "北园餐厅",
+                "type": "restaurant"
+            },
+            {
+                "id": 3255829576012059858,
+                "name": "玉树园餐厅",
+                "type": "restaurant"
+            },
+            {
+                "id": -7010097889543243940,
+                "name": "芝兰园餐厅",
+                "type": "restaurant"
+            },
+            {
+                "id": 3427694186245145430,
+                "name": "数学科学系",
+                "type": "research_institute"
+            },
+            {
+                "id": -8374846980881059472,
+                "name": "物理系",
+                "type": "research_institute"
+            },
+            {
+                "id": 6523690998333165244,
+                "name": "清青快餐",
+                "type": "fast_food"
+            },
+            {
+                "id": -7254694623941252348,
+                "name": "Hundred Years Cafe",
+                "type": "cafe"
+            },
+            {
+                "id": -1750867329034132984,
+                "name": "诗雅艺术学校",
+                "type": "school"
+            },
+            {
+                "id": 835181023697218000,
+                "name": "清华大学图书馆",
+                "type": "library"
+            },
+            {
+                "id": 8506778515814308822,
+                "name": "79Bar",
+                "type": "cafe"
+            },
+            {
+                "id": 1790082381911883554,
+                "name": "紫荆书咖",
+                "type": "cafe"
+            },
+            {
+                "id": 2251308699627454298,
+                "name": "仰望咖啡",
+                "type": "cafe"
+            },
+            {
+                "id": 2044128823271119166,
+                "name": "闻亭",
+                "type": "shelter"
+            },
+            {
+                "id": 688893735613825804,
+                "name": "蒙楼咖啡（新清华学堂店）",
+                "type": "cafe"
+            },
+            {
+                "id": -4715618593923229735,
+                "name": "蒙楼咖啡",
+                "type": "cafe"
+            },
+            {
+                "id": -2358415744739760586,
+                "name": "清华大学车队停车场",
+                "type": "parking"
+            },
+            {
+                "id": -2705420451006247488,
+                "name": "赛百味",
+                "type": "fast_food"
+            },
+            {
+                "id": -7106313776347150333,
+                "name": "清青牛拉",
+                "type": "restaurant"
+            },
+            {
+                "id": -1108552290571802684,
+                "name": "有理咖（紫荆公寓店）",
+                "type": "cafe"
+            },
+            {
+                "id": 8454095835225555673,
+                "name": "七港九",
+                "type": "cafe"
+            },
+            {
+                "id": -678796144991760920,
+                "name": "计算机科学与技术系",
+                "type": "research_institute"
+            },
+            {
+                "id": 2215137696012343492,
+                "name": "软件学院",
+                "type": "research_institute"
+            },
+            {
+                "id": 6563703635382459604,
+                "name": "自动化系",
+                "type": "research_institute"
+            },
+            {
+                "id": 1111466257418302535,
+                "name": "电机工程与应用电子技术系",
+                "type": "research_institute"
+            },
+            {
+                "id": -7543257689240733195,
+                "name": "工程物理系",
+                "type": "research_institute"
+            },
+            {
+                "id": -4607199632715351083,
+                "name": "化学工程系",
+                "type": "research_institute"
+            },
+            {
+                "id": 381979477276542289,
+                "name": "航空航天学院",
+                "type": "research_institute"
+            },
+            {
+                "id": -3281766304469746242,
+                "name": "电子工程系",
+                "type": "research_institute"
+            },
+            {
+                "id": -5896283733447237206,
+                "name": "社会科学学院",
+                "type": "research_institute"
+            },
+            {
+                "id": -7645488377006945495,
+                "name": "马克思主义学院",
+                "type": "research_institute"
+            },
+            {
+                "id": 9146060476475883753,
+                "name": "化学系",
+                "type": "research_institute"
+            },
+            {
+                "id": -1625233038768448006,
+                "name": "土木工程系",
+                "type": "research_institute"
+            },
+            {
+                "id": 2037472256919156399,
+                "name": "中国语言文学系",
+                "type": "research_institute"
+            },
+            {
+                "id": -4538124609016818770,
+                "name": "人文学院",
+                "type": "research_institute"
+            },
+            {
+                "id": 3381881210800026285,
+                "name": "教育研究院",
+                "type": "research_institute"
+            },
+            {
+                "id": 3481308074912573421,
+                "name": "外国语言文学系",
+                "type": "research_institute"
+            },
+            {
+                "id": -6483711139319396279,
+                "name": "能源与动力工程系",
+                "type": "research_institute"
+            },
+            {
+                "id": 5866408476223586323,
+                "name": "水力水电工程系",
+                "type": "research_institute"
+            },
+            {
+                "id": 1138340905146237284,
+                "name": "新闻与传播学院",
+                "type": "research_institute"
+            },
+            {
+                "id": -5888873650478828749,
+                "name": "生命科学学院",
+                "type": "research_institute"
+            },
+            {
+                "id": 9003854930789297602,
+                "name": "医学院",
+                "type": "research_institute"
+            },
+            {
+                "id": 7420252624605095630,
+                "name": "药学院",
+                "type": "research_institute"
+            },
+            {
+                "id": 7721842950618847310,
+                "name": "校医院",
+                "type": "hospital"
+            },
+            {
+                "id": -8413811784710565742,
+                "name": "车辆与运载学院",
+                "type": "research_institute"
+            },
+            {
+                "id": -3284128278583254328,
+                "name": "机械工程系",
+                "type": "research_institute"
+            },
+            {
+                "id": 8706221475984111679,
+                "name": "核能与新能源技术研究院",
+                "type": "research_institute"
+            },
+            {
+                "id": -365490432748561019,
+                "name": "精密仪器系",
+                "type": "research_institute"
+            },
+            {
+                "id": -8711697651148068809,
+                "name": "法学院",
+                "type": "research_institute"
+            },
+            {
+                "id": -7134851083308627198,
+                "name": "工业工程系",
+                "type": "research_institute"
+            },
+            {
+                "id": 8006724861659017227,
+                "name": "建筑学院",
+                "type": "research_institute"
+            },
+            {
+                "id": 7116463912101455446,
+                "name": "材料学院",
+                "type": "research_institute"
+            },
+            {
+                "id": -4534499196800461997,
+                "name": "环境学院",
+                "type": "research_institute"
+            },
+            {
+                "id": -5864160281509648519,
+                "name": "美术学院",
+                "type": "research_institute"
+            },
+            {
+                "id": -6616722977500004929,
+                "name": "清真餐厅",
+                "type": "restaurant"
+            },
+            {
+                "id": -2406584232524839698,
+                "name": "艺博咖啡",
+                "type": "cafe"
+            },
+            {
+                "id": 3390575189132894337,
+                "name": "新清华学堂实验剧场",
+                "type": "theatre"
+            },
+            {
+                "id": 5454556782912911064,
+                "name": "南区学生活动中心",
+                "type": "community_centre"
+            },
+            {
+                "id": -2940036909914777350,
+                "name": "学生社区活动中心",
+                "type": "community_centre"
+            },
+            {
+                "id": -9193129062040791257,
+                "name": "iCenter创客咖啡",
+                "type": "cafe"
+            },
+            {
+                "id": -7429866862690866330,
+                "name": "敬老公寓",
+                "type": "social_facility"
+            },
+            {
+                "id": 3983064456437556320,
+                "name": "美术学院图书馆",
+                "type": "library"
+            },
+            {
+                "id": -2761999360813569415,
+                "name": "中国邮政储蓄银行",
+                "type": "bank"
+            },
+            {
+                "id": -937403210503355867,
+                "name": "观畴园餐厅",
+                "type": "restaurant"
+            },
+            {
+                "id": -2407888533877596423,
+                "name": "紫荆园餐厅",
+                "type": "restaurant"
+            },
+            {
+                "id": -4901998443978495030,
+                "name": "桃李园餐厅",
+                "type": "restaurant"
+            },
+            {
+                "id": 8508664159183520671,
+                "name": "逸夫馆",
+                "type": "library"
+            },
+            {
+                "id": -3133109408955083025,
+                "name": "听涛园餐厅",
+                "type": "restaurant"
+            },
+            {
+                "id": 8609939699276611388,
+                "name": "丁香园餐厅",
+                "type": "restaurant"
+            },
+            {
+                "id": -6934508538519755349,
+                "name": "清华大学医院",
+                "type": "hospital"
+            },
+            {
+                "id": 3754677659730595051,
+                "name": "汽研所广场",
+                "type": "parking"
+            },
+            {
+                "id": 2892560132375372476,
+                "name": "闻馨园餐厅",
+                "type": "restaurant"
+            },
+            {
+                "id": -9052068870526751277,
+                "name": "新清华学堂",
+                "type": "theatre"
+            },
+            {
+                "id": 8172961269880154429,
+                "name": "寓园教工食堂",
+                "type": "restaurant"
+            },
+            {
+                "id": -2747282079878733622,
+                "name": "清华大学洁华幼儿园",
+                "type": "kindergarten"
+            },
+            {
+                "id": -9028913559115727357,
+                "name": "南园教工食堂",
+                "type": "restaurant"
+            },
+            {
+                "id": -6893707482342355816,
+                "name": "清华大学附属小学",
+                "type": "school"
+            },
+            {
+                "id": -3389297896957543000,
+                "name": "保卫处派出所",
+                "type": "police"
+            },
+            {
+                "id": -2644313961581345994,
+                "name": "蒙民伟音乐厅",
+                "type": "theatre"
+            },
+            {
+                "id": 4455379645069715622,
+                "name": "人文社科图书馆（凯风楼）",
+                "type": "library"
+            },
+            {
+                "id": 472390406316811710,
+                "name": "理学院北广场",
+                "type": "theatre"
+            },
+            {
+                "id": -7630115598469758836,
+                "name": "学生区快递服务站",
+                "type": "post_office"
+            },
+            {
+                "id": 1952846195567567004,
+                "name": "清华大学附属中学",
+                "type": "school"
+            },
+            {
+                "id": -536194732668003243,
+                "name": "清芬园餐厅",
+                "type": "restaurant"
+            },
+            {
+                "id": -2813348209548825804,
+                "name": "李文正馆",
+                "type": "library"
+            },
+            {
+                "id": 3765098795250305848,
+                "name": "老馆",
+                "type": "library"
+            },
+            {
+                "id": 3793189745429236429,
+                "name": "北区浴室",
+                "type": "shower"
+            },
+            {
+                "id": -6192655609244626643,
+                "name": "家园",
+                "type": "restaurant"
+            },
+            {
+                "id": 5426217939319190625,
+                "name": "甲所",
+                "type": "restaurant"
+            },
+            {
+                "id": 8010454162061580904,
+                "name": "月涵池",
+                "type": "fountain"
+            },
+            {
+                "id": 2720759597852134199,
+                "name": "洗车房",
+                "type": "car_wash"
+            }
+        ]
+    }
+}

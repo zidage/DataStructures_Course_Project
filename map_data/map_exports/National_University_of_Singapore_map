@@ -1,0 +1,11 @@
+{
+    "id": -7784234368696946313,
+    "name": "新加坡国立大学",
+    "rating": 4.5,
+    "popularity": 80,
+    "data_path": "map_data/university_map/National_University_of_Singapore",
+    "amenity": {
+        "affiliation": -7784234368696946313,
+        "amenity_list": []
+    }
+}

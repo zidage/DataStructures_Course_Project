@@ -1,0 +1,107 @@
+{
+    "id": 3608519772048488163,
+    "name": "武汉理工大学",
+    "rating": 3.8,
+    "popularity": 48,
+    "data_path": "map_data/university_map/Wuhan_University_of_Technology",
+    "amenity": {
+        "affiliation": 3608519772048488163,
+        "amenity_list": [
+            {
+                "id": 7008155372715680010,
+                "name": "工商银行",
+                "type": "atm"
+            },
+            {
+                "id": 8925818025967574413,
+                "name": "中国银行",
+                "type": "bank"
+            },
+            {
+                "id": -9171859251967414744,
+                "name": "可能感兴趣的地点",
+                "type": "atm"
+            },
+            {
+                "id": 4722482372912948355,
+                "name": "武汉理工大学余家头校区医院",
+                "type": "hospital"
+            },
+            {
+                "id": 5402895166046703353,
+                "name": "信箱",
+                "type": "post_box"
+            },
+            {
+                "id": -8550035063969873401,
+                "name": "三食堂",
+                "type": "restaurant"
+            },
+            {
+                "id": 6714093503361668349,
+                "name": "六、七食堂",
+                "type": "restaurant"
+            },
+            {
+                "id": 2398670243497772260,
+                "name": "理工大第三幼儿园",
+                "type": "kindergarten"
+            },
+            {
+                "id": 8660835356014144145,
+                "name": "华莱士",
+                "type": "fast_food"
+            },
+            {
+                "id": 5044838605582464625,
+                "name": "派乐汉堡",
+                "type": "fast_food"
+            },
+            {
+                "id": -6299027215452086254,
+                "name": "豆花妈妈",
+                "type": "cafe"
+            },
+            {
+                "id": 4110378920490355889,
+                "name": "蒸好吃",
+                "type": "restaurant"
+            },
+            {
+                "id": 7498799062383114361,
+                "name": "东北快餐",
+                "type": "restaurant"
+            },
+            {
+                "id": -3518533904256908907,
+                "name": "小博士",
+                "type": "restaurant"
+            },
+            {
+                "id": -8126088456438245559,
+                "name": "重庆番茄鱼",
+                "type": "restaurant"
+            },
+            {
+                "id": 3975787478884394232,
+                "name": "武汉理工大学余家头校区图书馆",
+                "type": "library"
+            },
+            {
+                "id": -5879524918951375017,
+                "name": "学生一食堂",
+                "type": "restaurant"
+            },
+            {
+                "id": -5707533739759890820,
+                "name": "大学生活动中心",
+                "type": "community_centre"
+            },
+            {
+                "id": 7579254030688769135,
+                "name": "教工食堂",
+                "type": "restaurant"
+            }
+        ]
+    }
+}

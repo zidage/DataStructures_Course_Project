@@ -1,0 +1,87 @@
+{
+    "id": -3759031950725726589,
+    "name": "南京大学",
+    "rating": 4.7,
+    "popularity": 88,
+    "data_path": "map_data/university_map/Nanjing_University",
+    "amenity": {
+        "affiliation": -3759031950725726589,
+        "amenity_list": [
+            {
+                "id": -1086002437885309166,
+                "name": "中国工商银行",
+                "type": "bank"
+            },
+            {
+                "id": 4968079233321778833,
+                "name": "南大邮政所",
+                "type": "post_office"
+            },
+            {
+                "id": -9171859251967414744,
+                "name": "可能感兴趣的地点",
+                "type": "parking_entrance"
+            },
+            {
+                "id": 5125954494932812961,
+                "name": "麦当劳",
+                "type": "fast_food"
+            },
+            {
+                "id": 118596126990499053,
+                "name": "德国研究图书馆",
+                "type": "library"
+            },
+            {
+                "id": 2768127994598996311,
+                "name": "壹咖啡",
+                "type": "cafe"
+            },
+            {
+                "id": -4247793356020530856,
+                "name": "南京大学图书馆（鼓楼）",
+                "type": "library"
+            },
+            {
+                "id": 8721456195623006732,
+                "name": "食堂",
+                "type": "restaurant"
+            },
+            {
+                "id": 7341926134134528374,
+                "name": "南园喷水池",
+                "type": "fountain"
+            },
+            {
+                "id": 3505113861525656114,
+                "name": "校园报警中心",
+                "type": "community_centre"
+            },
+            {
+                "id": 2611009289528763357,
+                "name": "南芳园",
+                "type": "restaurant"
+            },
+            {
+                "id": 8308977604801107624,
+                "name": "南京大学医院",
+                "type": "hospital"
+            },
+            {
+                "id": -5738047414477110251,
+                "name": "南京大学幼儿园",
+                "type": "kindergarten"
+            },
+            {
+                "id": 7522976133033632541,
+                "name": "南园快餐厅",
+                "type": "restaurant"
+            },
+            {
+                "id": -2431299344953926719,
+                "name": "汉口路小学",
+                "type": "school"
+            }
+        ]
+    }
+}

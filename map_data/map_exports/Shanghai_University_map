@@ -1,0 +1,117 @@
+{
+    "id": -2799389992716403327,
+    "name": "上海大学",
+    "rating": 4.6,
+    "popularity": 96,
+    "data_path": "map_data/university_map/Shanghai_University",
+    "amenity": {
+        "affiliation": -2799389992716403327,
+        "amenity_list": [
+            {
+                "id": 4440453368301082625,
+                "name": "蜜雪冰城",
+                "type": "cafe"
+            },
+            {
+                "id": 316033621378501125,
+                "name": "菜鸟驿站",
+                "type": "post_office"
+            },
+            {
+                "id": -9171859251967414744,
+                "name": "可能感兴趣的地点",
+                "type": "post_office"
+            },
+            {
+                "id": -954343502412843893,
+                "name": "锦心餐厅",
+                "type": "restaurant"
+            },
+            {
+                "id": -6616722977500004929,
+                "name": "清真餐厅",
+                "type": "restaurant"
+            },
+            {
+                "id": 2321251469060817096,
+                "name": "山明餐厅",
+                "type": "restaurant"
+            },
+            {
+                "id": 8560174876443780043,
+                "name": "赞贤餐厅",
+                "type": "restaurant"
+            },
+            {
+                "id": 5097396612968278659,
+                "name": "益新餐厅",
+                "type": "restaurant"
+            },
+            {
+                "id": -8756634012980335966,
+                "name": "良友餐厅",
+                "type": "restaurant"
+            },
+            {
+                "id": 1853208834250292082,
+                "name": "顺丰",
+                "type": "post_office"
+            },
+            {
+                "id": 6430306181326563796,
+                "name": "芯茶",
+                "type": "cafe"
+            },
+            {
+                "id": -7140470225912057601,
+                "name": "瑞幸咖啡",
+                "type": "cafe"
+            },
+            {
+                "id": -3341504065810908502,
+                "name": "京东",
+                "type": "post_office"
+            },
+            {
+                "id": -6739579231543506955,
+                "name": "上海大学附属中学",
+                "type": "school"
+            },
+            {
+                "id": 1779779828737828214,
+                "name": "永福庵",
+                "type": "place_of_worship"
+            },
+            {
+                "id": -3326570590033129826,
+                "name": "上大浴室",
+                "type": "public_bath"
+            },
+            {
+                "id": 3921350288042743850,
+                "name": "上海大学本部图书馆",
+                "type": "library"
+            },
+            {
+                "id": 8988245273333198000,
+                "name": "钱伟长图书馆",
+                "type": "library"
+            },
+            {
+                "id": 5678540219620242656,
+                "name": "吾馨楼",
+                "type": "restaurant"
+            },
+            {
+                "id": 7552951105868276510,
+                "name": "水秀楼",
+                "type": "restaurant"
+            },
+            {
+                "id": 7868080093693115300,
+                "name": "尔美食堂",
+                "type": "restaurant"
+            }
+        ]
+    }
+}

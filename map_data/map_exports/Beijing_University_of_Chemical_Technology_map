@@ -1,0 +1,122 @@
+{
+    "id": 3106255489767085650,
+    "name": "北京化工大学",
+    "rating": 4.2,
+    "popularity": 96,
+    "data_path": "map_data/university_map/Beijing_University_of_Chemical_Technology",
+    "amenity": {
+        "affiliation": 3106255489767085650,
+        "amenity_list": [
+            {
+                "id": 1853160814322764043,
+                "name": "1958咖啡馆",
+                "type": "cafe"
+            },
+            {
+                "id": -1604827828230641967,
+                "name": "北京化工大学校医院",
+                "type": "hospital"
+            },
+            {
+                "id": -9171859251967414744,
+                "name": "可能感兴趣的地点",
+                "type": "parking"
+            },
+            {
+                "id": 316033621378501125,
+                "name": "菜鸟驿站",
+                "type": "post_office"
+            },
+            {
+                "id": 7915954624256272500,
+                "name": "水果店",
+                "type": "restaurant"
+            },
+            {
+                "id": 3120267257393974074,
+                "name": "北京银行",
+                "type": "atm"
+            },
+            {
+                "id": 8925818025967574413,
+                "name": "中国银行",
+                "type": "atm"
+            },
+            {
+                "id": -4951974895864977466,
+                "name": "沪上阿姨",
+                "type": "cafe"
+            },
+            {
+                "id": 1080858278248325819,
+                "name": "挂号信收发室",
+                "type": "post_office"
+            },
+            {
+                "id": 1068118054622589125,
+                "name": "自助补卡机",
+                "type": "vending_machine"
+            },
+            {
+                "id": -6762035038265532428,
+                "name": "教师储物柜",
+                "type": "parcel_locker"
+            },
+            {
+                "id": -4390613396057261487,
+                "name": "友咖",
+                "type": "vending_machine"
+            },
+            {
+                "id": 5067544515057815433,
+                "name": "北化早餐车",
+                "type": "fast_food"
+            },
+            {
+                "id": -7120612650506802559,
+                "name": "北化早餐车-奶茶",
+                "type": "cafe"
+            },
+            {
+                "id": -3773058527431046706,
+                "name": "美团共享单车",
+                "type": "bicycle_rental"
+            },
+            {
+                "id": -6513555025342743094,
+                "name": "师贤亭",
+                "type": "shelter"
+            },
+            {
+                "id": 4440453368301082625,
+                "name": "蜜雪冰城",
+                "type": "cafe"
+            },
+            {
+                "id": 4947462886112062337,
+                "name": "德克士",
+                "type": "fast_food"
+            },
+            {
+                "id": 6860754088778588468,
+                "name": "红色候车亭",
+                "type": "shelter"
+            },
+            {
+                "id": -6005077357233430796,
+                "name": "保卫处",
+                "type": "police"
+            },
+            {
+                "id": -8228235220892324275,
+                "name": "燕贸亭",
+                "type": "shelter"
+            },
+            {
+                "id": -7178823870318232418,
+                "name": "玉兰食堂",
+                "type": "restaurant"
+            }
+        ]
+    }
+}

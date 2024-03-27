@@ -1,0 +1,17 @@
+{
+    "id": -3449866303225804451,
+    "name": "吉林大学",
+    "rating": 4.7,
+    "popularity": 44,
+    "data_path": "map_data/university_map/Jilin_University",
+    "amenity": {
+        "affiliation": -3449866303225804451,
+        "amenity_list": [
+            {
+                "id": -9171859251967414744,
+                "name": "可能感兴趣的地点",
+                "type": "library"
+            }
+        ]
+    }
+}

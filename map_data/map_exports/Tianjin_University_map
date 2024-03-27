@@ -1,0 +1,47 @@
+{
+    "id": 1534315647987794683,
+    "name": "北洋广场",
+    "rating": 4.3,
+    "popularity": 100,
+    "data_path": "map_data/university_map/Tianjin_University",
+    "amenity": {
+        "affiliation": 1534315647987794683,
+        "amenity_list": [
+            {
+                "id": 4156449257451844230,
+                "name": "天大校医院",
+                "type": "hospital"
+            },
+            {
+                "id": -1703986495176254735,
+                "name": "学四食堂",
+                "type": "restaurant"
+            },
+            {
+                "id": 546321681369966497,
+                "name": "学三食堂",
+                "type": "restaurant"
+            },
+            {
+                "id": -9171859251967414744,
+                "name": "可能感兴趣的地点",
+                "type": "bicycle_parking"
+            },
+            {
+                "id": 302458859756792511,
+                "name": "学五食堂",
+                "type": "restaurant"
+            },
+            {
+                "id": -5326906699640746684,
+                "name": "学一食堂",
+                "type": "restaurant"
+            },
+            {
+                "id": -7351615444679598683,
+                "name": "老魏餐厅",
+                "type": "restaurant"
+            }
+        ]
+    }
+}

@@ -1,0 +1,467 @@
+{
+    "id": 6476501923033529159,
+    "name": "华中科技大学",
+    "rating": 4.4,
+    "popularity": 80,
+    "data_path": "map_data/university_map/Huazhong_University_of_Science_and_Technology",
+    "amenity": {
+        "affiliation": 6476501923033529159,
+        "amenity_list": [
+            {
+                "id": -9171859251967414744,
+                "name": "可能感兴趣的地点",
+                "type": "bus_station"
+            },
+            {
+                "id": -8426698456416185226,
+                "name": "韵苑食堂",
+                "type": "restaurant"
+            },
+            {
+                "id": -1309625725216569058,
+                "name": "东篱",
+                "type": "cafe"
+            },
+            {
+                "id": 8287915126525708024,
+                "name": "东园",
+                "type": "restaurant"
+            },
+            {
+                "id": -3050604058974844112,
+                "name": "学生食堂",
+                "type": "restaurant"
+            },
+            {
+                "id": -1086002437885309166,
+                "name": "中国工商银行",
+                "type": "bank"
+            },
+            {
+                "id": -5304275316225647279,
+                "name": "中国建设银行",
+                "type": "atm"
+            },
+            {
+                "id": 5097473452082230398,
+                "name": "中国农业银行",
+                "type": "bank"
+            },
+            {
+                "id": -4840250050119898173,
+                "name": "百品屋",
+                "type": "restaurant"
+            },
+            {
+                "id": -2398493586051280711,
+                "name": "西一食堂",
+                "type": "restaurant"
+            },
+            {
+                "id": 3852996137725669748,
+                "name": "百盛园",
+                "type": "restaurant"
+            },
+            {
+                "id": 8559372176086053336,
+                "name": "港饮之港",
+                "type": "bar"
+            },
+            {
+                "id": 6708336637411660775,
+                "name": "同味堂",
+                "type": "restaurant"
+            },
+            {
+                "id": -2461156194868720737,
+                "name": "同福堂",
+                "type": "restaurant"
+            },
+            {
+                "id": 6640528440408881179,
+                "name": "同畅堂",
+                "type": "restaurant"
+            },
+            {
+                "id": 8925818025967574413,
+                "name": "中国银行",
+                "type": "bank"
+            },
+            {
+                "id": -6596193747290917542,
+                "name": "露天电影院遗址",
+                "type": "cinema"
+            },
+            {
+                "id": 3011843132347218609,
+                "name": "不鸣不飞亭",
+                "type": "shelter"
+            },
+            {
+                "id": -68663255107097502,
+                "name": "薰风亭",
+                "type": "shelter"
+            },
+            {
+                "id": -607344158445945606,
+                "name": "思源亭",
+                "type": "shelter"
+            },
+            {
+                "id": 7859581612147207912,
+                "name": "汉堡王",
+                "type": "fast_food"
+            },
+            {
+                "id": 477737852151178924,
+                "name": "呷哺呷哺",
+                "type": "restaurant"
+            },
+            {
+                "id": 3362440887257926787,
+                "name": "排档江湖",
+                "type": "restaurant"
+            },
+            {
+                "id": -879200730338693637,
+                "name": "周麻婆",
+                "type": "restaurant"
+            },
+            {
+                "id": -2111927110302892376,
+                "name": "吉野家",
+                "type": "fast_food"
+            },
+            {
+                "id": 6149989730103073906,
+                "name": "氧气层",
+                "type": "restaurant"
+            },
+            {
+                "id": 6216334924677604755,
+                "name": "工程实训中心",
+                "type": "public_building"
+            },
+            {
+                "id": -4534499196800461997,
+                "name": "环境学院",
+                "type": "public_building"
+            },
+            {
+                "id": 7403458152778066465,
+                "name": "集贸市场",
+                "type": "marketplace"
+            },
+            {
+                "id": 7760904489112759623,
+                "name": "东校区图书馆",
+                "type": "library"
+            },
+            {
+                "id": -5888873650478828749,
+                "name": "生命科学学院",
+                "type": "public_building"
+            },
+            {
+                "id": -7738876945466699758,
+                "name": "科技楼",
+                "type": "public_building"
+            },
+            {
+                "id": -8496960897848646645,
+                "name": "华科附小",
+                "type": "school"
+            },
+            {
+                "id": 8649228547158863273,
+                "name": "船池",
+                "type": "research_institute"
+            },
+            {
+                "id": 8154767335137261526,
+                "name": "华科幼儿园",
+                "type": "kindergarten"
+            },
+            {
+                "id": -1044226577770791706,
+                "name": "东校区教工活动中心",
+                "type": "public_building"
+            },
+            {
+                "id": -5179245715420955549,
+                "name": "西二楼",
+                "type": "public_building"
+            },
+            {
+                "id": 6563081479007026303,
+                "name": "西八楼",
+                "type": "public_building"
+            },
+            {
+                "id": 7284003908337699484,
+                "name": "学生澡堂",
+                "type": "public_building"
+            },
+            {
+                "id": 8181543362248969542,
+                "name": "西二食堂",
+                "type": "restaurant"
+            },
+            {
+                "id": 3686521538102537644,
+                "name": "化学楼",
+                "type": "public_building"
+            },
+            {
+                "id": 6284250565487373689,
+                "name": "醉晚亭",
+                "type": "shelter"
+            },
+            {
+                "id": -7427370793018973109,
+                "name": "西一楼",
+                "type": "public_building"
+            },
+            {
+                "id": -1276136387460207902,
+                "name": "百景园餐厅",
+                "type": "restaurant"
+            },
+            {
+                "id": -1082895074420648360,
+                "name": "东校区医院",
+                "type": "hospital"
+            },
+            {
+                "id": 4242891235268412765,
+                "name": "医学图像信息中心",
+                "type": "public_building"
+            },
+            {
+                "id": -3129299431198193604,
+                "name": "东教工食堂",
+                "type": "restaurant"
+            },
+            {
+                "id": 5666032940956676041,
+                "name": "印刷厂",
+                "type": "public_building"
+            },
+            {
+                "id": 5183223413601054929,
+                "name": "华科主校区医院",
+                "type": "hospital"
+            },
+            {
+                "id": 8775634299790338816,
+                "name": "老年活动中心",
+                "type": "public_building"
+            },
+            {
+                "id": 1689835135658586248,
+                "name": "华科附中",
+                "type": "school"
+            },
+            {
+                "id": -2141844700774725450,
+                "name": "国际交流学院",
+                "type": "college"
+            },
+            {
+                "id": 8438571206380826881,
+                "name": "东三食堂",
+                "type": "restaurant"
+            },
+            {
+                "id": 3696131512664671821,
+                "name": "集贤楼",
+                "type": "restaurant"
+            },
+            {
+                "id": 2947459937538487582,
+                "name": "明德报告厅",
+                "type": "conference_center"
+            },
+            {
+                "id": 8013745500828489362,
+                "name": "南二楼",
+                "type": "public_building"
+            },
+            {
+                "id": -8862678410557699185,
+                "name": "集锦园",
+                "type": "restaurant"
+            },
+            {
+                "id": 6327242548375394436,
+                "name": "西三食堂",
+                "type": "restaurant"
+            },
+            {
+                "id": -5610049308879446208,
+                "name": "东区幼儿园",
+                "type": "kindergarten"
+            },
+            {
+                "id": 2661316769047942396,
+                "name": "东区附小",
+                "type": "school"
+            },
+            {
+                "id": 5963987983135696006,
+                "name": "西十一楼",
+                "type": "public_building"
+            },
+            {
+                "id": 3531212218711512649,
+                "name": "水电学院",
+                "type": "public_building"
+            },
+            {
+                "id": -5687814494792773819,
+                "name": "西四楼",
+                "type": "public_building"
+            },
+            {
+                "id": 8133507152747676617,
+                "name": "水利机械楼",
+                "type": "public_building"
+            },
+            {
+                "id": 8261919982668268868,
+                "name": "主校区图书馆老馆",
+                "type": "library"
+            },
+            {
+                "id": -3344138454947596026,
+                "name": "主校区图书馆新馆 逸夫图书馆",
+                "type": "library"
+            },
+            {
+                "id": -1522552014021565685,
+                "name": "中国邮政",
+                "type": "post_office"
+            },
+            {
+                "id": 1808765996066961601,
+                "name": "西六楼",
+                "type": "public_building"
+            },
+            {
+                "id": -700169318111089898,
+                "name": "结构楼",
+                "type": "public_building"
+            },
+            {
+                "id": 80333996348036287,
+                "name": "西七楼",
+                "type": "public_building"
+            },
+            {
+                "id": 6215358118227328576,
+                "name": "西十楼",
+                "type": "public_building"
+            },
+            {
+                "id": -3335542131967320776,
+                "name": "电工实训基地(新楼)",
+                "type": "public_building"
+            },
+            {
+                "id": 7206993080218585651,
+                "name": "大电机实验室",
+                "type": "public_building"
+            },
+            {
+                "id": -1838719129707148132,
+                "name": "电机楼",
+                "type": "public_building"
+            },
+            {
+                "id": -2468395798161980629,
+                "name": "西九楼",
+                "type": "public_building"
+            },
+            {
+                "id": 129462827245366020,
+                "name": "水果保鲜",
+                "type": "public_building"
+            },
+            {
+                "id": 746023931397244980,
+                "name": "勤工助学服务中心",
+                "type": "public_building"
+            },
+            {
+                "id": 21034246143452281,
+                "name": "百惠园食堂",
+                "type": "restaurant"
+            },
+            {
+                "id": -7304120600573943498,
+                "name": "体育部仓库",
+                "type": "public_building"
+            },
+            {
+                "id": 6505595039657363447,
+                "name": "环境学院用房",
+                "type": "public_building"
+            },
+            {
+                "id": -2627509981979185249,
+                "name": "友谊餐厅",
+                "type": "restaurant"
+            },
+            {
+                "id": -901694759374751841,
+                "name": "出国留学培训服务中心(友谊公寓附楼)",
+                "type": "public_building"
+            },
+            {
+                "id": 2785457405682688737,
+                "name": "国网电力科学研究院",
+                "type": "research_institute"
+            },
+            {
+                "id": -4193222222121525532,
+                "name": "东一食堂",
+                "type": "restaurant"
+            },
+            {
+                "id": 789734926157847260,
+                "name": "消防",
+                "type": "fire_station"
+            },
+            {
+                "id": 849255812025816848,
+                "name": "校医院北区",
+                "type": "hospital"
+            },
+            {
+                "id": 9116279488643184157,
+                "name": "主校区图书馆新馆",
+                "type": "library"
+            },
+            {
+                "id": 3372369533871101148,
+                "name": "喻园餐厅",
+                "type": "restaurant"
+            },
+            {
+                "id": 1102457345354025727,
+                "name": "华科大驾校",
+                "type": "driver_training"
+            },
+            {
+                "id": -8314254399187936710,
+                "name": "华中科技大学附属中学",
+                "type": "school"
+            },
+            {
+                "id": 6665613084023935118,
+                "name": "西十二楼",
+                "type": "public_building"
+            }
+        ]
+    }
+}

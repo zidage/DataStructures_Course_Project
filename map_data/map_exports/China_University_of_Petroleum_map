@@ -1,0 +1,82 @@
+{
+    "id": -3211140263776476302,
+    "name": "中国石油大学",
+    "rating": 4.5,
+    "popularity": 72,
+    "data_path": "map_data/university_map/China_University_of_Petroleum",
+    "amenity": {
+        "affiliation": -3211140263776476302,
+        "amenity_list": [
+            {
+                "id": -1994095595679125001,
+                "name": "肯德基",
+                "type": "fast_food"
+            },
+            {
+                "id": -6676117772149471155,
+                "name": "索尔咖啡",
+                "type": "cafe"
+            },
+            {
+                "id": -7745198384086919622,
+                "name": "民族餐厅",
+                "type": "restaurant"
+            },
+            {
+                "id": -9171859251967414744,
+                "name": "可能感兴趣的地点",
+                "type": "fountain"
+            },
+            {
+                "id": -793114439188393758,
+                "name": "中国邮政速递物流",
+                "type": "post_office"
+            },
+            {
+                "id": -4951974895864977466,
+                "name": "沪上阿姨",
+                "type": "cafe"
+            },
+            {
+                "id": 3032998662174860390,
+                "name": "超级奶爸",
+                "type": "cafe"
+            },
+            {
+                "id": -7567795286678759477,
+                "name": "急救中心",
+                "type": "hospital"
+            },
+            {
+                "id": -871343555576357646,
+                "name": "荟萃苑餐厅",
+                "type": "restaurant"
+            },
+            {
+                "id": 7451215211621919987,
+                "name": "玉兰苑餐厅",
+                "type": "restaurant"
+            },
+            {
+                "id": -734611525630399171,
+                "name": "图书馆",
+                "type": "library"
+            },
+            {
+                "id": 2574346096240197272,
+                "name": "唐岛湾餐厅",
+                "type": "restaurant"
+            },
+            {
+                "id": -3173979487476448584,
+                "name": "学苑餐厅",
+                "type": "restaurant"
+            },
+            {
+                "id": -606185453571323255,
+                "name": "图书馆东馆",
+                "type": "library"
+            }
+        ]
+    }
+}

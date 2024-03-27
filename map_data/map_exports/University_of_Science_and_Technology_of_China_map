@@ -1,0 +1,107 @@
+{
+    "id": 4700453675143598816,
+    "name": "中国科学技术大学",
+    "rating": 4.7,
+    "popularity": 56,
+    "data_path": "map_data/university_map/University_of_Science_and_Technology_of_China",
+    "amenity": {
+        "affiliation": 4700453675143598816,
+        "amenity_list": [
+            {
+                "id": -9171859251967414744,
+                "name": "可能感兴趣的地点",
+                "type": "waste_basket"
+            },
+            {
+                "id": 386936009241115749,
+                "name": "占断群芳",
+                "type": "shelter"
+            },
+            {
+                "id": 4156509158092986889,
+                "name": "东区近邻宝",
+                "type": "parcel_locker"
+            },
+            {
+                "id": 9070184280483573083,
+                "name": "天文学系",
+                "type": "college"
+            },
+            {
+                "id": -3301475791840823970,
+                "name": "网络空间安全学院（东区）",
+                "type": "college"
+            },
+            {
+                "id": -7621005451036751271,
+                "name": "物理学院",
+                "type": "college"
+            },
+            {
+                "id": 4029209197519754156,
+                "name": "μSTC缪子成像探测器",
+                "type": "research_institute"
+            },
+            {
+                "id": -7758231347246349040,
+                "name": "环境科学与工程系",
+                "type": "college"
+            },
+            {
+                "id": -272567487991440234,
+                "name": "物理学系",
+                "type": "college"
+            },
+            {
+                "id": -6141148489037985718,
+                "name": "地球与空间科学学院",
+                "type": "college"
+            },
+            {
+                "id": 3082943054104855463,
+                "name": "管理学院",
+                "type": "college"
+            },
+            {
+                "id": -2705946187145269943,
+                "name": "公共事务学院",
+                "type": "college"
+            },
+            {
+                "id": -7645488377006945495,
+                "name": "马克思主义学院",
+                "type": "college"
+            },
+            {
+                "id": 4150676684320581952,
+                "name": "中国科学技术大学医院",
+                "type": "hospital"
+            },
+            {
+                "id": -6073501084419573641,
+                "name": "USTC1958（东区）",
+                "type": "cafe"
+            },
+            {
+                "id": -2482543979137063124,
+                "name": "浴室",
+                "type": "public_bath"
+            },
+            {
+                "id": 3287470585380696562,
+                "name": "东区图书馆",
+                "type": "library"
+            },
+            {
+                "id": -7365563864598863654,
+                "name": "校车管理中心",
+                "type": "parking"
+            },
+            {
+                "id": 5420458855699789229,
+                "name": "中国科学技术大学附属幼儿园",
+                "type": "school"
+            }
+        ]
+    }
+}

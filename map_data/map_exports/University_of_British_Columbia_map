@@ -1,0 +1,722 @@
+{
+    "id": -3783511769340655671,
+    "name": "不列颠哥伦比亚大学",
+    "rating": 4.5,
+    "popularity": 48,
+    "data_path": "map_data/university_map/University_of_British_Columbia",
+    "amenity": {
+        "affiliation": -3783511769340655671,
+        "amenity_list": [
+            {
+                "id": -9171859251967414744,
+                "name": "可能感兴趣的地点",
+                "type": "bicycle_parking"
+            },
+            {
+                "id": -2657128560143313626,
+                "name": "Koerner's Pub",
+                "type": "pub"
+            },
+            {
+                "id": -7343215724870761180,
+                "name": "Shoppers Drug Mart",
+                "type": "pharmacy"
+            },
+            {
+                "id": -2917303149412606949,
+                "name": "BMO",
+                "type": "bank"
+            },
+            {
+                "id": -855273315510415374,
+                "name": "CIBC",
+                "type": "bank"
+            },
+            {
+                "id": 472219742492177868,
+                "name": "McDonald's",
+                "type": "fast_food"
+            },
+            {
+                "id": -4025616065238909966,
+                "name": "Starbucks",
+                "type": "cafe"
+            },
+            {
+                "id": -1800839932723507004,
+                "name": "The Corner Kitchen UBC",
+                "type": "restaurant"
+            },
+            {
+                "id": -3018340204472383183,
+                "name": "Pho With Us",
+                "type": "restaurant"
+            },
+            {
+                "id": 1084223289149311536,
+                "name": "Pita Pit",
+                "type": "fast_food"
+            },
+            {
+                "id": 9080729076910005203,
+                "name": "Only U Cafe",
+                "type": "cafe"
+            },
+            {
+                "id": 5032369767372137738,
+                "name": "Tim Hortons",
+                "type": "cafe"
+            },
+            {
+                "id": -4285791348174053921,
+                "name": "Ike's Café",
+                "type": "cafe"
+            },
+            {
+                "id": -8943659352538611564,
+                "name": "Triple O's",
+                "type": "restaurant"
+            },
+            {
+                "id": 2978859263927179012,
+                "name": "Magma Cafè",
+                "type": "cafe"
+            },
+            {
+                "id": 3824908569942679518,
+                "name": "Bean Around The World",
+                "type": "cafe"
+            },
+            {
+                "id": 7701333534369170946,
+                "name": "Point Grill",
+                "type": "restaurant"
+            },
+            {
+                "id": 6267984643149526352,
+                "name": "UBC Farm Market",
+                "type": "marketplace"
+            },
+            {
+                "id": 8497636067643958995,
+                "name": "TD Canada Trust",
+                "type": "atm"
+            },
+            {
+                "id": -1840610503637245037,
+                "name": "University Pharmacy",
+                "type": "pharmacy"
+            },
+            {
+                "id": 2575183990239597260,
+                "name": "UBC Campus Mailing Services",
+                "type": "post_office"
+            },
+            {
+                "id": 5116594024462563266,
+                "name": "Mercante",
+                "type": "restaurant"
+            },
+            {
+                "id": 383261870816705899,
+                "name": "Eaton Arrowsmith School",
+                "type": "school"
+            },
+            {
+                "id": 6255086142492784637,
+                "name": "Perugia Italian Caffè",
+                "type": "cafe"
+            },
+            {
+                "id": -747118213361993262,
+                "name": "5 Tastes",
+                "type": "restaurant"
+            },
+            {
+                "id": 6984179324676417720,
+                "name": "Vera's Burgers",
+                "type": "fast_food"
+            },
+            {
+                "id": -7196044004122273667,
+                "name": "Subway",
+                "type": "fast_food"
+            },
+            {
+                "id": 7944205337166288349,
+                "name": "A&W",
+                "type": "fast_food"
+            },
+            {
+                "id": -7221767995043511017,
+                "name": "Pizza Garden",
+                "type": "fast_food"
+            },
+            {
+                "id": -1222638056560792612,
+                "name": "Garbage Can",
+                "type": "waste_basket"
+            },
+            {
+                "id": -1292042808843899108,
+                "name": "UBC Sustainability Sort it Out Waste Stations",
+                "type": "waste_basket"
+            },
+            {
+                "id": 2283432652056385728,
+                "name": "Agora",
+                "type": "cafe"
+            },
+            {
+                "id": 7177366358511467078,
+                "name": "The Pit",
+                "type": "pub"
+            },
+            {
+                "id": -5504753783462154781,
+                "name": "Scotiabank",
+                "type": "bank"
+            },
+            {
+                "id": 3696223431526635938,
+                "name": "Loafe",
+                "type": "cafe"
+            },
+            {
+                "id": 7782965651012308196,
+                "name": "The Boulevard Coffee Roasting Co.",
+                "type": "cafe"
+            },
+            {
+                "id": -2014652067719068142,
+                "name": "Open Kitchen",
+                "type": "food_court"
+            },
+            {
+                "id": -2032626184129858572,
+                "name": "Hummingbird Childcare",
+                "type": "kindergarten"
+            },
+            {
+                "id": -5999618084871071748,
+                "name": "The Loop Cafe",
+                "type": "cafe"
+            },
+            {
+                "id": 5795427816227547326,
+                "name": "Nori",
+                "type": "restaurant"
+            },
+            {
+                "id": -8687656150147996828,
+                "name": "Jamjar",
+                "type": "restaurant"
+            },
+            {
+                "id": 1868772576543302665,
+                "name": "Rain or Shine Ice Cream",
+                "type": "ice_cream"
+            },
+            {
+                "id": -6819885243009792857,
+                "name": "JJ Bean",
+                "type": "cafe"
+            },
+            {
+                "id": 814637690859029308,
+                "name": "Uncle Fatih's Pizza",
+                "type": "fast_food"
+            },
+            {
+                "id": -4885000172616322088,
+                "name": "500MeV Cyclotron",
+                "type": "science"
+            },
+            {
+                "id": -5386303136211433022,
+                "name": "Detector Facility",
+                "type": "workshop"
+            },
+            {
+                "id": 5521275727101852808,
+                "name": "UCN",
+                "type": "science"
+            },
+            {
+                "id": -1075833495263141418,
+                "name": "DRAGON",
+                "type": "science"
+            },
+            {
+                "id": -8451105681542372285,
+                "name": "TITAN",
+                "type": "science"
+            },
+            {
+                "id": 7375892000452357706,
+                "name": "Radiation Protection Group",
+                "type": "safety"
+            },
+            {
+                "id": -8963169232172398860,
+                "name": "Electronics Assembly",
+                "type": "workshop"
+            },
+            {
+                "id": -8802540663447553846,
+                "name": "Scintillator Shop",
+                "type": "workshop"
+            },
+            {
+                "id": -6306993401887361499,
+                "name": "Reception",
+                "type": "lobby"
+            },
+            {
+                "id": -2627860416708326313,
+                "name": "Cafeteria",
+                "type": "restaurant"
+            },
+            {
+                "id": -8732242840457277952,
+                "name": "GRIFFIN",
+                "type": "science"
+            },
+            {
+                "id": -3791316787609747395,
+                "name": "TIGRESS",
+                "type": "science"
+            },
+            {
+                "id": 2051795978433327634,
+                "name": "Auditorium",
+                "type": "theatre"
+            },
+            {
+                "id": 8620778875145690491,
+                "name": "MOA handicap toilets",
+                "type": "toilets"
+            },
+            {
+                "id": 1401257522723256172,
+                "name": "Tacomio",
+                "type": "restaurant"
+            },
+            {
+                "id": -6856719087644787624,
+                "name": "The Norm Theatre",
+                "type": "theatre"
+            },
+            {
+                "id": -5702162082780965595,
+                "name": "Booster Juice",
+                "type": "fast_food"
+            },
+            {
+                "id": -3340227465516927268,
+                "name": "Cafe MOA",
+                "type": "cafe"
+            },
+            {
+                "id": -7379995199767236297,
+                "name": "Computer Science Reading Room",
+                "type": "library"
+            },
+            {
+                "id": 6063383164618609481,
+                "name": "Seedlings",
+                "type": "cafe"
+            },
+            {
+                "id": -8413400384298553541,
+                "name": "The Original Beanery",
+                "type": "cafe"
+            },
+            {
+                "id": -5447340082331096108,
+                "name": "Honour Roll",
+                "type": "fast_food"
+            },
+            {
+                "id": 2406097826612094381,
+                "name": "Geography Building Bench",
+                "type": "bench"
+            },
+            {
+                "id": -3035361389594177666,
+                "name": "2002 Graduating Class Bench",
+                "type": "bench"
+            },
+            {
+                "id": -4213741046026276156,
+                "name": "Field House Cafe",
+                "type": "cafe"
+            },
+            {
+                "id": 2340221108820422644,
+                "name": "E-Waste Drop-off",
+                "type": "recycling"
+            },
+            {
+                "id": 2148836106818183150,
+                "name": "Organic Vegetables Nutrient Management Project",
+                "type": "research_institute"
+            },
+            {
+                "id": 989712515678465587,
+                "name": "Honey Bee Pathogen Response Project- BeeCSI",
+                "type": "research_institute"
+            },
+            {
+                "id": 6346212789019618767,
+                "name": "Truffle Establishment in BC",
+                "type": "research_institute"
+            },
+            {
+                "id": -3800594247642220360,
+                "name": "Indigenous Land Based Pedagogies and Food Sovereignty in Urban Contexts",
+                "type": "research_institute"
+            },
+            {
+                "id": -8926741896646466155,
+                "name": "Participatory Variety Trial And Breeding For Canadian Organic Farmers (CANOVI)",
+                "type": "research_institute"
+            },
+            {
+                "id": 1570393110734424363,
+                "name": "Identification and Characterisation of beneficial plant root-associated microbes",
+                "type": "research_institute"
+            },
+            {
+                "id": 5086140280511456287,
+                "name": "Greenhouse Gas Mitigation in Organic Blueberries",
+                "type": "research_institute"
+            },
+            {
+                "id": -5208162914826596120,
+                "name": "Ecological Pest Management for Spotted Wing Drosophila (SWD)",
+                "type": "research_institute"
+            },
+            {
+                "id": -1085730705080493366,
+                "name": "Click beetle monitoring",
+                "type": "research_institute"
+            },
+            {
+                "id": -7176150859527209933,
+                "name": "Too much water or too little: Climate resilient vegetable farming",
+                "type": "research_institute"
+            },
+            {
+                "id": -1664403715284384398,
+                "name": "Passive open top chambers (OTC): cost-effective methods for climate change research",
+                "type": "research_institute"
+            },
+            {
+                "id": -86777354566918124,
+                "name": "Little Free Library",
+                "type": "public_bookcase"
+            },
+            {
+                "id": 5825777524548034690,
+                "name": "KINTON RAMEN",
+                "type": "restaurant"
+            },
+            {
+                "id": -296161041061484236,
+                "name": "Little Free Library #67298",
+                "type": "public_bookcase"
+            },
+            {
+                "id": -4170564709531633203,
+                "name": "Steve’s Poké Bar",
+                "type": "restaurant"
+            },
+            {
+                "id": -1764988966377912751,
+                "name": "Browns Crafthouse",
+                "type": "restaurant"
+            },
+            {
+                "id": -2688098868715890421,
+                "name": "UBC Hospital",
+                "type": "hospital"
+            },
+            {
+                "id": -8136102680270415798,
+                "name": "Chatime",
+                "type": "cafe"
+            },
+            {
+                "id": 387344584878799912,
+                "name": "Evo",
+                "type": "car_sharing"
+            },
+            {
+                "id": -4673535331346296356,
+                "name": "Blue Chip Cafe",
+                "type": "cafe"
+            },
+            {
+                "id": -4770542237370717557,
+                "name": "Feast",
+                "type": "restaurant"
+            },
+            {
+                "id": -5796719206812366516,
+                "name": "Grand Noodle Emporium",
+                "type": "restaurant"
+            },
+            {
+                "id": 5213456082081615636,
+                "name": "Down Low Chicken",
+                "type": "fast_food"
+            },
+            {
+                "id": 685590857620117649,
+                "name": "Garden Shop Cafe",
+                "type": "cafe"
+            },
+            {
+                "id": 8725210882578445130,
+                "name": "University Village Medical",
+                "type": "clinic"
+            },
+            {
+                "id": 424184356757178491,
+                "name": "Sprouts",
+                "type": "cafe"
+            },
+            {
+                "id": -1076026666314380723,
+                "name": "Great Dane Coffee",
+                "type": "cafe"
+            },
+            {
+                "id": -5500333751991439639,
+                "name": "Bento Sushi",
+                "type": "restaurant"
+            },
+            {
+                "id": -1512954381641164600,
+                "name": "The Outer Space Institute",
+                "type": "research_institute"
+            },
+            {
+                "id": 1575245191218097102,
+                "name": "Drinking water",
+                "type": "water_point"
+            },
+            {
+                "id": 3596282172055198258,
+                "name": "Café Ami",
+                "type": "cafe"
+            },
+            {
+                "id": 5434318458983212757,
+                "name": "Walter C. Koerner Library",
+                "type": "library"
+            },
+            {
+                "id": -2091079097229746102,
+                "name": "Irving K. Barber Learning Centre",
+                "type": "library"
+            },
+            {
+                "id": 1928669880661981402,
+                "name": "Frederic Wood Theatre",
+                "type": "theatre"
+            },
+            {
+                "id": -4777236815658435087,
+                "name": "B4 Lot",
+                "type": "parking"
+            },
+            {
+                "id": -1181268920127462397,
+                "name": "UBC Botanical Garden Parking",
+                "type": "parking"
+            },
+            {
+                "id": -7567404276977422011,
+                "name": "St Mark's Parish",
+                "type": "place_of_worship"
+            },
+            {
+                "id": -1255567922565837094,
+                "name": "Corpus Christi College",
+                "type": "college"
+            },
+            {
+                "id": 9156381123634721331,
+                "name": "Triple O's/Trek Express",
+                "type": "restaurant"
+            },
+            {
+                "id": 5952203067327345730,
+                "name": "University Hill Secondary School",
+                "type": "school"
+            },
+            {
+                "id": -4965756008277733684,
+                "name": "West Parkade",
+                "type": "parking"
+            },
+            {
+                "id": 8612806310380642333,
+                "name": "Old Barn Community Centre",
+                "type": "community_centre"
+            },
+            {
+                "id": 886010346772210280,
+                "name": "Thunderbird Parkade",
+                "type": "parking"
+            },
+            {
+                "id": -4588476571995705437,
+                "name": "Purdy Pavilion",
+                "type": "social_facility"
+            },
+            {
+                "id": 8030998100173266902,
+                "name": "North Parkade",
+                "type": "parking"
+            },
+            {
+                "id": -5398301708009707866,
+                "name": "Hillel House",
+                "type": "place_of_worship"
+            },
+            {
+                "id": 4692038425119285277,
+                "name": "Health Sciences Parkade",
+                "type": "parking"
+            },
+            {
+                "id": -2215400979125855220,
+                "name": "Fraser River Parkade",
+                "type": "parking"
+            },
+            {
+                "id": 7703904382352001356,
+                "name": "Rose Garden Parkade",
+                "type": "parking"
+            },
+            {
+                "id": 6687597132751309986,
+                "name": "Frank E. Buck",
+                "type": "fountain"
+            },
+            {
+                "id": -3865902269421002409,
+                "name": "Life Building",
+                "type": "community_centre"
+            },
+            {
+                "id": 1792857655574578821,
+                "name": "AMS Nest (Student Union Building)",
+                "type": "community_centre"
+            },
+            {
+                "id": -2496633774846491446,
+                "name": "Martha Piper Fountain",
+                "type": "fountain"
+            },
+            {
+                "id": 7296640462935503307,
+                "name": "Wesbrook Community Centre",
+                "type": "community_centre"
+            },
+            {
+                "id": -6074124669474376719,
+                "name": "Norma Rose Point School",
+                "type": "school"
+            },
+            {
+                "id": 8152808084382176444,
+                "name": "UBC Plant Operations",
+                "type": "parking"
+            },
+            {
+                "id": 1377095351716407828,
+                "name": "Sage Bistro",
+                "type": "restaurant"
+            },
+            {
+                "id": 4184427074752886871,
+                "name": "Barn Day Care",
+                "type": "childcare"
+            },
+            {
+                "id": 4526318349238022387,
+                "name": "Roseline Sturdy Amphitheatre",
+                "type": "theatre"
+            },
+            {
+                "id": -5832612130718392936,
+                "name": "MacInnes Field Parkade",
+                "type": "parking"
+            },
+            {
+                "id": -7849347047054445036,
+                "name": "Buchanan Meter Lot",
+                "type": "parking"
+            },
+            {
+                "id": -1942877532359403334,
+                "name": "Saw-Whet",
+                "type": "childcare"
+            },
+            {
+                "id": -5438723201362435939,
+                "name": "Barish",
+                "type": "childcare"
+            },
+            {
+                "id": 1679198254249539473,
+                "name": "Willow",
+                "type": "childcare"
+            },
+            {
+                "id": -2126678888208456031,
+                "name": "Woodward Library",
+                "type": "library"
+            },
+            {
+                "id": -1106531655156450511,
+                "name": "Royal Bank Cinema",
+                "type": "cinema"
+            },
+            {
+                "id": 1630664220047538125,
+                "name": "Telus Studio Theatre",
+                "type": "theatre"
+            },
+            {
+                "id": -7214251252918647355,
+                "name": "Chan Shun Concert Hall",
+                "type": "theatre"
+            },
+            {
+                "id": -1335295029343449962,
+                "name": "Chapel of the Epiphany",
+                "type": "place_of_worship"
+            },
+            {
+                "id": 8334263234248829874,
+                "name": "Regent College",
+                "type": "college"
+            },
+            {
+                "id": 2190365525755294938,
+                "name": "X̱wi7x̱wa",
+                "type": "library"
+            },
+            {
+                "id": -838422048290113517,
+                "name": "UBC Bus Exchange",
+                "type": "bus_station"
+            }
+        ]
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "id": -903132857361656497,
+    "name": "哈尔滨工程大学",
+    "rating": 4.9,
+    "popularity": 48,
+    "data_path": "map_data/university_map/Harbin_Engineering_University",
+    "amenity": {
+        "affiliation": -903132857361656497,
+        "amenity_list": [
+            {
+                "id": -9171859251967414744,
+                "name": "可能感兴趣的地点",
+                "type": "shelter"
+            },
+            {
+                "id": 3221168260898920849,
+                "name": "大学生美食城",
+                "type": "food_court"
+            },
+            {
+                "id": -9014971822407581502,
+                "name": "中国银行(工程大学支行)",
+                "type": "bank"
+            },
+            {
+                "id": -6656499947254290906,
+                "name": "Campus Post",
+                "type": "post_office"
+            },
+            {
+                "id": 7487577654415017894,
+                "name": "Internet Service Center",
+                "type": "internet_cafe"
+            },
+            {
+                "id": -8314208841704198961,
+                "name": "21B",
+                "type": "college"
+            },
+            {
+                "id": -842929602209850846,
+                "name": "水声船海",
+                "type": "college"
+            },
+            {
+                "id": -734611525630399171,
+                "name": "图书馆",
+                "type": "library"
+            },
+            {
+                "id": -4993663193301725068,
+                "name": "启航活动中心",
+                "type": "theatre"
+            }
+        ]
+    }
+}

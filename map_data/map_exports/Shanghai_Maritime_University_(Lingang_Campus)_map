@@ -1,0 +1,37 @@
+{
+    "id": 479727877466762013,
+    "name": "上海海事大学",
+    "rating": 4.7,
+    "popularity": 60,
+    "data_path": "map_data/university_map/Shanghai_Maritime_University_(Lingang_Campus)",
+    "amenity": {
+        "affiliation": 479727877466762013,
+        "amenity_list": [
+            {
+                "id": -9171859251967414744,
+                "name": "可能感兴趣的地点",
+                "type": "hospital"
+            },
+            {
+                "id": 5964460822641187781,
+                "name": "海联楼",
+                "type": "restaurant"
+            },
+            {
+                "id": -1848525645897196819,
+                "name": "中远图书馆",
+                "type": "library"
+            },
+            {
+                "id": 61411280861595759,
+                "name": "海琴楼",
+                "type": "restaurant"
+            },
+            {
+                "id": 357733093206577590,
+                "name": "海馨楼",
+                "type": "restaurant"
+            }
+        ]
+    }
+}

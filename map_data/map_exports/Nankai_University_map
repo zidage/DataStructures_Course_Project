@@ -1,0 +1,47 @@
+{
+    "id": -6204393179438095544,
+    "name": "南开大学深圳函授站",
+    "rating": 0,
+    "popularity": 0,
+    "data_path": "map_data/university_map/Nankai_University",
+    "amenity": {
+        "affiliation": -6204393179438095544,
+        "amenity_list": [
+            {
+                "id": -4955367458660634896,
+                "name": "交通银行",
+                "type": "bank"
+            },
+            {
+                "id": -7835408286332936506,
+                "name": "文科创新楼",
+                "type": "college"
+            },
+            {
+                "id": -7577681139711799931,
+                "name": "南开大学新图书馆",
+                "type": "library"
+            },
+            {
+                "id": 6938255721285249587,
+                "name": "二食堂",
+                "type": "restaurant"
+            },
+            {
+                "id": -5820322879389474228,
+                "name": "一食堂",
+                "type": "restaurant"
+            },
+            {
+                "id": -8757430125666999932,
+                "name": "Nankai University Library",
+                "type": "library"
+            },
+            {
+                "id": -9171859251967414744,
+                "name": "可能感兴趣的地点",
+                "type": "parking"
+            }
+        ]
+    }
+}

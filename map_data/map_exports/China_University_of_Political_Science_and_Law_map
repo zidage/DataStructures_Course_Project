@@ -1,0 +1,11 @@
+{
+    "id": 2131481992347413070,
+    "name": "中国政法大学",
+    "rating": 4.6,
+    "popularity": 52,
+    "data_path": "map_data/university_map/China_University_of_Political_Science_and_Law",
+    "amenity": {
+        "affiliation": 2131481992347413070,
+        "amenity_list": []
+    }
+}

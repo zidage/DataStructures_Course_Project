@@ -1,0 +1,17 @@
+{
+    "id": -9055439247703875912,
+    "name": "马里兰大学学院市分校",
+    "rating": 4.5,
+    "popularity": 48,
+    "data_path": "map_data/university_map/University_of_Maryland,_College_Park",
+    "amenity": {
+        "affiliation": -9055439247703875912,
+        "amenity_list": [
+            {
+                "id": -684673784245401547,
+                "name": "Lot R4",
+                "type": "parking"
+            }
+        ]
+    }
+}

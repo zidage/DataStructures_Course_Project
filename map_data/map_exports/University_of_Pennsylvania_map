@@ -1,0 +1,492 @@
+{
+    "id": 4288117754747476345,
+    "name": "University of Pennsylvania",
+    "rating": 4.5,
+    "popularity": 100,
+    "data_path": "map_data/university_map/University_of_Pennsylvania",
+    "amenity": {
+        "affiliation": 4288117754747476345,
+        "amenity_list": [
+            {
+                "id": -4025616065238909966,
+                "name": "Starbucks",
+                "type": "cafe"
+            },
+            {
+                "id": 8431335211849403561,
+                "name": "Cinemark University City Penn 6",
+                "type": "cinema"
+            },
+            {
+                "id": -9171859251967414744,
+                "name": "可能感兴趣的地点",
+                "type": "bicycle_parking"
+            },
+            {
+                "id": 4721996967727362536,
+                "name": "World Cafe Live",
+                "type": "music_venue"
+            },
+            {
+                "id": 8031641307157772071,
+                "name": "TD Bank",
+                "type": "bank"
+            },
+            {
+                "id": -5954869838577280153,
+                "name": "Delta Ypsilon",
+                "type": "fraternity"
+            },
+            {
+                "id": 5571642826808076939,
+                "name": "Sigma Alpha Tau",
+                "type": "fraternity"
+            },
+            {
+                "id": 6240077495948582140,
+                "name": "Sigma Nu",
+                "type": "fraternity"
+            },
+            {
+                "id": 5697354005784688327,
+                "name": "Sigma Alpha Mu",
+                "type": "fraternity"
+            },
+            {
+                "id": -1006605577067793958,
+                "name": "Tau Epsilon Phi",
+                "type": "fraternity"
+            },
+            {
+                "id": 1882212519658162871,
+                "name": "Sigma Phi Epsilon",
+                "type": "fraternity"
+            },
+            {
+                "id": -6559712641613560126,
+                "name": "Tabernacle United Church",
+                "type": "place_of_worship"
+            },
+            {
+                "id": -4072551975480212648,
+                "name": "Qdoba",
+                "type": "fast_food"
+            },
+            {
+                "id": 2728776869243284131,
+                "name": "Saxbys",
+                "type": "cafe"
+            },
+            {
+                "id": 2117414627715160746,
+                "name": "Philadelphia Police University City District",
+                "type": "police"
+            },
+            {
+                "id": -7080262072959112417,
+                "name": "Così",
+                "type": "fast_food"
+            },
+            {
+                "id": 815487217030062289,
+                "name": "31st & Walnut Penn Park",
+                "type": "car_sharing"
+            },
+            {
+                "id": -5125694798426694376,
+                "name": "Zipcar",
+                "type": "car_sharing"
+            },
+            {
+                "id": 2999733509132764501,
+                "name": "40th & Locust",
+                "type": "car_sharing"
+            },
+            {
+                "id": 7501167301532734886,
+                "name": "Smokey Joe's",
+                "type": "bar"
+            },
+            {
+                "id": -3424324733576764116,
+                "name": "Panera Bread",
+                "type": "fast_food"
+            },
+            {
+                "id": 7118676790014894555,
+                "name": "Greek Lady",
+                "type": "restaurant"
+            },
+            {
+                "id": 6906556955741598233,
+                "name": "Jimmy John's",
+                "type": "fast_food"
+            },
+            {
+                "id": 4911698301574514257,
+                "name": "Metropolitan Bakery Café",
+                "type": "cafe"
+            },
+            {
+                "id": -2310044652517551652,
+                "name": "Chipotle",
+                "type": "fast_food"
+            },
+            {
+                "id": -984988926842073213,
+                "name": "Ben & Jerry's",
+                "type": "ice_cream"
+            },
+            {
+                "id": -172163158980283732,
+                "name": "PNC Bank",
+                "type": "bank"
+            },
+            {
+                "id": -5970714641381338899,
+                "name": "Wishbone Restaurant",
+                "type": "restaurant"
+            },
+            {
+                "id": -2462480852585616719,
+                "name": "United States Post Office",
+                "type": "post_office"
+            },
+            {
+                "id": 1747625579374761306,
+                "name": "CVS Pharmacy",
+                "type": "pharmacy"
+            },
+            {
+                "id": 8442931799895852075,
+                "name": "Kaplan Test Prep & Admissions",
+                "type": "prep_school"
+            },
+            {
+                "id": 1661039072824724951,
+                "name": "Sweetgreen",
+                "type": "fast_food"
+            },
+            {
+                "id": 2404101772595069272,
+                "name": "Bank of America",
+                "type": "bank"
+            },
+            {
+                "id": -7317739056420103298,
+                "name": "Mizu Sushi Bar",
+                "type": "restaurant"
+            },
+            {
+                "id": -5967312755016614997,
+                "name": "The Rotunda",
+                "type": "theatre"
+            },
+            {
+                "id": -7767010037307393153,
+                "name": "Louie Louie",
+                "type": "restaurant"
+            },
+            {
+                "id": 6320467251773062196,
+                "name": "Franklin's Table",
+                "type": "food_court"
+            },
+            {
+                "id": -4031388442925791921,
+                "name": "Five Guys",
+                "type": "fast_food"
+            },
+            {
+                "id": -5326440725027437018,
+                "name": "The UPS Store",
+                "type": "post_office"
+            },
+            {
+                "id": -6136438705553480941,
+                "name": "Tipsy Bistro",
+                "type": "restaurant"
+            },
+            {
+                "id": 6956566616594431936,
+                "name": "Picnic",
+                "type": "restaurant"
+            },
+            {
+                "id": -989848805605741674,
+                "name": "Dunkin'",
+                "type": "fast_food"
+            },
+            {
+                "id": -440917067482015943,
+                "name": "Pod",
+                "type": "restaurant"
+            },
+            {
+                "id": 7599183230640733068,
+                "name": "Misconduct Tavern",
+                "type": "pub"
+            },
+            {
+                "id": -5437000226245680223,
+                "name": "The Axis Pizza",
+                "type": "restaurant"
+            },
+            {
+                "id": -2762611835845556795,
+                "name": "Kiwi Frozen Yougurt",
+                "type": "cafe"
+            },
+            {
+                "id": 3812423659379879600,
+                "name": "University Square Farmers Market",
+                "type": "marketplace"
+            },
+            {
+                "id": 8191772488227610157,
+                "name": "United By Blue",
+                "type": "cafe"
+            },
+            {
+                "id": 6855951759197835493,
+                "name": "Citizens Bank",
+                "type": "bank"
+            },
+            {
+                "id": -2336476490042819661,
+                "name": "Au Bon Pain",
+                "type": "fast_food"
+            },
+            {
+                "id": -4914123907439803475,
+                "name": "Scheie Eye Institute",
+                "type": "clinic"
+            },
+            {
+                "id": -312542248479578346,
+                "name": "HipCityVeg",
+                "type": "restaurant"
+            },
+            {
+                "id": 7498680266176377674,
+                "name": "Goldie",
+                "type": "restaurant"
+            },
+            {
+                "id": -2688680462197100751,
+                "name": "&Pizza",
+                "type": "restaurant"
+            },
+            {
+                "id": -6334378451574928216,
+                "name": "USPS Postbox",
+                "type": "post_box"
+            },
+            {
+                "id": 2985286153030499453,
+                "name": "Wahoo's Fish Taco",
+                "type": "fast_food"
+            },
+            {
+                "id": 8190494777739076619,
+                "name": "Amazon Hub Locker+ (Penn)",
+                "type": "parcel_locker"
+            },
+            {
+                "id": -7029479938634132561,
+                "name": "City Tap House",
+                "type": "pub"
+            },
+            {
+                "id": -303412461567325406,
+                "name": "Spread Bagelry",
+                "type": "restaurant"
+            },
+            {
+                "id": 3438156495008513342,
+                "name": "Abramson Cancer Center",
+                "type": "clinic"
+            },
+            {
+                "id": 2028295478323589881,
+                "name": "Roberts Proton Therapy Center",
+                "type": "clinic"
+            },
+            {
+                "id": -330228585665987971,
+                "name": "Parking B",
+                "type": "parking_entrance"
+            },
+            {
+                "id": -393810725593841752,
+                "name": "Phi Gamma Delta",
+                "type": "fraternity"
+            },
+            {
+                "id": -577497848684978478,
+                "name": "CM chicken",
+                "type": "fast_food"
+            },
+            {
+                "id": -5683537601745617491,
+                "name": "Benjamin Franklin (on a bench)",
+                "type": "bench"
+            },
+            {
+                "id": 6123116994575606936,
+                "name": "The Living Room Lounge",
+                "type": "bar"
+            },
+            {
+                "id": 8982386588594025675,
+                "name": "The Post",
+                "type": "pub"
+            },
+            {
+                "id": -1811671292523188718,
+                "name": "John Morgan",
+                "type": "atm"
+            },
+            {
+                "id": -288391106117270292,
+                "name": "Van Pelt Library",
+                "type": "library"
+            },
+            {
+                "id": -2260404753388784379,
+                "name": "Annenberg Center for the Performing Arts",
+                "type": "theatre"
+            },
+            {
+                "id": -2820659411112724501,
+                "name": "3499 Civic Center Boulevard",
+                "type": "parking"
+            },
+            {
+                "id": 1640427248616034222,
+                "name": "Hospital of the University of Pennsylvania",
+                "type": "hospital"
+            },
+            {
+                "id": -3931509398297238134,
+                "name": "Children's Hospital of Philadelphia",
+                "type": "hospital"
+            },
+            {
+                "id": -6863699658667009893,
+                "name": "Irvine Auditorium",
+                "type": "theatre"
+            },
+            {
+                "id": 6741230357915059578,
+                "name": "Fisher Fine Arts Library",
+                "type": "library"
+            },
+            {
+                "id": -1742541754983042023,
+                "name": "Penn Museum Garage",
+                "type": "parking"
+            },
+            {
+                "id": -4163497351925527617,
+                "name": "Walnut Street West",
+                "type": "library"
+            },
+            {
+                "id": 5428987687149202456,
+                "name": "Curie Garage",
+                "type": "parking"
+            },
+            {
+                "id": -8891662771239269283,
+                "name": "Colket Translational Research Building",
+                "type": "clinic"
+            },
+            {
+                "id": -2130541879461482832,
+                "name": "Hummus Grill",
+                "type": "restaurant"
+            },
+            {
+                "id": -1719254094175093049,
+                "name": "E - Lot",
+                "type": "parking"
+            },
+            {
+                "id": 5486606469602688290,
+                "name": "Penn Center for Rehabilitation and Care",
+                "type": "social_facility"
+            },
+            {
+                "id": 3181722970332818206,
+                "name": "Lot 37",
+                "type": "parking"
+            },
+            {
+                "id": 1205881356532027220,
+                "name": "Lot 39",
+                "type": "parking"
+            },
+            {
+                "id": 7960339255565569967,
+                "name": "Cira Centre South Garage",
+                "type": "parking"
+            },
+            {
+                "id": 2178146208891825909,
+                "name": "Avril 50",
+                "type": "cafe"
+            },
+            {
+                "id": 6887112681759630449,
+                "name": "Baby Blues BBQ",
+                "type": "restaurant"
+            },
+            {
+                "id": 6949689477850594165,
+                "name": "Doc Magrogan's",
+                "type": "restaurant"
+            },
+            {
+                "id": -7090445896542831041,
+                "name": "White Dog Cafe",
+                "type": "restaurant"
+            },
+            {
+                "id": -3930726910922983403,
+                "name": "Federal Donuts",
+                "type": "restaurant"
+            },
+            {
+                "id": 4117843451662812645,
+                "name": "3600 Civic Center Boulevard Garage",
+                "type": "parking"
+            },
+            {
+                "id": 6735051599766389320,
+                "name": "Spruce Garage",
+                "type": "parking"
+            },
+            {
+                "id": 6799361082086989236,
+                "name": "40th Street Parking Lot",
+                "type": "parking"
+            },
+            {
+                "id": 7295911877530819957,
+                "name": "Buerger Center",
+                "type": "clinic"
+            },
+            {
+                "id": -7766062728500271210,
+                "name": "Ryan Veterinary Hospital",
+                "type": "veterinary"
+            },
+            {
+                "id": -7132731751031526559,
+                "name": "Corporal Michael J. Crescenz Veterans Affairs Medical Center",
+                "type": "hospital"
+            }
+        ]
+    }
+}

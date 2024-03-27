@@ -1,0 +1,67 @@
+{
+    "id": 4321400260902458573,
+    "name": "浙江大学",
+    "rating": 4.6,
+    "popularity": 80,
+    "data_path": "map_data/university_map/Zhejiang_University",
+    "amenity": {
+        "affiliation": 4321400260902458573,
+        "amenity_list": [
+            {
+                "id": -8710293361863774698,
+                "name": "浙江科技学院图书馆 Library of ZUST",
+                "type": "library"
+            },
+            {
+                "id": 3628832534474714266,
+                "name": "浙江科技学院 ",
+                "type": "school"
+            },
+            {
+                "id": -9171859251967414744,
+                "name": "可能感兴趣的地点",
+                "type": "restaurant"
+            },
+            {
+                "id": 3485376839315795566,
+                "name": "浙江工业大学家人超市（东15店）",
+                "type": "marketplace"
+            },
+            {
+                "id": 4963558717313966561,
+                "name": "工大咖啡馆",
+                "type": "cafe"
+            },
+            {
+                "id": -1944182838691767599,
+                "name": "浙江工业大学图书馆",
+                "type": "library"
+            },
+            {
+                "id": -2834280683700111033,
+                "name": "Kantine",
+                "type": "restaurant"
+            },
+            {
+                "id": 7890094727105970559,
+                "name": "郁文停车场",
+                "type": "parking"
+            },
+            {
+                "id": -4007141715659096944,
+                "name": "养贤府",
+                "type": "restaurant"
+            },
+            {
+                "id": 149111967207294292,
+                "name": "集贤廊",
+                "type": "shelter"
+            },
+            {
+                "id": -3854964832530447160,
+                "name": "家和堂",
+                "type": "restaurant"
+            }
+        ]
+    }
+}

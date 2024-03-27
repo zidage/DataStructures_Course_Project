@@ -1,0 +1,127 @@
+{
+    "id": 2077781562423806873,
+    "name": "伦敦大学学院",
+    "rating": 4.5,
+    "popularity": 84,
+    "data_path": "map_data/university_map/University_College_London",
+    "amenity": {
+        "affiliation": 2077781562423806873,
+        "amenity_list": [
+            {
+                "id": 2935510337089808527,
+                "name": "Bloomsbury Café",
+                "type": "cafe"
+            },
+            {
+                "id": 6574078061184713352,
+                "name": "Engineering Cafe",
+                "type": "cafe"
+            },
+            {
+                "id": 8727744706597281591,
+                "name": "Print Room Café",
+                "type": "cafe"
+            },
+            {
+                "id": 2697640606737945202,
+                "name": "Gordon's Café",
+                "type": "cafe"
+            },
+            {
+                "id": 4260803608783825755,
+                "name": "The Refectory",
+                "type": "restaurant"
+            },
+            {
+                "id": -9171859251967414744,
+                "name": "可能感兴趣的地点",
+                "type": "atm"
+            },
+            {
+                "id": 2487634560588193635,
+                "name": "Stone Willy's Pizza",
+                "type": "fast_food"
+            },
+            {
+                "id": -7325096934105125682,
+                "name": "The Institute Bar",
+                "type": "bar"
+            },
+            {
+                "id": -6691820372933183285,
+                "name": "Department of Mathematics",
+                "type": "college"
+            },
+            {
+                "id": -8945539814194699873,
+                "name": "Phineas",
+                "type": "bar"
+            },
+            {
+                "id": -6670580096886721433,
+                "name": "Main Library",
+                "type": "library"
+            },
+            {
+                "id": -4577183443277091276,
+                "name": "Grab 'N' Go Counter",
+                "type": "cafe"
+            },
+            {
+                "id": 7627015912480279175,
+                "name": "Macmillan Cancer Centre",
+                "type": "hospital"
+            },
+            {
+                "id": 8430215516685998526,
+                "name": "Dr Williams's Library",
+                "type": "library"
+            },
+            {
+                "id": -8614094762252996169,
+                "name": "Bloomsbury Theatre",
+                "type": "theatre"
+            },
+            {
+                "id": -7569649388546647548,
+                "name": "Santander",
+                "type": "bank"
+            },
+            {
+                "id": 3414411418357160751,
+                "name": "UCL Institute of Education Library",
+                "type": "library"
+            },
+            {
+                "id": 4335348525399954835,
+                "name": "The Huntley",
+                "type": "pub"
+            },
+            {
+                "id": -3365260316403318869,
+                "name": "Dough + Go Pizza",
+                "type": "fast_food"
+            },
+            {
+                "id": 618033239857124323,
+                "name": "Mully's",
+                "type": "bar"
+            },
+            {
+                "id": -7606159640049273841,
+                "name": "Union StrEAT Kitchen",
+                "type": "cafe"
+            },
+            {
+                "id": -6041361783478659274,
+                "name": "George Farha Cafe",
+                "type": "cafe"
+            },
+            {
+                "id": 9192724729627585086,
+                "name": "Friends House",
+                "type": "place_of_worship"
+            }
+        ]
+    }
+}

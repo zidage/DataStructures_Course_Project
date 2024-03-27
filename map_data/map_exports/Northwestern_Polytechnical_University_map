@@ -1,0 +1,67 @@
+{
+    "id": -7639347234299864940,
+    "name": "西北工业大学",
+    "rating": 4.7,
+    "popularity": 76,
+    "data_path": "map_data/university_map/Northwestern_Polytechnical_University",
+    "amenity": {
+        "affiliation": -7639347234299864940,
+        "amenity_list": [
+            {
+                "id": -9171859251967414744,
+                "name": "可能感兴趣的地点",
+                "type": "bank"
+            },
+            {
+                "id": -4166690586398043246,
+                "name": "晨光烧饼",
+                "type": "restaurant"
+            },
+            {
+                "id": 3599211894215460294,
+                "name": "王二羊肉面馆",
+                "type": "restaurant"
+            },
+            {
+                "id": -3143859492708295300,
+                "name": "中国工商银行ATM",
+                "type": "atm"
+            },
+            {
+                "id": 7512503762721114677,
+                "name": "中国建设银行ATM",
+                "type": "atm"
+            },
+            {
+                "id": 8925818025967574413,
+                "name": "中国银行",
+                "type": "bank"
+            },
+            {
+                "id": 1668786709381477352,
+                "name": "西北工业大学附属小学",
+                "type": "school"
+            },
+            {
+                "id": -2019986373605765522,
+                "name": "西工大医院",
+                "type": "hospital"
+            },
+            {
+                "id": -7557783776643475983,
+                "name": "西北工业大学幼儿园",
+                "type": "childcare"
+            },
+            {
+                "id": -643007292146391517,
+                "name": "西北工业大学 图书馆",
+                "type": "library"
+            },
+            {
+                "id": -8658772747581230189,
+                "name": "西北工业大学老图书馆",
+                "type": "library"
+            }
+        ]
+    }
+}

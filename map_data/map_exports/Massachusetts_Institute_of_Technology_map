@@ -1,0 +1,222 @@
+{
+    "id": -3589297655524814337,
+    "name": "麻省理工大学",
+    "rating": 4.7,
+    "popularity": 100,
+    "data_path": "map_data/university_map/Massachusetts_Institute_of_Technology",
+    "amenity": {
+        "affiliation": -3589297655524814337,
+        "amenity_list": [
+            {
+                "id": -9171859251967414744,
+                "name": "可能感兴趣的地点",
+                "type": "atm"
+            },
+            {
+                "id": 6159371663603698945,
+                "name": "List Visual Arts Center",
+                "type": "arts_centre"
+            },
+            {
+                "id": -3072433077273253895,
+                "name": "LiveableStreets",
+                "type": "bicycle_parking"
+            },
+            {
+                "id": 4394354913281252330,
+                "name": "Pacific Street Cafe",
+                "type": "cafe"
+            },
+            {
+                "id": -9078755268701413996,
+                "name": "MIT Federal Credit Union",
+                "type": "bank"
+            },
+            {
+                "id": -7348977728041744021,
+                "name": "MIT Medical",
+                "type": "doctors"
+            },
+            {
+                "id": -4169476009403632543,
+                "name": "Forbes Family Cafe",
+                "type": "cafe"
+            },
+            {
+                "id": 3024682035548439593,
+                "name": "Bosworth's Cafe",
+                "type": "cafe"
+            },
+            {
+                "id": -8047172048928711614,
+                "name": "Bike Rack",
+                "type": "bicycle_parking"
+            },
+            {
+                "id": -7002397380693553523,
+                "name": "Barker Library",
+                "type": "library"
+            },
+            {
+                "id": -3591059835876442924,
+                "name": "Rotch Library",
+                "type": "library"
+            },
+            {
+                "id": -8832954682071312404,
+                "name": "Dewey Library",
+                "type": "library"
+            },
+            {
+                "id": -989848805605741674,
+                "name": "Dunkin'",
+                "type": "fast_food"
+            },
+            {
+                "id": 8832946610805466367,
+                "name": "Wong Auditorium",
+                "type": "theatre"
+            },
+            {
+                "id": 2404101772595069272,
+                "name": "Bank of America",
+                "type": "atm"
+            },
+            {
+                "id": 2144858531894112510,
+                "name": "Blue Bikes - MIT Stata Center at Vassar St / Main St",
+                "type": "bicycle_rental"
+            },
+            {
+                "id": -6392091525018774805,
+                "name": "Blue Bikes - MIT at Mass Ave / Amherst St",
+                "type": "bicycle_rental"
+            },
+            {
+                "id": -7740912351944933260,
+                "name": "Blue Bikes - Main St at Ames St",
+                "type": "bicycle_rental"
+            },
+            {
+                "id": 1539216451855081492,
+                "name": "The Black Sheep",
+                "type": "restaurant"
+            },
+            {
+                "id": -7301227838874496688,
+                "name": "Hayden Memorial Library",
+                "type": "library"
+            },
+            {
+                "id": 5799047955029162246,
+                "name": "Lewis Music Library",
+                "type": "library"
+            },
+            {
+                "id": -5438112455812627335,
+                "name": "Fishbowl Athena Cluster",
+                "type": "computer_cluster"
+            },
+            {
+                "id": -3170160895023241071,
+                "name": "Cafe 4",
+                "type": "cafe"
+            },
+            {
+                "id": 1673578226274782892,
+                "name": "Al’s Cafe",
+                "type": "fast_food"
+            },
+            {
+                "id": -893528755526866854,
+                "name": "TeaDo",
+                "type": "cafe"
+            },
+            {
+                "id": -1672929446550888211,
+                "name": "MIT Library Storage Annex",
+                "type": "library"
+            },
+            {
+                "id": 2322236895695461412,
+                "name": "MIT Police Station",
+                "type": "police"
+            },
+            {
+                "id": 4180797484309569978,
+                "name": "Ripple Cafe",
+                "type": "cafe"
+            },
+            {
+                "id": 1661039072824724951,
+                "name": "Sweetgreen",
+                "type": "fast_food"
+            },
+            {
+                "id": -8269222785064520181,
+                "name": "Bluebikes",
+                "type": "bicycle_rental"
+            },
+            {
+                "id": 5128883356293483015,
+                "name": "W16 Kresge Auditorium",
+                "type": "auditorium"
+            },
+            {
+                "id": -2724221552619734520,
+                "name": "W15 MIT Chapel",
+                "type": "place_of_worship"
+            },
+            {
+                "id": 7445998908527554237,
+                "name": "N4 Albany Garage",
+                "type": "parking"
+            },
+            {
+                "id": 8020160919500097305,
+                "name": "W64 Koch Childcare Center",
+                "type": "childcare"
+            },
+            {
+                "id": -8104334530094203620,
+                "name": "E51 Lot",
+                "type": "parking"
+            },
+            {
+                "id": 1060931087485648772,
+                "name": "MIT Visitor Lot",
+                "type": "parking"
+            },
+            {
+                "id": 5529873094412181200,
+                "name": "Westgate Lot",
+                "type": "parking"
+            },
+            {
+                "id": -8558110156489267269,
+                "name": "MIT Main Lot",
+                "type": "parking"
+            },
+            {
+                "id": -8062422714118664597,
+                "name": "N10 Lot",
+                "type": "parking"
+            },
+            {
+                "id": -5046562718713892032,
+                "name": "158 Mass Ave Lot",
+                "type": "parking"
+            },
+            {
+                "id": 5725940660613294185,
+                "name": "WW15 Lot",
+                "type": "parking"
+            },
+            {
+                "id": -8746689002580254111,
+                "name": "Ford Lot",
+                "type": "parking"
+            }
+        ]
+    }
+}

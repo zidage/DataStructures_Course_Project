@@ -1,0 +1,77 @@
+{
+    "id": -1314111842707397190,
+    "name": "北京工业大学",
+    "rating": 4.7,
+    "popularity": 64,
+    "data_path": "map_data/university_map/Beijing_University_of_Technology",
+    "amenity": {
+        "affiliation": -1314111842707397190,
+        "amenity_list": [
+            {
+                "id": -7140470225912057601,
+                "name": "瑞幸咖啡",
+                "type": "cafe"
+            },
+            {
+                "id": -5171106129108744283,
+                "name": "北工大快递服务站",
+                "type": "letter_box"
+            },
+            {
+                "id": 4997661966648051234,
+                "name": "天天餐厅",
+                "type": "restaurant"
+            },
+            {
+                "id": -6616722977500004929,
+                "name": "清真餐厅",
+                "type": "restaurant"
+            },
+            {
+                "id": -9171859251967414744,
+                "name": "可能感兴趣的地点",
+                "type": "letter_box"
+            },
+            {
+                "id": 7103309064745172173,
+                "name": "3教401",
+                "type": "love_hotel"
+            },
+            {
+                "id": 196053480848521730,
+                "name": "奥运餐厅",
+                "type": "restaurant"
+            },
+            {
+                "id": 1333110458854525005,
+                "name": "美食园",
+                "type": "restaurant"
+            },
+            {
+                "id": 7093274076496298855,
+                "name": "北工大北图书馆",
+                "type": "library"
+            },
+            {
+                "id": -9092688222598854735,
+                "name": "北工大礼堂",
+                "type": "theatre"
+            },
+            {
+                "id": -7955104806924692,
+                "name": "逸夫图书馆",
+                "type": "library"
+            },
+            {
+                "id": 3793189745429236429,
+                "name": "北区浴室",
+                "type": "public_bath"
+            },
+            {
+                "id": -4558475731207186295,
+                "name": "南区浴室",
+                "type": "public_bath"
+            }
+        ]
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "id": -7503003188064460287,
+    "name": "河海大学",
+    "rating": 4.5,
+    "popularity": 80,
+    "data_path": "map_data/university_map/Hohai_University",
+    "amenity": {
+        "affiliation": -7503003188064460287,
+        "amenity_list": [
+            {
+                "id": -734611525630399171,
+                "name": "图书馆",
+                "type": "library"
+            },
+            {
+                "id": -6533601367503931963,
+                "name": "学生1食堂",
+                "type": "restaurant"
+            },
+            {
+                "id": -7315028714257894247,
+                "name": "学生2食堂",
+                "type": "restaurant"
+            },
+            {
+                "id": 5143972901797452403,
+                "name": "研究生餐厅",
+                "type": "restaurant"
+            },
+            {
+                "id": -9171859251967414744,
+                "name": "可能感兴趣的地点",
+                "type": "parking"
+            }
+        ]
+    }
+}

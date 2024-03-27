@@ -1,0 +1,112 @@
+{
+    "id": 14444673144381890,
+    "name": "中国地质大学（武汉）",
+    "rating": 4.9,
+    "popularity": 92,
+    "data_path": "map_data/university_map/China_University_of_Geosciences",
+    "amenity": {
+        "affiliation": 14444673144381890,
+        "amenity_list": [
+            {
+                "id": -3829314217135088205,
+                "name": "中国地质大学医院",
+                "type": "hospital"
+            },
+            {
+                "id": -9171859251967414744,
+                "name": "可能感兴趣的地点",
+                "type": "restaurant"
+            },
+            {
+                "id": -7140470225912057601,
+                "name": "瑞幸咖啡",
+                "type": "cafe"
+            },
+            {
+                "id": -1994095595679125001,
+                "name": "肯德基",
+                "type": "fast_food"
+            },
+            {
+                "id": 4557985732501378970,
+                "name": "华莱士（地大北区店）",
+                "type": "fast_food"
+            },
+            {
+                "id": -9141743593623540378,
+                "name": "书亦烧仙草",
+                "type": "cafe"
+            },
+            {
+                "id": -11324933814136597,
+                "name": "中国地质大学图书馆",
+                "type": "library"
+            },
+            {
+                "id": -5326906699640746684,
+                "name": "学一食堂",
+                "type": "food_court"
+            },
+            {
+                "id": 6934635909868049659,
+                "name": "北区学生一食堂",
+                "type": "restaurant"
+            },
+            {
+                "id": 5275259335466728005,
+                "name": "中国银行ATM",
+                "type": "bank"
+            },
+            {
+                "id": -3143859492708295300,
+                "name": "中国工商银行ATM",
+                "type": "bank"
+            },
+            {
+                "id": -5438578361611095128,
+                "name": "震旦园教工餐厅",
+                "type": "restaurant"
+            },
+            {
+                "id": -1700060731929693481,
+                "name": "东苑食堂",
+                "type": "restaurant"
+            },
+            {
+                "id": 3367701703539975186,
+                "name": "学二食堂",
+                "type": "restaurant"
+            },
+            {
+                "id": 838334428396961146,
+                "name": "中国地质大学附属学校幼教部",
+                "type": "kindergarten"
+            },
+            {
+                "id": 9111491915560382540,
+                "name": "中国地质大学附属学校",
+                "type": "school"
+            },
+            {
+                "id": 546321681369966497,
+                "name": "学三食堂",
+                "type": "restaurant"
+            },
+            {
+                "id": -969347980753277418,
+                "name": "西苑食堂",
+                "type": "restaurant"
+            },
+            {
+                "id": -617443327728827211,
+                "name": "洪山区南望山小学",
+                "type": "school"
+            },
+            {
+                "id": -6254410657643501286,
+                "name": "胡馨园餐厅",
+                "type": "restaurant"
+            }
+        ]
+    }
+}

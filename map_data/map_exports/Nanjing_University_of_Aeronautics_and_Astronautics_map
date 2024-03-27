@@ -1,0 +1,22 @@
+{
+    "id": -837761081062114915,
+    "name": "南京航空航天大学",
+    "rating": 4.7,
+    "popularity": 48,
+    "data_path": "map_data/university_map/Nanjing_University_of_Aeronautics_and_Astronautics",
+    "amenity": {
+        "affiliation": -837761081062114915,
+        "amenity_list": [
+            {
+                "id": 3498255243437303851,
+                "name": "明故宫食堂",
+                "type": "restaurant"
+            },
+            {
+                "id": -9171859251967414744,
+                "name": "可能感兴趣的地点",
+                "type": "parking"
+            }
+        ]
+    }
+}

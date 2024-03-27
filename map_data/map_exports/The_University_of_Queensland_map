@@ -1,0 +1,402 @@
+{
+    "id": -2834465283891667875,
+    "name": "The University of Queensland",
+    "rating": 4.5,
+    "popularity": 96,
+    "data_path": "map_data/university_map/The_University_of_Queensland",
+    "amenity": {
+        "affiliation": -2834465283891667875,
+        "amenity_list": [
+            {
+                "id": 1869718704850268326,
+                "name": "UQ Chancellors's Place",
+                "type": "bus_station"
+            },
+            {
+                "id": -9171859251967414744,
+                "name": "可能感兴趣的地点",
+                "type": "parking_entrance"
+            },
+            {
+                "id": -4690624517351204613,
+                "name": "UQ Lakes station",
+                "type": "bus_station"
+            },
+            {
+                "id": 5741755979451064091,
+                "name": "Victor and Evelyn Lewis Fountain",
+                "type": "fountain"
+            },
+            {
+                "id": 3076110166289539722,
+                "name": "Pizza Caffe",
+                "type": "restaurant"
+            },
+            {
+                "id": 863696443869739106,
+                "name": "Genies Cafe",
+                "type": "cafe"
+            },
+            {
+                "id": -2805244473029254669,
+                "name": "Schonell Cinema",
+                "type": "cinema"
+            },
+            {
+                "id": 3667294439619061208,
+                "name": "Dorothy Hill Engineering and Sciences Library",
+                "type": "library"
+            },
+            {
+                "id": 457819706309833529,
+                "name": "Biological Sciences Library",
+                "type": "library"
+            },
+            {
+                "id": 3361501339098165696,
+                "name": "Walter Harrison Law Library",
+                "type": "library"
+            },
+            {
+                "id": 7300644486946273528,
+                "name": "Central Library",
+                "type": "library"
+            },
+            {
+                "id": -4734502153997832773,
+                "name": "Commonwealth Bank",
+                "type": "atm"
+            },
+            {
+                "id": 1926761080248100360,
+                "name": "Campus Pharmacy",
+                "type": "pharmacy"
+            },
+            {
+                "id": 1488581004208775631,
+                "name": "Wordsmiths – The Writer's Café",
+                "type": "cafe"
+            },
+            {
+                "id": -4267330500058525902,
+                "name": "Red Room",
+                "type": "pub"
+            },
+            {
+                "id": -8370092826171425455,
+                "name": "Cafe Nano",
+                "type": "cafe"
+            },
+            {
+                "id": -4380436115531075410,
+                "name": "Fryer Library",
+                "type": "library"
+            },
+            {
+                "id": 2265547782877276803,
+                "name": "Australia Post St Lucia Post Shop",
+                "type": "post_office"
+            },
+            {
+                "id": 4956617201885406662,
+                "name": "Merlo Coffee",
+                "type": "cafe"
+            },
+            {
+                "id": 6836856016968848079,
+                "name": "Saint Lucy Caffé e Cucina",
+                "type": "restaurant"
+            },
+            {
+                "id": -8070508529882751195,
+                "name": "Darwin's",
+                "type": "cafe"
+            },
+            {
+                "id": 612927941604635371,
+                "name": "Westpac",
+                "type": "atm"
+            },
+            {
+                "id": 2609240508548180791,
+                "name": "UQ Union Main Course Food Precinct",
+                "type": "fast_food"
+            },
+            {
+                "id": -5573266138384455447,
+                "name": "UQ Union Physiol Eatery & Cafe",
+                "type": "fast_food"
+            },
+            {
+                "id": -7196044004122273667,
+                "name": "Subway",
+                "type": "fast_food"
+            },
+            {
+                "id": 6255959241400913558,
+                "name": "The 21C Bike Box",
+                "type": "bicycle_parking"
+            },
+            {
+                "id": 8010230375078305267,
+                "name": "University Drive Carpark",
+                "type": "parking"
+            },
+            {
+                "id": -5823878338123779760,
+                "name": "Parking ticket dispenser",
+                "type": "parking"
+            },
+            {
+                "id": 4528294335484024170,
+                "name": "Campbell Road (P6)",
+                "type": "parking"
+            },
+            {
+                "id": 5114639550043538304,
+                "name": "UQ Dental",
+                "type": "dentist"
+            },
+            {
+                "id": -509478821043208223,
+                "name": "AEB Bike Box Showers and Lockers",
+                "type": "bicycle_parking"
+            },
+            {
+                "id": 3350308106920977352,
+                "name": "The 98B Bike Box",
+                "type": "bicycle_parking"
+            },
+            {
+                "id": 766701899935902108,
+                "name": "The 20 Bike Box",
+                "type": "bicycle_parking"
+            },
+            {
+                "id": 1109373519538103831,
+                "name": "Lakeside Cafe",
+                "type": "cafe"
+            },
+            {
+                "id": 755933147643579061,
+                "name": "26B Bicycle Storage Room",
+                "type": "bicycle_parking"
+            },
+            {
+                "id": -3163920269308136426,
+                "name": "47A Bicycle Storage Room",
+                "type": "bicycle_parking"
+            },
+            {
+                "id": -6245436347121119779,
+                "name": "78 Bicyle Storage Room",
+                "type": "bicycle_parking"
+            },
+            {
+                "id": -1459348054673701528,
+                "name": "Building 41 Bike Box",
+                "type": "bicycle_parking"
+            },
+            {
+                "id": 4929360364254909006,
+                "name": "UQ Health Service",
+                "type": "clinic"
+            },
+            {
+                "id": -763261296038797716,
+                "name": "Belltop Cafe",
+                "type": "cafe"
+            },
+            {
+                "id": -7978357597011867703,
+                "name": "Kenko Sushi House",
+                "type": "fast_food"
+            },
+            {
+                "id": -8761007444197059626,
+                "name": "Union Hub",
+                "type": "community_centre"
+            },
+            {
+                "id": -3155765124663263999,
+                "name": "Playhouse",
+                "type": "childcare"
+            },
+            {
+                "id": 4840763919734909625,
+                "name": "BrewPoint",
+                "type": "cafe"
+            },
+            {
+                "id": 5075986970241396464,
+                "name": "Bike Store",
+                "type": "bicycle_parking"
+            },
+            {
+                "id": 2492985430748251455,
+                "name": "Fred’s Bench",
+                "type": "bench"
+            },
+            {
+                "id": -7012992596283565854,
+                "name": "Oriental Corner",
+                "type": "fast_food"
+            },
+            {
+                "id": -2943505424719831092,
+                "name": "Marketcart",
+                "type": "cafe"
+            },
+            {
+                "id": -3654430103797189318,
+                "name": "Guzman y Gomez",
+                "type": "restaurant"
+            },
+            {
+                "id": -1557503427229048636,
+                "name": "Boost",
+                "type": "fast_food"
+            },
+            {
+                "id": -6619362989241525511,
+                "name": "Pantry Sixty Three",
+                "type": "cafe"
+            },
+            {
+                "id": 4076903253936888422,
+                "name": "Geoffrey Rush Drama Studio",
+                "type": "theatre"
+            },
+            {
+                "id": -4772371086799382923,
+                "name": "Envirobank",
+                "type": "recycling"
+            },
+            {
+                "id": -1905423953705962449,
+                "name": "Sustainable Minerals Institute",
+                "type": "research_institute"
+            },
+            {
+                "id": 3190016697449335030,
+                "name": "Bookmark Café",
+                "type": "cafe"
+            },
+            {
+                "id": 5106174428152040084,
+                "name": "Brewpoint",
+                "type": "cafe"
+            },
+            {
+                "id": 1135484052842831360,
+                "name": "Centre for Integrative Legume Research",
+                "type": "research_institute"
+            },
+            {
+                "id": -8627004593021735868,
+                "name": "Miss India",
+                "type": "fast_food"
+            },
+            {
+                "id": 8793182357012732654,
+                "name": "The Central Sizzle",
+                "type": "bbq"
+            },
+            {
+                "id": 1183265370793107413,
+                "name": "Yumantra",
+                "type": "fast_food"
+            },
+            {
+                "id": 7974784268618424183,
+                "name": "The Bagel Boys",
+                "type": "fast_food"
+            },
+            {
+                "id": -7447624623698541724,
+                "name": "Architecture and Music Library",
+                "type": "library"
+            },
+            {
+                "id": -8136102680270415798,
+                "name": "Chatime",
+                "type": "cafe"
+            },
+            {
+                "id": 6479347224472798453,
+                "name": "Patina at Alumni Court",
+                "type": "restaurant"
+            },
+            {
+                "id": -728376522964804638,
+                "name": "UQU Food Co-Op",
+                "type": "social_facility"
+            },
+            {
+                "id": 5343312167921283909,
+                "name": "Multi Level Carpark 1",
+                "type": "parking"
+            },
+            {
+                "id": 6103889549759137788,
+                "name": "Multi Level Carpark 2",
+                "type": "parking"
+            },
+            {
+                "id": -3236156669908498,
+                "name": "Dougie's Lair",
+                "type": "cafe"
+            },
+            {
+                "id": -2367060397315718402,
+                "name": "Conifer Knoll Parking Station",
+                "type": "parking"
+            },
+            {
+                "id": -2344359093013639625,
+                "name": "Chancellery car park",
+                "type": "parking"
+            },
+            {
+                "id": -7172022004123573558,
+                "name": "Union College parking",
+                "type": "parking"
+            },
+            {
+                "id": 2077364444728825001,
+                "name": "UQ Tennis Centre Toilet and Change Rooms",
+                "type": "toilets"
+            },
+            {
+                "id": 4822729741282815343,
+                "name": "Union College Carpark",
+                "type": "parking"
+            },
+            {
+                "id": 1562844474344245124,
+                "name": "P10 Synthetic Playing Fields Carpark",
+                "type": "parking"
+            },
+            {
+                "id": 4102185731987462227,
+                "name": "The Hancock Memorial Fountain",
+                "type": "fountain"
+            },
+            {
+                "id": -1072818035875622769,
+                "name": "Dougie",
+                "type": "cafe"
+            },
+            {
+                "id": -5118378445449488729,
+                "name": "P8 Playing Field 8 Carpark",
+                "type": "parking"
+            },
+            {
+                "id": 5916143453537479075,
+                "name": "Campus Kindergarten",
+                "type": "kindergarten"
+            }
+        ]
+    }
+}

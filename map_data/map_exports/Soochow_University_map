@@ -1,0 +1,92 @@
+{
+    "id": 4974605785786023717,
+    "name": "苏州大学",
+    "rating": 4.5,
+    "popularity": 88,
+    "data_path": "map_data/university_map/Soochow_University",
+    "amenity": {
+        "affiliation": 4974605785786023717,
+        "amenity_list": [
+            {
+                "id": 8949647030594465301,
+                "name": "東吳大學郵局",
+                "type": "post_office"
+            },
+            {
+                "id": 2431421693099568277,
+                "name": "石超庸墓",
+                "type": "grave_yard"
+            },
+            {
+                "id": 9057066350336283075,
+                "name": "王寵惠墓園",
+                "type": "grave_yard"
+            },
+            {
+                "id": 4502650893952845765,
+                "name": "CHORD 校車咖啡",
+                "type": "cafe"
+            },
+            {
+                "id": -87761607838016184,
+                "name": "地下停車場",
+                "type": "parking"
+            },
+            {
+                "id": 3095174795553724647,
+                "name": "東吳大學雙溪吸煙區",
+                "type": "smoking_area"
+            },
+            {
+                "id": -9171859251967414744,
+                "name": "可能感兴趣的地点",
+                "type": "drinking_water"
+            },
+            {
+                "id": 3123856853989713670,
+                "name": "提款機",
+                "type": "atm"
+            },
+            {
+                "id": 2961678657857465168,
+                "name": "loveling 夢屋",
+                "type": "restaurant"
+            },
+            {
+                "id": -2066866184431462187,
+                "name": "東吳大學學生餐廳",
+                "type": "restaurant"
+            },
+            {
+                "id": 4532217155189684889,
+                "name": "大樹下",
+                "type": "restaurant"
+            },
+            {
+                "id": -25243104186273951,
+                "name": "爆料雞排",
+                "type": "fast_food"
+            },
+            {
+                "id": 8975049793652240664,
+                "name": "麥當勞",
+                "type": "fast_food"
+            },
+            {
+                "id": -2540989635309811213,
+                "name": "貝殼之家",
+                "type": "restaurant"
+            },
+            {
+                "id": -3085129861177485217,
+                "name": "安素堂",
+                "type": "place_of_worship"
+            },
+            {
+                "id": 8585282389640772425,
+                "name": "中正圖書館",
+                "type": "library"
+            }
+        ]
+    }
+}

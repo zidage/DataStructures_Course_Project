@@ -1,0 +1,782 @@
+{
+    "id": 4551051960767384278,
+    "name": "密西根大学",
+    "rating": 4.4,
+    "popularity": 76,
+    "data_path": "map_data/university_map/University_of_Michigan-Ann_Arbor",
+    "amenity": {
+        "affiliation": 4551051960767384278,
+        "amenity_list": [
+            {
+                "id": -9171859251967414744,
+                "name": "可能感兴趣的地点",
+                "type": "parking_entrance"
+            },
+            {
+                "id": -592524664723902029,
+                "name": "Mailbox",
+                "type": "post_box"
+            },
+            {
+                "id": 6676624443084037,
+                "name": "Comerica Bank",
+                "type": "bank"
+            },
+            {
+                "id": -8781549804103156977,
+                "name": "Panda Express",
+                "type": "fast_food"
+            },
+            {
+                "id": -6708947284192078343,
+                "name": "Ahmo's",
+                "type": "fast_food"
+            },
+            {
+                "id": -7769648808533439619,
+                "name": "Fireside Café",
+                "type": "restaurant"
+            },
+            {
+                "id": 8873144823575859310,
+                "name": "Fireside Roast",
+                "type": "cafe"
+            },
+            {
+                "id": -7593092592978210289,
+                "name": "Blue Apple",
+                "type": "cafe"
+            },
+            {
+                "id": -6672606912668062452,
+                "name": "Bursley Dining Hall",
+                "type": "fast_food"
+            },
+            {
+                "id": -2298856799543669217,
+                "name": "Victors",
+                "type": "cafe"
+            },
+            {
+                "id": -3327184721150792815,
+                "name": "Mosher-Jordan Dining Hall",
+                "type": "fast_food"
+            },
+            {
+                "id": -339532144428339681,
+                "name": "Bert's Cafe",
+                "type": "cafe"
+            },
+            {
+                "id": -7258424897359031452,
+                "name": "Markley Dining Hall",
+                "type": "fast_food"
+            },
+            {
+                "id": -9201188559812831598,
+                "name": "Mujo Cafe",
+                "type": "cafe"
+            },
+            {
+                "id": 8792528754217696465,
+                "name": "Maizie's",
+                "type": "restaurant"
+            },
+            {
+                "id": 8169890376505353741,
+                "name": "M-36 Coffee Roasters",
+                "type": "cafe"
+            },
+            {
+                "id": 2404101772595069272,
+                "name": "Bank of America",
+                "type": "atm"
+            },
+            {
+                "id": 4744089313390614386,
+                "name": "Fifth Third Bank",
+                "type": "atm"
+            },
+            {
+                "id": 6282984931001354376,
+                "name": "Campus Police",
+                "type": "police"
+            },
+            {
+                "id": 3209146894961710094,
+                "name": "Hibachi san",
+                "type": "restaurant"
+            },
+            {
+                "id": -1273895499825451284,
+                "name": "Gamma Phi Beta",
+                "type": "social_centre"
+            },
+            {
+                "id": -4455036103842807292,
+                "name": "Delta Phi Epsilon",
+                "type": "social_centre"
+            },
+            {
+                "id": -4261490117084117848,
+                "name": "WCBN-FM studio",
+                "type": "studio"
+            },
+            {
+                "id": 1665918305297439017,
+                "name": "UHS Clinic",
+                "type": "clinic"
+            },
+            {
+                "id": 630412625711170093,
+                "name": "Joe's Pizza",
+                "type": "restaurant"
+            },
+            {
+                "id": -172163158980283732,
+                "name": "PNC Bank",
+                "type": "bank"
+            },
+            {
+                "id": 4439749834249298654,
+                "name": "Wilson Student Team Project Center",
+                "type": "laboratory"
+            },
+            {
+                "id": -153875740646164742,
+                "name": "Sweetwaters",
+                "type": "cafe"
+            },
+            {
+                "id": -7857650588850331206,
+                "name": "BAM Organ Recital Hall",
+                "type": "theatre"
+            },
+            {
+                "id": -6245772650021070729,
+                "name": "McIntosh Theatre",
+                "type": "theatre"
+            },
+            {
+                "id": 2954350624359048789,
+                "name": "Britton Recital Hall",
+                "type": "theatre"
+            },
+            {
+                "id": 4027620075147281286,
+                "name": "Music Library",
+                "type": "library"
+            },
+            {
+                "id": 4481006402879434459,
+                "name": "U-M Lot NC32",
+                "type": "parking"
+            },
+            {
+                "id": -6642076603825965707,
+                "name": "U of M Lot NC 10",
+                "type": "parking"
+            },
+            {
+                "id": -7754471392018100324,
+                "name": "U of M Lot NC 46",
+                "type": "parking"
+            },
+            {
+                "id": -3263604696523422771,
+                "name": "U of M Lot NC 28",
+                "type": "parking"
+            },
+            {
+                "id": -5161324274685388111,
+                "name": "U of M Lot NC 21",
+                "type": "parking"
+            },
+            {
+                "id": 872178153684340814,
+                "name": "U of M Lot NC 20",
+                "type": "parking"
+            },
+            {
+                "id": 1011633449942694727,
+                "name": "U of M Lot NC 60",
+                "type": "parking"
+            },
+            {
+                "id": 626135344690151655,
+                "name": "U of M Lot NC 53",
+                "type": "parking"
+            },
+            {
+                "id": -4093095777772640547,
+                "name": "U of M Lot NC 26",
+                "type": "parking"
+            },
+            {
+                "id": -8060127025108031476,
+                "name": "Pierpont Commons",
+                "type": "community_centre"
+            },
+            {
+                "id": 3688514196603452799,
+                "name": "U of M Lot NC 90",
+                "type": "parking"
+            },
+            {
+                "id": -7652828817265611339,
+                "name": "Walgreen Drama Center",
+                "type": "arts_centre"
+            },
+            {
+                "id": -1280752612634133670,
+                "name": "Green Road Park & Ride Lot",
+                "type": "parking"
+            },
+            {
+                "id": 8923286684866035677,
+                "name": "U of M Lot NC 5",
+                "type": "parking"
+            },
+            {
+                "id": -3630940859180479260,
+                "name": "U of M Lot NC 16",
+                "type": "parking"
+            },
+            {
+                "id": -2471830839838151387,
+                "name": "Hill Structure",
+                "type": "parking"
+            },
+            {
+                "id": 5666845369351729415,
+                "name": "Shapiro Undergraduate Library",
+                "type": "library"
+            },
+            {
+                "id": 6382293370616747632,
+                "name": "William L. Clements Library",
+                "type": "library"
+            },
+            {
+                "id": 5135356114368612939,
+                "name": "Hatcher Graduate Library",
+                "type": "library"
+            },
+            {
+                "id": -6352364369176505512,
+                "name": "Fletcher Structure",
+                "type": "parking"
+            },
+            {
+                "id": -1146847084673899054,
+                "name": "U-M Lot SC7 / RV Lot",
+                "type": "parking"
+            },
+            {
+                "id": 3167868212599992066,
+                "name": "Thayer Street Parking Structure",
+                "type": "parking"
+            },
+            {
+                "id": 1542269012064074126,
+                "name": "Tappan Hall",
+                "type": "library"
+            },
+            {
+                "id": -5436076285359073521,
+                "name": "Kresge Business Admin Library",
+                "type": "clinic"
+            },
+            {
+                "id": -3042780965857801807,
+                "name": "Cook Legal Research Library",
+                "type": "clinic"
+            },
+            {
+                "id": -8852976317783970402,
+                "name": "Hill Auditorium",
+                "type": "concert_hall"
+            },
+            {
+                "id": 3822431765264395967,
+                "name": "Power Center for the Performing Arts",
+                "type": "theatre"
+            },
+            {
+                "id": -5769213436366909702,
+                "name": "Michigan Union",
+                "type": "community_centre"
+            },
+            {
+                "id": 6418759526834243510,
+                "name": "U-M Lot SC6",
+                "type": "parking"
+            },
+            {
+                "id": -8383942334804530621,
+                "name": "U-M Lot SC4",
+                "type": "parking"
+            },
+            {
+                "id": 8689163320888585621,
+                "name": "U-M Lot SC9",
+                "type": "parking"
+            },
+            {
+                "id": 1877696393173908299,
+                "name": "U-M Lot SC38 (Elbel Field Locker Bldg)",
+                "type": "parking"
+            },
+            {
+                "id": 1583304770261684995,
+                "name": "NC100",
+                "type": "parking"
+            },
+            {
+                "id": 1565118792719557672,
+                "name": "U-M P2 M18 Taubman Structure",
+                "type": "parking"
+            },
+            {
+                "id": 5439725407358805917,
+                "name": "U-M Lot P1 M15 North Entrance Structure",
+                "type": "parking"
+            },
+            {
+                "id": -2642947416495122199,
+                "name": "U-M Lot M34",
+                "type": "parking"
+            },
+            {
+                "id": 2995101812785763409,
+                "name": "U-M Lot M28",
+                "type": "parking"
+            },
+            {
+                "id": -4995639789856212810,
+                "name": "U-M M61 Glen Structure",
+                "type": "parking"
+            },
+            {
+                "id": -7525369127752316967,
+                "name": "Lot M75",
+                "type": "parking"
+            },
+            {
+                "id": -7615385219467471234,
+                "name": "U of M Lot NC 78",
+                "type": "parking"
+            },
+            {
+                "id": -911772599485875804,
+                "name": "Duderstadt Center",
+                "type": "library"
+            },
+            {
+                "id": -2210305757778187919,
+                "name": "NC82",
+                "type": "parking"
+            },
+            {
+                "id": -3031217185705729681,
+                "name": "NC84",
+                "type": "parking"
+            },
+            {
+                "id": -5153375656574459654,
+                "name": "NC86",
+                "type": "parking"
+            },
+            {
+                "id": 5121955919618980457,
+                "name": "U of M Lot NC 91",
+                "type": "parking"
+            },
+            {
+                "id": 4545181141669502198,
+                "name": "U of M Lot NC 51",
+                "type": "parking"
+            },
+            {
+                "id": 854269111305362463,
+                "name": "U of M Lot NC 52",
+                "type": "parking"
+            },
+            {
+                "id": -7924098053478560463,
+                "name": "State Street Park and Ride",
+                "type": "parking"
+            },
+            {
+                "id": -6344564570497085019,
+                "name": "Gerald R. Ford Presidential Library",
+                "type": "library"
+            },
+            {
+                "id": 269133037435786542,
+                "name": "Bentley Historical Library",
+                "type": "library"
+            },
+            {
+                "id": 1471375570939762763,
+                "name": "NC65",
+                "type": "parking"
+            },
+            {
+                "id": 314867375864633773,
+                "name": "NC34",
+                "type": "parking"
+            },
+            {
+                "id": -4124852798425940083,
+                "name": "NC9",
+                "type": "parking"
+            },
+            {
+                "id": -8069861991403775748,
+                "name": "NC99",
+                "type": "parking"
+            },
+            {
+                "id": -4869412807726891872,
+                "name": "Ann Arbor Fire Department Station 5",
+                "type": "fire_station"
+            },
+            {
+                "id": -6727086965824134837,
+                "name": "Taubman Health Sciences Library",
+                "type": "library"
+            },
+            {
+                "id": -4845000506446953519,
+                "name": "U-M M86 Ann Structure",
+                "type": "parking"
+            },
+            {
+                "id": -5746671411980285527,
+                "name": "U-M M5 Catherine Structure",
+                "type": "parking"
+            },
+            {
+                "id": 6356705251869409632,
+                "name": "U of M Lot NC 22",
+                "type": "parking"
+            },
+            {
+                "id": 286423257329115360,
+                "name": "Ford Library Parking Lot NC 47",
+                "type": "parking"
+            },
+            {
+                "id": 7622377472919362910,
+                "name": "Ambulatory Surgery and Medical Procedures Center",
+                "type": "clinic"
+            },
+            {
+                "id": 3123091524020183395,
+                "name": "Rachel Upjohn Building",
+                "type": "clinic"
+            },
+            {
+                "id": -4417828390504162256,
+                "name": "East Ann Arbor Health and Geriatric Center",
+                "type": "clinic"
+            },
+            {
+                "id": -5573946373771397338,
+                "name": "U-M Lot M10",
+                "type": "parking"
+            },
+            {
+                "id": 8045724293469582029,
+                "name": "U-M Lot M13",
+                "type": "parking"
+            },
+            {
+                "id": 2008127870450558414,
+                "name": "U-M Lot M27",
+                "type": "parking"
+            },
+            {
+                "id": -2000820724759521195,
+                "name": "U-M Lot M36",
+                "type": "parking"
+            },
+            {
+                "id": 237998664688774431,
+                "name": "U-M Lot M44",
+                "type": "parking"
+            },
+            {
+                "id": -3514603521188891073,
+                "name": "U-M Lot M45",
+                "type": "parking"
+            },
+            {
+                "id": -7508970572053277215,
+                "name": "U-M Lot M53",
+                "type": "parking"
+            },
+            {
+                "id": 5198526561413397783,
+                "name": "U-M Lot M54",
+                "type": "parking"
+            },
+            {
+                "id": -6929652561623450727,
+                "name": "U-M Lot M55",
+                "type": "parking"
+            },
+            {
+                "id": -4699904114400270633,
+                "name": "U-M Lot M69",
+                "type": "parking"
+            },
+            {
+                "id": -5040197073906975540,
+                "name": "U-M Lot M83",
+                "type": "parking"
+            },
+            {
+                "id": -1074924415394734291,
+                "name": "U-M Lot M89",
+                "type": "parking"
+            },
+            {
+                "id": -9185824567127155148,
+                "name": "U-M Lot M95",
+                "type": "parking"
+            },
+            {
+                "id": -2454042048656169158,
+                "name": "U-M P3 Structure",
+                "type": "parking"
+            },
+            {
+                "id": 7781768741388829633,
+                "name": "VA Ann Arbor Healthcare System",
+                "type": "hospital"
+            },
+            {
+                "id": 3687889754049675656,
+                "name": "Mcity Test Facility",
+                "type": "driver_training"
+            },
+            {
+                "id": -3877725478911286077,
+                "name": "Thompson Structure",
+                "type": "parking"
+            },
+            {
+                "id": -7446793373566224893,
+                "name": "Glick",
+                "type": "parking"
+            },
+            {
+                "id": 5701619968954590468,
+                "name": "U-M Lot SC20 (Athletics Campus Grey Lot)",
+                "type": "parking"
+            },
+            {
+                "id": -8298537282406424299,
+                "name": "U-M Lot SC37 (Revelli Hall)",
+                "type": "parking"
+            },
+            {
+                "id": -2647898772652435427,
+                "name": "U-M Lot SC5 / Champions East",
+                "type": "parking"
+            },
+            {
+                "id": 6043803296461760582,
+                "name": "U-M Lot SC36 / Champions North",
+                "type": "parking"
+            },
+            {
+                "id": -5641826341103218145,
+                "name": "U-M Lot SC2",
+                "type": "parking"
+            },
+            {
+                "id": -1646342078539346488,
+                "name": "U-M Lot SC35 / Buffalo Lot",
+                "type": "parking"
+            },
+            {
+                "id": -3450274074469686031,
+                "name": "Radiology",
+                "type": "clinic"
+            },
+            {
+                "id": 5484245999505401484,
+                "name": "concessions",
+                "type": "fast_food"
+            },
+            {
+                "id": -6254513372283246917,
+                "name": "Towsley Chidren House",
+                "type": "childcare"
+            },
+            {
+                "id": -3301284126920111765,
+                "name": "First Aid",
+                "type": "clinic"
+            },
+            {
+                "id": 2653770528936488660,
+                "name": "U-M Lot SC3",
+                "type": "parking"
+            },
+            {
+                "id": 4111186417617321286,
+                "name": "U-M Lot SC14",
+                "type": "parking"
+            },
+            {
+                "id": 2968385757219098374,
+                "name": "Central Campus Transit Center",
+                "type": "bus_station"
+            },
+            {
+                "id": -4852466276810221367,
+                "name": "U-M Lot W13",
+                "type": "parking"
+            },
+            {
+                "id": -7122865966570267568,
+                "name": "U-M Lot M7",
+                "type": "parking"
+            },
+            {
+                "id": 3007800782422429624,
+                "name": "U-M Lot M52",
+                "type": "motorcycle_parking"
+            },
+            {
+                "id": 205047303418283333,
+                "name": "U-M Lot M16",
+                "type": "motorcycle_parking"
+            },
+            {
+                "id": -1681743223837503513,
+                "name": "University of Michigan Lot S5",
+                "type": "parking"
+            },
+            {
+                "id": -1026623773851526253,
+                "name": "U-M Lot C2",
+                "type": "parking"
+            },
+            {
+                "id": 2390502094459031502,
+                "name": "University of Michigan Medical Center",
+                "type": "hospital"
+            },
+            {
+                "id": 7158859224247387026,
+                "name": "Service Center Lot S9",
+                "type": "parking"
+            },
+            {
+                "id": 6414338248712093587,
+                "name": "Concessions",
+                "type": "fast_food"
+            },
+            {
+                "id": 8407172810709869217,
+                "name": "Bentley Historical Library Visitor Parking U of M Lot NC 42",
+                "type": "parking"
+            },
+            {
+                "id": -1080541062824419291,
+                "name": "Lot SC 16",
+                "type": "parking"
+            },
+            {
+                "id": -4221255309531699197,
+                "name": "M Air",
+                "type": "laboratory"
+            },
+            {
+                "id": -6434924204871042064,
+                "name": "UM Lot W9",
+                "type": "parking"
+            },
+            {
+                "id": -2602924857575452869,
+                "name": "UM Lot W10",
+                "type": "parking"
+            },
+            {
+                "id": 7800091320556536641,
+                "name": "U of M Lot EC 1",
+                "type": "parking"
+            },
+            {
+                "id": -1769443416253496980,
+                "name": "NC85",
+                "type": "parking"
+            },
+            {
+                "id": -2530815226109392570,
+                "name": "NCRC Vaccine Clinic Parking",
+                "type": "parking"
+            },
+            {
+                "id": 7591002308161230934,
+                "name": "U-M Lot SC34",
+                "type": "parking"
+            },
+            {
+                "id": 1139726199107449171,
+                "name": "U of M Lot NC 106",
+                "type": "parking"
+            },
+            {
+                "id": 5551787454962499566,
+                "name": "U of M Lot NC 56",
+                "type": "parking"
+            },
+            {
+                "id": 1710479244132139691,
+                "name": "U of M Lot NC 23",
+                "type": "parking"
+            },
+            {
+                "id": -5607429556452247659,
+                "name": "U of M Wind Tunnel Lab Parking",
+                "type": "parking"
+            },
+            {
+                "id": -1009614531648213290,
+                "name": "U of M Lot NC 29",
+                "type": "parking"
+            },
+            {
+                "id": -1260374808544594195,
+                "name": "U of M Service Center Lot NC 6",
+                "type": "parking"
+            },
+            {
+                "id": 6503742455204814521,
+                "name": "U of M Lot NC 8",
+                "type": "parking"
+            },
+            {
+                "id": 193571997497453641,
+                "name": "U of M Service Center NC 71",
+                "type": "parking"
+            },
+            {
+                "id": -4172480764066656191,
+                "name": "U of M Lot NC 57",
+                "type": "parking"
+            },
+            {
+                "id": 6672123177818353170,
+                "name": "U-M P4 M22 Simpson Circle Parking Structure",
+                "type": "parking"
+            }
+        ]
+    }
+}

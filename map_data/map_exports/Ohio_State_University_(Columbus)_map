@@ -1,0 +1,437 @@
+{
+    "id": -6437443842841919536,
+    "name": "俄亥俄州立大学",
+    "rating": 4.5,
+    "popularity": 100,
+    "data_path": "map_data/university_map/Ohio_State_University_(Columbus)",
+    "amenity": {
+        "affiliation": -6437443842841919536,
+        "amenity_list": [
+            {
+                "id": -9171859251967414744,
+                "name": "可能感兴趣的地点",
+                "type": "parking_entrance"
+            },
+            {
+                "id": -7290802258390036016,
+                "name": "MarketPlace",
+                "type": "restaurant"
+            },
+            {
+                "id": 7816508407756187747,
+                "name": "Mirror Lake Eatery",
+                "type": "fast_food"
+            },
+            {
+                "id": -881170659913714352,
+                "name": "Oxley's by the Numbers Café",
+                "type": "cafe"
+            },
+            {
+                "id": -2462480852585616719,
+                "name": "United States Post Office",
+                "type": "post_office"
+            },
+            {
+                "id": 5023044589551519765,
+                "name": "Oxleys To Go",
+                "type": "cafe"
+            },
+            {
+                "id": -605908319314930549,
+                "name": "Union Market",
+                "type": "marketplace"
+            },
+            {
+                "id": 2670333386061905436,
+                "name": "Sloopy's Diner",
+                "type": "restaurant"
+            },
+            {
+                "id": -4810024053892842359,
+                "name": "12th Avenue Bread Company",
+                "type": "restaurant"
+            },
+            {
+                "id": 4850339566972095668,
+                "name": "Steinbrenner Band Center",
+                "type": "music_school"
+            },
+            {
+                "id": 5061769273787783609,
+                "name": "KSA Café",
+                "type": "cafe"
+            },
+            {
+                "id": 4970154299082988867,
+                "name": "Rohr Cafe",
+                "type": "cafe"
+            },
+            {
+                "id": 2595150373931248900,
+                "name": "The Ohio State University Police Division",
+                "type": "police"
+            },
+            {
+                "id": -4296830643132810381,
+                "name": "Veterinary Medical Center",
+                "type": "veterinary"
+            },
+            {
+                "id": -981526765524455376,
+                "name": "Huntington Bank",
+                "type": "atm"
+            },
+            {
+                "id": 8695206916829070169,
+                "name": "StreetSweets",
+                "type": "restaurant"
+            },
+            {
+                "id": -1466647327205628436,
+                "name": "Student Life Student Health Services Pharmacy",
+                "type": "pharmacy"
+            },
+            {
+                "id": 5651479191031316053,
+                "name": "Ohio State Dental Clinics",
+                "type": "dentist"
+            },
+            {
+                "id": -8581404076712281748,
+                "name": "Arne Slettebak Planetarium",
+                "type": "planetarium"
+            },
+            {
+                "id": -1947635094003106004,
+                "name": "Connecting Grounds",
+                "type": "cafe"
+            },
+            {
+                "id": 7741693023784172919,
+                "name": "Traditions at Scott",
+                "type": "restaurant"
+            },
+            {
+                "id": 5931332347682260228,
+                "name": "The Campus Grind - McPherson",
+                "type": "cafe"
+            },
+            {
+                "id": -4076523077104718155,
+                "name": "Terra Byte Cafe",
+                "type": "cafe"
+            },
+            {
+                "id": -5973441671223808551,
+                "name": "Heirloom Cafe",
+                "type": "cafe"
+            },
+            {
+                "id": -3213369748458907129,
+                "name": "Berry Cafe",
+                "type": "cafe"
+            },
+            {
+                "id": 7969274545083296890,
+                "name": "Courtside Cafe and Juice",
+                "type": "cafe"
+            },
+            {
+                "id": 3182235310350976429,
+                "name": "The Campus Grind - Drinko",
+                "type": "cafe"
+            },
+            {
+                "id": -2255935259241935009,
+                "name": "Woody's Tavern",
+                "type": "restaurant"
+            },
+            {
+                "id": -2638248751840212878,
+                "name": "Crane Cafe",
+                "type": "cafe"
+            },
+            {
+                "id": 3271350988915816698,
+                "name": "BistrOH!",
+                "type": "fast_food"
+            },
+            {
+                "id": 14465950577892927,
+                "name": "James Sanctuary",
+                "type": "place_of_worship"
+            },
+            {
+                "id": -7924191725982951355,
+                "name": "Employee Health Services",
+                "type": "clinic"
+            },
+            {
+                "id": 3152152339586727402,
+                "name": "CoGo High St and 17th Ave",
+                "type": "bicycle_rental"
+            },
+            {
+                "id": 8464992091267661556,
+                "name": "Traditions at Kennedy",
+                "type": "restaurant"
+            },
+            {
+                "id": 6527132095231353081,
+                "name": "Traditions at Morrill",
+                "type": "restaurant"
+            },
+            {
+                "id": 9007702850497779128,
+                "name": "Geology Library",
+                "type": "library"
+            },
+            {
+                "id": -7968883421885850640,
+                "name": "The Caffeine Element",
+                "type": "cafe"
+            },
+            {
+                "id": -2743322481607489059,
+                "name": "Brenen’s Cafe",
+                "type": "cafe"
+            },
+            {
+                "id": 8862823070866962812,
+                "name": "Biological Sciences and Pharmacy Library",
+                "type": "library"
+            },
+            {
+                "id": -1122049936291885990,
+                "name": "Curl Market",
+                "type": "restaurant"
+            },
+            {
+                "id": -3991067883687218880,
+                "name": "CFAES Cafe",
+                "type": "cafe"
+            },
+            {
+                "id": 8262308906843770231,
+                "name": "Architecture Library",
+                "type": "library"
+            },
+            {
+                "id": -3242690758203012052,
+                "name": "William Oxley Thompson Memorial Library",
+                "type": "library"
+            },
+            {
+                "id": 3257552980729962330,
+                "name": "Ohio Union North Parking Garage",
+                "type": "parking"
+            },
+            {
+                "id": 524682391970753724,
+                "name": "Arps Garage",
+                "type": "parking"
+            },
+            {
+                "id": -2422183493923651216,
+                "name": "Carmack 1",
+                "type": "parking"
+            },
+            {
+                "id": -7589872547616158487,
+                "name": "Carmack 2",
+                "type": "parking"
+            },
+            {
+                "id": 6219200312886050086,
+                "name": "Carmack 3",
+                "type": "parking"
+            },
+            {
+                "id": -5120788784276476597,
+                "name": "Carmack 4",
+                "type": "parking"
+            },
+            {
+                "id": 1445674032290996526,
+                "name": "Carmack 5",
+                "type": "parking"
+            },
+            {
+                "id": -1456264742715342453,
+                "name": "Buckeye Lot",
+                "type": "parking"
+            },
+            {
+                "id": 1108658163524729220,
+                "name": "Tuttle Park Place Garage",
+                "type": "parking"
+            },
+            {
+                "id": -5918533263504214457,
+                "name": "Northwest Garage",
+                "type": "parking"
+            },
+            {
+                "id": 431589284880276418,
+                "name": "Mershon Auditorium",
+                "type": "theatre"
+            },
+            {
+                "id": -3801079397069876473,
+                "name": "Ohio Union",
+                "type": "community_centre"
+            },
+            {
+                "id": -2690532838700257803,
+                "name": "Prior Health Sciences Library",
+                "type": "library"
+            },
+            {
+                "id": 1747625579374761306,
+                "name": "CVS Pharmacy",
+                "type": "pharmacy"
+            },
+            {
+                "id": 7363530097692075887,
+                "name": "18th Avenue Library",
+                "type": "library"
+            },
+            {
+                "id": 2929601094781961744,
+                "name": "Wilce Student Health Center",
+                "type": "clinic"
+            },
+            {
+                "id": -5596159938309000270,
+                "name": "Lane Avenue Parking Garage",
+                "type": "parking"
+            },
+            {
+                "id": 5088125693038072581,
+                "name": "Food, Agricultural, and Environmental Administration Building",
+                "type": "library"
+            },
+            {
+                "id": 5314702972747430921,
+                "name": "Browning Amphitheatre",
+                "type": "theatre"
+            },
+            {
+                "id": -4073386428617706993,
+                "name": "Ohio Union South Parking Garage",
+                "type": "parking"
+            },
+            {
+                "id": -39167166443631834,
+                "name": "Neil Avenue Garage",
+                "type": "parking"
+            },
+            {
+                "id": -1547391343375097117,
+                "name": "SAFEAUTO Hospitals Garage",
+                "type": "parking"
+            },
+            {
+                "id": -1892900303737987293,
+                "name": "Mount Hall (WA)",
+                "type": "parking"
+            },
+            {
+                "id": 8451416948562558311,
+                "name": "Mount Hall Pay & Display",
+                "type": "parking"
+            },
+            {
+                "id": -6871872813234929078,
+                "name": "9th Avenue East Garage",
+                "type": "parking"
+            },
+            {
+                "id": -4989400940277954074,
+                "name": "9th Avenue West Garage",
+                "type": "parking"
+            },
+            {
+                "id": 194346490074290334,
+                "name": "B Permit",
+                "type": "parking"
+            },
+            {
+                "id": -3424324733576764116,
+                "name": "Panera Bread",
+                "type": "fast_food"
+            },
+            {
+                "id": 4373819554707827345,
+                "name": "11th Avenue Garage",
+                "type": "parking"
+            },
+            {
+                "id": -6763829345647951145,
+                "name": "Hang Over Easy",
+                "type": "cafe"
+            },
+            {
+                "id": 3979021068130136282,
+                "name": "Adriatico's New York Style Pizza",
+                "type": "restaurant"
+            },
+            {
+                "id": 8018730305561445259,
+                "name": "Bruegger's Bagels",
+                "type": "fast_food"
+            },
+            {
+                "id": 6518101353558909663,
+                "name": "12th Avenue Garage",
+                "type": "parking"
+            },
+            {
+                "id": -2904033825086109229,
+                "name": "Wexner Medical Center at The Ohio State University",
+                "type": "hospital"
+            },
+            {
+                "id": 8233194962142986734,
+                "name": "Credit Union of Ohio",
+                "type": "bank"
+            },
+            {
+                "id": -8232539575509569512,
+                "name": "Morehouse Medical Plaza",
+                "type": "clinic"
+            },
+            {
+                "id": 5996713420744224617,
+                "name": "West Lane Garage",
+                "type": "parking"
+            },
+            {
+                "id": 6033917391650633003,
+                "name": "Buckeye Lot - 1",
+                "type": "parking"
+            },
+            {
+                "id": -3549574118642647295,
+                "name": "Wexner Center for the Arts",
+                "type": "arts_centre"
+            },
+            {
+                "id": 6154918589579460941,
+                "name": "Wexner Medical Center Garage",
+                "type": "parking"
+            },
+            {
+                "id": 8569026007700729026,
+                "name": "Old Cannon Garage",
+                "type": "parking"
+            },
+            {
+                "id": 9180074523494714967,
+                "name": "Fisher College of Business",
+                "type": "college"
+            }
+        ]
+    }
+}

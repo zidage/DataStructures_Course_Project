@@ -1,0 +1,397 @@
+{
+    "id": 3544655427217552993,
+    "name": "南洋理工大学",
+    "rating": 4.5,
+    "popularity": 48,
+    "data_path": "map_data/university_map/Nanyang_Technological_University,_Singapore",
+    "amenity": {
+        "affiliation": 3544655427217552993,
+        "amenity_list": [
+            {
+                "id": -9171859251967414744,
+                "name": "可能感兴趣的地点",
+                "type": "parking_entrance"
+            },
+            {
+                "id": 472219742492177868,
+                "name": "McDonald's",
+                "type": "fast_food"
+            },
+            {
+                "id": -8412250680175838719,
+                "name": "Canteen 2",
+                "type": "food_court"
+            },
+            {
+                "id": 7376776210841462859,
+                "name": "Lee Wee Nam Library",
+                "type": "library"
+            },
+            {
+                "id": 1330532702076639750,
+                "name": "Canteen 1",
+                "type": "food_court"
+            },
+            {
+                "id": 7892726941056947757,
+                "name": "Canteen 4",
+                "type": "restaurant"
+            },
+            {
+                "id": -1682019533539141073,
+                "name": "Koufu @ the South Spine",
+                "type": "restaurant"
+            },
+            {
+                "id": -6883561320787496568,
+                "name": "Canteen 13",
+                "type": "food_court"
+            },
+            {
+                "id": -3120941320086739944,
+                "name": "Canteen 9",
+                "type": "food_court"
+            },
+            {
+                "id": -4025616065238909966,
+                "name": "Starbucks",
+                "type": "cafe"
+            },
+            {
+                "id": -1350344393044040356,
+                "name": "Popeyes",
+                "type": "fast_food"
+            },
+            {
+                "id": -2909037771762112199,
+                "name": "Encik Tan",
+                "type": "restaurant"
+            },
+            {
+                "id": -7196044004122273667,
+                "name": "Subway",
+                "type": "fast_food"
+            },
+            {
+                "id": -8715396040328293124,
+                "name": "North Spine Food Court",
+                "type": "food_court"
+            },
+            {
+                "id": -7827694252044839462,
+                "name": "Frank by OCBC",
+                "type": "bank"
+            },
+            {
+                "id": -9005554751230771387,
+                "name": "Paik's Bibim",
+                "type": "restaurant"
+            },
+            {
+                "id": 5757990185090216368,
+                "name": "Mixed Greens",
+                "type": "restaurant"
+            },
+            {
+                "id": -1011753284584505262,
+                "name": "umisushi",
+                "type": "restaurant"
+            },
+            {
+                "id": 8558795452144095939,
+                "name": "Zitimama's",
+                "type": "restaurant"
+            },
+            {
+                "id": -6700059042796990609,
+                "name": "Art Pastry @ ADM",
+                "type": "cafe"
+            },
+            {
+                "id": -6158593159331714176,
+                "name": "Spruce Bistro Bar @ NTU",
+                "type": "restaurant"
+            },
+            {
+                "id": 417188123938801388,
+                "name": "NIE Canteen",
+                "type": "food_court"
+            },
+            {
+                "id": -1705964547090943145,
+                "name": "Canteen 11",
+                "type": "food_court"
+            },
+            {
+                "id": 3771285875034397545,
+                "name": "Canteen 14",
+                "type": "food_court"
+            },
+            {
+                "id": 4095313647525212797,
+                "name": "Canteen 16",
+                "type": "food_court"
+            },
+            {
+                "id": -8047596045893570270,
+                "name": "Pioneer Canteen",
+                "type": "restaurant"
+            },
+            {
+                "id": 3298706262141677405,
+                "name": "OCBC",
+                "type": "atm"
+            },
+            {
+                "id": -1941400104827007522,
+                "name": "DBS",
+                "type": "atm"
+            },
+            {
+                "id": -564109050939654888,
+                "name": "National Institute of Education, Singapore",
+                "type": "college"
+            },
+            {
+                "id": 6425280050195994528,
+                "name": "Air Traffic Management Research Institute",
+                "type": "school"
+            },
+            {
+                "id": -5720931574408501835,
+                "name": "The Soup Spoon Union",
+                "type": "restaurant"
+            },
+            {
+                "id": -1262045511015690587,
+                "name": "Fusion Spoon",
+                "type": "restaurant"
+            },
+            {
+                "id": 1030775958532424878,
+                "name": "Gethin-Jones Medical Practice",
+                "type": "doctors"
+            },
+            {
+                "id": 6509195231104526064,
+                "name": "Co-op@NTU Cafe",
+                "type": "cafe"
+            },
+            {
+                "id": 775341147948863692,
+                "name": "Each-A-Cup",
+                "type": "cafe"
+            },
+            {
+                "id": 6213054713445921890,
+                "name": "Pen & Inc",
+                "type": "restaurant"
+            },
+            {
+                "id": 7112468383143611523,
+                "name": "June's Breathe Cafe",
+                "type": "cafe"
+            },
+            {
+                "id": -7967830865113285273,
+                "name": "LiHO",
+                "type": "cafe"
+            },
+            {
+                "id": 5230525150030004028,
+                "name": "Blue Ocean Kopi & Toast",
+                "type": "restaurant"
+            },
+            {
+                "id": -3483096954300610460,
+                "name": "Ribs Wings Burgers",
+                "type": "restaurant"
+            },
+            {
+                "id": -7974116560140635081,
+                "name": "Top Pot- Steamboat & Mookata",
+                "type": "restaurant"
+            },
+            {
+                "id": 3675570092782312097,
+                "name": "Ananda Kitchen",
+                "type": "restaurant"
+            },
+            {
+                "id": -1748718885476971424,
+                "name": "Foodgle Food Court",
+                "type": "food_court"
+            },
+            {
+                "id": -4623876948118832787,
+                "name": "Business Library",
+                "type": "library"
+            },
+            {
+                "id": -2685161130003138167,
+                "name": "Mr Bean",
+                "type": "fast_food"
+            },
+            {
+                "id": -7877655830925083208,
+                "name": "The Quad",
+                "type": "food_court"
+            },
+            {
+                "id": 304037259985311027,
+                "name": "Pasta Express",
+                "type": "restaurant"
+            },
+            {
+                "id": 4185081302211774425,
+                "name": "The Crowded Bowl",
+                "type": "restaurant"
+            },
+            {
+                "id": 7206698978719617803,
+                "name": "Wok Express",
+                "type": "restaurant"
+            },
+            {
+                "id": 3766788803752712295,
+                "name": "The House Steam Boat Restaurant",
+                "type": "restaurant"
+            },
+            {
+                "id": -2832182834481722125,
+                "name": "Venture Drive Coffee",
+                "type": "cafe"
+            },
+            {
+                "id": 6404178348729833837,
+                "name": "Boost Juice",
+                "type": "fast_food"
+            },
+            {
+                "id": -1615766085174137783,
+                "name": "Connect 71 Cafe",
+                "type": "cafe"
+            },
+            {
+                "id": 2383953742083038282,
+                "name": "The Tea Party",
+                "type": "cafe"
+            },
+            {
+                "id": -5111354020787939956,
+                "name": "CHICHA San Chen",
+                "type": "cafe"
+            },
+            {
+                "id": -386422529154613755,
+                "name": "Yilin Likes Tea",
+                "type": "cafe"
+            },
+            {
+                "id": 4631105384058804680,
+                "name": "Domino's",
+                "type": "fast_food"
+            },
+            {
+                "id": 7077199577380635305,
+                "name": "University Health Service",
+                "type": "clinic"
+            },
+            {
+                "id": -4356792279701027627,
+                "name": "Campus Club House",
+                "type": "restaurant"
+            },
+            {
+                "id": 7191099159460504402,
+                "name": "Car Park F",
+                "type": "parking"
+            },
+            {
+                "id": 3056914978902149321,
+                "name": "Car Park G",
+                "type": "parking"
+            },
+            {
+                "id": -5380354545614926883,
+                "name": "Car Park N2.1",
+                "type": "parking"
+            },
+            {
+                "id": 3178679468834996555,
+                "name": "Car Park A",
+                "type": "parking"
+            },
+            {
+                "id": 8137104849601024771,
+                "name": "Car Park 5",
+                "type": "parking"
+            },
+            {
+                "id": -6970380135230649214,
+                "name": "Car Park 4",
+                "type": "parking"
+            },
+            {
+                "id": -1021153972623046190,
+                "name": "Car Park L",
+                "type": "parking"
+            },
+            {
+                "id": 3947210759955627758,
+                "name": "Car Park C",
+                "type": "parking"
+            },
+            {
+                "id": 1654039500699036790,
+                "name": "Car Park E",
+                "type": "parking"
+            },
+            {
+                "id": -4439864076729591020,
+                "name": "Car Park B",
+                "type": "parking"
+            },
+            {
+                "id": 6951847719032363140,
+                "name": "Car Park Q",
+                "type": "parking"
+            },
+            {
+                "id": 6570719115583107687,
+                "name": "Car Park 7",
+                "type": "parking"
+            },
+            {
+                "id": -5304033248772841339,
+                "name": "Car Park 3",
+                "type": "parking"
+            },
+            {
+                "id": -7041229233583796321,
+                "name": "Car Park 2",
+                "type": "parking"
+            },
+            {
+                "id": -7461122210028276746,
+                "name": "Car Park 1",
+                "type": "parking"
+            },
+            {
+                "id": 6545708925269029743,
+                "name": "North Hill Food Court",
+                "type": "restaurant"
+            },
+            {
+                "id": 217800185601761734,
+                "name": "Chinese Pavilion",
+                "type": "shelter"
+            },
+            {
+                "id": 1021660895306104611,
+                "name": "Hall 1 Carpark",
+                "type": "parking"
+            }
+        ]
+    }
+}

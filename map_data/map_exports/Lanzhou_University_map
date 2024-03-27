@@ -1,0 +1,32 @@
+{
+    "id": -8055721919293406042,
+    "name": "兰州大学",
+    "rating": 4.5,
+    "popularity": 76,
+    "data_path": "map_data/university_map/Lanzhou_University",
+    "amenity": {
+        "affiliation": -8055721919293406042,
+        "amenity_list": [
+            {
+                "id": -9171859251967414744,
+                "name": "可能感兴趣的地点",
+                "type": "parking"
+            },
+            {
+                "id": -5304275316225647279,
+                "name": "中国建设银行",
+                "type": "bank"
+            },
+            {
+                "id": -1086002437885309166,
+                "name": "中国工商银行",
+                "type": "bank"
+            },
+            {
+                "id": 3057272322324877143,
+                "name": "兰州理工大学技术工程学院",
+                "type": "college"
+            }
+        ]
+    }
+}

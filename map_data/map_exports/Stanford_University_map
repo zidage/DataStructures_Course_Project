@@ -1,0 +1,572 @@
+{
+    "id": 4504005492597587320,
+    "name": "斯坦福大学",
+    "rating": 4.6,
+    "popularity": 60,
+    "data_path": "map_data/university_map/Stanford_University",
+    "amenity": {
+        "affiliation": 4504005492597587320,
+        "amenity_list": [
+            {
+                "id": -7957493862611950166,
+                "name": "Stern Dining",
+                "type": "fast_food"
+            },
+            {
+                "id": -292871496708374536,
+                "name": "CoHo",
+                "type": "cafe"
+            },
+            {
+                "id": 5020840072283277320,
+                "name": "Treehouse",
+                "type": "restaurant"
+            },
+            {
+                "id": -8826976552317890223,
+                "name": "Jamba Juice",
+                "type": "fast_food"
+            },
+            {
+                "id": 3941566149212574324,
+                "name": "Union Square",
+                "type": "fast_food"
+            },
+            {
+                "id": 5839685462239831494,
+                "name": "The Axe & Palm",
+                "type": "fast_food"
+            },
+            {
+                "id": -6385340823493749741,
+                "name": "Bytes Cafe",
+                "type": "cafe"
+            },
+            {
+                "id": -6347366272373021995,
+                "name": "Cafe Cool",
+                "type": "fast_food"
+            },
+            {
+                "id": -9171859251967414744,
+                "name": "可能感兴趣的地点",
+                "type": "clock"
+            },
+            {
+                "id": -4244561409532772466,
+                "name": "Decadence",
+                "type": "ice_cream"
+            },
+            {
+                "id": -6427697942189492868,
+                "name": "Olives",
+                "type": "fast_food"
+            },
+            {
+                "id": 4239398467610981655,
+                "name": "Stanford Federal Credit Union",
+                "type": "bank"
+            },
+            {
+                "id": 6544529760277540934,
+                "name": "Fisher Conference Center",
+                "type": "events_venue"
+            },
+            {
+                "id": 6801843606307906356,
+                "name": "Alumni Café",
+                "type": "cafe"
+            },
+            {
+                "id": -3988268208959310548,
+                "name": "Cafe Buttery (serving Peet's Coffee)",
+                "type": "cafe"
+            },
+            {
+                "id": 416912936765867607,
+                "name": "Market Square Cafeteria",
+                "type": "fast_food"
+            },
+            {
+                "id": 479263945912527407,
+                "name": "Med Cafe",
+                "type": "cafe"
+            },
+            {
+                "id": -1667216673028583419,
+                "name": "Lutticken's Deli",
+                "type": "fast_food"
+            },
+            {
+                "id": -2103189435404207999,
+                "name": "Beckman Bistro",
+                "type": "fast_food"
+            },
+            {
+                "id": 4844755871488139790,
+                "name": "Nexus Cafe",
+                "type": "fast_food"
+            },
+            {
+                "id": 56164270459871165,
+                "name": "Lane Medical Library",
+                "type": "library"
+            },
+            {
+                "id": 8517361087403703355,
+                "name": "Cafe Salute",
+                "type": "fast_food"
+            },
+            {
+                "id": 8918111458411213789,
+                "name": "Courtyard Cafe",
+                "type": "fast_food"
+            },
+            {
+                "id": -4169476009403632543,
+                "name": "Forbes Family Cafe",
+                "type": "fast_food"
+            },
+            {
+                "id": -2072352817725509917,
+                "name": "Arbuckle Dining Pavillion",
+                "type": "restaurant"
+            },
+            {
+                "id": 7527109824772244467,
+                "name": "Stock Farm Road Children’s Center",
+                "type": "childcare"
+            },
+            {
+                "id": 5633774158729573913,
+                "name": "Coupa Cafe",
+                "type": "cafe"
+            },
+            {
+                "id": -6639080488477644118,
+                "name": "Branner Earth Sciences Library",
+                "type": "library"
+            },
+            {
+                "id": 63622367841845369,
+                "name": "Lathrop Tech Lounge",
+                "type": "computer_lab"
+            },
+            {
+                "id": -8781549804103156977,
+                "name": "Panda Express",
+                "type": "fast_food"
+            },
+            {
+                "id": 8167889138396121356,
+                "name": "Robin Li and Melissa Ma Science Library",
+                "type": "library"
+            },
+            {
+                "id": 4326143443391897823,
+                "name": "McCaw Hall",
+                "type": "events_venue"
+            },
+            {
+                "id": 2404101772595069272,
+                "name": "Bank of America",
+                "type": "atm"
+            },
+            {
+                "id": 3099632116113324780,
+                "name": "Stanford Wellness Room",
+                "type": "wellness_centre"
+            },
+            {
+                "id": -3310351540582249950,
+                "name": "Stanford Bookstore Café",
+                "type": "cafe"
+            },
+            {
+                "id": 4713347252301623730,
+                "name": "David Rumsey Map Center",
+                "type": "library"
+            },
+            {
+                "id": 5957559070520623045,
+                "name": "Robert Crown Law Library",
+                "type": "library"
+            },
+            {
+                "id": 5007302464518280957,
+                "name": "Stanford Geospatial Center",
+                "type": "library"
+            },
+            {
+                "id": -125978703245512699,
+                "name": "Roble Field Garage",
+                "type": "parking"
+            },
+            {
+                "id": -6857272715180415557,
+                "name": "Tanner Philosophy Library",
+                "type": "library"
+            },
+            {
+                "id": 5520995993151885547,
+                "name": "Ike's Press",
+                "type": "fast_food"
+            },
+            {
+                "id": -574975597641030012,
+                "name": "5 Sure",
+                "type": "parking_space"
+            },
+            {
+                "id": 1263678246169069706,
+                "name": "Mendenhall Library",
+                "type": "library"
+            },
+            {
+                "id": -5193789530976939393,
+                "name": "Curry Up Now",
+                "type": "fast_food"
+            },
+            {
+                "id": -7196044004122273667,
+                "name": "Subway",
+                "type": "fast_food"
+            },
+            {
+                "id": 7160094939662623181,
+                "name": "​Kikka Sushi",
+                "type": "fast_food"
+            },
+            {
+                "id": -4025616065238909966,
+                "name": "Starbucks",
+                "type": "cafe"
+            },
+            {
+                "id": 6377055135062266833,
+                "name": "FedEx Ship&Get",
+                "type": "parcel_locker"
+            },
+            {
+                "id": -7523599162009358590,
+                "name": "Wilbur Dining",
+                "type": "restaurant"
+            },
+            {
+                "id": 7008722658810548814,
+                "name": "Blend Eatery",
+                "type": "restaurant"
+            },
+            {
+                "id": 144578296266978686,
+                "name": "Cantor Cafe",
+                "type": "cafe"
+            },
+            {
+                "id": -369949584705015061,
+                "name": "CEMEX Auditorium",
+                "type": "theatre"
+            },
+            {
+                "id": 4321741298503593248,
+                "name": "Oberndorf Event Center",
+                "type": "events_venue"
+            },
+            {
+                "id": -5182268764590534486,
+                "name": "Seawell Family Boardroom",
+                "type": "events_venue"
+            },
+            {
+                "id": -3097374142765994782,
+                "name": "Asian American Activities Center",
+                "type": "community_centre"
+            },
+            {
+                "id": 4676371847040287861,
+                "name": "El Centro Chicano y Latino",
+                "type": "community_centre"
+            },
+            {
+                "id": 6423931831744050605,
+                "name": "Center for Inter-Religious Community, Learning and Experiences",
+                "type": "place_of_worship"
+            },
+            {
+                "id": 6175428807179520529,
+                "name": "NVIDIA Auditorium",
+                "type": "theatre"
+            },
+            {
+                "id": -8012990450917976925,
+                "name": "Stanford Institute for Economic Policy Research",
+                "type": "college"
+            },
+            {
+                "id": 7100543301313404488,
+                "name": "Bike Fixation",
+                "type": "bicycle_repair_station"
+            },
+            {
+                "id": -1803415985723864610,
+                "name": "Coupa Cafe - Huang Engineering Center",
+                "type": "cafe"
+            },
+            {
+                "id": 1294009460845436037,
+                "name": "Women’s Community Center",
+                "type": "community_centre"
+            },
+            {
+                "id": -2896250901046420506,
+                "name": "Lesbian, Gay, Bisexual, Transgender Community Resources Center",
+                "type": "community_centre"
+            },
+            {
+                "id": -5062374328738773602,
+                "name": "QSpot",
+                "type": "community_centre"
+            },
+            {
+                "id": -5474423821183860800,
+                "name": "Stanford Map Library",
+                "type": "library"
+            },
+            {
+                "id": -9094451320127114203,
+                "name": "Hoover Pharmacy",
+                "type": "pharmacy"
+            },
+            {
+                "id": 6307090776804502647,
+                "name": "COLLEGE RESTAURANTS INC",
+                "type": "restaurant"
+            },
+            {
+                "id": -1387220685846343289,
+                "name": "Wilbur Field Garage",
+                "type": "parking"
+            },
+            {
+                "id": -3011342251654200427,
+                "name": "Stock Farm Garage",
+                "type": "parking"
+            },
+            {
+                "id": -4984942175756484311,
+                "name": "LKSC Parking Lot",
+                "type": "parking"
+            },
+            {
+                "id": -7571148433289889156,
+                "name": "Varsity Lot",
+                "type": "parking"
+            },
+            {
+                "id": 4841713311879882091,
+                "name": "Frost Amphitheatre",
+                "type": "theatre"
+            },
+            {
+                "id": 7312382783792371047,
+                "name": "Tresidder Memorial Union",
+                "type": "community_centre"
+            },
+            {
+                "id": -6721342347366635027,
+                "name": "Galvez Parking Lot (L-96)",
+                "type": "parking"
+            },
+            {
+                "id": 2625102908215054731,
+                "name": "Casa Zapata",
+                "type": "dormitory"
+            },
+            {
+                "id": -4947730372725208569,
+                "name": "Sally Ride House",
+                "type": "dormitory"
+            },
+            {
+                "id": 4760875849956235211,
+                "name": "Donner House",
+                "type": "dormitory"
+            },
+            {
+                "id": -4897756549310525212,
+                "name": "Burbank House",
+                "type": "dormitory"
+            },
+            {
+                "id": 3934816335733709511,
+                "name": "Twain House East",
+                "type": "dormitory"
+            },
+            {
+                "id": -1863329195465644246,
+                "name": "Twain House North",
+                "type": "dormitory"
+            },
+            {
+                "id": -3077411894218131506,
+                "name": "Larkin House North",
+                "type": "dormitory"
+            },
+            {
+                "id": 7852896721629330743,
+                "name": "Larkin House West",
+                "type": "dormitory"
+            },
+            {
+                "id": 5098429095535965291,
+                "name": "Hoover Institution on War, Revolution and Peace",
+                "type": "college"
+            },
+            {
+                "id": -5860915716518496004,
+                "name": "Hoover Pavilion",
+                "type": "clinic"
+            },
+            {
+                "id": 3241649486983404339,
+                "name": "Bing Concert Hall",
+                "type": "theatre"
+            },
+            {
+                "id": 2029589186037242442,
+                "name": "Knight Management Center",
+                "type": "college"
+            },
+            {
+                "id": 8886555127603020543,
+                "name": "Stanford Comprehensive ENT Clinic",
+                "type": "clinic"
+            },
+            {
+                "id": -7996179286539017592,
+                "name": "Avanti",
+                "type": "fast_food"
+            },
+            {
+                "id": 4356558986305445858,
+                "name": "Palo Alto Fire Station 6",
+                "type": "fire_station"
+            },
+            {
+                "id": -7664795965286773299,
+                "name": "Stanford Auxiliary Library",
+                "type": "library"
+            },
+            {
+                "id": -938443000472585226,
+                "name": "Middle Earth",
+                "type": "fast_food"
+            },
+            {
+                "id": 3684711538343799568,
+                "name": "Beefeaters",
+                "type": "fast_food"
+            },
+            {
+                "id": -5841718762247017249,
+                "name": "Bollard",
+                "type": "fast_food"
+            },
+            {
+                "id": 4412261645573270156,
+                "name": "Ricker Dining Hall",
+                "type": "restaurant"
+            },
+            {
+                "id": 7753206830277516430,
+                "name": "Cecil H. Green Library",
+                "type": "library"
+            },
+            {
+                "id": -1467363257672014820,
+                "name": "Lathrop Library",
+                "type": "library"
+            },
+            {
+                "id": -1551849762862896397,
+                "name": "Stanford Station Post Office",
+                "type": "post_office"
+            },
+            {
+                "id": 5702083571708361846,
+                "name": "Via Ortega Garage",
+                "type": "parking"
+            },
+            {
+                "id": -4705471838709608260,
+                "name": "Roth Way Garage",
+                "type": "parking"
+            },
+            {
+                "id": 8456412958544738046,
+                "name": "Pasteur Visitor Garage A",
+                "type": "parking"
+            },
+            {
+                "id": -4849894573138561516,
+                "name": "Knight Management Center Garage",
+                "type": "parking"
+            },
+            {
+                "id": -4339943715886462123,
+                "name": "Hoover Pavilion Garage",
+                "type": "parking"
+            },
+            {
+                "id": -4531490179415195964,
+                "name": "Arrillaga Family Dining Commons",
+                "type": "restaurant"
+            },
+            {
+                "id": -614034577268947054,
+                "name": "Terman Fountain",
+                "type": "fountain"
+            },
+            {
+                "id": -4189835319790406752,
+                "name": "Biology Loading Dock",
+                "type": "parking"
+            },
+            {
+                "id": 188300111146922951,
+                "name": "Shumway Fountain",
+                "type": "fountain"
+            },
+            {
+                "id": 7926776138984907917,
+                "name": "Lasuen Restroom",
+                "type": "toilets"
+            },
+            {
+                "id": 460086927461895033,
+                "name": "Memorial Church",
+                "type": "place_of_worship"
+            },
+            {
+                "id": 1825787044026439023,
+                "name": "Pasteur Staff Garage",
+                "type": "parking"
+            },
+            {
+                "id": 2653625582438997329,
+                "name": "Faculty Club",
+                "type": "restaurant"
+            },
+            {
+                "id": 5677348531972256617,
+                "name": "White Memorial Fountain",
+                "type": "fountain"
+            },
+            {
+                "id": 7366141747588522935,
+                "name": "Lucile Packard Children's Hospital",
+                "type": "hospital"
+            }
+        ]
+    }
+}

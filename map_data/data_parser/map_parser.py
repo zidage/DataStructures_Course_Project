@@ -10,9 +10,11 @@
 """
 
 
+from fileinput import filename
 import geopandas as gpd
 import os
 import shutil
+from matplotlib.font_manager import json_dump
 import matplotlib.pyplot as plt
 import json
 import networkx as nx
@@ -92,7 +94,7 @@ def info_parser(file):
     """
     with open(file, 'r', encoding='gb2312') as f:
         js = json.load(f)
-        return js["university"]["name"]
+        return js["university"]["name"], js["university"]["rating"]
 
 
 def regular_parser(file):
@@ -143,7 +145,8 @@ def amenity_parser(file):
     try:
         gdf = gpd.read_file(file)
         gdf = gdf[gdf['amenity'] != 'university'].drop_duplicates(subset=['name']) # 将含'university'的数据行删去，并去除名字重复的数据
-        gdf = gdf[gdf['name'] != 'nan'] # 将含'nan'的数据行删去
+        gdf = gdf[~gdf['name'].astype(str).str.isdigit()] # 将仅为数字的数据行删掉（防止垃圾数据）
+        gdf.replace({'nan': '可能感兴趣的地点'}, inplace=True)
         # print(gdf.head())
         return gdf
     except:
@@ -175,7 +178,7 @@ def amenity_filter(amenity_gdf, area_gdf):
         return amenity_gdf
 
 
-def map_view_generator(map_basket, university):
+def map_view_generator(map_basket, university, offset=0.001):
     """
     根据各类数据集合对各种数据进行可视化的函数
 
@@ -187,9 +190,9 @@ def map_view_generator(map_basket, university):
     void
     """
 
-    # 创建thumbnail文件夹，目前该函数仅用于生成缩略图
-    if not os.path.exists(f'map_data/map_thumbnail'):
-        os.makedirs(f'map_data/map_thumbnail')
+    # 创建view文件夹
+    if not os.path.exists(f'map_data/map_view'):
+        os.makedirs(f'map_data/map_view')
 
     if map_basket["graph"] is not None: # 先对存储有road network的graph数据进行可视化，具体参数详见osmnx及matplotlib文档
         fig, ax = ox.plot_graph(
@@ -202,6 +205,7 @@ def map_view_generator(map_basket, university):
             node_size=0,
         )
 
+
         # 显示路名
         for _, edge in ox.graph_to_gdfs(map_basket["graph"], nodes=False).fillna("").iterrows():
             random_number = randint(1, 100) # 由于每条边都有命名，所以将随机显示，避免文字过密
@@ -213,10 +217,10 @@ def map_view_generator(map_basket, university):
         # 显示地点占据区域
         if map_basket["area"] is not None:
             map_basket["area"].plot(ax=ax, facecolor='dimgrey', linewidth=0.6, edgecolor='black', alpha=0.5)
-            offset = 0.001 # offset参数，单位为"°"，用于控制缩放范围
+            # offset参数，单位为"°"，用于控制缩放范围
             bbox = map_basket["area"].total_bounds # 区域占据的bbox大小，用于限定显示范围
-            ax.set_xlim(bbox[0]-offset, bbox[2]+offset)
-            ax.set_ylim(bbox[1]-offset, bbox[3]+offset)
+            ax.set_xlim(bbox[0]+offset, bbox[2]-offset)
+            ax.set_ylim(bbox[1]+offset, bbox[3]-offset)
 
         # 显示建筑
         if map_basket["building"] is not None:
@@ -224,18 +228,43 @@ def map_view_generator(map_basket, university):
 
         #显示设施
         if map_basket["amenity"] is not None:
-            filtered_gdf = amenity_filter(map_basket["amenity"], map_basket["area"])
+            # filtered_gdf = amenity_filter(map_basket["amenity"], map_basket["area"])
             # 显示设施名，并用红点标注
-            for idx, row in filtered_gdf.iterrows():
+            for idx, row in map_basket["amenity"].iterrows():
                 centroid = row.geometry.centroid
-                ax.text(centroid.x, centroid.y, row['name'], fontsize=4, fontname='Microsoft YaHei', color='white')
+                text = row['name']
+                ax.annotate(text, (centroid.x, centroid.y), fontsize=4, fontname='Microsoft YaHei', color='white')
                 ax.scatter(centroid.x, centroid.y, color='red', s=10)
+        
 
+        
         # 缩略图存储文件名
         file_name = university.split('\\')[1]
         # 存储文件
-        plt.savefig(f'map_data/map_thumbnail/map_thumbnail_{file_name}.png', bbox_inches='tight', dpi=300)
+        plt.savefig(f'map_data/map_view/map_view_{file_name}_{offset}.png', bbox_inches='tight', dpi=300)
         plt.close()
+
+
+def export_json(map_basket, amenity_basket, university):
+    file_name = university.split('\\')[1]
+    # gdf = amenity_filter(map_basket["amenity"], map_basket["area"])
+    # print(map_basket["amenity"].head(100))
+    amenity_basket["amenity_list"] = []
+    try:
+        for idx, row in map_basket["amenity"].iterrows():
+            amenity_basket["amenity_list"].append({"id": hash(row["name"]), "name": row["name"], "type": row["amenity"]})
+    except:
+        print(f"No amenity in {file_name}")
+    export_data = {
+        "id": map_basket["id"],
+        "name": map_basket["name"],
+        "rating": map_basket["rating"],
+        "popularity": map_basket["popularity"],
+        "data_path": f"map_data/university_map/{file_name}",
+        "amenity": amenity_basket
+    }
+    with open(f"map_data/map_exports/{file_name}_map", 'w', encoding='utf-8') as file:
+        json.dump(export_data, file, indent=4, ensure_ascii=False)
 
 
 # main函数
@@ -245,13 +274,17 @@ university_directories = list_subdirectories(root_dir)
 
 for university in university_directories:
     files_path = get_files_in_folder(university)
-    map_basket = {"name": None, "graph": None, "area": None, 
+    map_basket = {"id": None, "name": None, "rating": None, "popularity": None, "graph": None, "area": None, 
                   "building": None, "amenity": None}
+    amenity_basket = {"affiliation": None, "amenity_list": None}
     for file in files_path:   
         parsed_line = file.split('_')
         file_type = parsed_line[-1]
         if file_type == 'info.json':
-            map_basket["name"] = info_parser(file)
+            map_basket["name"], map_basket["rating"] = info_parser(file)
+            map_basket["id"] = hash(map_basket["name"])
+            map_basket["popularity"] = int(map_basket["rating"]) * randint(10, 25)
+            amenity_basket["affiliation"] = map_basket["id"]
         elif file_type == 'graph.graphml':
             map_basket["graph"] = graph_parser(file)
         elif file_type == 'area.gpkg':
@@ -261,11 +294,6 @@ for university in university_directories:
         elif file_type == 'amenity.gpkg':
             map_basket["amenity"] = amenity_parser(file)
 
-    map_view_generator(map_basket, university)
-    print(university + ' thumbnail generated!')
-        
-            
-
-
-
-
+    map_view_generator(map_basket, university, offset=-0.001)
+    export_json(map_basket, amenity_basket, university)
+    print(university + 'map image and export data generated!')

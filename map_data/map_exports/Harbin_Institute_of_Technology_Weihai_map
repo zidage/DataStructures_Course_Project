@@ -1,0 +1,82 @@
+{
+    "id": -8584650198259797926,
+    "name": "哈尔滨工业大学威海校区",
+    "rating": 4.5,
+    "popularity": 80,
+    "data_path": "map_data/university_map/Harbin_Institute_of_Technology_Weihai",
+    "amenity": {
+        "affiliation": -8584650198259797926,
+        "amenity_list": [
+            {
+                "id": -9171859251967414744,
+                "name": "可能感兴趣的地点",
+                "type": "hospital"
+            },
+            {
+                "id": -3173979487476448584,
+                "name": "学苑餐厅",
+                "type": "restaurant"
+            },
+            {
+                "id": -3178714907738802315,
+                "name": "学子餐厅",
+                "type": "restaurant"
+            },
+            {
+                "id": 618677083870965918,
+                "name": "哈尔滨工业大学（威海）图书馆",
+                "type": "library"
+            },
+            {
+                "id": 1242434134266946509,
+                "name": "新能源学院",
+                "type": "college"
+            },
+            {
+                "id": 7588500711070960596,
+                "name": "材料科学与工程学院",
+                "type": "college"
+            },
+            {
+                "id": -6493529611252216817,
+                "name": "信息科学与工程学院",
+                "type": "college"
+            },
+            {
+                "id": -3450167603446521668,
+                "name": "汽车工程学院",
+                "type": "college"
+            },
+            {
+                "id": -1848830533716998690,
+                "name": "语言文学学院",
+                "type": "college"
+            },
+            {
+                "id": -7203362692100669757,
+                "name": "理学院",
+                "type": "college"
+            },
+            {
+                "id": 7346691648360446910,
+                "name": "海洋工程学院",
+                "type": "college"
+            },
+            {
+                "id": 7721842950618847310,
+                "name": "校医院",
+                "type": "hospital"
+            },
+            {
+                "id": 1750885036512677302,
+                "name": "三元亭",
+                "type": "shelter"
+            },
+            {
+                "id": 8170286601428060728,
+                "name": "校园警务工作站",
+                "type": "police"
+            }
+        ]
+    }
+}

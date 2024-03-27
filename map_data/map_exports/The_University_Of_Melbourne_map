@@ -1,0 +1,652 @@
+{
+    "id": -889907405068126455,
+    "name": "The University of Melbourne",
+    "rating": 4.5,
+    "popularity": 64,
+    "data_path": "map_data/university_map/The_University_Of_Melbourne",
+    "amenity": {
+        "affiliation": -889907405068126455,
+        "amenity_list": [
+            {
+                "id": -8985730196273735180,
+                "name": "Baretto Espresso Bar",
+                "type": "cafe"
+            },
+            {
+                "id": 46867384600767002,
+                "name": "Cafe Commercio",
+                "type": "cafe"
+            },
+            {
+                "id": 6731618934838402666,
+                "name": "Amicus Espresso",
+                "type": "cafe"
+            },
+            {
+                "id": -9171859251967414744,
+                "name": "可能感兴趣的地点",
+                "type": "telephone"
+            },
+            {
+                "id": -9065656469703759278,
+                "name": "University Square Car Park",
+                "type": "parking_entrance"
+            },
+            {
+                "id": 9006450915390996908,
+                "name": "Centre for Theology and Ministry",
+                "type": "place_of_worship"
+            },
+            {
+                "id": 2000893276311652691,
+                "name": "Sage And Grace Cafe",
+                "type": "cafe"
+            },
+            {
+                "id": 7056892279509312,
+                "name": "Secure Bicycle Hub",
+                "type": "bicycle_parking"
+            },
+            {
+                "id": 3167630722213678881,
+                "name": "Royal Parade Carpark",
+                "type": "parking"
+            },
+            {
+                "id": -4879717199154674685,
+                "name": "John Medley bicycle parking",
+                "type": "bicycle_parking"
+            },
+            {
+                "id": 8079470850100672988,
+                "name": "Giblin Eunson Library",
+                "type": "library"
+            },
+            {
+                "id": -4734502153997832773,
+                "name": "Commonwealth Bank",
+                "type": "bank"
+            },
+            {
+                "id": -6192287947289289908,
+                "name": "Espresso Bar",
+                "type": "cafe"
+            },
+            {
+                "id": 6025221341077760574,
+                "name": "Carte Crêpes",
+                "type": "cafe"
+            },
+            {
+                "id": -409674545550477383,
+                "name": "House of Cards",
+                "type": "cafe"
+            },
+            {
+                "id": -7165127426153202664,
+                "name": "Western Precinct",
+                "type": "bicycle_parking"
+            },
+            {
+                "id": -5031590369056344627,
+                "name": "Dr DAX Kitchen",
+                "type": "cafe"
+            },
+            {
+                "id": 3887359408646821888,
+                "name": "Covered bike racks",
+                "type": "bicycle_parking"
+            },
+            {
+                "id": 3532842971238413096,
+                "name": "Bike rack",
+                "type": "bicycle_parking"
+            },
+            {
+                "id": -316180844877547686,
+                "name": "Granger Museum southern bike racks",
+                "type": "bicycle_parking"
+            },
+            {
+                "id": 3087621205275866655,
+                "name": "Ho Ho's Canteen",
+                "type": "cafe"
+            },
+            {
+                "id": 4463530602767760859,
+                "name": "Granger Museum northern bike racks",
+                "type": "bicycle_parking"
+            },
+            {
+                "id": -3509189481082772232,
+                "name": "Cardboard",
+                "type": "waste_basket"
+            },
+            {
+                "id": 5666744718045637806,
+                "name": "BBQ stove",
+                "type": "bbq"
+            },
+            {
+                "id": 511933521272385334,
+                "name": "Bike Repair Station",
+                "type": "bicycle_repair_station"
+            },
+            {
+                "id": 1662165901379402,
+                "name": "Haymarket Place Cafe",
+                "type": "cafe"
+            },
+            {
+                "id": -8114706091185690772,
+                "name": "Sunderland Theatre",
+                "type": "events_venue"
+            },
+            {
+                "id": 5196554459940521577,
+                "name": "Australia Post Parcel Locker",
+                "type": "parcel_locker"
+            },
+            {
+                "id": -8331598478464048373,
+                "name": "Toothpicks",
+                "type": "cafe"
+            },
+            {
+                "id": -1839443235964916625,
+                "name": "Professors Walk Cafe",
+                "type": "cafe"
+            },
+            {
+                "id": 7431247714420339315,
+                "name": "The Amphitheatre",
+                "type": "theatre"
+            },
+            {
+                "id": 1773031691352583964,
+                "name": "Old Geology Theatre 1",
+                "type": "events_venue"
+            },
+            {
+                "id": 9087712228605805445,
+                "name": "Melbourne Dental Xray",
+                "type": "clinic"
+            },
+            {
+                "id": -2383732375939510002,
+                "name": "The Melba Hall",
+                "type": "theatre"
+            },
+            {
+                "id": 5950552974850215623,
+                "name": "Scholar & Co",
+                "type": "cafe"
+            },
+            {
+                "id": 8949368627589841789,
+                "name": "Standing Room",
+                "type": "cafe"
+            },
+            {
+                "id": 1685042442941986135,
+                "name": "Refuel Café",
+                "type": "cafe"
+            },
+            {
+                "id": 7557012181435610460,
+                "name": "Mofo Burgers",
+                "type": "fast_food"
+            },
+            {
+                "id": 5888800465616633917,
+                "name": "Dalton McCaughey Library",
+                "type": "library"
+            },
+            {
+                "id": 4283125116829720576,
+                "name": "Axil Coffee Roasters",
+                "type": "cafe"
+            },
+            {
+                "id": -3785537294178378950,
+                "name": "Cafe 723",
+                "type": "restaurant"
+            },
+            {
+                "id": -8795954147140615176,
+                "name": "Zambrero",
+                "type": "fast_food"
+            },
+            {
+                "id": 3803844475334305113,
+                "name": "University Hall",
+                "type": "events_venue"
+            },
+            {
+                "id": 6032740787385733289,
+                "name": "Guild Theatre",
+                "type": "theatre"
+            },
+            {
+                "id": 8625823153471764255,
+                "name": "Prest Theatre",
+                "type": "events_venue"
+            },
+            {
+                "id": 8863582410434097273,
+                "name": "Cosmos by St Ali",
+                "type": "restaurant"
+            },
+            {
+                "id": 5420400400771301305,
+                "name": "Market Hall",
+                "type": "events_venue"
+            },
+            {
+                "id": -6363930636785138358,
+                "name": "Harold Woodruff Lecture Theatre",
+                "type": "events_venue"
+            },
+            {
+                "id": 8439703132077714337,
+                "name": "Union Theatre",
+                "type": "theatre"
+            },
+            {
+                "id": 1464603092644321545,
+                "name": "St Ali Canteen",
+                "type": "cafe"
+            },
+            {
+                "id": -5876054842301677788,
+                "name": "Copland Theatre & Event Venue",
+                "type": "events_venue"
+            },
+            {
+                "id": -5589616864773047343,
+                "name": "David P Derham Theatre",
+                "type": "events_venue"
+            },
+            {
+                "id": 5882298304507856792,
+                "name": "Kathleen Fitzpatrick Theatre & Event Venue",
+                "type": "events_venue"
+            },
+            {
+                "id": 2438789801234530767,
+                "name": "JH Michell Theatre",
+                "type": "events_venue"
+            },
+            {
+                "id": 1292745073137869288,
+                "name": "Ian Potter Auditorium",
+                "type": "events_venue"
+            },
+            {
+                "id": -8932466687707976820,
+                "name": "Law Library",
+                "type": "library"
+            },
+            {
+                "id": -3867753051637794248,
+                "name": "To Be Advised",
+                "type": "cafe"
+            },
+            {
+                "id": -1676213227955814645,
+                "name": "Old Geology Theatre 2",
+                "type": "events_venue"
+            },
+            {
+                "id": -839355760107832940,
+                "name": "Carrillo Gantner Theatre",
+                "type": "events_venue"
+            },
+            {
+                "id": 3625720241432845624,
+                "name": "EyeCare Clinic",
+                "type": "clinic"
+            },
+            {
+                "id": 7865700742701264430,
+                "name": "Roll'd",
+                "type": "fast_food"
+            },
+            {
+                "id": 6189178442521149536,
+                "name": "Passeggiata",
+                "type": "fast_food"
+            },
+            {
+                "id": 3978429190202968670,
+                "name": "Moonfishh",
+                "type": "restaurant"
+            },
+            {
+                "id": -8306993352961107761,
+                "name": "Journey's Cafe",
+                "type": "cafe"
+            },
+            {
+                "id": 1051013227576724074,
+                "name": "Gong Cha",
+                "type": "cafe"
+            },
+            {
+                "id": -7346892589315858648,
+                "name": "Architecture, Building & Planning Library",
+                "type": "library"
+            },
+            {
+                "id": 8910994733645882443,
+                "name": "The Open Stage",
+                "type": "events_venue"
+            },
+            {
+                "id": 2727445377013873028,
+                "name": "Laby Theatre",
+                "type": "events_venue"
+            },
+            {
+                "id": 5708810807970369675,
+                "name": "Hercus Theatre",
+                "type": "events_venue"
+            },
+            {
+                "id": 9198835621982322360,
+                "name": "Dulux Gallery",
+                "type": "events_venue"
+            },
+            {
+                "id": -110953983746399999,
+                "name": "Malaysian Theatre",
+                "type": "events_venue"
+            },
+            {
+                "id": -7861581349501469270,
+                "name": "Singapore Theatre",
+                "type": "events_venue"
+            },
+            {
+                "id": -499931358542439966,
+                "name": "B117 Theatre & Event Venue",
+                "type": "events_venue"
+            },
+            {
+                "id": 541508993738244044,
+                "name": "South Lawn Car Park",
+                "type": "parking_entrance"
+            },
+            {
+                "id": -389293188106527683,
+                "name": "Wyselaskie Yuma Auditorium",
+                "type": "theatre"
+            },
+            {
+                "id": 6827723659663581090,
+                "name": "Bike Lock",
+                "type": "bicycle_parking"
+            },
+            {
+                "id": -3640771661448534566,
+                "name": "Drinking Fountain",
+                "type": "drinking_water"
+            },
+            {
+                "id": -6719158438552249003,
+                "name": "Vending Machine",
+                "type": "vending_machine"
+            },
+            {
+                "id": -434771871977626056,
+                "name": "Payphone",
+                "type": "telephone"
+            },
+            {
+                "id": -1377269354519816128,
+                "name": "PappaRich",
+                "type": "restaurant"
+            },
+            {
+                "id": -2517042239928313507,
+                "name": "Thailander",
+                "type": "fast_food"
+            },
+            {
+                "id": -7807094722724980145,
+                "name": "Rice Workshop",
+                "type": "fast_food"
+            },
+            {
+                "id": -7141923716148588723,
+                "name": "HealthSmart Pharmacy",
+                "type": "pharmacy"
+            },
+            {
+                "id": -6263429673421238588,
+                "name": "University Food Relief Program",
+                "type": "social_facility"
+            },
+            {
+                "id": -696356525213048250,
+                "name": "Castro's Kiosk",
+                "type": "cafe"
+            },
+            {
+                "id": 7674406120299250874,
+                "name": "Science Gallery Cafe",
+                "type": "cafe"
+            },
+            {
+                "id": 2244663411855127660,
+                "name": "Superfloor Cafe",
+                "type": "cafe"
+            },
+            {
+                "id": 1174764158049249619,
+                "name": "Alleyway Kitchen",
+                "type": "fast_food"
+            },
+            {
+                "id": -4870565390929056662,
+                "name": "Student Microwave Lounge",
+                "type": "kitchen"
+            },
+            {
+                "id": -1609970835336063153,
+                "name": "Harold White Theatrette",
+                "type": "events_venue"
+            },
+            {
+                "id": 951269445302525472,
+                "name": "Medley Theatre",
+                "type": "events_venue"
+            },
+            {
+                "id": -3459916023945090157,
+                "name": "Lowe Theatre",
+                "type": "events_venue"
+            },
+            {
+                "id": -4629618060805330201,
+                "name": "Latham Theatre",
+                "type": "events_venue"
+            },
+            {
+                "id": 8734153804835735260,
+                "name": "Wright Theatre",
+                "type": "events_venue"
+            },
+            {
+                "id": 1496382885418737923,
+                "name": "Masson Theatre",
+                "type": "events_venue"
+            },
+            {
+                "id": 2257251857598821512,
+                "name": "Public Lecture Theatre",
+                "type": "events_venue"
+            },
+            {
+                "id": -3742659281266852237,
+                "name": "Chisholm Theatrette",
+                "type": "events_venue"
+            },
+            {
+                "id": -4660859528580451659,
+                "name": "Middle Theatrette",
+                "type": "events_venue"
+            },
+            {
+                "id": 4697227455326418317,
+                "name": "Lower Theatrette",
+                "type": "events_venue"
+            },
+            {
+                "id": -4243717927313063306,
+                "name": "Lyle Theatre",
+                "type": "events_venue"
+            },
+            {
+                "id": 4109453953159874654,
+                "name": "Rivett Theatre",
+                "type": "events_venue"
+            },
+            {
+                "id": -3621071537173836676,
+                "name": "Fritz Loewe Theatrette",
+                "type": "events_venue"
+            },
+            {
+                "id": -7822169849487458313,
+                "name": "Turner Theatre",
+                "type": "events_venue"
+            },
+            {
+                "id": -3441050784237216339,
+                "name": "Agar Theatrette",
+                "type": "events_venue"
+            },
+            {
+                "id": -7767121621210065502,
+                "name": "ESJ King Theatre",
+                "type": "events_venue"
+            },
+            {
+                "id": -5324575785524358398,
+                "name": "Cumming Theatre",
+                "type": "events_venue"
+            },
+            {
+                "id": 3914411183169747251,
+                "name": "Interactive Cinema Space",
+                "type": "events_venue"
+            },
+            {
+                "id": 8789808021182614956,
+                "name": "Forum Theatre",
+                "type": "events_venue"
+            },
+            {
+                "id": 9074982046247415105,
+                "name": "Bio21 Auditorium",
+                "type": "events_venue"
+            },
+            {
+                "id": 1460015905597785191,
+                "name": "David Wood Theatre",
+                "type": "events_venue"
+            },
+            {
+                "id": 5275541401331698021,
+                "name": "The Royal Melbourne Hospital",
+                "type": "hospital"
+            },
+            {
+                "id": 4859606100183317911,
+                "name": "Royal Dental Hospital of Melbourne",
+                "type": "hospital"
+            },
+            {
+                "id": -410387583691294759,
+                "name": "Brownless Biomedical Library",
+                "type": "library"
+            },
+            {
+                "id": 6564476518074475468,
+                "name": "Baillieu Library",
+                "type": "library"
+            },
+            {
+                "id": 1659438165433972417,
+                "name": "Eastern Resource Centre Library",
+                "type": "library"
+            },
+            {
+                "id": 5908825117538769344,
+                "name": "Newman Chapel",
+                "type": "place_of_worship"
+            },
+            {
+                "id": 8265413651329792891,
+                "name": "Trinity College",
+                "type": "student_accommodation"
+            },
+            {
+                "id": -3303065437546521127,
+                "name": "St Mary's Newman Academic Centre",
+                "type": "library"
+            },
+            {
+                "id": 1114826759473305732,
+                "name": "Janet Clarke Hall",
+                "type": "student_accommodation"
+            },
+            {
+                "id": -7912544129574711246,
+                "name": "University Health",
+                "type": "clinic"
+            },
+            {
+                "id": -1015850620893771877,
+                "name": "Newman College",
+                "type": "student_accommodation"
+            },
+            {
+                "id": 3600623137591566840,
+                "name": "St Mary's College",
+                "type": "student_accommodation"
+            },
+            {
+                "id": 6641177713389565712,
+                "name": "St Hilda's College",
+                "type": "student_accommodation"
+            },
+            {
+                "id": 2723850718851064830,
+                "name": "Queen's College",
+                "type": "student_accommodation"
+            },
+            {
+                "id": -860647788121116222,
+                "name": "Building 195",
+                "type": "parking"
+            },
+            {
+                "id": 318727603264841463,
+                "name": "Queensberry Children's Centre",
+                "type": "kindergarten"
+            },
+            {
+                "id": 2437897290035006541,
+                "name": "Ormond College",
+                "type": "student_accommodation"
+            },
+            {
+                "id": -7381401719151325006,
+                "name": "The University High School Elizabeth Blackburn School of Sciences",
+                "type": "school"
+            }
+        ]
+    }
+}

@@ -263,3 +263,6 @@ fabric.properties
 
 test*
 *_test
+
+*.iml
+*.idea

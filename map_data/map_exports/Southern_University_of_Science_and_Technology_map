@@ -1,0 +1,102 @@
+{
+    "id": 1972480831357367802,
+    "name": "南方科技大学",
+    "rating": 4.9,
+    "popularity": 96,
+    "data_path": "map_data/university_map/Southern_University_of_Science_and_Technology",
+    "amenity": {
+        "affiliation": 1972480831357367802,
+        "amenity_list": [
+            {
+                "id": -556260568770108665,
+                "name": "社康中心",
+                "type": "clinic"
+            },
+            {
+                "id": -3342800525777398918,
+                "name": "无人值守图书馆",
+                "type": "library"
+            },
+            {
+                "id": 8887592171116698603,
+                "name": "星巴克",
+                "type": "cafe"
+            },
+            {
+                "id": -2705420451006247488,
+                "name": "赛百味",
+                "type": "fast_food"
+            },
+            {
+                "id": -1994095595679125001,
+                "name": "肯德基",
+                "type": "fast_food"
+            },
+            {
+                "id": -8886063053064473798,
+                "name": "致仁咖啡店",
+                "type": "cafe"
+            },
+            {
+                "id": -9171859251967414744,
+                "name": "可能感兴趣的地点",
+                "type": "bicycle_parking"
+            },
+            {
+                "id": 3411695268291606014,
+                "name": "中心餐厅",
+                "type": "fast_food"
+            },
+            {
+                "id": -71954482518158109,
+                "name": "荔园食堂",
+                "type": "fast_food"
+            },
+            {
+                "id": 6468008004854217537,
+                "name": "第二学生餐厅",
+                "type": "canteen"
+            },
+            {
+                "id": 3915933746904547589,
+                "name": "教工餐厅",
+                "type": "canteen"
+            },
+            {
+                "id": -3050604058974844112,
+                "name": "学生食堂",
+                "type": "fast_food"
+            },
+            {
+                "id": 6225385337119287440,
+                "name": "南科大幼儿园",
+                "type": "kindergarten"
+            },
+            {
+                "id": 560162327762970305,
+                "name": "南方科技大学图书馆",
+                "type": "library"
+            },
+            {
+                "id": 7389806353459184820,
+                "name": "欣园总站",
+                "type": "bus_station"
+            },
+            {
+                "id": 7927638357923918490,
+                "name": "雁落社射箭训练场",
+                "type": "hunting_stand"
+            },
+            {
+                "id": -178765421976254389,
+                "name": "一丹图书馆",
+                "type": "library"
+            },
+            {
+                "id": 7463310484961267544,
+                "name": "涵泳图书馆",
+                "type": "library"
+            }
+        ]
+    }
+}

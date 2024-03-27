@@ -1,0 +1,57 @@
+{
+    "id": -7741725836123067804,
+    "name": "中国矿业大学",
+    "rating": 3.7,
+    "popularity": 33,
+    "data_path": "map_data/university_map/China_University_of_Mining_and_Technology",
+    "amenity": {
+        "affiliation": -7741725836123067804,
+        "amenity_list": [
+            {
+                "id": 900343631108523610,
+                "name": "艺术学院",
+                "type": "college"
+            },
+            {
+                "id": -7918627329682461342,
+                "name": "计算机学院",
+                "type": "college"
+            },
+            {
+                "id": -5891318223996377748,
+                "name": "安全学院",
+                "type": "college"
+            },
+            {
+                "id": -6202920679539423752,
+                "name": "南湖校医务室",
+                "type": "hospital"
+            },
+            {
+                "id": 8097193153681221931,
+                "name": "孙越崎学院",
+                "type": "college"
+            },
+            {
+                "id": -5820322879389474228,
+                "name": "一食堂",
+                "type": "restaurant"
+            },
+            {
+                "id": 6938255721285249587,
+                "name": "二食堂",
+                "type": "restaurant"
+            },
+            {
+                "id": -8550035063969873401,
+                "name": "三食堂",
+                "type": "restaurant"
+            },
+            {
+                "id": -5676736745664255315,
+                "name": "中国矿业大学图书馆",
+                "type": "library"
+            }
+        ]
+    }
+}

@@ -1,0 +1,177 @@
+{
+    "id": -5202043630499744352,
+    "name": "北京师范大学",
+    "rating": 4.5,
+    "popularity": 40,
+    "data_path": "map_data/university_map/Beijing_Normal_University",
+    "amenity": {
+        "affiliation": -5202043630499744352,
+        "amenity_list": [
+            {
+                "id": 5125954494932812961,
+                "name": "麦当劳",
+                "type": "fast_food"
+            },
+            {
+                "id": -5674005071484638797,
+                "name": "御马墩",
+                "type": "restaurant"
+            },
+            {
+                "id": 9192883423807033123,
+                "name": "12橡树咖啡",
+                "type": "cafe"
+            },
+            {
+                "id": -8603869361680684989,
+                "name": "兰蕙餐厅",
+                "type": "restaurant"
+            },
+            {
+                "id": 9070184280483573083,
+                "name": "天文学系",
+                "type": "college"
+            },
+            {
+                "id": -272567487991440234,
+                "name": "物理学系",
+                "type": "college"
+            },
+            {
+                "id": 3368884126981813589,
+                "name": "白鹿江西餐厅",
+                "type": "restaurant"
+            },
+            {
+                "id": 7579254030688769135,
+                "name": "教工食堂",
+                "type": "restaurant"
+            },
+            {
+                "id": 2794207490279464499,
+                "name": "实习餐馆",
+                "type": "restaurant"
+            },
+            {
+                "id": -6479453496846753400,
+                "name": "京师大厦自助餐厅",
+                "type": "restaurant"
+            },
+            {
+                "id": -5322728829581896890,
+                "name": "兼味轩",
+                "type": "restaurant"
+            },
+            {
+                "id": -3178195227665427605,
+                "name": "新乐群食堂",
+                "type": "restaurant"
+            },
+            {
+                "id": -3719323787869167902,
+                "name": "西北风味餐厅",
+                "type": "restaurant"
+            },
+            {
+                "id": 302458859756792511,
+                "name": "学五食堂",
+                "type": "restaurant"
+            },
+            {
+                "id": 1109745870462393613,
+                "name": "想都香",
+                "type": "restaurant"
+            },
+            {
+                "id": -3155524297567557696,
+                "name": "学生第六食堂",
+                "type": "restaurant"
+            },
+            {
+                "id": -2360302623558136509,
+                "name": "八喜日本料理",
+                "type": "restaurant"
+            },
+            {
+                "id": -1615463825716307736,
+                "name": "爱德堡西餐咖啡吧",
+                "type": "restaurant"
+            },
+            {
+                "id": -607323635443681388,
+                "name": "Western Restaurant",
+                "type": "restaurant"
+            },
+            {
+                "id": 5982730678594704939,
+                "name": "艺术楼",
+                "type": "school"
+            },
+            {
+                "id": 4173513380784375838,
+                "name": "生地楼",
+                "type": "school"
+            },
+            {
+                "id": 3686521538102537644,
+                "name": "化学楼",
+                "type": "school"
+            },
+            {
+                "id": -8404452562403820911,
+                "name": "北师大实验小学",
+                "type": "school"
+            },
+            {
+                "id": -2599306098555234701,
+                "name": "实习餐厅",
+                "type": "restaurant"
+            },
+            {
+                "id": -336780293755202073,
+                "name": "教六楼",
+                "type": "college"
+            },
+            {
+                "id": -4754341751284050146,
+                "name": "敬文讲堂",
+                "type": "college"
+            },
+            {
+                "id": 5435203848948537,
+                "name": "教七楼",
+                "type": "college"
+            },
+            {
+                "id": 1369295072259056445,
+                "name": "京师学堂",
+                "type": "college"
+            },
+            {
+                "id": 6169805818360780772,
+                "name": "新乐群餐厅",
+                "type": "restaurant"
+            },
+            {
+                "id": -5366811676951827101,
+                "name": "西南餐厅",
+                "type": "restaurant"
+            },
+            {
+                "id": -586313097052243963,
+                "name": "西北餐厅",
+                "type": "restaurant"
+            },
+            {
+                "id": -3966432197968463533,
+                "name": "北京师范大学附属幼儿园",
+                "type": "kindergarten"
+            },
+            {
+                "id": -9171859251967414744,
+                "name": "可能感兴趣的地点",
+                "type": "parking"
+            }
+        ]
+    }
+}

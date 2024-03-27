@@ -1,0 +1,47 @@
+{
+    "id": -7646506872327263310,
+    "name": "北京理工大学",
+    "rating": 4.5,
+    "popularity": 48,
+    "data_path": "map_data/university_map/Beijing_Institute_of_Technology",
+    "amenity": {
+        "affiliation": -7646506872327263310,
+        "amenity_list": [
+            {
+                "id": -287162399198483089,
+                "name": "中国石油",
+                "type": "fuel"
+            },
+            {
+                "id": 3271603355267479273,
+                "name": "招商银行双榆树支行",
+                "type": "bank"
+            },
+            {
+                "id": -4008340212093257193,
+                "name": "浙商银行",
+                "type": "bank"
+            },
+            {
+                "id": 3120267257393974074,
+                "name": "北京银行",
+                "type": "bank"
+            },
+            {
+                "id": -9171859251967414744,
+                "name": "可能感兴趣的地点",
+                "type": "parking"
+            },
+            {
+                "id": -4355141112493879226,
+                "name": "快递服务中心",
+                "type": "parcel_locker"
+            },
+            {
+                "id": 782810199006244917,
+                "name": "北京理工大学附属小学",
+                "type": "school"
+            }
+        ]
+    }
+}

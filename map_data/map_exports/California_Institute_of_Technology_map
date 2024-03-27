@@ -1,0 +1,102 @@
+{
+    "id": 7832717898866730018,
+    "name": "加州理工学院",
+    "rating": 4.7,
+    "popularity": 76,
+    "data_path": "map_data/university_map/California_Institute_of_Technology",
+    "amenity": {
+        "affiliation": 7832717898866730018,
+        "amenity_list": [
+            {
+                "id": -9171859251967414744,
+                "name": "可能感兴趣的地点",
+                "type": "parking_entrance"
+            },
+            {
+                "id": -2462480852585616719,
+                "name": "United States Post Office",
+                "type": "post_office"
+            },
+            {
+                "id": 4272753519746370512,
+                "name": "Red Door Café",
+                "type": "restaurant"
+            },
+            {
+                "id": 601664457631275937,
+                "name": "Parking Structure 2",
+                "type": "parking"
+            },
+            {
+                "id": -8874299893153616191,
+                "name": "Parking Structure 1",
+                "type": "parking"
+            },
+            {
+                "id": -2326012697687066376,
+                "name": "Lot 6",
+                "type": "parking"
+            },
+            {
+                "id": -21383846756771877,
+                "name": "Young Student Health Center",
+                "type": "doctors"
+            },
+            {
+                "id": 4677348651543996966,
+                "name": "Fairchild Library",
+                "type": "library"
+            },
+            {
+                "id": -8720979776131019388,
+                "name": "Athenaeum Parking Lot",
+                "type": "parking"
+            },
+            {
+                "id": 6881409985451882318,
+                "name": "Lot 11",
+                "type": "parking"
+            },
+            {
+                "id": 1816670808535636943,
+                "name": "Browne Café",
+                "type": "restaurant"
+            },
+            {
+                "id": 6317527575117742335,
+                "name": "Gene Pool",
+                "type": "fountain"
+            },
+            {
+                "id": -2137098603065516796,
+                "name": "Broad Cafe",
+                "type": "restaurant"
+            },
+            {
+                "id": 6557952783644014314,
+                "name": "Caltech Employees Federal Credit Union",
+                "type": "bank"
+            },
+            {
+                "id": 6529890240264224965,
+                "name": "Parking Structure 3",
+                "type": "parking"
+            },
+            {
+                "id": -273156056624107420,
+                "name": "Lot 7",
+                "type": "parking"
+            },
+            {
+                "id": 1781659537973159203,
+                "name": "Tournament Park parking lot",
+                "type": "parking"
+            },
+            {
+                "id": -3063460390327398658,
+                "name": "Pasadena Fire Station 34",
+                "type": "fire_station"
+            }
+        ]
+    }
+}
