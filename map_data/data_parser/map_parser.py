@@ -188,7 +188,8 @@ def export_data_object(map_basket, amenity_basket, university):
     amenity_basket["amenity_list"] = []
     try:
         for idx, row in map_basket["amenity"].iterrows():
-            amenity_basket["amenity_list"].append({"id": hash(row["name"]), "name": row["name"], "type": row["amenity"]})
+            amenity_basket["amenity_list"].append({"id": hash(row["name"]), "name": row["name"], "type": row["amenity"], 
+                                                  "latitude": row["geometry"].centroid.y, "longitutde": row["geometry"].centroid.x})
     except:
         print(f"No amenity in {file_name}")
     export_data = {
@@ -213,7 +214,7 @@ university_directories = list_subdirectories(root_dir)
 for university in university_directories:
     files_path = get_files_in_folder(university)
     map_basket = {"id": None, "name": None, "rating": None, "popularity": None, "graph": None, "area": None, 
-                  "building": None, "amenity": None}
+                  "building": None, "amenity": None, "route": None}
     amenity_basket = {"affiliation": None, "amenity_list": None}
     for file in files_path:   
         parsed_line = file.split('_')

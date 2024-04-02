@@ -1,5 +1,4 @@
 import java.io.*;
-import java.util.Map;
 
 public class MapViewGenerator {
     private String script_path;
@@ -30,7 +29,7 @@ public class MapViewGenerator {
 
     public static void main(String[] args) throws IOException, InterruptedException {
         MapViewGenerator mapViewGenerator = new MapViewGenerator();
-        mapViewGenerator.creatQuery("Tsinghua_University -0.001");
+        mapViewGenerator.creatQuery("-b South_China_Agricultural_University -6954973052090274377 2045675783528326732 -0.001");
         mapViewGenerator.endProcess();
     }
 }
