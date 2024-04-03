@@ -5,14 +5,13 @@
 作者: 字禹润
 
 创建日期: 2024-03-20
-最后修改日期: 2024-03-24
+最后修改日期: 2024-04-03
 """
 
 
 import json
 from urllib import response
 import requests
-import time
 import osmnx as ox
 import matplotlib.pyplot as plt
 import os
@@ -55,9 +54,9 @@ for input_path in input_file_path:
 				print(f"{query} does not exits\n")
 				continue
 
-			# 道路网络数据获取，获取选定地点为中心的1200*1200米的bbox内的所有道路数据
+			# 道路网络数据获取，获取选定地点为中心的2000*2000米的bbox内的所有道路数据
 			try:
-				graph = ox.graph_from_address(query, dist=1200)
+				graph = ox.graph_from_address(query, dist=2000)
 				ox.save_graphml(graph, filepath=gm_features_path.format(query=query_formal_name, feature='graph')) # Graph类型数据须存储作.graphml格式，避免坐标系混乱
 				print(f"Nodes and Edges for {query} have been found and were stored at {gpkg_features_path.format(query=query_formal_name, feature='graph')}")
 			except:
