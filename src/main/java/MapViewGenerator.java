@@ -29,7 +29,7 @@ public class MapViewGenerator {
 
     public static void main(String[] args) throws IOException, InterruptedException {
         MapViewGenerator mapViewGenerator = new MapViewGenerator();
-        mapViewGenerator.creatQuery("-n Shanghai_Maritime_University_(Lingang_Campus) -0.001");
+        mapViewGenerator.creatQuery("-n California_Institute_of_Technology -0.001");
         mapViewGenerator.endProcess();
     }
 }

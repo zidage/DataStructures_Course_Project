@@ -9,16 +9,13 @@
 """
 
 
-from fileinput import filename
 import geopandas as gpd
 import os
-from matplotlib.font_manager import json_dump
 import matplotlib.pyplot as plt
 import json
 import networkx as nx
 import osmnx as ox
 from random import randint
-from sys import argv
 import pickle
 import route_finder
 
@@ -74,12 +71,12 @@ def view_generator(map_basket, university, save_path,
         )
 
     # 显示路名
-    for _, edge in ox.graph_to_gdfs(map_basket["graph"], nodes=False).fillna("").iterrows():
+    graph = ox.graph_to_gdfs(map_basket["graph"], nodes=False).fillna("")
+    shuffled_edge = graph.sample(
+            frac=scale_factor*950+1 if scale_factor < 0 else 1)
+    for _, edge in shuffled_edge.iterrows():
         # 由于每条边都有命名，所以将随机显示，避免文字过密
-        random_number = randint(1, 100)
-        random_factor = randint(10, 20)
-        if ((random_number + (scale_factor * 8000 * random_factor) > 0 or scale_factor >= 0.001) and
-                map_basket["route"] is None):
+        if (edge["name"] != "nan"):
             text = edge["name"]
             c = edge["geometry"].centroid
             ax.annotate(text, (c.x, c.y), c="black",
@@ -92,33 +89,32 @@ def view_generator(map_basket, university, save_path,
     # 显示设施
     if map_basket["amenity"] is not None:
         # 显示设施名，并用红点标注
-        for idx, row in map_basket["amenity"].iterrows():
-            random_number = randint(1, 100)
-            random_factor = randint(10, 20)
-            if ((random_number + (scale_factor * 8000 * random_factor) > 0 or scale_factor >= 0.001) and
-                    map_basket["route"] is None):
+        if map_basket["route"] is None:
+            shuffled_amn = map_basket["amenity"].sample(
+                frac=scale_factor*900+1 if (scale_factor < 0 and len(map_basket["amenity"].index) > 100) else 1)
+            for idx, row in shuffled_amn.iterrows():
                 centroid = row.geometry.centroid
                 text = row['name']
                 ax.annotate(text, (centroid.x, centroid.y), fontsize=4,
                             fontname='Microsoft YaHei', color='black')
                 ax.scatter(centroid.x, centroid.y,
-                           color=color_scheme["address"], s=10)
-            elif (map_basket["route"] is not None):
-                ax.annotate(orig_place[2], (orig_place[0], orig_place[1]),
-                            fontsize=4, fontname='Microsoft YaHei', color='black')
-                ax.annotate(dest_place[2], (dest_place[0], dest_place[1]),
-                            fontsize=4, fontname='Microsoft YaHei', color='black')
-                ax.scatter(orig_place[0], orig_place[1],
-                           color=color_scheme["address"], s=5)
-                ax.scatter(dest_place[0], dest_place[1],
-                           color=color_scheme["address"], s=5)
+                        color=color_scheme["address"], s=10)
+        else:
+            ax.annotate(orig_place[2], (orig_place[0], orig_place[1]),
+                        fontsize=4, fontname='Microsoft YaHei', color='black')
+            ax.annotate(dest_place[2], (dest_place[0], dest_place[1]),
+                        fontsize=4, fontname='Microsoft YaHei', color='black')
+            ax.scatter(orig_place[0], orig_place[1],
+                        color=color_scheme["address"], s=5)
+            ax.scatter(dest_place[0], dest_place[1],
+                        color=color_scheme["address"], s=5)
 
     # 显示地点占据区域
     if map_basket["area"] is not None:
         map_basket["area"].plot(
             ax=ax, facecolor=color_scheme["area"], linewidth=0, edgecolor='black', alpha=0.5)
         # scale_factor参数，单位为"°"，用于控制缩放范围
-        # offset_x和offset_y为左右平移参数
+        # offset_x和offset_y为上下左右平移参数
         bbox = map_basket["area"].total_bounds  # 区域占据的bbox大小，用于限定显示范围
         ax.set_xlim(bbox[0]+offset_x+scale_factor,
                     bbox[2]+offset_x-scale_factor)
