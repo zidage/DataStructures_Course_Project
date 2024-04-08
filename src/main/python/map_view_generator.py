@@ -12,12 +12,14 @@
 import geopandas as gpd
 import os
 import matplotlib.pyplot as plt
+import matplotlib
 import json
 import networkx as nx
 import osmnx as ox
 from random import randint
 import pickle
 import route_finder
+import main.python.route_finder as route_finder
 
 
 # 配色方案. 配色为RGB的8bit表示
@@ -140,7 +142,19 @@ def get_place(amn_list, place_id):
     return place_coor
 
 
+def new_view_generator(place, map_basket):
+    mk = {"radius": 6}
+    nodes, edges = ox.graph_to_gdfs(map_basket["graph"])
+    route_edges = ox.routing.route_to_gdf(map_basket["graph"], map_basket["route"], weight="length")
+    # m = map_basket["area"].explore(color='yellow', style_kwds={"opacity": 0.005})
+    m = route_edges.explore(style_kwds={"weight": 5}, cmap="plasma")
+    m = map_basket["amenity"].explore(m=m, tooltip="name", marker_kwds=mk)
+    m.save(f"{os.environ['MAP_DATA']}/map_view_html_test/{place}.html")
+    print("html saved!")
+
+
 # main函数
+matplotlib.use('agg')
 root_dir = f'{os.environ["MAP_DATA"]}/map_exports_test'
 output_dir = f'{os.environ["MAP_DATA"]}/map_view_test'
 
@@ -150,24 +164,25 @@ while (True):
     # 参数3, 4则为-b模式下起点及终点的id
     user_input = input().split()
     mode = user_input[0]
-    university = user_input[1]
+    place = user_input[1]
 
     # query的大学名称未找到则程序将暂停
-    if not os.path.exists(f"{root_dir}/{university}"):
+    if not os.path.exists(f"{root_dir}/{place}"):
         print("Folder do not exist!")
     else:
-        with open(f"{root_dir}/{university}/{university}_sr.pickle", "rb") as f:
+        with open(f"{root_dir}/{place}/{place}_sr.pickle", "rb") as f:
             map_basket = pickle.load(f)
             if (mode == '-n'):  # -n模式, 该模式将不显示路径
-                view_generator(map_basket, university, output_dir,
-                               None, None, scale_factor=float(user_input[2]))
-            elif (mode == '-b'):  # -b模式，该模式将显示路径, 并需要client程序输入起点及终点
-                with open(f"{root_dir}/{university}/{university}_map.json", "r", encoding='utf-8') as js_file:
+                new_view_generator(map_basket)
+                #view_generator(map_basket, university, output_dir,
+                               #None, None, scale_factor=float(user_input[2]))
+            elif (mode == '-r'):  # -b模式，该模式将显示路径, 并需要client程序输入起点及终点
+                with open(f"{root_dir}/{place}/{place}_map.json", "r", encoding='utf-8') as js_file:
                     js = json.load(js_file)
                     amn_list = js["amenity"]["amenity_list"]
                     orig_place = get_place(amn_list, user_input[2])
                     dest_place = get_place(amn_list, user_input[3])
-                    map_basket["route"] = route_finder.route_find(
-                        map_basket, orig_place, dest_place)
-                    view_generator(map_basket, university, output_dir, orig_place,
-                                   dest_place, scale_factor=float(user_input[4]))
+                    #map_basket["route"] = route_finder.route_find(
+                        #map_basket, orig_place, dest_place)
+                    wt, map_basket["route"]= route_finder.route_find_test(place, map_basket, orig_place, dest_place)
+                    new_view_generator(place, map_basket)
