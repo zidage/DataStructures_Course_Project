@@ -37,6 +37,9 @@ def astar(adjacency_list, node_list, start, end):
     heap = [(0, 0, start)]
     previous = {}
 
+    if start == end:
+        return 0, [start]
+
     while heap:
         _, current_g, current_node = heapq.heappop(heap)
 
@@ -44,38 +47,43 @@ def astar(adjacency_list, node_list, start, end):
             break
 
         for neighbor, weight in adjacency_list[current_node].items():
-            wt = current_g + weight
-            if wt < wts[neighbor]:
-                wts[neighbor] = wt
-                f = wt + heuristic(node_list[neighbor], node_list[end])
-                heapq.heappush(heap, (f, wt, neighbor))
-                previous[neighbor] = current_node
+            try:
+                wt = current_g + weight
+                if wt < wts[neighbor]:
+                    wts[neighbor] = wt
+                    f = wt + heuristic(node_list[neighbor], node_list[end])
+                    heapq.heappush(heap, (f, wt, neighbor))
+                    previous[neighbor] = current_node
+            except:
+                continue
     
     if end not in previous:
         return float('inf'), []
     
     path_node = []
-    path_edges = []
     node = end
     while node != start:
         path_node.insert(0, node)
-        path_edges.insert(0, previous[node])
         node = previous[node]
     path_node.insert(0, start)
 
-    return wts[end], path_node, path_edges
+    return wts[end], path_node
 
 
-def route_find_test(place, map_basket, orig, dest):
-    orig_node = ox.nearest_nodes(map_basket["graph"], orig[0], orig[1])
-    dest_node = ox.nearest_nodes(map_basket["graph"], dest[0], dest[1])
+def route_find_test(place, map_basket, waypoints):
+    route = []
     adjacency_list, node_list = get_graph(place)
-    wt, path, path_edges = astar(adjacency_list, node_list, orig_node, dest_node)
+    for i in range(len(waypoints) - 1):
+        orig_node = ox.nearest_nodes(map_basket["graph"], waypoints[i][0], waypoints[i][1])
+        dest_node = ox.nearest_nodes(map_basket["graph"], waypoints[i + 1][0], waypoints[i + 1][1])
+        wt, path = astar(adjacency_list, node_list, orig_node, dest_node)
+        route.append((path, wt))
     
-    return wt, path
+    return route
     
 
 def get_graph(place):
+    # print("get_graph starts")
     with open(f"{root_dir}/{place}/{place}_sr.pickle", "rb") as f:
         transport = 'bike'
         offset = 0
@@ -99,8 +107,8 @@ def get_graph(place):
 
 
         for u, v, key, data in graph.edges(keys=True, data=True):
-            if u is None or v is None:
-                continue
+            #if u is None or v is None:
+                #continue
 
             if u not in adjacency_list:
                 adjacency_list[u] = {}
@@ -113,6 +121,6 @@ def get_graph(place):
             node_list[id] = (data['x'], data['y'])
 
         # print(node_list)
-
+        # print("get_graph ends")
         return adjacency_list, node_list
 

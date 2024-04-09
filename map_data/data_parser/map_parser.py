@@ -202,8 +202,11 @@ def export_data_object(map_basket, amenity_basket, university):
     try:
         # 将设施的名字，类型，位置放入amenity_basket的amenity_list列表中
         for idx, row in map_basket["amenity"].iterrows():
-            amenity_basket["amenity_list"].append({"id": hash(row["name"]), "name": row["name"], "type": row["amenity"],
+            amenity_basket["amenity_list"].append({"id": row['osmid'], "name": row["name"], "type": row["amenity"],
                                                   "latitude": row["geometry"].centroid.y, "longitutde": row["geometry"].centroid.x})
+        for idx, row in map_basket["building"].iterrows():
+            amenity_basket["amenity_list"].append({"id": row['osmid'], "name": row["name"], "type": row["amenity"],
+                                                  "latitude": row["geometry"].centroid.y, "longitutde": row["geometry"].centroid.x})    
     except:
         print(f"No amenity in {file_name}")
     # 导出的json文件的字典表示
