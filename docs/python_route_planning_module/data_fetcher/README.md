@@ -6,6 +6,6 @@ description: 作者：字禹润
 
 这个模块相关的文件夹有：
 
-* [osm\_data\_fetcher](osm\_data\_fetcher.md)
+* [osm\_data\_fetcher](osm\_data\_fetcher/)
 * [qs\_ranking](qs\_ranking.md)
 * map\_data

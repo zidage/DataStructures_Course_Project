@@ -2,32 +2,17 @@
 description: 作者：字禹润
 ---
 
-# osm\_data\_fetcher
+# university\_location\_fetch\_osm.py
 
-该文件夹下有两个 Python 文件，分别为：
-
-* `university_location_fetch_amap.py`
-* `university_location_fetch_osm.py`
-
-### `university_location_fetch_amap.py`
-
-该程序将从
-
-```python
-map_data/provinces.json
-```
-
-中获取省份信息，该省份信息来源：[https://github.com/modood/Administrative-divisions-of-China](https://github.com/modood/Administrative-divisions-of-China)
-
-随后，利用高德Web基础服务API，查询该省份下所有高校的名称以及对应高德经纬度信息。目前该子程序由于涉及坐标转换等诸多难点，已被废弃。
-
-### `university_location_fetch_osm.py`
+## Overview
 
 该子程序目前主要的地图数据获取方式。程序将通过谷歌API获取地点的格式化文本信息并存储为`.json`文件。然后用[`OSMnx`](https://osmnx.readthedocs.io/en/stable/)查询目标地点的相关GIS数据，并保存为`.gpkg`文件。
 
 下面的内容将对程序代码中一些重点部分进行解释
 
-#### `google_api_url`
+## 常量变量
+
+### `google_api_url`
 
 类型：`string`
 
@@ -41,13 +26,13 @@ https://maps.googleapis.com/maps/api/place/textsearch/json?query={query}&languag
 
 该变量内`URL`的详细使用方法详见：[https://developers.google.com/maps/documentation/places/web-service/search-text](https://developers.google.com/maps/documentation/places/web-service/search-text)
 
-#### `input_file_path`
+### `input_file_path`
 
 类型：`list`
 
 该变量存储了一系列文件地址，这些文件位于`map_data/category`中，为名录文件，例如：欲获取地点的地点名录
 
-#### `query_formal_name`
+### `query_formal_name`
 
 类型：`string`
 
@@ -57,7 +42,7 @@ https://maps.googleapis.com/maps/api/place/textsearch/json?query={query}&languag
 query_formal_name = query.replace(' ', '_')
 ```
 
-#### 存储目录
+### 存储目录
 
 ```python
 gpkg_features_path = 'map_data/university_map/{query}/{query}_{feature}.gpkg'
@@ -67,7 +52,7 @@ info_file_path = 'map_data/university_map/{query}/{query}_info.json'
 
 其中，`gpkg_features_path`为`.gpkg`文件的统一存储地址，`gm_features_path`为`.graphml`的统一存储地址，`info_file_path`为基本信息`json`文件的统一存储地址
 
-#### 谷歌数据获取部分
+## 谷歌数据获取部分
 
 在这个部分中，将使用`Google Place API`获取地点的如下信息：
 
@@ -87,7 +72,7 @@ info_file_path = 'map_data/university_map/{query}/{query}_info.json'
 }
 ```
 
-#### 路网数据获取部分
+## 路网数据获取部分
 
 将使用OSMnx中的`graph_from_address`获取一个NetworkX中的`MultiDiGraph`对象，作为查询地点的路网数据集，该数据集将用于路径规划功能。
 
@@ -104,11 +89,11 @@ ox.save_graphml(graph, filepath=gm_features_path.format(
                     query=query_formal_name, feature='graph'))  # Graph类型数据须存储作.graphml格式，避免坐标系混乱
 ```
 
-#### 区域获取
+## 区域获取
 
 该部分会获取查询地点的所占区域，该功能目前展示没有作用
 
-#### 建筑物获取
+## 建筑物获取
 
 将使用OSMnx中的`features_from_place`方法获取该请求地点内的所有建筑物，返回一个`GeoDataFrame`。为避免重新读取时造成`GeoDataFrame`构造器识别格式冲突，需修改当前`GeoDataFrame`
 
@@ -117,7 +102,7 @@ buildings = buildings.apply(lambda c: c.astype(
                     str) if c.name != "geometry" else c, axis=0)
 ```
 
-#### 设施获取
+## 设施获取
 
 同建筑获取，这里也需要修改当前`GeoDataFrame`
 
