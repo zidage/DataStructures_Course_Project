@@ -4,6 +4,8 @@ description: 作者：字禹润
 
 # data\_parser
 
+## Overview
+
 该文件夹下有一个Python程序名为`map_parser.py`，其为之前使用`university_location_fetch_osm.py`导出的数据的解析程序。
 
 该文件夹下有以下方法：
@@ -23,7 +25,7 @@ description: 作者：字禹润
 
 这个程序也仅为一个脚本程序，其中值得注意的事项为下：
 
-### `map_basket`
+## `map_basket`
 
 map\_basket为该个模块的核心数据变量，该变量为一个dict类型的变量且存储着一个地点所需的生成地图的一切数据，这是map\_basket数据类型生成的代码：
 
@@ -54,7 +56,7 @@ for file in files_path:
 
 在数据解析完成后，每个地点的数据将被存储到`map_data/map_exports`中，存储的数据有以下两种：
 
-### `*_map.json`
+## `*_map.json`
 
 该种文件中，将存储以下几种的数据：
 
@@ -67,7 +69,7 @@ for file in files_path:
   * `affiliation`：当前集合的从属，为地点的`id`值
   * `amenity_list`：为从属于当前地点的全部设施以及场所的集合
 
-### `*_sr.pickle`
+## `*_sr.pickle`
 
 这个文件为`map_basket`变量的序列化（serialized）二进制文件，文件类型为`.pickle`，需使用`rb`模式读取
 
