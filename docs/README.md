@@ -2,8 +2,6 @@
 
 ### 开发技术栈选项
 
-后端/数据库/前端
-
 * `Java Spring Boot/MongoDB/React`
 * `Python/Folium/Leaflet.js` /`ChatGPT 3.5`
 
