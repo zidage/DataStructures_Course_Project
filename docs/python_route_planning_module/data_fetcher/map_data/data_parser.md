@@ -65,9 +65,21 @@ for file in files_path:
 * `rating`：评分
 * `popularity`：地点的热度，是一个由评分生成的随机值（因为真的没有那么多人对去那么多大学旅游感兴趣）
 * `data_path`：当前文件的所在目录
-* `amenity`设施数据集合，计划与Java部分的`Venue`类进行对应
-  * `affiliation`：当前集合的从属，为地点的`id`值
-  * `amenity_list`：为从属于当前地点的全部设施以及场所的集合
+*   `amenity`设施数据集合
+
+    * `affiliation`：当前集合的从属，为地点的`id`值
+    * `amenity_list`：为从属于当前地点的全部设施以及场所的集合，该列表中的元素计划与Java部分的`Venue`类进行对应
+
+    ### `amenity_list`
+
+    该属性中拥有数据：
+* id：为该场所（设施）的唯一标识符，用于地址查找与[路径生成](../../ji-yu-leaflet.js-de-shi-tu-sheng-cheng-mo-kuai/map\_view\_generator.py.md)
+* name：场所名称
+* type：OSM中POI的类型，可用于类型区分
+* latitude：该地点的纬度，其与经度一起在最短路径生成中起到定位离该设施最近的路网节点的作用
+* longitude：该地点的经度，作用如上
+
+
 
 ## `*_sr.pickle`
 
