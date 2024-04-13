@@ -19,7 +19,12 @@ description: 作者：字禹润
 -r place_name [way_points] ... 
 ```
 
-在`-n`模式中，该程序仅会给出当前地点名为中心的视图，而在`-r`模式中，还可接收一系列路径点，从左至右的计算出相邻每对路径点之间的最短路径并输出一个带有路径的视图。目前，该程序使用Java中的`ProcessBuilder`进行运行，具体请见Java部分的`MapViewGenerator.java`
+* place\_name：该地点的规范化名称，与map\_exports中文件夹名一致。
+* way\_points：地点内部设施的osmid，具体可从map\_exports中各地点文件夹下[`*_map.json`](../data\_fetcher/map\_data/data\_parser.md#map.json)中的[`amenity_list`](../data\_fetcher/map\_data/data\_parser.md#map.json)中查到。
+
+在`-n`模式中，该程序仅会给出当前地点名为中心的视图，而在`-r`模式中，还可接收一系列路径点，从左至右的计算出相邻每对路径点之间的最短路径并输出一个带有路径的视图。
+
+目前，该程序使用Java中的`ProcessBuilder`进行运行，具体请见Java部分的`MapViewGenerator.java`中的相关内容
 
 以下是一个示例：
 
