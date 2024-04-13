@@ -262,4 +262,7 @@ fabric.properties
 .idea/caches/build_file_checksums.ser
 
 test*
-*_test
+*_test*
+
+*.iml
+*.idea

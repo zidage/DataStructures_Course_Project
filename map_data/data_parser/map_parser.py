@@ -10,16 +10,19 @@
 """
 
 
+from fileinput import filename
 import geopandas as gpd
 import os
 import shutil
+from matplotlib.font_manager import json_dump
 import matplotlib.pyplot as plt
 import json
 import networkx as nx
+from numpy import save
 import osmnx as ox
 from shapely.geometry import Polygon, MultiPolygon, Point
 from random import randint
-
+import pickle
 
 
 def list_subdirectories(root_dir):
@@ -92,7 +95,7 @@ def info_parser(file):
     """
     with open(file, 'r', encoding='gb2312') as f:
         js = json.load(f)
-        return js["university"]["name"]
+        return js["university"]["name"], js["university"]["rating"]
 
 
 def regular_parser(file):
@@ -142,8 +145,11 @@ def amenity_parser(file):
     """
     try:
         gdf = gpd.read_file(file)
-        gdf = gdf[gdf['amenity'] != 'university'].drop_duplicates(subset=['name']) # 将含'university'的数据行删去，并去除名字重复的数据
-        gdf = gdf[gdf['name'] != 'nan'] # 将含'nan'的数据行删去
+        gdf = gdf[gdf['amenity'] != 'university'].drop_duplicates(
+            subset=['name'])  # 将含'university'的数据行删去，并去除名字重复的数据
+        # 将仅为数字的数据行删掉（防止垃圾数据）
+        gdf = gdf[~gdf['name'].astype(str).str.isdigit()]
+        gdf.replace({'nan': '可能感兴趣的地点'}, inplace=True)
         # print(gdf.head())
         return gdf
     except:
@@ -175,97 +181,76 @@ def amenity_filter(amenity_gdf, area_gdf):
         return amenity_gdf
 
 
-def map_view_generator(map_basket, university):
+def export_data_object(map_basket, amenity_basket, university):
     """
-    根据各类数据集合对各种数据进行可视化的函数
+    地图属性集合的导出函数, 可将地图属性导出为json以及序列化一个Python对象存储到硬盘上
 
     Parameter:
-    map_basket (dict): 特定地点的数据集合
-    university (str): 文件命名所用字符串的组成部分
+    map_basket (dict): 地图属性集合
+    amenity_basket (dict): 设施属性集合
+    university (str): 大学名称
 
     Returns:
-    void
+    None
     """
-
-    # 创建thumbnail文件夹，目前该函数仅用于生成缩略图
-    if not os.path.exists(f'map_data/map_thumbnail'):
-        os.makedirs(f'map_data/map_thumbnail')
-
-    if map_basket["graph"] is not None: # 先对存储有road network的graph数据进行可视化，具体参数详见osmnx及matplotlib文档
-        fig, ax = ox.plot_graph(
-            map_basket["graph"],
-            show=False,
-            close=False,
-            bgcolor="#141414",
-            edge_color="lightgrey",
-            edge_linewidth=1,
-            node_size=0,
-        )
-
-        # 显示路名
-        for _, edge in ox.graph_to_gdfs(map_basket["graph"], nodes=False).fillna("").iterrows():
-            random_number = randint(1, 100) # 由于每条边都有命名，所以将随机显示，避免文字过密
-            if (random_number % 3 == 0):
-                text = edge["name"]
-                c = edge["geometry"].centroid
-                ax.annotate(text, (c.x, c.y), c="white", fontname='Microsoft YaHei', fontsize=3)
-
-        # 显示地点占据区域
-        if map_basket["area"] is not None:
-            map_basket["area"].plot(ax=ax, facecolor='dimgrey', linewidth=0.6, edgecolor='black', alpha=0.5)
-            offset = 0.001 # offset参数，单位为"°"，用于控制缩放范围
-            bbox = map_basket["area"].total_bounds # 区域占据的bbox大小，用于限定显示范围
-            ax.set_xlim(bbox[0]-offset, bbox[2]+offset)
-            ax.set_ylim(bbox[1]-offset, bbox[3]+offset)
-
-        # 显示建筑
-        if map_basket["building"] is not None:
-            map_basket["building"].plot(ax=ax, facecolor='lightgrey')
-
-        #显示设施
-        if map_basket["amenity"] is not None:
-            filtered_gdf = amenity_filter(map_basket["amenity"], map_basket["area"])
-            # 显示设施名，并用红点标注
-            for idx, row in filtered_gdf.iterrows():
-                centroid = row.geometry.centroid
-                ax.text(centroid.x, centroid.y, row['name'], fontsize=4, fontname='Microsoft YaHei', color='white')
-                ax.scatter(centroid.x, centroid.y, color='red', s=10)
-
-        # 缩略图存储文件名
-        file_name = university.split('\\')[1]
-        # 存储文件
-        plt.savefig(f'map_data/map_thumbnail/map_thumbnail_{file_name}.png', bbox_inches='tight', dpi=300)
-        plt.close()
+    file_name = university.split('\\')[-1]
+    save_path = f"{os.environ['MAP_DATA']}/map_exports_test/{file_name}"
+    os.makedirs(save_path)
+    # gdf = amenity_filter(map_basket["amenity"], map_basket["area"])
+    # print(map_basket["amenity"].head(100))
+    amenity_basket["amenity_list"] = []
+    try:
+        # 将设施的名字，类型，位置放入amenity_basket的amenity_list列表中
+        for idx, row in map_basket["amenity"].iterrows():
+            amenity_basket["amenity_list"].append({"id": row['osmid'], "name": row["name"], "type": row["amenity"],
+                                                  "latitude": row["geometry"].centroid.y, "longitutde": row["geometry"].centroid.x})
+        for idx, row in map_basket["building"].iterrows():
+            amenity_basket["amenity_list"].append({"id": row['osmid'], "name": row["name"], "type": row["amenity"],
+                                                  "latitude": row["geometry"].centroid.y, "longitutde": row["geometry"].centroid.x})    
+    except:
+        print(f"No amenity in {file_name}")
+    # 导出的json文件的字典表示
+    export_data = {
+        "id": map_basket["id"],
+        "name": map_basket["name"],
+        "rating": map_basket["rating"],
+        "popularity": map_basket["popularity"],
+        "data_path": f"map_data/university_map/{file_name}",
+        "amenity": amenity_basket
+    }
+    with open(f"{save_path}/{file_name}_map.json", 'w', encoding='utf-8') as file:
+        json.dump(export_data, file, indent=4, ensure_ascii=False)
+    with open(f"{save_path}/{file_name}_sr.pickle", 'wb') as file:
+        pickle.dump(map_basket, file)  # 存储为pickle文件，把对象腌成泡菜
 
 
 # main函数
-root_dir = 'map_data/university_map'
+root_dir = f'{os.environ["MAP_DATA"]}/university_map_test'
 delete_folders_with_few_files(root_dir)
 university_directories = list_subdirectories(root_dir)
 
 for university in university_directories:
     files_path = get_files_in_folder(university)
-    map_basket = {"name": None, "graph": None, "area": None, 
-                  "building": None, "amenity": None}
-    for file in files_path:   
-        parsed_line = file.split('_')
-        file_type = parsed_line[-1]
+    map_basket = {"id": None, "name": None, "rating": None, "popularity": None, "graph": None, "area": None,
+                  "building": None, "amenity": None, "route": None}
+    amenity_basket = {"affiliation": None, "amenity_list": None}
+    for file in files_path:
+        parsed_line = file.split('_')  # 把下划线分隔的文件名拆成一个数组
+        file_type = parsed_line[-1]  # 得到文件类型
         if file_type == 'info.json':
-            map_basket["name"] = info_parser(file)
+            map_basket["name"], map_basket["rating"] = info_parser(file)
+            map_basket["id"] = hash(map_basket["name"])  # 计算该地点的哈希值
+            map_basket["popularity"] = int(
+                map_basket["rating"]) * randint(10, 25)  # 根据地点评分随机生成一个欢迎度
+            amenity_basket["affiliation"] = map_basket["id"]
         elif file_type == 'graph.graphml':
-            map_basket["graph"] = graph_parser(file)
+            map_basket["graph"] = graph_parser(file)  # 将图解析并存储
         elif file_type == 'area.gpkg':
-            map_basket["area"] = regular_parser(file)
+            map_basket["area"] = regular_parser(file)  # 将占据区域解析并存储
         elif file_type == 'buildings.gpkg':
-            map_basket["building"] = regular_parser(file)
+            map_basket["building"] = regular_parser(file)  # 将建筑解析并存储
         elif file_type == 'amenity.gpkg':
-            map_basket["amenity"] = amenity_parser(file)
+            map_basket["amenity"] = amenity_parser(file)  # 将设施解析并存储
 
-    map_view_generator(map_basket, university)
-    print(university + ' thumbnail generated!')
-        
-            
-
-
-
-
+    export_data_object(map_basket, amenity_basket, university)
+    print(university + 'map image and export data generated!')
