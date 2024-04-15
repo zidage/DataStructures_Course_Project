@@ -1,0 +1,61 @@
+{
+    "id": 6962492455412342232,
+    "name": "北京理工大学",
+    "rating": 4.5,
+    "popularity": 68,
+    "data_path": "map_data/university_map/Beijing_Institute_of_Technology",
+    "amenity": {
+        "affiliation": 6962492455412342232,
+        "amenity_list": [
+            {
+                "id": 1721722891,
+                "name": "中国石油",
+                "type": "fuel",
+                "latitude": 39.9568875,
+                "longitutde": 116.3160532
+            },
+            {
+                "id": 4231834989,
+                "name": "招商银行双榆树支行",
+                "type": "bank",
+                "latitude": 39.9565468,
+                "longitutde": 116.3162933
+            },
+            {
+                "id": 8922701124,
+                "name": "浙商银行",
+                "type": "bank",
+                "latitude": 39.9575932,
+                "longitutde": 116.3164673
+            },
+            {
+                "id": 8922701125,
+                "name": "北京银行",
+                "type": "bank",
+                "latitude": 39.9598222,
+                "longitutde": 116.3161726
+            },
+            {
+                "id": 107039558,
+                "name": "可能感兴趣的地点",
+                "type": "parking",
+                "latitude": 39.95943704138501,
+                "longitutde": 116.3154031328381
+            },
+            {
+                "id": 352009352,
+                "name": "快递服务中心",
+                "type": "parcel_locker",
+                "latitude": 39.95952744384067,
+                "longitutde": 116.3057089249634
+            },
+            {
+                "id": 941402173,
+                "name": "北京理工大学附属小学",
+                "type": "school",
+                "latitude": 39.96048623342116,
+                "longitutde": 116.3031096029342
+            }
+        ]
+    }
+}

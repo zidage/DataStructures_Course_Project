@@ -1,0 +1,40 @@
+{
+    "id": -6412858067325149566,
+    "name": "重庆大学",
+    "rating": 4.4,
+    "popularity": 100,
+    "data_path": "map_data/university_map/Chongqing_University",
+    "amenity": {
+        "affiliation": -6412858067325149566,
+        "amenity_list": [
+            {
+                "id": 1633754235,
+                "name": "学生二食堂",
+                "type": "restaurant",
+                "latitude": 29.536844,
+                "longitutde": 106.5062977
+            },
+            {
+                "id": 1633754236,
+                "name": "可能感兴趣的地点",
+                "type": "post_office",
+                "latitude": 29.5355561,
+                "longitutde": 106.5070141
+            },
+            {
+                "id": 1633754238,
+                "name": "图书科技楼",
+                "type": "library",
+                "latitude": 29.535403,
+                "longitutde": 106.5032865
+            },
+            {
+                "id": 1633754248,
+                "name": "学生一食堂",
+                "type": "restaurant",
+                "latitude": 29.53711,
+                "longitutde": 106.5038834
+            }
+        ]
+    }
+}

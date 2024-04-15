@@ -1,0 +1,11 @@
+{
+    "id": -8319527374161117136,
+    "name": "山东大学",
+    "rating": 4.1,
+    "popularity": 44,
+    "data_path": "map_data/university_map/Shandong_University",
+    "amenity": {
+        "affiliation": -8319527374161117136,
+        "amenity_list": []
+    }
+}

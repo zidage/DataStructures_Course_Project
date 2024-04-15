@@ -1,0 +1,138 @@
+{
+    "id": 6581956702077612649,
+    "name": "哈尔滨工程大学",
+    "rating": 4.9,
+    "popularity": 100,
+    "data_path": "map_data/university_map/Harbin_Engineering_University",
+    "amenity": {
+        "affiliation": 6581956702077612649,
+        "amenity_list": [
+            {
+                "id": 6327905508,
+                "name": "可能感兴趣的地点",
+                "type": "shelter",
+                "latitude": 45.771365,
+                "longitutde": 126.6750352
+            },
+            {
+                "id": 6327905517,
+                "name": "大学生美食城",
+                "type": "food_court",
+                "latitude": 45.7709469,
+                "longitutde": 126.6785098
+            },
+            {
+                "id": 6327905542,
+                "name": "中国银行(工程大学支行)",
+                "type": "bank",
+                "latitude": 45.7752172,
+                "longitutde": 126.6752818
+            },
+            {
+                "id": 6327905543,
+                "name": "Campus Post",
+                "type": "post_office",
+                "latitude": 45.7740002,
+                "longitutde": 126.676177
+            },
+            {
+                "id": 6327905544,
+                "name": "Internet Service Center",
+                "type": "internet_cafe",
+                "latitude": 45.7720529,
+                "longitutde": 126.6745687
+            },
+            {
+                "id": 10007049211,
+                "name": "21B",
+                "type": "college",
+                "latitude": 45.7741016,
+                "longitutde": 126.6762339
+            },
+            {
+                "id": 590372302,
+                "name": "水声船海",
+                "type": "college",
+                "latitude": 45.7781183,
+                "longitutde": 126.6799336
+            },
+            {
+                "id": 675690959,
+                "name": "图书馆",
+                "type": "library",
+                "latitude": 45.774040646821376,
+                "longitutde": 126.6814662379406
+            },
+            {
+                "id": 675690976,
+                "name": "启航活动中心",
+                "type": "theatre",
+                "latitude": 45.77193250381546,
+                "longitutde": 126.6787223738116
+            },
+            {
+                "id": 366228531,
+                "name": "学生第六公寓",
+                "type": "nan",
+                "latitude": 45.77521593469139,
+                "longitutde": 126.67761855285929
+            },
+            {
+                "id": 560023987,
+                "name": "Building 31",
+                "type": "nan",
+                "latitude": 45.778098610293576,
+                "longitutde": 126.671592066763
+            },
+            {
+                "id": 675690959,
+                "name": "图书馆",
+                "type": "library",
+                "latitude": 45.774040646821376,
+                "longitutde": 126.6814662379406
+            },
+            {
+                "id": 675690976,
+                "name": "启航活动中心",
+                "type": "theatre",
+                "latitude": 45.77193250381546,
+                "longitutde": 126.6787223738116
+            },
+            {
+                "id": 675691007,
+                "name": "Main Building",
+                "type": "nan",
+                "latitude": 45.771427641288355,
+                "longitutde": 126.6818513831554
+            },
+            {
+                "id": 675708937,
+                "name": "大学生美食城",
+                "type": "nan",
+                "latitude": 45.77437975,
+                "longitutde": 126.67805879999997
+            },
+            {
+                "id": 9384167,
+                "name": "61#",
+                "type": "nan",
+                "latitude": 45.77556773297837,
+                "longitutde": 126.68086417933768
+            },
+            {
+                "id": 9384168,
+                "name": "Building 11",
+                "type": "nan",
+                "latitude": 45.77177383027308,
+                "longitutde": 126.67639650341403
+            },
+            {
+                "id": 9384170,
+                "name": "21号教学楼",
+                "type": "nan",
+                "latitude": 45.77360818047495,
+                "longitutde": 126.67622605332856
+            }
+        ]
+    }
+}

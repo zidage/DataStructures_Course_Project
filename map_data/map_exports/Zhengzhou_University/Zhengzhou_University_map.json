@@ -1,0 +1,11 @@
+{
+    "id": -7841881806560591352,
+    "name": "郑州大学",
+    "rating": 4.6,
+    "popularity": 92,
+    "data_path": "map_data/university_map/Zhengzhou_University",
+    "amenity": {
+        "affiliation": -7841881806560591352,
+        "amenity_list": []
+    }
+}

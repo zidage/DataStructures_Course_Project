@@ -48,7 +48,7 @@ def astar(adjacency_list, node_list, start, end):
 
         for neighbor, weight in adjacency_list[current_node].items():
             try:
-                wt = current_g + weight
+                wt = current_g + weight[0]
                 if wt < wts[neighbor]:
                     wts[neighbor] = wt
                     f = wt + heuristic(node_list[neighbor], node_list[end])
@@ -72,55 +72,12 @@ def astar(adjacency_list, node_list, start, end):
 
 def route_find_test(place, map_basket, waypoints):
     route = []
-    adjacency_list, node_list = get_graph(place)
     for i in range(len(waypoints) - 1):
         orig_node = ox.nearest_nodes(map_basket["graph"], waypoints[i][0], waypoints[i][1])
         dest_node = ox.nearest_nodes(map_basket["graph"], waypoints[i + 1][0], waypoints[i + 1][1])
-        wt, path = astar(adjacency_list, node_list, orig_node, dest_node)
+        wt, path = astar(map_basket["adj_list"], map_basket["nd_list"], orig_node, dest_node)
         route.append((path, wt))
     
     return route
     
-
-def get_graph(place):
-    # print("get_graph starts")
-    with open(f"{root_dir}/{place}/{place}_sr.pickle", "rb") as f:
-        transport = 'bike'
-        offset = 0
-        
-        map_basket = pickle.load(f)
-        nodes = ox.graph_to_gdfs(map_basket["graph"], edges=False).fillna("")
-        edges = ox.graph_to_gdfs(map_basket["graph"], nodes=False).fillna("")
-        # print(nodes.iloc[2].name)
-        time_use = []
-        for idx, rows in edges.iterrows():
-            time_use.append(rows["length"] / 
-                            (10 if transport == 'bike' else 2) - get_offset(transport) / 1000 / 3600)
-        edges["time_use"] = time_use
-
-        # print(edges["osmid"].head())
-
-        adjacency_list = {}
-        node_list = {}
-
-        graph = ox.graph_from_gdfs(nodes, edges)
-
-
-        for u, v, key, data in graph.edges(keys=True, data=True):
-            #if u is None or v is None:
-                #continue
-
-            if u not in adjacency_list:
-                adjacency_list[u] = {}
-            
-            if v not in adjacency_list[u]:
-                adjacency_list[u][v] = data["time_use"]
-                # print(adjacency_list[u][v])
-        
-        for id, data in graph.nodes(data=True):
-            node_list[id] = (data['x'], data['y'])
-
-        # print(node_list)
-        # print("get_graph ends")
-        return adjacency_list, node_list
 

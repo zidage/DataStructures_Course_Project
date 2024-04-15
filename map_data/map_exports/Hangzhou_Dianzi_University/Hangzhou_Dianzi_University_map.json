@@ -1,0 +1,11 @@
+{
+    "id": -6739858475575843589,
+    "name": "杭州电子科技大学",
+    "rating": 4.6,
+    "popularity": 96,
+    "data_path": "map_data/university_map/Hangzhou_Dianzi_University",
+    "amenity": {
+        "affiliation": -6739858475575843589,
+        "amenity_list": []
+    }
+}

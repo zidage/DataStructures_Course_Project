@@ -1,0 +1,250 @@
+{
+    "id": -8823414104309247720,
+    "name": "西北工业大学",
+    "rating": 4.7,
+    "popularity": 72,
+    "data_path": "map_data/university_map/Northwestern_Polytechnical_University",
+    "amenity": {
+        "affiliation": -8823414104309247720,
+        "amenity_list": [
+            {
+                "id": 3643535059,
+                "name": "可能感兴趣的地点",
+                "type": "bank",
+                "latitude": 34.2461666,
+                "longitutde": 108.9123619
+            },
+            {
+                "id": 3684849853,
+                "name": "晨光烧饼",
+                "type": "restaurant",
+                "latitude": 34.2474244,
+                "longitutde": 108.9155346
+            },
+            {
+                "id": 3684897981,
+                "name": "王二羊肉面馆",
+                "type": "restaurant",
+                "latitude": 34.247521,
+                "longitutde": 108.9155346
+            },
+            {
+                "id": 3686351885,
+                "name": "中国工商银行ATM",
+                "type": "atm",
+                "latitude": 34.2449394,
+                "longitutde": 108.9126479
+            },
+            {
+                "id": 3686357125,
+                "name": "中国建设银行ATM",
+                "type": "atm",
+                "latitude": 34.2446517,
+                "longitutde": 108.9126538
+            },
+            {
+                "id": 5400373021,
+                "name": "中国银行",
+                "type": "bank",
+                "latitude": 34.2473835,
+                "longitutde": 108.9115531
+            },
+            {
+                "id": 333988781,
+                "name": "西北工业大学附属小学",
+                "type": "school",
+                "latitude": 34.247444028093746,
+                "longitutde": 108.91236249521963
+            },
+            {
+                "id": 359583115,
+                "name": "西工大医院",
+                "type": "hospital",
+                "latitude": 34.24817154536745,
+                "longitutde": 108.9076007635945
+            },
+            {
+                "id": 359583122,
+                "name": "西北工业大学幼儿园",
+                "type": "childcare",
+                "latitude": 34.24754554345333,
+                "longitutde": 108.91042204396264
+            },
+            {
+                "id": 359677859,
+                "name": "西北工业大学 图书馆",
+                "type": "library",
+                "latitude": 34.24453977352456,
+                "longitutde": 108.91119729086488
+            },
+            {
+                "id": 362794777,
+                "name": "西北工业大学老图书馆",
+                "type": "library",
+                "latitude": 34.244522124097486,
+                "longitutde": 108.91003930257814
+            },
+            {
+                "id": 177231508,
+                "name": "毅字楼",
+                "type": "nan",
+                "latitude": 34.24377082383988,
+                "longitutde": 108.91108710762522
+            },
+            {
+                "id": 359583116,
+                "name": "西湖1#楼",
+                "type": "nan",
+                "latitude": 34.24747166729512,
+                "longitutde": 108.90643366773307
+            },
+            {
+                "id": 359583118,
+                "name": "西湖2#楼",
+                "type": "nan",
+                "latitude": 34.2479331601105,
+                "longitutde": 108.90689131983692
+            },
+            {
+                "id": 359677856,
+                "name": "学生公寓3号楼",
+                "type": "nan",
+                "latitude": 34.24584558873167,
+                "longitutde": 108.91274541131885
+            },
+            {
+                "id": 359677859,
+                "name": "西北工业大学 图书馆",
+                "type": "library",
+                "latitude": 34.24453977352456,
+                "longitutde": 108.91119729086488
+            },
+            {
+                "id": 362794777,
+                "name": "西北工业大学老图书馆",
+                "type": "library",
+                "latitude": 34.244522124097486,
+                "longitutde": 108.91003930257814
+            },
+            {
+                "id": 362794778,
+                "name": "研究生东馆",
+                "type": "nan",
+                "latitude": 34.24380781210141,
+                "longitutde": 108.90998310499347
+            },
+            {
+                "id": 362794781,
+                "name": "综合服务大楼",
+                "type": "nan",
+                "latitude": 34.247379683979496,
+                "longitutde": 108.91148273477502
+            },
+            {
+                "id": 367533761,
+                "name": "勇字楼",
+                "type": "nan",
+                "latitude": 34.24375514999999,
+                "longitutde": 108.90906670000001
+            },
+            {
+                "id": 367533762,
+                "name": "研究生西馆",
+                "type": "nan",
+                "latitude": 34.24370769364536,
+                "longitutde": 108.90817816376118
+            },
+            {
+                "id": 367533763,
+                "name": "教育基金会办公室",
+                "type": "nan",
+                "latitude": 34.24376785,
+                "longitutde": 108.91196910000001
+            },
+            {
+                "id": 367533765,
+                "name": "机电学院",
+                "type": "nan",
+                "latitude": 34.245645257816726,
+                "longitutde": 108.91180940337526
+            },
+            {
+                "id": 367533766,
+                "name": "学舟楼",
+                "type": "nan",
+                "latitude": 34.245953784096045,
+                "longitutde": 108.90949632569755
+            },
+            {
+                "id": 367533767,
+                "name": "机电实验教学中心",
+                "type": "nan",
+                "latitude": 34.245776760957746,
+                "longitutde": 108.9097792255585
+            },
+            {
+                "id": 367533768,
+                "name": "书海楼",
+                "type": "nan",
+                "latitude": 34.24594307748007,
+                "longitutde": 108.9086930180163
+            },
+            {
+                "id": 432830344,
+                "name": "公字楼",
+                "type": "nan",
+                "latitude": 34.243632758672554,
+                "longitutde": 108.90688789189517
+            },
+            {
+                "id": 432830345,
+                "name": "凝固实验室",
+                "type": "nan",
+                "latitude": 34.24455465,
+                "longitutde": 108.90680025
+            },
+            {
+                "id": 432830346,
+                "name": "诚字楼",
+                "type": "nan",
+                "latitude": 34.24526305180126,
+                "longitutde": 108.90907504212215
+            },
+            {
+                "id": 432830348,
+                "name": "管理学院",
+                "type": "nan",
+                "latitude": 34.2455032,
+                "longitutde": 108.91058054999998
+            },
+            {
+                "id": 432830349,
+                "name": "南村1号楼",
+                "type": "nan",
+                "latitude": 34.24642595239484,
+                "longitutde": 108.91122147509336
+            },
+            {
+                "id": 432830350,
+                "name": "南村2号楼",
+                "type": "nan",
+                "latitude": 34.24641815,
+                "longitutde": 108.9104145
+            },
+            {
+                "id": 988902352,
+                "name": "西北工业大学创新科技大楼",
+                "type": "nan",
+                "latitude": 34.24541414372525,
+                "longitutde": 108.90621620066068
+            },
+            {
+                "id": 6433775,
+                "name": "航空楼",
+                "type": "nan",
+                "latitude": 34.24568888343184,
+                "longitutde": 108.91084109602134
+            }
+        ]
+    }
+}

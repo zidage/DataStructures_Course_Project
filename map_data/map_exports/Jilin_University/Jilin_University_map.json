@@ -1,0 +1,33 @@
+{
+    "id": 7119566844480094011,
+    "name": "吉林大学",
+    "rating": 4.7,
+    "popularity": 96,
+    "data_path": "map_data/university_map/Jilin_University",
+    "amenity": {
+        "affiliation": 7119566844480094011,
+        "amenity_list": [
+            {
+                "id": 131379151,
+                "name": "可能感兴趣的地点",
+                "type": "library",
+                "latitude": 43.880662397756204,
+                "longitutde": 125.3033110250949
+            },
+            {
+                "id": 112648060,
+                "name": "地质宫",
+                "type": "nan",
+                "latitude": 43.880051203294144,
+                "longitutde": 125.30112359965922
+            },
+            {
+                "id": 512313312,
+                "name": "钻采实验楼",
+                "type": "nan",
+                "latitude": 43.880703633187565,
+                "longitutde": 125.29922280866975
+            }
+        ]
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "id": 508844582035574459,
+    "name": "云南大学",
+    "rating": 4.5,
+    "popularity": 88,
+    "data_path": "map_data/university_map/Yunnan_University",
+    "amenity": {
+        "affiliation": 508844582035574459,
+        "amenity_list": [
+            {
+                "id": 9501977635,
+                "name": "可能感兴趣的地点",
+                "type": "bus_station",
+                "latitude": 24.8304945,
+                "longitutde": 102.8574714
+            },
+            {
+                "id": 1030339325,
+                "name": "校医院",
+                "type": "hospital",
+                "latitude": 24.830840645929616,
+                "longitutde": 102.85726340513898
+            },
+            {
+                "id": 1030839005,
+                "name": "云大驾校",
+                "type": "driver_training",
+                "latitude": 24.822004751743886,
+                "longitutde": 102.84668937525599
+            },
+            {
+                "id": 14921646,
+                "name": "云南大学图书馆",
+                "type": "library",
+                "latitude": 24.827455770643816,
+                "longitutde": 102.84738150222866
+            },
+            {
+                "id": 4045081532,
+                "name": "中山邦翰楼",
+                "type": "nan",
+                "latitude": 24.8282452,
+                "longitutde": 102.8442826
+            },
+            {
+                "id": 887520522,
+                "name": "明远楼",
+                "type": "nan",
+                "latitude": 24.832283506248388,
+                "longitutde": 102.8475807962373
+            },
+            {
+                "id": 1030295025,
+                "name": "云大篮球馆",
+                "type": "nan",
+                "latitude": 24.823872680477482,
+                "longitutde": 102.8465797707554
+            },
+            {
+                "id": 1030300828,
+                "name": "礼堂",
+                "type": "nan",
+                "latitude": 24.829567462594806,
+                "longitutde": 102.84544379051809
+            },
+            {
+                "id": 1030583569,
+                "name": "钟楼",
+                "type": "nan",
+                "latitude": 24.83083067746741,
+                "longitutde": 102.84664205502732
+            },
+            {
+                "id": 14921646,
+                "name": "云南大学图书馆",
+                "type": "library",
+                "latitude": 24.827455770643816,
+                "longitutde": 102.84738150222866
+            }
+        ]
+    }
+}

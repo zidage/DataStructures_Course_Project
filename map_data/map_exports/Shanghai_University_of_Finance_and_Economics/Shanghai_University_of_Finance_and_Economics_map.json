@@ -1,0 +1,26 @@
+{
+    "id": 6173869574118977250,
+    "name": "上海财经大学",
+    "rating": 4.6,
+    "popularity": 84,
+    "data_path": "map_data/university_map/Shanghai_University_of_Finance_and_Economics",
+    "amenity": {
+        "affiliation": 6173869574118977250,
+        "amenity_list": [
+            {
+                "id": 538441462,
+                "name": "上海市肺科医院",
+                "type": "hospital",
+                "latitude": 31.304227850755247,
+                "longitutde": 121.49749138476686
+            },
+            {
+                "id": 971533570,
+                "name": "可能感兴趣的地点",
+                "type": "parking",
+                "latitude": 31.30959562608428,
+                "longitutde": 121.49679485772887
+            }
+        ]
+    }
+}

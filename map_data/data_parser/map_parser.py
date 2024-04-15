@@ -125,6 +125,24 @@ def graph_parser(file):
     return ox.load_graphml(file)
 
 
+def building_parser(file):
+    """
+    building类型文件的解析函数, 会对一个地点范围内的建筑进行筛选并返回一个GeoDataFrame. 
+
+    Parameter:
+    file (str): 文件路径
+
+    Returns:
+    GeoDataFrame: 地点范围内建筑的data set.
+    """
+    gdf = gpd.read_file(file)
+    try:
+        gdf = gdf[gdf['name'] != 'nan']
+    except:
+        return gdf
+    return gdf
+
+
 def area_parser(file):
     """
     Deprecated. 与regular_parser功能相同
@@ -157,30 +175,6 @@ def amenity_parser(file):
         return None
 
 
-def amenity_filter(amenity_gdf, area_gdf):
-    """
-    amenity类型文件的进一步筛选函数, 目前已废弃. 
-    """
-    try:
-        # 定义函数处理每个几何对象
-        def filter_geometry(row):
-            geom = row['geometry']
-            if isinstance(geom, Point) or isinstance(geom, Polygon):
-                return any(geom.within(polygon) for polygon in area_gdf['geometry'])
-            elif isinstance(geom, MultiPolygon):
-                for poly in geom.geoms:
-                    if any(poly.within(polygon) for polygon in area_gdf['geometry']):
-                        return True
-                return False
-
-        # 对每个 'amenity_gdf' 中的几何值进行空间查询，并保留在 'area_gdf' 中的数据
-        filtered_gdf = amenity_gdf[amenity_gdf.apply(filter_geometry, axis=1)]
-        return filtered_gdf
-    except Exception as e:
-        print("filter error: ", e)
-        return amenity_gdf
-
-
 def export_data_object(map_basket, amenity_basket, university):
     """
     地图属性集合的导出函数, 可将地图属性导出为json以及序列化一个Python对象存储到硬盘上
@@ -208,7 +202,7 @@ def export_data_object(map_basket, amenity_basket, university):
             amenity_basket["amenity_list"].append({"id": row['osmid'], "name": row["name"], "type": row["amenity"],
                                                   "latitude": row["geometry"].centroid.y, "longitutde": row["geometry"].centroid.x})    
     except:
-        print(f"No amenity in {file_name}")
+        print(f"No amenity or building in {file_name}")
     # 导出的json文件的字典表示
     export_data = {
         "id": map_basket["id"],
@@ -224,6 +218,47 @@ def export_data_object(map_basket, amenity_basket, university):
         pickle.dump(map_basket, file)  # 存储为pickle文件，把对象腌成泡菜
 
 
+def get_graph(map_basket):
+    # print("get_graph starts")
+    try:
+        nodes = ox.graph_to_gdfs(map_basket["graph"], edges=False).fillna("")
+        edges = ox.graph_to_gdfs(map_basket["graph"], nodes=False).fillna("")
+        # print(nodes.iloc[2].name)
+        time_use_walk = []
+        for idx, rows in edges.iterrows():
+            time_use_walk.append(rows["length"] / 4 / 1000 * 3600)
+        edges["time_use_walk"] = time_use_walk
+
+    # print(edges["osmid"].head())
+
+        adjacency_list = {}
+        node_list = {}
+
+        graph = ox.graph_from_gdfs(nodes, edges)
+
+
+        for u, v, key, data in graph.edges(keys=True, data=True):
+            #if u is None or v is None:
+                #continue
+
+            if u not in adjacency_list:
+                adjacency_list[u] = {}
+            
+            if v not in adjacency_list[u]:
+                adjacency_list[u][v] = (data["length"], data["time_use_walk"])
+                # print(adjacency_list[u][v])
+        
+        for id, data in graph.nodes(data=True):
+            node_list[id] = (data['x'], data['y'])
+
+        # print(node_list)
+        # print("get_graph ends")
+        return adjacency_list, node_list
+    except:
+        print("Parse terminate")
+        return None, None
+
+
 # main函数
 root_dir = f'{os.environ["MAP_DATA"]}/university_map_test'
 delete_folders_with_few_files(root_dir)
@@ -232,7 +267,7 @@ university_directories = list_subdirectories(root_dir)
 for university in university_directories:
     files_path = get_files_in_folder(university)
     map_basket = {"id": None, "name": None, "rating": None, "popularity": None, "graph": None, "area": None,
-                  "building": None, "amenity": None, "route": None}
+                  "building": None, "amenity": None, "route": None, "adj_list": None, "nd_list": None}
     amenity_basket = {"affiliation": None, "amenity_list": None}
     for file in files_path:
         parsed_line = file.split('_')  # 把下划线分隔的文件名拆成一个数组
@@ -245,10 +280,13 @@ for university in university_directories:
             amenity_basket["affiliation"] = map_basket["id"]
         elif file_type == 'graph.graphml':
             map_basket["graph"] = graph_parser(file)  # 将图解析并存储
+            map_basket["adj_list"], map_basket["nd_list"] = get_graph(map_basket)
+            #if map_basket["adj_list"] is None or map_basket["nd_list"] is None:
+                #continue
         elif file_type == 'area.gpkg':
             map_basket["area"] = regular_parser(file)  # 将占据区域解析并存储
         elif file_type == 'buildings.gpkg':
-            map_basket["building"] = regular_parser(file)  # 将建筑解析并存储
+            map_basket["building"] = building_parser(file)  # 将建筑解析并存储
         elif file_type == 'amenity.gpkg':
             map_basket["amenity"] = amenity_parser(file)  # 将设施解析并存储
 
