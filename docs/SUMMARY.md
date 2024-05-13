@@ -16,3 +16,4 @@
       * [university\_map](python\_route\_planning\_module/data\_fetcher/map\_data/university\_map.md)
   * [基于Leaflet.js的视图生成模块](python\_route\_planning\_module/ji-yu-leaflet.js-de-shi-tu-sheng-cheng-mo-kuai/README.md)
     * [map\_view\_generator.py](python\_route\_planning\_module/ji-yu-leaflet.js-de-shi-tu-sheng-cheng-mo-kuai/map\_view\_generator.py.md)
+    * [MapViewGenerator.java](python\_route\_planning\_module/ji-yu-leaflet.js-de-shi-tu-sheng-cheng-mo-kuai/mapviewgenerator.java.md)
