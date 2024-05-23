@@ -1,0 +1,62 @@
+package org.twentyEight.controller;
+
+import jakarta.validation.constraints.Pattern;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.validation.annotation.Validated;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+import org.twentyEight.pojo.Result;
+import org.twentyEight.pojo.User;
+import org.twentyEight.service.UserService;
+import org.twentyEight.utils.JwtUtil;
+import org.twentyEight.utils.Md5Util;
+
+import java.util.HashMap;
+import java.util.Map;
+
+@RestController
+@RequestMapping("/user")
+@Validated
+public class UserController {
+
+    @Autowired
+    private UserService userService;
+
+    @PostMapping("/regist")
+    public Result register(@Pattern(regexp = "^\\S{1,16}$")String username,
+                           @Pattern(regexp = "^(?=.*[a-z])(?=.*\\d)[a-zA-Z\\d]{8,32}$")String password) {
+
+        User u = userService.findByUserName(username);
+        if (u == null) {
+            // 注册
+            userService.register(username, password);
+            return Result.success();
+        } else {
+            return Result.error("用户名已被占用");
+        }
+    }
+
+    @PostMapping("/login")
+    public Result<String> login(@Pattern(regexp = "^\\S{1,16}$")String username,
+                                @Pattern(regexp = "^(?=.*[a-z])(?=.*\\d)[a-zA-Z\\d]{8,32}$")String password) {
+        // 根据用户名查询用户
+        User loginUser = userService.findByUserName(username);
+        // 判断该用户时候存在
+        if (loginUser == null) {
+            return Result.error("用户名错误");
+        }
+
+        // 判断密码是否正确 loginUser对象中的password是密文
+        if (Md5Util.getMD5String(password).equals(loginUser.getPassword())) {
+            // 登录成功
+            Map<String, Object> claims = new HashMap<>();
+            claims.put("id", loginUser.getId());
+            claims.put("username", loginUser.getUsername());
+            String token = JwtUtil.genToken(claims);
+            return Result.success(token);
+        }
+
+        return Result.error("密码错误");
+    }
+}
