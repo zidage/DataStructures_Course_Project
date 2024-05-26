@@ -5,9 +5,11 @@ import lombok.Data;
 @Data
 public class Venue {
     private Integer id;
-    private Integer place_belong;
-    private Integer route_belong;
-    private String type;
     private String name;
-    private String osmid;
+    private String type;
+    private Double latitude;
+    private Double longitude;
+    private Integer placeId; // 外键
+    private Integer popularity;
+    private Long osmid;
 }

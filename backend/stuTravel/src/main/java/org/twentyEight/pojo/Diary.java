@@ -9,9 +9,10 @@ public class Diary {
     private Integer id;
     private String title;
     private String content;
-    private String cover_img;
+    private String coverImg;
     private String state;
-    private Integer create_user;
-    private LocalDateTime crate_time;
-    private LocalDateTime update_time;
+    private Integer createUser;
+    private Integer popularity;
+    private LocalDateTime crateTime;
+    private LocalDateTime updateTime;
 }

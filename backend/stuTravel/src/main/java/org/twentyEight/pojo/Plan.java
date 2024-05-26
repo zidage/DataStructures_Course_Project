@@ -1,10 +1,10 @@
 package org.twentyEight.pojo;
 
-public class Route {
+public class Plan {
     private Integer id;
-    private Integer create_user;
+    private Integer createUser;
     private String title;
     private Integer place;
     private String transport;
-    private Integer required_time;
+    private Integer requiredTime;
 }

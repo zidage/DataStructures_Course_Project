@@ -7,5 +7,6 @@ public class Place {
     private Integer id;
     private String name;
     private Integer popularity;
-    private String description;
+    private Double rating;
+    private String data_path;
 }
