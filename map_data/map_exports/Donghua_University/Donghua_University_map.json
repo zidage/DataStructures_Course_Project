@@ -1,25 +1,25 @@
 {
-    "id": 8734856116917781313,
+    "id": 1541484515446248157,
     "name": "东华大学",
     "rating": 4.2,
-    "popularity": 88,
+    "popularity": 64,
     "data_path": "map_data/university_map/Donghua_University",
     "amenity": {
-        "affiliation": 8734856116917781313,
+        "affiliation": 1541484515446248157,
         "amenity_list": [
             {
                 "id": 6552479871,
                 "name": "鹿角弄",
                 "type": "fast_food",
                 "latitude": 31.2091236,
-                "longitutde": 121.4108314
+                "longitude": 121.4108314
             },
             {
                 "id": 968395973,
                 "name": "可能感兴趣的地点",
                 "type": "parking",
                 "latitude": 31.2039811,
-                "longitutde": 121.41085120000001
+                "longitude": 121.41085120000001
             }
         ]
     }

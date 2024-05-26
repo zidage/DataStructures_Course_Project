@@ -1,508 +1,508 @@
 {
-    "id": 255913891711673838,
+    "id": 6055965675828266948,
     "name": "南京航空航天大学",
     "rating": 4.7,
-    "popularity": 72,
+    "popularity": 76,
     "data_path": "map_data/university_map/Nanjing_University_of_Aeronautics_and_Astronautics",
     "amenity": {
-        "affiliation": 255913891711673838,
+        "affiliation": 6055965675828266948,
         "amenity_list": [
             {
                 "id": 916831940,
                 "name": "明故宫食堂",
                 "type": "restaurant",
                 "latitude": 32.03544814570814,
-                "longitutde": 118.81616067173111
+                "longitude": 118.81616067173111
             },
             {
                 "id": 970855309,
                 "name": "可能感兴趣的地点",
                 "type": "parking",
                 "latitude": 32.039449622712716,
-                "longitutde": 118.8182109024604
+                "longitude": 118.8182109024604
             },
             {
                 "id": 791233540,
                 "name": "东华门",
                 "type": "nan",
                 "latitude": 32.04026532138775,
-                "longitutde": 118.81657077447765
+                "longitude": 118.81657077447765
             },
             {
                 "id": 916831899,
                 "name": "A12号楼",
                 "type": "nan",
                 "latitude": 32.04071344817466,
-                "longitutde": 118.81568844908286
+                "longitude": 118.81568844908286
             },
             {
                 "id": 916831900,
                 "name": "A11号楼",
                 "type": "nan",
                 "latitude": 32.04082827310705,
-                "longitutde": 118.81437988888236
+                "longitude": 118.81437988888236
             },
             {
                 "id": 916831901,
                 "name": "A10号楼",
                 "type": "nan",
                 "latitude": 32.040210693209346,
-                "longitutde": 118.81503056871298
+                "longitude": 118.81503056871298
             },
             {
                 "id": 916831902,
                 "name": "A13号楼",
                 "type": "nan",
                 "latitude": 32.040160388499515,
-                "longitutde": 118.81386654017123
+                "longitude": 118.81386654017123
             },
             {
                 "id": 916831903,
                 "name": "A14号楼",
                 "type": "nan",
                 "latitude": 32.03998864174361,
-                "longitutde": 118.815942933294
+                "longitude": 118.815942933294
             },
             {
                 "id": 916831904,
                 "name": "A8号楼",
                 "type": "nan",
                 "latitude": 32.039639891679506,
-                "longitutde": 118.81443489322128
+                "longitude": 118.81443489322128
             },
             {
                 "id": 916831905,
                 "name": "A9号楼",
                 "type": "nan",
                 "latitude": 32.03954757653466,
-                "longitutde": 118.81547717090119
+                "longitude": 118.81547717090119
             },
             {
                 "id": 916831906,
                 "name": "A16号楼",
                 "type": "nan",
                 "latitude": 32.03914669341516,
-                "longitutde": 118.81388228563077
+                "longitude": 118.81388228563077
             },
             {
                 "id": 916831907,
                 "name": "A17号楼",
                 "type": "nan",
                 "latitude": 32.03858717386769,
-                "longitutde": 118.81427093469735
+                "longitude": 118.81427093469735
             },
             {
                 "id": 916831908,
                 "name": "机电学院",
                 "type": "nan",
                 "latitude": 32.03839702136507,
-                "longitutde": 118.81324603444641
+                "longitude": 118.81324603444641
             },
             {
                 "id": 916831909,
                 "name": "A6号楼",
                 "type": "nan",
                 "latitude": 32.03810712237366,
-                "longitutde": 118.81417188040454
+                "longitude": 118.81417188040454
             },
             {
                 "id": 916831910,
                 "name": "A18号楼",
                 "type": "nan",
                 "latitude": 32.03849292788506,
-                "longitutde": 118.8152627343319
+                "longitude": 118.8152627343319
             },
             {
                 "id": 916831911,
                 "name": "航空学院楼",
                 "type": "nan",
                 "latitude": 32.037978123744836,
-                "longitutde": 118.8151429531608
+                "longitude": 118.8151429531608
             },
             {
                 "id": 916831912,
                 "name": "A4号楼",
                 "type": "nan",
                 "latitude": 32.037694892745954,
-                "longitutde": 118.8131145604454
+                "longitude": 118.8131145604454
             },
             {
                 "id": 916831913,
                 "name": "A3号楼",
                 "type": "nan",
                 "latitude": 32.037048151639794,
-                "longitutde": 118.81297403728345
+                "longitude": 118.81297403728345
             },
             {
                 "id": 916831914,
                 "name": "A5号楼",
                 "type": "nan",
                 "latitude": 32.0375316298592,
-                "longitutde": 118.81517097259221
+                "longitude": 118.81517097259221
             },
             {
                 "id": 916831915,
                 "name": "A7号楼",
                 "type": "nan",
                 "latitude": 32.037164754849016,
-                "longitutde": 118.81509151034454
+                "longitude": 118.81509151034454
             },
             {
                 "id": 916831916,
                 "name": "荟萃楼",
                 "type": "nan",
                 "latitude": 32.036794346828415,
-                "longitutde": 118.81505627325046
+                "longitude": 118.81505627325046
             },
             {
                 "id": 916831917,
                 "name": "体育馆",
                 "type": "nan",
                 "latitude": 32.03629667283982,
-                "longitutde": 118.81285786260266
+                "longitude": 118.81285786260266
             },
             {
                 "id": 916831918,
                 "name": "A1号楼",
                 "type": "nan",
                 "latitude": 32.0364256706543,
-                "longitutde": 118.81393369011086
+                "longitude": 118.81393369011086
             },
             {
                 "id": 916831919,
                 "name": "图书馆",
                 "type": "nan",
                 "latitude": 32.036275261102496,
-                "longitutde": 118.81518852379192
+                "longitude": 118.81518852379192
             },
             {
                 "id": 916831920,
                 "name": "A23号楼",
                 "type": "nan",
                 "latitude": 32.03429249776579,
-                "longitutde": 118.81508362125722
+                "longitude": 118.81508362125722
             },
             {
                 "id": 916831927,
                 "name": "B19号楼",
                 "type": "nan",
                 "latitude": 32.036008205860625,
-                "longitutde": 118.81651320694158
+                "longitude": 118.81651320694158
             },
             {
                 "id": 916831928,
                 "name": "B13号楼",
                 "type": "nan",
                 "latitude": 32.03620095,
-                "longitutde": 118.8178225
+                "longitude": 118.8178225
             },
             {
                 "id": 916831929,
                 "name": "B12号楼",
                 "type": "nan",
                 "latitude": 32.03584017966781,
-                "longitutde": 118.81776611269092
+                "longitude": 118.81776611269092
             },
             {
                 "id": 916831930,
                 "name": "B11号楼",
                 "type": "nan",
                 "latitude": 32.03549218094544,
-                "longitutde": 118.81771304235792
+                "longitude": 118.81771304235792
             },
             {
                 "id": 916831931,
                 "name": "B10号楼",
                 "type": "nan",
                 "latitude": 32.03515617839111,
-                "longitutde": 118.81764578302133
+                "longitude": 118.81764578302133
             },
             {
                 "id": 916831932,
                 "name": "B9号楼",
                 "type": "nan",
                 "latitude": 32.03488608094545,
-                "longitutde": 118.81761394235791
+                "longitude": 118.81761394235791
             },
             {
                 "id": 916831933,
                 "name": "B8号楼",
                 "type": "nan",
                 "latitude": 32.03465207839111,
-                "longitutde": 118.81756438302133
+                "longitude": 118.81756438302133
             },
             {
                 "id": 916831934,
                 "name": "B7号楼",
                 "type": "nan",
                 "latitude": 32.034370078391106,
-                "longitutde": 118.81753608302134
+                "longitude": 118.81753608302134
             },
             {
                 "id": 916831935,
                 "name": "B17号楼",
                 "type": "nan",
                 "latitude": 32.03669190916138,
-                "longitutde": 118.81659367378727
+                "longitude": 118.81659367378727
             },
             {
                 "id": 916831936,
                 "name": "B16号楼",
                 "type": "nan",
                 "latitude": 32.03660497121428,
-                "longitutde": 118.81738182916038
+                "longitude": 118.81738182916038
             },
             {
                 "id": 916831937,
                 "name": "B15号楼",
                 "type": "nan",
                 "latitude": 32.03627037217906,
-                "longitutde": 118.817225225317
+                "longitude": 118.817225225317
             },
             {
                 "id": 916831938,
                 "name": "B14号楼",
                 "type": "nan",
                 "latitude": 32.0359274,
-                "longitutde": 118.8171662
+                "longitude": 118.8171662
             },
             {
                 "id": 916831939,
                 "name": "B20号楼",
                 "type": "nan",
                 "latitude": 32.03577838050965,
-                "longitutde": 118.81614541842279
+                "longitude": 118.81614541842279
             },
             {
                 "id": 916831940,
                 "name": "明故宫食堂",
                 "type": "restaurant",
                 "latitude": 32.03544814570814,
-                "longitutde": 118.81616067173111
+                "longitude": 118.81616067173111
             },
             {
                 "id": 916831941,
                 "name": "B22号楼",
                 "type": "nan",
                 "latitude": 32.035514407886915,
-                "longitutde": 118.81665247564887
+                "longitude": 118.81665247564887
             },
             {
                 "id": 916831945,
                 "name": "B1号楼 B3号楼",
                 "type": "nan",
                 "latitude": 32.03437638898956,
-                "longitutde": 118.81613059382076
+                "longitude": 118.81613059382076
             },
             {
                 "id": 916831947,
                 "name": "B5号楼",
                 "type": "nan",
                 "latitude": 32.03413702250444,
-                "longitutde": 118.81690172127168
+                "longitude": 118.81690172127168
             },
             {
                 "id": 916831948,
                 "name": "C15号楼",
                 "type": "nan",
                 "latitude": 32.03680243507197,
-                "longitutde": 118.81799214685789
+                "longitude": 118.81799214685789
             },
             {
                 "id": 916831949,
                 "name": "C13号楼",
                 "type": "nan",
                 "latitude": 32.03724417362097,
-                "longitutde": 118.8181458036504
+                "longitude": 118.8181458036504
             },
             {
                 "id": 916831950,
                 "name": "C2号楼",
                 "type": "nan",
                 "latitude": 32.03839059508292,
-                "longitutde": 118.81644881114254
+                "longitude": 118.81644881114254
             },
             {
                 "id": 916831951,
                 "name": "C1号楼",
                 "type": "nan",
                 "latitude": 32.03789145,
-                "longitutde": 118.81665975
+                "longitude": 118.81665975
             },
             {
                 "id": 916831952,
                 "name": "C3号楼",
                 "type": "nan",
                 "latitude": 32.03835530432284,
-                "longitutde": 118.81728202739276
+                "longitude": 118.81728202739276
             },
             {
                 "id": 916831953,
                 "name": "C7号楼",
                 "type": "nan",
                 "latitude": 32.03784470331937,
-                "longitutde": 118.8173758022893
+                "longitude": 118.8173758022893
             },
             {
                 "id": 916831954,
                 "name": "C12号楼",
                 "type": "nan",
                 "latitude": 32.037701055792716,
-                "longitutde": 118.81804287675503
+                "longitude": 118.81804287675503
             },
             {
                 "id": 916831955,
                 "name": "C11号楼",
                 "type": "nan",
                 "latitude": 32.0379566,
-                "longitutde": 118.81809085000002
+                "longitude": 118.81809085000002
             },
             {
                 "id": 916831956,
                 "name": "C5号楼",
                 "type": "nan",
                 "latitude": 32.038207722013695,
-                "longitutde": 118.81764821493803
+                "longitude": 118.81764821493803
             },
             {
                 "id": 916831957,
                 "name": "C10号楼",
                 "type": "nan",
                 "latitude": 32.03809549761858,
-                "longitutde": 118.81813632115714
+                "longitude": 118.81813632115714
             },
             {
                 "id": 916831958,
                 "name": "C16号楼",
                 "type": "nan",
                 "latitude": 32.03732288115712,
-                "longitutde": 118.81746995217347
+                "longitude": 118.81746995217347
             },
             {
                 "id": 916831959,
                 "name": "C20号楼",
                 "type": "nan",
                 "latitude": 32.03728910307409,
-                "longitutde": 118.81637117730136
+                "longitude": 118.81637117730136
             },
             {
                 "id": 916831960,
                 "name": "橘子酒店",
                 "type": "nan",
                 "latitude": 32.040765058458426,
-                "longitutde": 118.81691280076282
+                "longitude": 118.81691280076282
             },
             {
                 "id": 916831970,
                 "name": "H1",
                 "type": "nan",
                 "latitude": 32.03967685303693,
-                "longitutde": 118.81760036216717
+                "longitude": 118.81760036216717
             },
             {
                 "id": 916831971,
                 "name": "H1 南",
                 "type": "nan",
                 "latitude": 32.03947815456474,
-                "longitutde": 118.81758293867935
+                "longitude": 118.81758293867935
             },
             {
                 "id": 916831972,
                 "name": "H2",
                 "type": "nan",
                 "latitude": 32.03926515456474,
-                "longitutde": 118.81758293867934
+                "longitude": 118.81758293867934
             },
             {
                 "id": 916831973,
                 "name": "H南",
                 "type": "nan",
                 "latitude": 32.03904615303513,
-                "longitutde": 118.81754401216531
+                "longitude": 118.81754401216531
             },
             {
                 "id": 916831974,
                 "name": "E",
                 "type": "nan",
                 "latitude": 32.03942506830474,
-                "longitutde": 118.81852152694148
+                "longitude": 118.81852152694148
             },
             {
                 "id": 916831975,
                 "name": "D",
                 "type": "nan",
                 "latitude": 32.04001745512076,
-                "longitutde": 118.81763764659905
+                "longitude": 118.81763764659905
             },
             {
                 "id": 916831977,
                 "name": "A5",
                 "type": "nan",
                 "latitude": 32.04021539661416,
-                "longitutde": 118.81792830401648
+                "longitude": 118.81792830401648
             },
             {
                 "id": 916831978,
                 "name": "A4",
                 "type": "nan",
                 "latitude": 32.04026016636979,
-                "longitutde": 118.81734754365748
+                "longitude": 118.81734754365748
             },
             {
                 "id": 916831979,
                 "name": "H3",
                 "type": "nan",
                 "latitude": 32.03887511274198,
-                "longitutde": 118.81817302645699
+                "longitude": 118.81817302645699
             },
             {
                 "id": 916831980,
                 "name": "H4",
                 "type": "nan",
                 "latitude": 32.03879815,
-                "longitutde": 118.8184743
+                "longitude": 118.8184743
             },
             {
                 "id": 916831986,
                 "name": "F3",
                 "type": "nan",
                 "latitude": 32.03897655,
-                "longitutde": 118.81683795
+                "longitude": 118.81683795
             },
             {
                 "id": 916831990,
                 "name": "1",
                 "type": "nan",
                 "latitude": 32.040317200000004,
-                "longitutde": 118.8187399
+                "longitude": 118.8187399
             },
             {
                 "id": 916831991,
                 "name": "2",
                 "type": "nan",
                 "latitude": 32.04007265,
-                "longitutde": 118.81872599999998
+                "longitude": 118.81872599999998
             },
             {
                 "id": 916831992,
                 "name": "3",
                 "type": "nan",
                 "latitude": 32.039848,
-                "longitutde": 118.81869915
+                "longitude": 118.81869915
             },
             {
                 "id": 916831993,
                 "name": "c",
                 "type": "nan",
                 "latitude": 32.04029769619771,
-                "longitutde": 118.81845077373102
+                "longitude": 118.81845077373102
             },
             {
                 "id": 916831994,
                 "name": "b2",
                 "type": "nan",
                 "latitude": 32.040693489837956,
-                "longitutde": 118.81867863147657
+                "longitude": 118.81867863147657
             }
         ]
     }

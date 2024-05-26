@@ -1,277 +1,277 @@
 {
-    "id": 1618974778488226119,
+    "id": -2420525151287004792,
     "name": "河海大学",
     "rating": 4.5,
-    "popularity": 60,
+    "popularity": 68,
     "data_path": "map_data/university_map/Hohai_University",
     "amenity": {
-        "affiliation": 1618974778488226119,
+        "affiliation": -2420525151287004792,
         "amenity_list": [
             {
                 "id": 670930678,
                 "name": "图书馆",
                 "type": "library",
                 "latitude": 32.05727235810113,
-                "longitutde": 118.75278134356056
+                "longitude": 118.75278134356056
             },
             {
                 "id": 670930694,
                 "name": "学生1食堂",
                 "type": "restaurant",
                 "latitude": 32.056074608631505,
-                "longitutde": 118.75213121094964
+                "longitude": 118.75213121094964
             },
             {
                 "id": 670930695,
                 "name": "学生2食堂",
                 "type": "restaurant",
                 "latitude": 32.05617662899514,
-                "longitutde": 118.7524656410066
+                "longitude": 118.7524656410066
             },
             {
                 "id": 679932666,
                 "name": "研究生餐厅",
                 "type": "restaurant",
                 "latitude": 32.05893891055713,
-                "longitutde": 118.75679428549397
+                "longitude": 118.75679428549397
             },
             {
                 "id": 679932667,
                 "name": "可能感兴趣的地点",
                 "type": "parking",
                 "latitude": 32.059115854718364,
-                "longitutde": 118.75660332773371
+                "longitude": 118.75660332773371
             },
             {
                 "id": 216630148,
                 "name": "科学会堂",
                 "type": "nan",
                 "latitude": 32.058586952904705,
-                "longitutde": 118.7543603146612
+                "longitude": 118.7543603146612
             },
             {
                 "id": 273632541,
                 "name": "北教",
                 "type": "nan",
                 "latitude": 32.05924615504891,
-                "longitutde": 118.75473867730612
+                "longitude": 118.75473867730612
             },
             {
                 "id": 273632585,
                 "name": "体育馆",
                 "type": "nan",
                 "latitude": 32.05968649323421,
-                "longitutde": 118.75318772063156
+                "longitude": 118.75318772063156
             },
             {
                 "id": 273632592,
                 "name": "严恺馆",
                 "type": "nan",
                 "latitude": 32.059082621138465,
-                "longitutde": 118.75346215082665
+                "longitude": 118.75346215082665
             },
             {
                 "id": 474162620,
                 "name": "河海馆",
                 "type": "nan",
                 "latitude": 32.05681378547947,
-                "longitutde": 118.75746260845084
+                "longitude": 118.75746260845084
             },
             {
                 "id": 474162621,
                 "name": "科学馆",
                 "type": "nan",
                 "latitude": 32.05973213473219,
-                "longitutde": 118.75424797144139
+                "longitude": 118.75424797144139
             },
             {
                 "id": 475719191,
                 "name": "水利水电工程学院",
                 "type": "nan",
                 "latitude": 32.05854841421467,
-                "longitutde": 118.75322037850543
+                "longitude": 118.75322037850543
             },
             {
                 "id": 670930678,
                 "name": "图书馆",
                 "type": "library",
                 "latitude": 32.05727235810113,
-                "longitutde": 118.75278134356056
+                "longitude": 118.75278134356056
             },
             {
                 "id": 670930679,
                 "name": "河海大学校医院",
                 "type": "nan",
                 "latitude": 32.055117528472756,
-                "longitutde": 118.75235622960295
+                "longitude": 118.75235622960295
             },
             {
                 "id": 670930680,
                 "name": "学生6舍",
                 "type": "nan",
                 "latitude": 32.05477912604772,
-                "longitutde": 118.75246761559993
+                "longitude": 118.75246761559993
             },
             {
                 "id": 670930681,
                 "name": "学生5舍",
                 "type": "nan",
                 "latitude": 32.05445522470037,
-                "longitutde": 118.75247818412473
+                "longitude": 118.75247818412473
             },
             {
                 "id": 670930682,
                 "name": "学生4舍",
                 "type": "nan",
                 "latitude": 32.05413459782443,
-                "longitutde": 118.75250422463822
+                "longitude": 118.75250422463822
             },
             {
                 "id": 670930683,
                 "name": "学生9舍",
                 "type": "nan",
                 "latitude": 32.054724449999995,
-                "longitutde": 118.75333285
+                "longitude": 118.75333285
             },
             {
                 "id": 670930684,
                 "name": "学生8舍",
                 "type": "nan",
                 "latitude": 32.054404522546136,
-                "longitutde": 118.75333886210278
+                "longitude": 118.75333886210278
             },
             {
                 "id": 670930685,
                 "name": "学生7舍",
                 "type": "nan",
                 "latitude": 32.0540823981998,
-                "longitutde": 118.75332442427847
+                "longitude": 118.75332442427847
             },
             {
                 "id": 670930686,
                 "name": "学生11舍",
                 "type": "nan",
                 "latitude": 32.05452705,
-                "longitutde": 118.75388180000002
+                "longitude": 118.75388180000002
             },
             {
                 "id": 670930687,
                 "name": "学生10舍",
                 "type": "nan",
                 "latitude": 32.05420169531955,
-                "longitutde": 118.75384632470222
+                "longitude": 118.75384632470222
             },
             {
                 "id": 670930688,
                 "name": "学生1舍",
                 "type": "nan",
                 "latitude": 32.05676588272965,
-                "longitutde": 118.75193988740232
+                "longitude": 118.75193988740232
             },
             {
                 "id": 670930690,
                 "name": "学生2舍",
                 "type": "nan",
                 "latitude": 32.05704826506613,
-                "longitutde": 118.75182397836672
+                "longitude": 118.75182397836672
             },
             {
                 "id": 670930691,
                 "name": "学生3舍",
                 "type": "nan",
                 "latitude": 32.057328316734996,
-                "longitutde": 118.75175612951938
+                "longitude": 118.75175612951938
             },
             {
                 "id": 670930692,
                 "name": "浴室",
                 "type": "nan",
                 "latitude": 32.05549451722466,
-                "longitutde": 118.7524074763694
+                "longitude": 118.7524074763694
             },
             {
                 "id": 670930693,
                 "name": "学生12舍",
                 "type": "nan",
                 "latitude": 32.05572308571737,
-                "longitutde": 118.75241866282684
+                "longitude": 118.75241866282684
             },
             {
                 "id": 670930694,
                 "name": "学生1食堂",
                 "type": "restaurant",
                 "latitude": 32.056074608631505,
-                "longitutde": 118.75213121094964
+                "longitude": 118.75213121094964
             },
             {
                 "id": 670930695,
                 "name": "学生2食堂",
                 "type": "restaurant",
                 "latitude": 32.05617662899514,
-                "longitutde": 118.7524656410066
+                "longitude": 118.7524656410066
             },
             {
                 "id": 670930696,
                 "name": "教育超市",
                 "type": "nan",
                 "latitude": 32.055793030860485,
-                "longitutde": 118.75218656171769
+                "longitude": 118.75218656171769
             },
             {
                 "id": 679932666,
                 "name": "研究生餐厅",
                 "type": "restaurant",
                 "latitude": 32.05893891055713,
-                "longitutde": 118.75679428549397
+                "longitude": 118.75679428549397
             },
             {
                 "id": 691045608,
                 "name": "科学馆",
                 "type": "nan",
                 "latitude": 32.0595603154936,
-                "longitutde": 118.75379083187656
+                "longitude": 118.75379083187656
             },
             {
                 "id": 783604434,
                 "name": "河海会堂",
                 "type": "nan",
                 "latitude": 32.05954721961815,
-                "longitutde": 118.7582347637551
+                "longitude": 118.7582347637551
             },
             {
                 "id": 783604435,
                 "name": "闻天馆",
                 "type": "nan",
                 "latitude": 32.0592594758752,
-                "longitutde": 118.75743267600113
+                "longitude": 118.75743267600113
             },
             {
                 "id": 783605171,
                 "name": "环境楼",
                 "type": "nan",
                 "latitude": 32.05834963482632,
-                "longitutde": 118.75541964719733
+                "longitude": 118.75541964719733
             },
             {
                 "id": 783618059,
                 "name": "小商店",
                 "type": "nan",
                 "latitude": 32.05522829855248,
-                "longitutde": 118.75275342530188
+                "longitude": 118.75275342530188
             },
             {
                 "id": 814873661,
                 "name": "信息馆",
                 "type": "nan",
                 "latitude": 32.05719989699259,
-                "longitutde": 118.75563711522382
+                "longitude": 118.75563711522382
             },
             {
                 "id": 976239577,
                 "name": "芝纶馆",
                 "type": "nan",
                 "latitude": 32.05890737406773,
-                "longitutde": 118.7558612339924
+                "longitude": 118.7558612339924
             }
         ]
     }

@@ -1,333 +1,333 @@
 {
-    "id": -8878431706211046712,
+    "id": 3186929914175666861,
     "name": "西安电子科技大学",
     "rating": 4.7,
-    "popularity": 72,
+    "popularity": 48,
     "data_path": "map_data/university_map/Xidian_University",
     "amenity": {
-        "affiliation": -8878431706211046712,
+        "affiliation": 3186929914175666861,
         "amenity_list": [
             {
                 "id": 2943828234,
                 "name": "交通银行",
                 "type": "bank",
                 "latitude": 34.1289624,
-                "longitutde": 108.8325486
+                "longitude": 108.8325486
             },
             {
                 "id": 2945574819,
                 "name": "中国邮政",
                 "type": "post_office",
                 "latitude": 34.1262091,
-                "longitutde": 108.8305303
+                "longitude": 108.8305303
             },
             {
                 "id": 158043094,
                 "name": "西安电子科技大学长安校区图书馆",
                 "type": "library",
                 "latitude": 34.12631998482835,
-                "longitutde": 108.82803143067915
+                "longitude": 108.82803143067915
             },
             {
                 "id": 159348964,
                 "name": "丁香餐厅",
                 "type": "public_building",
                 "latitude": 34.12512755394394,
-                "longitutde": 108.82479648171133
+                "longitude": 108.82479648171133
             },
             {
                 "id": 159349008,
                 "name": "校医院",
                 "type": "hospital",
                 "latitude": 34.12805009956915,
-                "longitutde": 108.83758151698103
+                "longitude": 108.83758151698103
             },
             {
                 "id": 159349045,
                 "name": "竹园餐厅",
                 "type": "restaurant",
                 "latitude": 34.12820475,
-                "longitutde": 108.83345175000001
+                "longitude": 108.83345175000001
             },
             {
                 "id": 291096994,
                 "name": "海棠餐厅",
                 "type": "restaurant",
                 "latitude": 34.131161109049636,
-                "longitutde": 108.82950146795314
+                "longitude": 108.82950146795314
             },
             {
                 "id": 291289710,
                 "name": "可能感兴趣的地点",
                 "type": "fountain",
                 "latitude": 34.1269611768218,
-                "longitutde": 108.83071733067548
+                "longitude": 108.83071733067548
             },
             {
                 "id": 158043076,
                 "name": "B楼",
                 "type": "nan",
                 "latitude": 34.127505579116786,
-                "longitutde": 108.82724079892937
+                "longitude": 108.82724079892937
             },
             {
                 "id": 158043081,
                 "name": "A楼",
                 "type": "nan",
                 "latitude": 34.12846670797888,
-                "longitutde": 108.82614293741261
+                "longitude": 108.82614293741261
             },
             {
                 "id": 158043082,
                 "name": "E楼",
                 "type": "nan",
                 "latitude": 34.125544745450505,
-                "longitutde": 108.83150183633275
+                "longitude": 108.83150183633275
             },
             {
                 "id": 158043090,
                 "name": "大学生活动中心",
                 "type": "nan",
                 "latitude": 34.128525499999995,
-                "longitutde": 108.8239677
+                "longitude": 108.8239677
             },
             {
                 "id": 158043092,
                 "name": "G楼",
                 "type": "nan",
                 "latitude": 34.12489174723903,
-                "longitutde": 108.83421228089443
+                "longitude": 108.83421228089443
             },
             {
                 "id": 158043094,
                 "name": "西安电子科技大学长安校区图书馆",
                 "type": "library",
                 "latitude": 34.12631998482835,
-                "longitutde": 108.82803143067915
+                "longitude": 108.82803143067915
             },
             {
                 "id": 158043098,
                 "name": "行政楼",
                 "type": "nan",
                 "latitude": 34.12355039806622,
-                "longitutde": 108.83384559817553
+                "longitude": 108.83384559817553
             },
             {
                 "id": 159348964,
                 "name": "丁香餐厅",
                 "type": "public_building",
                 "latitude": 34.12512755394394,
-                "longitutde": 108.82479648171133
+                "longitude": 108.82479648171133
             },
             {
                 "id": 159349005,
                 "name": "新综合楼",
                 "type": "nan",
                 "latitude": 34.129548204375176,
-                "longitutde": 108.8315732548465
+                "longitude": 108.8315732548465
             },
             {
                 "id": 159349008,
                 "name": "校医院",
                 "type": "hospital",
                 "latitude": 34.12805009956915,
-                "longitutde": 108.83758151698103
+                "longitude": 108.83758151698103
             },
             {
                 "id": 159349032,
                 "name": "C楼",
                 "type": "nan",
                 "latitude": 34.1272897,
-                "longitutde": 108.82880515
+                "longitude": 108.82880515
             },
             {
                 "id": 159349045,
                 "name": "竹园餐厅",
                 "type": "restaurant",
                 "latitude": 34.12820475,
-                "longitutde": 108.83345175000001
+                "longitude": 108.83345175000001
             },
             {
                 "id": 159349049,
                 "name": "老综合楼",
                 "type": "nan",
                 "latitude": 34.12913915755474,
-                "longitutde": 108.8327436579625
+                "longitude": 108.8327436579625
             },
             {
                 "id": 159349079,
                 "name": "污水处理",
                 "type": "nan",
                 "latitude": 34.12322864354207,
-                "longitutde": 108.82024481112171
+                "longitude": 108.82024481112171
             },
             {
                 "id": 159349091,
                 "name": "F楼",
                 "type": "nan",
                 "latitude": 34.12587688555568,
-                "longitutde": 108.8320529560323
+                "longitude": 108.8320529560323
             },
             {
                 "id": 159349110,
                 "name": "暖气中心",
                 "type": "nan",
                 "latitude": 34.12395590749506,
-                "longitutde": 108.8207733516017
+                "longitude": 108.8207733516017
             },
             {
                 "id": 159349111,
                 "name": "D楼",
                 "type": "nan",
                 "latitude": 34.126531150000005,
-                "longitutde": 108.83047750000001
+                "longitude": 108.83047750000001
             },
             {
                 "id": 159349113,
                 "name": "行政辅楼",
                 "type": "nan",
                 "latitude": 34.12337733518852,
-                "longitutde": 108.83222582383272
+                "longitude": 108.83222582383272
             },
             {
                 "id": 290847631,
                 "name": "工程训练中心",
                 "type": "nan",
                 "latitude": 34.127185050588935,
-                "longitutde": 108.8330457828957
+                "longitude": 108.8330457828957
             },
             {
                 "id": 290855026,
                 "name": "八号楼",
                 "type": "nan",
                 "latitude": 34.13181938306007,
-                "longitutde": 108.82779277140264
+                "longitude": 108.82779277140264
             },
             {
                 "id": 290855027,
                 "name": "七号楼",
                 "type": "nan",
                 "latitude": 34.131631066176126,
-                "longitutde": 108.82869261628
+                "longitude": 108.82869261628
             },
             {
                 "id": 290855028,
                 "name": "六号楼",
                 "type": "nan",
                 "latitude": 34.130875690480266,
-                "longitutde": 108.83046623428365
+                "longitude": 108.83046623428365
             },
             {
                 "id": 290855029,
                 "name": "五号楼",
                 "type": "nan",
                 "latitude": 34.13033669205616,
-                "longitutde": 108.83119291719063
+                "longitude": 108.83119291719063
             },
             {
                 "id": 290855030,
                 "name": "四号楼",
                 "type": "nan",
                 "latitude": 34.12919257547205,
-                "longitutde": 108.83380208331971
+                "longitude": 108.83380208331971
             },
             {
                 "id": 290855031,
                 "name": "三号楼",
                 "type": "nan",
                 "latitude": 34.128830433220216,
-                "longitutde": 108.83465909978544
+                "longitude": 108.83465909978544
             },
             {
                 "id": 290855032,
                 "name": "二号楼",
                 "type": "nan",
                 "latitude": 34.128447498657366,
-                "longitutde": 108.83553653519735
+                "longitude": 108.83553653519735
             },
             {
                 "id": 290855033,
                 "name": "一号楼",
                 "type": "nan",
                 "latitude": 34.12807170825868,
-                "longitutde": 108.83639803306612
+                "longitude": 108.83639803306612
             },
             {
                 "id": 290883463,
                 "name": "十一号楼",
                 "type": "nan",
                 "latitude": 34.12560093192645,
-                "longitutde": 108.82384934339252
+                "longitude": 108.82384934339252
             },
             {
                 "id": 290900532,
                 "name": "十二号楼",
                 "type": "nan",
                 "latitude": 34.12468674264887,
-                "longitutde": 108.82326796754353
+                "longitude": 108.82326796754353
             },
             {
                 "id": 290900534,
                 "name": "十三号楼",
                 "type": "nan",
                 "latitude": 34.124102121630244,
-                "longitutde": 108.82411798811084
+                "longitude": 108.82411798811084
             },
             {
                 "id": 290900535,
                 "name": "十四号楼",
                 "type": "nan",
                 "latitude": 34.12386268937954,
-                "longitutde": 108.82513328005916
+                "longitude": 108.82513328005916
             },
             {
                 "id": 290900537,
                 "name": "十五号楼",
                 "type": "nan",
                 "latitude": 34.123289,
-                "longitutde": 108.82595675
+                "longitude": 108.82595675
             },
             {
                 "id": 290903205,
                 "name": "500M射电望远镜",
                 "type": "nan",
                 "latitude": 34.12599752806071,
-                "longitutde": 108.82620306196075
+                "longitude": 108.82620306196075
             },
             {
                 "id": 291096993,
                 "name": "十号楼",
                 "type": "nan",
                 "latitude": 34.13032234983345,
-                "longitutde": 108.82785829789812
+                "longitude": 108.82785829789812
             },
             {
                 "id": 291096994,
                 "name": "海棠餐厅",
                 "type": "restaurant",
                 "latitude": 34.131161109049636,
-                "longitutde": 108.82950146795314
+                "longitude": 108.82950146795314
             },
             {
                 "id": 291295501,
                 "name": "水房",
                 "type": "nan",
                 "latitude": 34.13163885876716,
-                "longitutde": 108.82979755867893
+                "longitude": 108.82979755867893
             },
             {
                 "id": 291295729,
                 "name": "信远楼",
                 "type": "nan",
                 "latitude": 34.126325345951486,
-                "longitutde": 108.834764894512
+                "longitude": 108.834764894512
             },
             {
                 "id": 3866964,
                 "name": "九号楼",
                 "type": "nan",
                 "latitude": 34.13085457000079,
-                "longitutde": 108.82721536662258
+                "longitude": 108.82721536662258
             }
         ]
     }

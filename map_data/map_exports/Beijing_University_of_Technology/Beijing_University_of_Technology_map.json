@@ -1,452 +1,452 @@
 {
-    "id": -7140007639887104827,
+    "id": -6134013803939457559,
     "name": "北京工业大学",
     "rating": 4.7,
-    "popularity": 68,
+    "popularity": 88,
     "data_path": "map_data/university_map/Beijing_University_of_Technology",
     "amenity": {
-        "affiliation": -7140007639887104827,
+        "affiliation": -6134013803939457559,
         "amenity_list": [
             {
                 "id": 9630531988,
                 "name": "瑞幸咖啡",
                 "type": "cafe",
                 "latitude": 39.8773698,
-                "longitutde": 116.4738381
+                "longitude": 116.4738381
             },
             {
                 "id": 9665247356,
                 "name": "北工大快递服务站",
                 "type": "letter_box",
                 "latitude": 39.875882,
-                "longitutde": 116.4759953
+                "longitude": 116.4759953
             },
             {
                 "id": 9665247365,
                 "name": "天天餐厅",
                 "type": "restaurant",
                 "latitude": 39.8774047,
-                "longitutde": 116.4740955
+                "longitude": 116.4740955
             },
             {
                 "id": 9665247366,
                 "name": "清真餐厅",
                 "type": "restaurant",
                 "latitude": 39.8775346,
-                "longitutde": 116.4744887
+                "longitude": 116.4744887
             },
             {
                 "id": 10734051842,
                 "name": "可能感兴趣的地点",
                 "type": "letter_box",
                 "latitude": 39.8734313,
-                "longitutde": 116.4809831
+                "longitude": 116.4809831
             },
             {
                 "id": 11252295998,
                 "name": "3教401",
                 "type": "love_hotel",
                 "latitude": 39.8741751,
-                "longitutde": 116.4745536
+                "longitude": 116.4745536
             },
             {
                 "id": 442376441,
                 "name": "奥运餐厅",
                 "type": "restaurant",
                 "latitude": 39.87257249707679,
-                "longitutde": 116.47553892488871
+                "longitude": 116.47553892488871
             },
             {
                 "id": 442376464,
                 "name": "美食园",
                 "type": "restaurant",
                 "latitude": 39.87264769693249,
-                "longitutde": 116.47472339957909
+                "longitude": 116.47472339957909
             },
             {
                 "id": 543815679,
                 "name": "北工大北图书馆",
                 "type": "library",
                 "latitude": 39.87660145312947,
-                "longitutde": 116.47439529856021
+                "longitude": 116.47439529856021
             },
             {
                 "id": 543815681,
                 "name": "北工大礼堂",
                 "type": "theatre",
                 "latitude": 39.87608699999999,
-                "longitutde": 116.47487699999998
+                "longitude": 116.47487699999998
             },
             {
                 "id": 839812059,
                 "name": "逸夫图书馆",
                 "type": "library",
                 "latitude": 39.87365007434337,
-                "longitutde": 116.47361944929433
+                "longitude": 116.47361944929433
             },
             {
                 "id": 1047336481,
                 "name": "北区浴室",
                 "type": "public_bath",
                 "latitude": 39.87729562057581,
-                "longitutde": 116.47600856246487
+                "longitude": 116.47600856246487
             },
             {
                 "id": 1047336482,
                 "name": "南区浴室",
                 "type": "public_bath",
                 "latitude": 39.87292865508632,
-                "longitutde": 116.47643398383717
+                "longitude": 116.47643398383717
             },
             {
                 "id": 320605372,
                 "name": "科学楼",
                 "type": "nan",
                 "latitude": 39.8718689979462,
-                "longitutde": 116.47359152495872
+                "longitude": 116.47359152495872
             },
             {
                 "id": 438877647,
                 "name": "北京工业大学体育馆",
                 "type": "nan",
                 "latitude": 39.87112269260304,
-                "longitutde": 116.47755453639219
+                "longitude": 116.47755453639219
             },
             {
                 "id": 442376433,
                 "name": "知新园",
                 "type": "nan",
                 "latitude": 39.87367392534581,
-                "longitutde": 116.47461841052788
+                "longitude": 116.47461841052788
             },
             {
                 "id": 442376435,
                 "name": "经管楼",
                 "type": "nan",
                 "latitude": 39.87210015585535,
-                "longitutde": 116.47203545689145
+                "longitude": 116.47203545689145
             },
             {
                 "id": 442376437,
                 "name": "人文楼",
                 "type": "nan",
                 "latitude": 39.87086635321351,
-                "longitutde": 116.47525587512654
+                "longitude": 116.47525587512654
             },
             {
                 "id": 442376439,
                 "name": "学生宿舍7号楼",
                 "type": "nan",
                 "latitude": 39.87373717483058,
-                "longitutde": 116.47564095844831
+                "longitude": 116.47564095844831
             },
             {
                 "id": 442376441,
                 "name": "奥运餐厅",
                 "type": "restaurant",
                 "latitude": 39.87257249707679,
-                "longitutde": 116.47553892488871
+                "longitude": 116.47553892488871
             },
             {
                 "id": 442376443,
                 "name": "学生宿舍6号楼",
                 "type": "nan",
                 "latitude": 39.87161884856856,
-                "longitutde": 116.47508132513559
+                "longitude": 116.47508132513559
             },
             {
                 "id": 442376445,
                 "name": "学生宿舍8号楼",
                 "type": "nan",
                 "latitude": 39.8733356,
-                "longitutde": 116.4756355
+                "longitude": 116.4756355
             },
             {
                 "id": 442376447,
                 "name": "北京工业大学第三教学楼",
                 "type": "nan",
                 "latitude": 39.874129113941805,
-                "longitutde": 116.47519744522376
+                "longitude": 116.47519744522376
             },
             {
                 "id": 442376449,
                 "name": "信息楼东",
                 "type": "nan",
                 "latitude": 39.87347027484395,
-                "longitutde": 116.47271294574404
+                "longitude": 116.47271294574404
             },
             {
                 "id": 442376453,
                 "name": "学生宿舍5号楼",
                 "type": "nan",
                 "latitude": 39.87200972361773,
-                "longitutde": 116.47508062409632
+                "longitude": 116.47508062409632
             },
             {
                 "id": 442376455,
                 "name": "学生宿舍9号楼",
                 "type": "nan",
                 "latitude": 39.87308129213583,
-                "longitutde": 116.47450774522217
+                "longitude": 116.47450774522217
             },
             {
                 "id": 442376457,
                 "name": "学生宿舍12号楼",
                 "type": "nan",
                 "latitude": 39.87294643200729,
-                "longitutde": 116.47563817878562
+                "longitude": 116.47563817878562
             },
             {
                 "id": 442376462,
                 "name": "信息楼",
                 "type": "nan",
                 "latitude": 39.87346281837288,
-                "longitutde": 116.47232236258735
+                "longitude": 116.47232236258735
             },
             {
                 "id": 442376464,
                 "name": "美食园",
                 "type": "restaurant",
                 "latitude": 39.87264769693249,
-                "longitutde": 116.47472339957909
+                "longitude": 116.47472339957909
             },
             {
                 "id": 442376586,
                 "name": "城建楼",
                 "type": "nan",
                 "latitude": 39.87180743364528,
-                "longitutde": 116.48045076492093
+                "longitude": 116.48045076492093
             },
             {
                 "id": 442376587,
                 "name": "软件楼",
                 "type": "nan",
                 "latitude": 39.87228644765843,
-                "longitutde": 116.48073515254
+                "longitude": 116.48073515254
             },
             {
                 "id": 442376588,
                 "name": "实训楼",
                 "type": "nan",
                 "latitude": 39.87134019299224,
-                "longitutde": 116.4800027177225
+                "longitude": 116.4800027177225
             },
             {
                 "id": 442376589,
                 "name": "理科楼",
                 "type": "nan",
                 "latitude": 39.87417205,
-                "longitutde": 116.48011095
+                "longitude": 116.48011095
             },
             {
                 "id": 442376590,
                 "name": "艺术楼",
                 "type": "nan",
                 "latitude": 39.8733593,
-                "longitutde": 116.47894174999999
+                "longitude": 116.47894174999999
             },
             {
                 "id": 442376591,
                 "name": "环能楼",
                 "type": "nan",
                 "latitude": 39.87312955,
-                "longitutde": 116.48010690000002
+                "longitude": 116.48010690000002
             },
             {
                 "id": 442376592,
                 "name": "生命楼",
                 "type": "nan",
                 "latitude": 39.873661548023286,
-                "longitutde": 116.48022682529353
+                "longitude": 116.48022682529353
             },
             {
                 "id": 442376594,
                 "name": "北工大第四教学楼",
                 "type": "nan",
                 "latitude": 39.87418263024545,
-                "longitutde": 116.47866332999196
+                "longitude": 116.47866332999196
             },
             {
                 "id": 543815679,
                 "name": "北工大北图书馆",
                 "type": "library",
                 "latitude": 39.87660145312947,
-                "longitutde": 116.47439529856021
+                "longitude": 116.47439529856021
             },
             {
                 "id": 543815681,
                 "name": "北工大礼堂",
                 "type": "theatre",
                 "latitude": 39.87608699999999,
-                "longitutde": 116.47487699999998
+                "longitude": 116.47487699999998
             },
             {
                 "id": 543815682,
                 "name": "工大团委楼 工大人武部",
                 "type": "nan",
                 "latitude": 39.876086449999995,
-                "longitutde": 116.4752863
+                "longitude": 116.4752863
             },
             {
                 "id": 543815688,
                 "name": "北工大第一教学楼",
                 "type": "nan",
                 "latitude": 39.87669038255062,
-                "longitutde": 116.4727059824603
+                "longitude": 116.4727059824603
             },
             {
                 "id": 543815689,
                 "name": "北工大第二教学楼",
                 "type": "nan",
                 "latitude": 39.87603416874892,
-                "longitutde": 116.47212612484385
+                "longitude": 116.47212612484385
             },
             {
                 "id": 543815690,
                 "name": "材料楼",
                 "type": "nan",
                 "latitude": 39.87538342571892,
-                "longitutde": 116.4726749741773
+                "longitude": 116.4726749741773
             },
             {
                 "id": 543815691,
                 "name": "数理楼",
                 "type": "nan",
                 "latitude": 39.87535437507324,
-                "longitutde": 116.474263048588
+                "longitude": 116.474263048588
             },
             {
                 "id": 543940615,
                 "name": "学生宿舍10 11号楼",
                 "type": "nan",
                 "latitude": 39.876861125435084,
-                "longitutde": 116.47644709736822
+                "longitude": 116.47644709736822
             },
             {
                 "id": 543940618,
                 "name": "学生宿舍3号楼",
                 "type": "nan",
                 "latitude": 39.87781749804143,
-                "longitutde": 116.47524757463965
+                "longitude": 116.47524757463965
             },
             {
                 "id": 543940619,
                 "name": "学生宿舍4号楼",
                 "type": "nan",
                 "latitude": 39.87744052469894,
-                "longitutde": 116.47522748894568
+                "longitude": 116.47522748894568
             },
             {
                 "id": 543940621,
                 "name": "金工楼",
                 "type": "nan",
                 "latitude": 39.87732927949662,
-                "longitutde": 116.47664755834943
+                "longitude": 116.47664755834943
             },
             {
                 "id": 543940625,
                 "name": "北工大校医院",
                 "type": "nan",
                 "latitude": 39.87785051712578,
-                "longitutde": 116.47601478031929
+                "longitude": 116.47601478031929
             },
             {
                 "id": 839812059,
                 "name": "逸夫图书馆",
                 "type": "library",
                 "latitude": 39.87365007434337,
-                "longitutde": 116.47361944929433
+                "longitude": 116.47361944929433
             },
             {
                 "id": 839812060,
                 "name": "学生宿舍2号楼",
                 "type": "nan",
                 "latitude": 39.87750635275618,
-                "longitutde": 116.4727673452891
+                "longitude": 116.4727673452891
             },
             {
                 "id": 839812061,
                 "name": "学生综合服务楼",
                 "type": "nan",
                 "latitude": 39.87764485,
-                "longitutde": 116.47417960000001
+                "longitude": 116.47417960000001
             },
             {
                 "id": 852324685,
                 "name": "学生宿舍13号楼",
                 "type": "nan",
                 "latitude": 39.87628085666528,
-                "longitutde": 116.47789698580043
+                "longitude": 116.47789698580043
             },
             {
                 "id": 852324686,
                 "name": "学生宿舍14号楼",
                 "type": "nan",
                 "latitude": 39.87595899350836,
-                "longitutde": 116.47800867538065
+                "longitude": 116.47800867538065
             },
             {
                 "id": 1047336481,
                 "name": "北区浴室",
                 "type": "public_bath",
                 "latitude": 39.87729562057581,
-                "longitutde": 116.47600856246487
+                "longitude": 116.47600856246487
             },
             {
                 "id": 1047336482,
                 "name": "南区浴室",
                 "type": "public_bath",
                 "latitude": 39.87292865508632,
-                "longitutde": 116.47643398383717
+                "longitude": 116.47643398383717
             },
             {
                 "id": 1047352408,
                 "name": "能源楼",
                 "type": "nan",
                 "latitude": 39.87506069494203,
-                "longitutde": 116.47801984775691
+                "longitude": 116.47801984775691
             },
             {
                 "id": 1047352412,
                 "name": "保卫处",
                 "type": "nan",
                 "latitude": 39.87656382116053,
-                "longitutde": 116.47773708521672
+                "longitude": 116.47773708521672
             },
             {
                 "id": 1047352421,
                 "name": "学生宿舍1号楼",
                 "type": "nan",
                 "latitude": 39.877859852756174,
-                "longitutde": 116.47284764528911
+                "longitude": 116.47284764528911
             },
             {
                 "id": 1051762778,
                 "name": "绿色建筑技术中心",
                 "type": "nan",
                 "latitude": 39.87696792263275,
-                "longitutde": 116.47509196952588
+                "longitude": 116.47509196952588
             },
             {
                 "id": 1051762780,
                 "name": "智研楼",
                 "type": "nan",
                 "latitude": 39.877678662296915,
-                "longitutde": 116.47173842500604
+                "longitude": 116.47173842500604
             },
             {
                 "id": 1051762781,
                 "name": "地震研究所",
                 "type": "nan",
                 "latitude": 39.8769475717405,
-                "longitutde": 116.47399832057819
+                "longitude": 116.47399832057819
             },
             {
                 "id": 1214956493,
                 "name": "信北阶",
                 "type": "nan",
                 "latitude": 39.873817900000006,
-                "longitutde": 116.47286535000002
+                "longitude": 116.47286535000002
             }
         ]
     }

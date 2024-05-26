@@ -1,32 +1,32 @@
 {
-    "id": 6515604411335883624,
+    "id": 7048389919783905128,
     "name": "北京大学",
     "rating": 4.5,
-    "popularity": 80,
+    "popularity": 40,
     "data_path": "map_data/university_map/Peking_University",
     "amenity": {
-        "affiliation": 6515604411335883624,
+        "affiliation": 7048389919783905128,
         "amenity_list": [
             {
                 "id": 1013065599,
                 "name": "馨园食堂 (Xinyuan Dining Hall)",
                 "type": "fast_food",
                 "latitude": 40.178516442154994,
-                "longitutde": 116.15744117901643
+                "longitude": 116.15744117901643
             },
             {
                 "id": 1013065613,
                 "name": "可能感兴趣的地点",
                 "type": "parking",
                 "latitude": 40.17369337800482,
-                "longitutde": 116.16261810274405
+                "longitude": 116.16261810274405
             },
             {
                 "id": 1013065599,
                 "name": "馨园食堂 (Xinyuan Dining Hall)",
                 "type": "fast_food",
                 "latitude": 40.178516442154994,
-                "longitutde": 116.15744117901643
+                "longitude": 116.15744117901643
             }
         ]
     }

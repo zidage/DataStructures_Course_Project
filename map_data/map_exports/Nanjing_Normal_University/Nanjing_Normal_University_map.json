@@ -1,25 +1,25 @@
 {
-    "id": 7654206548150110252,
+    "id": 4100730505967331254,
     "name": "南京师范大学",
     "rating": 4.7,
-    "popularity": 60,
+    "popularity": 56,
     "data_path": "map_data/university_map/Nanjing_Normal_University",
     "amenity": {
-        "affiliation": 7654206548150110252,
+        "affiliation": 4100730505967331254,
         "amenity_list": [
             {
                 "id": 6461600664,
                 "name": "新北校车站",
                 "type": "bus_station",
                 "latitude": 32.1166031,
-                "longitutde": 118.9037458
+                "longitude": 118.9037458
             },
             {
                 "id": 970295417,
                 "name": "可能感兴趣的地点",
                 "type": "parking",
                 "latitude": 32.116168917388144,
-                "longitutde": 118.90401174465536
+                "longitude": 118.90401174465536
             }
         ]
     }

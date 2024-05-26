@@ -1,382 +1,382 @@
 {
-    "id": 2917329828041002623,
+    "id": 2288279620763428638,
     "name": "哈尔滨工业大学威海校区",
     "rating": 4.5,
-    "popularity": 72,
+    "popularity": 88,
     "data_path": "map_data/university_map/Harbin_Institute_of_Technology_Weihai",
     "amenity": {
-        "affiliation": 2917329828041002623,
+        "affiliation": 2288279620763428638,
         "amenity_list": [
             {
                 "id": 1563921007,
                 "name": "可能感兴趣的地点",
                 "type": "hospital",
                 "latitude": 37.527785,
-                "longitutde": 122.08004
+                "longitude": 122.08004
             },
             {
                 "id": 1563921129,
                 "name": "学苑餐厅",
                 "type": "restaurant",
                 "latitude": 37.5315281,
-                "longitutde": 122.0772263
+                "longitude": 122.0772263
             },
             {
                 "id": 1567485506,
                 "name": "学子餐厅",
                 "type": "restaurant",
                 "latitude": 37.5331978,
-                "longitutde": 122.0772166
+                "longitude": 122.0772166
             },
             {
                 "id": 6001784001,
                 "name": "哈尔滨工业大学（威海）图书馆",
                 "type": "library",
                 "latitude": 37.5358799,
-                "longitutde": 122.0787817
+                "longitude": 122.0787817
             },
             {
                 "id": 6001788059,
                 "name": "新能源学院",
                 "type": "college",
                 "latitude": 37.5292995,
-                "longitutde": 122.0771961
+                "longitude": 122.0771961
             },
             {
                 "id": 6001788060,
                 "name": "材料科学与工程学院",
                 "type": "college",
                 "latitude": 37.529066,
-                "longitutde": 122.0788457
+                "longitude": 122.0788457
             },
             {
                 "id": 6160574891,
                 "name": "信息科学与工程学院",
                 "type": "college",
                 "latitude": 37.5288907,
-                "longitutde": 122.0778575
+                "longitude": 122.0778575
             },
             {
                 "id": 6160577586,
                 "name": "汽车工程学院",
                 "type": "college",
                 "latitude": 37.5253716,
-                "longitutde": 122.0775757
+                "longitude": 122.0775757
             },
             {
                 "id": 11740819756,
                 "name": "语言文学学院",
                 "type": "college",
                 "latitude": 37.5300562,
-                "longitutde": 122.0763428
+                "longitude": 122.0763428
             },
             {
                 "id": 11740819757,
                 "name": "理学院",
                 "type": "college",
                 "latitude": 37.5286026,
-                "longitutde": 122.0785276
+                "longitude": 122.0785276
             },
             {
                 "id": 11740836167,
                 "name": "海洋工程学院",
                 "type": "college",
                 "latitude": 37.5257057,
-                "longitutde": 122.0773453
+                "longitude": 122.0773453
             },
             {
                 "id": 423328460,
                 "name": "校医院",
                 "type": "hospital",
                 "latitude": 37.527797564611326,
-                "longitutde": 122.07998017747609
+                "longitude": 122.07998017747609
             },
             {
                 "id": 1226934978,
                 "name": "三元亭",
                 "type": "shelter",
                 "latitude": 37.53256798031019,
-                "longitutde": 122.07489802748971
+                "longitude": 122.07489802748971
             },
             {
                 "id": 1262432756,
                 "name": "校园警务工作站",
                 "type": "police",
                 "latitude": 37.53224541147882,
-                "longitutde": 122.08161372133505
+                "longitude": 122.08161372133505
             },
             {
                 "id": 155225089,
                 "name": "主楼（H楼）",
                 "type": "nan",
                 "latitude": 37.52906122482375,
-                "longitutde": 122.07779482713752
+                "longitude": 122.07779482713752
             },
             {
                 "id": 155225090,
                 "name": "五公寓",
                 "type": "nan",
                 "latitude": 37.53064918848812,
-                "longitutde": 122.07665239581864
+                "longitude": 122.07665239581864
             },
             {
                 "id": 155225091,
                 "name": "一公寓",
                 "type": "nan",
                 "latitude": 37.53106707771507,
-                "longitutde": 122.07659483307646
+                "longitude": 122.07659483307646
             },
             {
                 "id": 174332835,
                 "name": "G楼",
                 "type": "nan",
                 "latitude": 37.529572038026615,
-                "longitutde": 122.07605219940473
+                "longitude": 122.07605219940473
             },
             {
                 "id": 174335473,
                 "name": "研学楼",
                 "type": "nan",
                 "latitude": 37.525613174047706,
-                "longitutde": 122.07771933161058
+                "longitude": 122.07771933161058
             },
             {
                 "id": 174335474,
                 "name": "科学与工业技术研究院",
                 "type": "nan",
                 "latitude": 37.52528491602482,
-                "longitutde": 122.07857284123473
+                "longitude": 122.07857284123473
             },
             {
                 "id": 174336170,
                 "name": "M楼",
                 "type": "nan",
                 "latitude": 37.529950855168835,
-                "longitutde": 122.07512002465974
+                "longitude": 122.07512002465974
             },
             {
                 "id": 174336460,
                 "name": "三公寓",
                 "type": "nan",
                 "latitude": 37.5317127,
-                "longitutde": 122.07619040000002
+                "longitude": 122.07619040000002
             },
             {
                 "id": 174336461,
                 "name": "四公寓",
                 "type": "nan",
                 "latitude": 37.53210947257337,
-                "longitutde": 122.076501482618
+                "longitude": 122.076501482618
             },
             {
                 "id": 174336462,
                 "name": "六公寓",
                 "type": "nan",
                 "latitude": 37.53254309039118,
-                "longitutde": 122.07725437795564
+                "longitude": 122.07725437795564
             },
             {
                 "id": 174336463,
                 "name": "二公寓",
                 "type": "nan",
                 "latitude": 37.531288359657104,
-                "longitutde": 122.07581110159735
+                "longitude": 122.07581110159735
             },
             {
                 "id": 174337032,
                 "name": "A楼",
                 "type": "nan",
                 "latitude": 37.52899857328456,
-                "longitutde": 122.07907748509592
+                "longitude": 122.07907748509592
             },
             {
                 "id": 174337191,
                 "name": "B楼",
                 "type": "nan",
                 "latitude": 37.530036598303035,
-                "longitutde": 122.07642127469786
+                "longitude": 122.07642127469786
             },
             {
                 "id": 174337608,
                 "name": "N楼",
                 "type": "nan",
                 "latitude": 37.53549337246693,
-                "longitutde": 122.0768068371243
+                "longitude": 122.0768068371243
             },
             {
                 "id": 252143256,
                 "name": "E楼",
                 "type": "nan",
                 "latitude": 37.526965749999995,
-                "longitutde": 122.07869525
+                "longitude": 122.07869525
             },
             {
                 "id": 252143266,
                 "name": "C楼",
                 "type": "nan",
                 "latitude": 37.527470199999996,
-                "longitutde": 122.07900935
+                "longitude": 122.07900935
             },
             {
                 "id": 252143267,
                 "name": "F楼",
                 "type": "nan",
                 "latitude": 37.52695595682463,
-                "longitutde": 122.0794895817819
+                "longitude": 122.0794895817819
             },
             {
                 "id": 287735454,
                 "name": "柳苑小区B座",
                 "type": "nan",
                 "latitude": 37.53026365,
-                "longitutde": 122.07278159999998
+                "longitude": 122.07278159999998
             },
             {
                 "id": 287735688,
                 "name": "柳苑小区A座",
                 "type": "nan",
                 "latitude": 37.53045705,
-                "longitutde": 122.07348615000002
+                "longitude": 122.07348615000002
             },
             {
                 "id": 287735855,
                 "name": "柳苑小区C座",
                 "type": "nan",
                 "latitude": 37.529997185044266,
-                "longitutde": 122.07211150530945
+                "longitude": 122.07211150530945
             },
             {
                 "id": 287830610,
                 "name": "特种陶瓷实验室",
                 "type": "nan",
                 "latitude": 37.531628124787204,
-                "longitutde": 122.07785639039423
+                "longitude": 122.07785639039423
             },
             {
                 "id": 424022301,
                 "name": "十公寓",
                 "type": "nan",
                 "latitude": 37.53390070407072,
-                "longitutde": 122.07530792903252
+                "longitude": 122.07530792903252
             },
             {
                 "id": 425467438,
                 "name": "十一公寓",
                 "type": "nan",
                 "latitude": 37.53425485899443,
-                "longitutde": 122.07451022820814
+                "longitude": 122.07451022820814
             },
             {
                 "id": 425467441,
                 "name": "八公寓",
                 "type": "nan",
                 "latitude": 37.5329826094133,
-                "longitutde": 122.0756962017096
+                "longitude": 122.0756962017096
             },
             {
                 "id": 425467442,
                 "name": "九公寓",
                 "type": "nan",
                 "latitude": 37.53359176139998,
-                "longitutde": 122.07609009037094
+                "longitude": 122.07609009037094
             },
             {
                 "id": 426959676,
                 "name": "柳苑小区D座",
                 "type": "nan",
                 "latitude": 37.53095401664892,
-                "longitutde": 122.07421524748192
+                "longitude": 122.07421524748192
             },
             {
                 "id": 636443696,
                 "name": "七公寓",
                 "type": "nan",
                 "latitude": 37.53182150502265,
-                "longitutde": 122.07465084538514
+                "longitude": 122.07465084538514
             },
             {
                 "id": 657768296,
                 "name": "综合球类馆",
                 "type": "nan",
                 "latitude": 37.53456415,
-                "longitutde": 122.0791758
+                "longitude": 122.0791758
             },
             {
                 "id": 657768297,
                 "name": "大学生活动中心",
                 "type": "nan",
                 "latitude": 37.53481346274117,
-                "longitutde": 122.07828133792081
+                "longitude": 122.07828133792081
             },
             {
                 "id": 657768305,
                 "name": "天雅苑",
                 "type": "nan",
                 "latitude": 37.53294233225106,
-                "longitutde": 122.08117563553766
+                "longitude": 122.08117563553766
             },
             {
                 "id": 657768306,
                 "name": "十二公寓",
                 "type": "nan",
                 "latitude": 37.53199606551642,
-                "longitutde": 122.08047470940369
+                "longitude": 122.08047470940369
             },
             {
                 "id": 657768326,
                 "name": "校史馆",
                 "type": "nan",
                 "latitude": 37.53018437302571,
-                "longitutde": 122.07829640790072
+                "longitude": 122.07829640790072
             },
             {
                 "id": 1226893268,
                 "name": "创新创业园",
                 "type": "nan",
                 "latitude": 37.53426615753378,
-                "longitutde": 122.07355026468609
+                "longitude": 122.07355026468609
             },
             {
                 "id": 1226893270,
                 "name": "快递驿站",
                 "type": "nan",
                 "latitude": 37.53268881191906,
-                "longitutde": 122.07781444635093
+                "longitude": 122.07781444635093
             },
             {
                 "id": 1226934976,
                 "name": "拖曳水池与综合水池实验室",
                 "type": "nan",
                 "latitude": 37.52633350796917,
-                "longitutde": 122.07866390746004
+                "longitude": 122.07866390746004
             },
             {
                 "id": 1226934977,
                 "name": "轮机工程实验室",
                 "type": "nan",
                 "latitude": 37.52638389202427,
-                "longitutde": 122.07909896090585
+                "longitude": 122.07909896090585
             },
             {
                 "id": 1226934978,
                 "name": "三元亭",
                 "type": "shelter",
                 "latitude": 37.53256798031019,
-                "longitutde": 122.07489802748971
+                "longitude": 122.07489802748971
             },
             {
                 "id": 1262432756,
                 "name": "校园警务工作站",
                 "type": "police",
                 "latitude": 37.53224541147882,
-                "longitutde": 122.08161372133505
+                "longitude": 122.08161372133505
             },
             {
                 "id": 17344858,
                 "name": "探海楼",
                 "type": "nan",
                 "latitude": 37.53707728888756,
-                "longitutde": 122.0782074937613
+                "longitude": 122.0782074937613
             }
         ]
     }

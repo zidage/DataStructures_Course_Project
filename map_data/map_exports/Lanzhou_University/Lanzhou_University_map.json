@@ -1,214 +1,214 @@
 {
-    "id": 3537799083768854104,
+    "id": -7996180786229299668,
     "name": "兰州大学",
     "rating": 4.5,
-    "popularity": 96,
+    "popularity": 88,
     "data_path": "map_data/university_map/Lanzhou_University",
     "amenity": {
-        "affiliation": 3537799083768854104,
+        "affiliation": -7996180786229299668,
         "amenity_list": [
             {
                 "id": 4183954123,
                 "name": "可能感兴趣的地点",
                 "type": "parking",
                 "latitude": 36.0583269,
-                "longitutde": 103.7283209
+                "longitude": 103.7283209
             },
             {
                 "id": 8603649071,
                 "name": "中国建设银行",
                 "type": "bank",
                 "latitude": 36.0578548,
-                "longitutde": 103.7339793
+                "longitude": 103.7339793
             },
             {
                 "id": 8603649072,
                 "name": "中国工商银行",
                 "type": "bank",
                 "latitude": 36.0579416,
-                "longitutde": 103.7337271
+                "longitude": 103.7337271
             },
             {
                 "id": 588216246,
                 "name": "兰州理工大学技术工程学院",
                 "type": "college",
                 "latitude": 36.056074125168244,
-                "longitutde": 103.73713031516832
+                "longitude": 103.73713031516832
             },
             {
                 "id": 409744654,
                 "name": "C",
                 "type": "nan",
                 "latitude": 36.055511800000005,
-                "longitutde": 103.73210680000003
+                "longitude": 103.73210680000003
             },
             {
                 "id": 409744658,
                 "name": "A",
                 "type": "nan",
                 "latitude": 36.05859510118028,
-                "longitutde": 103.73366701474934
+                "longitude": 103.73366701474934
             },
             {
                 "id": 409744663,
                 "name": "H",
                 "type": "nan",
                 "latitude": 36.05944749144358,
-                "longitutde": 103.73528703290775
+                "longitude": 103.73528703290775
             },
             {
                 "id": 409744667,
                 "name": "B",
                 "type": "nan",
                 "latitude": 36.05557900129861,
-                "longitutde": 103.73336206444223
+                "longitude": 103.73336206444223
             },
             {
                 "id": 409744674,
                 "name": "G",
                 "type": "nan",
                 "latitude": 36.054751201298615,
-                "longitutde": 103.73167136444224
+                "longitude": 103.73167136444224
             },
             {
                 "id": 409744682,
                 "name": "C",
                 "type": "nan",
                 "latitude": 36.059007198819714,
-                "longitutde": 103.73380598525067
+                "longitude": 103.73380598525067
             },
             {
                 "id": 409744683,
                 "name": "D",
                 "type": "nan",
                 "latitude": 36.058675449999996,
-                "longitutde": 103.7349003
+                "longitude": 103.7349003
             },
             {
                 "id": 409744685,
                 "name": "H",
                 "type": "nan",
                 "latitude": 36.05436249870138,
-                "longitutde": 103.73287123555775
+                "longitude": 103.73287123555775
             },
             {
                 "id": 409744694,
                 "name": "D",
                 "type": "nan",
                 "latitude": 36.0551605,
-                "longitutde": 103.73322259999999
+                "longitude": 103.73322259999999
             },
             {
                 "id": 409744698,
                 "name": "E",
                 "type": "nan",
                 "latitude": 36.05513230129862,
-                "longitutde": 103.73191366444223
+                "longitude": 103.73191366444223
             },
             {
                 "id": 409744701,
                 "name": "B",
                 "type": "nan",
                 "latitude": 36.05828729999999,
-                "longitutde": 103.73467769999998
+                "longitude": 103.73467769999998
             },
             {
                 "id": 409744702,
                 "name": "F",
                 "type": "nan",
                 "latitude": 36.05905274443831,
-                "longitutde": 103.73510135224008
+                "longitude": 103.73510135224008
             },
             {
                 "id": 409744705,
                 "name": "F",
                 "type": "nan",
                 "latitude": 36.05477881574299,
-                "longitutde": 103.73301339679767
+                "longitude": 103.73301339679767
             },
             {
                 "id": 409744709,
                 "name": "北村A座行政楼",
                 "type": "nan",
                 "latitude": 36.05589775,
-                "longitutde": 103.73236965
+                "longitude": 103.73236965
             },
             {
                 "id": 409744720,
                 "name": "E",
                 "type": "nan",
                 "latitude": 36.05941050885194,
-                "longitutde": 103.7339588684915
+                "longitude": 103.7339588684915
             },
             {
                 "id": 417924824,
                 "name": "西区工程训练中心",
                 "type": "nan",
                 "latitude": 36.05534619834776,
-                "longitutde": 103.72771640227913
+                "longitude": 103.72771640227913
             },
             {
                 "id": 417924831,
                 "name": "西区食堂、服务楼",
                 "type": "nan",
                 "latitude": 36.056280702371026,
-                "longitutde": 103.73309860124711
+                "longitude": 103.73309860124711
             },
             {
                 "id": 443598031,
                 "name": "锅炉房",
                 "type": "nan",
                 "latitude": 36.05425012381665,
-                "longitutde": 103.73387591037867
+                "longitude": 103.73387591037867
             },
             {
                 "id": 443602419,
                 "name": "G",
                 "type": "nan",
                 "latitude": 36.05980275629312,
-                "longitutde": 103.73415824816091
+                "longitude": 103.73415824816091
             },
             {
                 "id": 443602420,
                 "name": "R",
                 "type": "nan",
                 "latitude": 36.054556026816634,
-                "longitutde": 103.73226100916145
+                "longitude": 103.73226100916145
             },
             {
                 "id": 6132193,
                 "name": "石油化工学院",
                 "type": "nan",
                 "latitude": 36.06017886752112,
-                "longitutde": 103.72988086105211
+                "longitude": 103.72988086105211
             },
             {
                 "id": 6210981,
                 "name": "西区1#教学楼",
                 "type": "nan",
                 "latitude": 36.05721415140246,
-                "longitutde": 103.72971552426311
+                "longitude": 103.72971552426311
             },
             {
                 "id": 6210982,
                 "name": "西区A试验楼",
                 "type": "nan",
                 "latitude": 36.05943299310836,
-                "longitutde": 103.72956815902866
+                "longitude": 103.72956815902866
             },
             {
                 "id": 6210983,
                 "name": "西区B试验楼",
                 "type": "nan",
                 "latitude": 36.05751923707744,
-                "longitutde": 103.72864414524831
+                "longitude": 103.72864414524831
             },
             {
                 "id": 6210984,
                 "name": "西区2#教学楼",
                 "type": "nan",
                 "latitude": 36.059079395446965,
-                "longitutde": 103.73058558002263
+                "longitude": 103.73058558002263
             }
         ]
     }

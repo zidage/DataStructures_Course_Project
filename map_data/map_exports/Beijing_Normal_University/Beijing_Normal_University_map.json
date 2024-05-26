@@ -1,592 +1,592 @@
 {
-    "id": -3269950105632636319,
+    "id": -3030149945427756042,
     "name": "北京师范大学",
     "rating": 4.5,
-    "popularity": 48,
+    "popularity": 52,
     "data_path": "map_data/university_map/Beijing_Normal_University",
     "amenity": {
-        "affiliation": -3269950105632636319,
+        "affiliation": -3030149945427756042,
         "amenity_list": [
             {
                 "id": 973340625,
                 "name": "麦当劳",
                 "type": "fast_food",
                 "latitude": 39.9600741,
-                "longitutde": 116.3640842
+                "longitude": 116.3640842
             },
             {
                 "id": 1924725186,
                 "name": "御马墩",
                 "type": "restaurant",
                 "latitude": 39.9598048,
-                "longitutde": 116.3641192
+                "longitude": 116.3641192
             },
             {
                 "id": 1924729425,
                 "name": "12橡树咖啡",
                 "type": "cafe",
                 "latitude": 39.9603023,
-                "longitutde": 116.3640468
+                "longitude": 116.3640468
             },
             {
                 "id": 3928133969,
                 "name": "兰蕙餐厅",
                 "type": "restaurant",
                 "latitude": 39.9576538,
-                "longitutde": 116.355419
+                "longitude": 116.355419
             },
             {
                 "id": 5136949081,
                 "name": "天文学系",
                 "type": "college",
                 "latitude": 39.9578886,
-                "longitutde": 116.3610494
+                "longitude": 116.3610494
             },
             {
                 "id": 5136949082,
                 "name": "物理学系",
                 "type": "college",
                 "latitude": 39.9578813,
-                "longitutde": 116.3612714
+                "longitude": 116.3612714
             },
             {
                 "id": 5794747098,
                 "name": "白鹿江西餐厅",
                 "type": "restaurant",
                 "latitude": 39.9636972,
-                "longitutde": 116.359826
+                "longitude": 116.359826
             },
             {
                 "id": 6041082640,
                 "name": "教工食堂",
                 "type": "restaurant",
                 "latitude": 39.9614911,
-                "longitutde": 116.3607406
+                "longitude": 116.3607406
             },
             {
                 "id": 6041082641,
                 "name": "实习餐馆",
                 "type": "restaurant",
                 "latitude": 39.9615235,
-                "longitutde": 116.3612523
+                "longitude": 116.3612523
             },
             {
                 "id": 6041082642,
                 "name": "京师大厦自助餐厅",
                 "type": "restaurant",
                 "latitude": 39.9573195,
-                "longitutde": 116.3640144
+                "longitude": 116.3640144
             },
             {
                 "id": 6041082643,
                 "name": "兼味轩",
                 "type": "restaurant",
                 "latitude": 39.9572101,
-                "longitutde": 116.3640249
+                "longitude": 116.3640249
             },
             {
                 "id": 6041082645,
                 "name": "新乐群食堂",
                 "type": "restaurant",
                 "latitude": 39.9573331,
-                "longitutde": 116.3559266
+                "longitude": 116.3559266
             },
             {
                 "id": 6041082646,
                 "name": "西北风味餐厅",
                 "type": "restaurant",
                 "latitude": 39.9573358,
-                "longitutde": 116.3566677
+                "longitude": 116.3566677
             },
             {
                 "id": 6041082647,
                 "name": "学五食堂",
                 "type": "restaurant",
                 "latitude": 39.9577524,
-                "longitutde": 116.3566642
+                "longitude": 116.3566642
             },
             {
                 "id": 6041082648,
                 "name": "想都香",
                 "type": "restaurant",
                 "latitude": 39.9577817,
-                "longitutde": 116.3565464
+                "longitude": 116.3565464
             },
             {
                 "id": 6041082649,
                 "name": "学生第六食堂",
                 "type": "restaurant",
                 "latitude": 39.9601378,
-                "longitutde": 116.363129
+                "longitude": 116.363129
             },
             {
                 "id": 6041082650,
                 "name": "八喜日本料理",
                 "type": "restaurant",
                 "latitude": 39.962164,
-                "longitutde": 116.3639603
+                "longitude": 116.3639603
             },
             {
                 "id": 6041082651,
                 "name": "爱德堡西餐咖啡吧",
                 "type": "restaurant",
                 "latitude": 39.962026,
-                "longitutde": 116.3639774
+                "longitude": 116.3639774
             },
             {
                 "id": 6381462283,
                 "name": "Western Restaurant",
                 "type": "restaurant",
                 "latitude": 39.9574306,
-                "longitutde": 116.3634202
+                "longitude": 116.3634202
             },
             {
                 "id": 172257581,
                 "name": "艺术楼",
                 "type": "school",
                 "latitude": 39.96114360993704,
-                "longitutde": 116.35627157986949
+                "longitude": 116.35627157986949
             },
             {
                 "id": 172257582,
                 "name": "生地楼",
                 "type": "school",
                 "latitude": 39.96185981786985,
-                "longitutde": 116.35805113772624
+                "longitude": 116.35805113772624
             },
             {
                 "id": 172257585,
                 "name": "化学楼",
                 "type": "school",
                 "latitude": 39.96176865146069,
-                "longitutde": 116.35631582436471
+                "longitude": 116.35631582436471
             },
             {
                 "id": 499428275,
                 "name": "北师大实验小学",
                 "type": "school",
                 "latitude": 39.96185546729858,
-                "longitutde": 116.36234459985965
+                "longitude": 116.36234459985965
             },
             {
                 "id": 499433000,
                 "name": "实习餐厅",
                 "type": "restaurant",
                 "latitude": 39.961541776195475,
-                "longitutde": 116.3612441113572
+                "longitude": 116.3612441113572
             },
             {
                 "id": 499433263,
                 "name": "教六楼",
                 "type": "college",
                 "latitude": 39.959948313607406,
-                "longitutde": 116.36087032352344
+                "longitude": 116.36087032352344
             },
             {
                 "id": 499433322,
                 "name": "敬文讲堂",
                 "type": "college",
                 "latitude": 39.95936896510952,
-                "longitutde": 116.36064266843233
+                "longitude": 116.36064266843233
             },
             {
                 "id": 499433323,
                 "name": "教七楼",
                 "type": "college",
                 "latitude": 39.95940745331394,
-                "longitutde": 116.36116932311074
+                "longitude": 116.36116932311074
             },
             {
                 "id": 499433329,
                 "name": "京师学堂",
                 "type": "college",
                 "latitude": 39.9593353153506,
-                "longitutde": 116.35994310680569
+                "longitude": 116.35994310680569
             },
             {
                 "id": 499434918,
                 "name": "新乐群餐厅",
                 "type": "restaurant",
                 "latitude": 39.9573295,
-                "longitutde": 116.3559354
+                "longitude": 116.3559354
             },
             {
                 "id": 499437078,
                 "name": "西南餐厅",
                 "type": "restaurant",
                 "latitude": 39.95772799188773,
-                "longitutde": 116.35672117699171
+                "longitude": 116.35672117699171
             },
             {
                 "id": 499437130,
                 "name": "西北餐厅",
                 "type": "restaurant",
                 "latitude": 39.957324878301165,
-                "longitutde": 116.35672143066702
+                "longitude": 116.35672143066702
             },
             {
                 "id": 657002507,
                 "name": "北京师范大学附属幼儿园",
                 "type": "kindergarten",
                 "latitude": 39.961931443717724,
-                "longitutde": 116.35945817579316
+                "longitude": 116.35945817579316
             },
             {
                 "id": 657006464,
                 "name": "可能感兴趣的地点",
                 "type": "parking",
                 "latitude": 39.96274365000001,
-                "longitutde": 116.36350990000001
+                "longitude": 116.36350990000001
             },
             {
                 "id": 172257584,
                 "name": "邱季端体育馆",
                 "type": "nan",
                 "latitude": 39.958351708331435,
-                "longitutde": 116.35805753071449
+                "longitude": 116.35805753071449
             },
             {
                 "id": 172257586,
                 "name": "科技楼",
                 "type": "nan",
                 "latitude": 39.96026283816207,
-                "longitutde": 116.35936281850819
+                "longitude": 116.35936281850819
             },
             {
                 "id": 179358287,
                 "name": "学16楼",
                 "type": "nan",
                 "latitude": 39.9574096007395,
-                "longitutde": 116.35966596710765
+                "longitude": 116.35966596710765
             },
             {
                 "id": 179358288,
                 "name": "北楼",
                 "type": "nan",
                 "latitude": 39.95874044815183,
-                "longitutde": 116.35962887558591
+                "longitude": 116.35962887558591
             },
             {
                 "id": 179358289,
                 "name": "南楼",
                 "type": "nan",
                 "latitude": 39.958075449494075,
-                "longitutde": 116.35963308779918
+                "longitude": 116.35963308779918
             },
             {
                 "id": 179358290,
                 "name": "东楼",
                 "type": "nan",
                 "latitude": 39.95838620000001,
-                "longitutde": 116.36002635000001
+                "longitude": 116.36002635000001
             },
             {
                 "id": 179358291,
                 "name": "西楼",
                 "type": "nan",
                 "latitude": 39.95838902507036,
-                "longitutde": 116.35903085418528
+                "longitude": 116.35903085418528
             },
             {
                 "id": 182114919,
                 "name": "京师大厦",
                 "type": "nan",
                 "latitude": 39.95731104360267,
-                "longitutde": 116.3637625260771
+                "longitude": 116.3637625260771
             },
             {
                 "id": 267944894,
                 "name": "图书馆",
                 "type": "nan",
                 "latitude": 39.9596634,
-                "longitutde": 116.36236695000001
+                "longitude": 116.36236695000001
             },
             {
                 "id": 267944895,
                 "name": "乐育7楼",
                 "type": "nan",
                 "latitude": 39.960600118614245,
-                "longitutde": 116.3612308972794
+                "longitude": 116.3612308972794
             },
             {
                 "id": 267944897,
                 "name": "乐育9楼",
                 "type": "nan",
                 "latitude": 39.96107186689111,
-                "longitutde": 116.36119174276962
+                "longitude": 116.36119174276962
             },
             {
                 "id": 267944899,
                 "name": "乐育5楼",
                 "type": "nan",
                 "latitude": 39.96062984903494,
-                "longitutde": 116.36210082833846
+                "longitude": 116.36210082833846
             },
             {
                 "id": 267944900,
                 "name": "乐育2楼",
                 "type": "nan",
                 "latitude": 39.96071651241772,
-                "longitutde": 116.36333185566959
+                "longitude": 116.36333185566959
             },
             {
                 "id": 267944902,
                 "name": "乐育4楼",
                 "type": "nan",
                 "latitude": 39.96091613997357,
-                "longitutde": 116.36252494737877
+                "longitude": 116.36252494737877
             },
             {
                 "id": 267946192,
                 "name": "乐育1楼",
                 "type": "nan",
                 "latitude": 39.96094090228421,
-                "longitutde": 116.36398197996199
+                "longitude": 116.36398197996199
             },
             {
                 "id": 267946198,
                 "name": "乐育6楼",
                 "type": "nan",
                 "latitude": 39.96110885,
-                "longitutde": 116.36205755
+                "longitude": 116.36205755
             },
             {
                 "id": 267946199,
                 "name": "乐育3楼",
                 "type": "nan",
                 "latitude": 39.96119018416429,
-                "longitutde": 116.36329494756211
+                "longitude": 116.36329494756211
             },
             {
                 "id": 267947991,
                 "name": "学15楼",
                 "type": "nan",
                 "latitude": 39.95696449361676,
-                "longitutde": 116.35992711508445
+                "longitude": 116.35992711508445
             },
             {
                 "id": 267948003,
                 "name": "英东教育楼",
                 "type": "nan",
                 "latitude": 39.95714469727639,
-                "longitutde": 116.36125611159687
+                "longitude": 116.36125611159687
             },
             {
                 "id": 267948023,
                 "name": "教十楼",
                 "type": "nan",
                 "latitude": 39.95786009730109,
-                "longitutde": 116.36119922281983
+                "longitude": 116.36119922281983
             },
             {
                 "id": 267948024,
                 "name": "教九楼",
                 "type": "nan",
                 "latitude": 39.95833033725718,
-                "longitutde": 116.36079888258335
+                "longitude": 116.36079888258335
             },
             {
                 "id": 267948025,
                 "name": "教八楼",
                 "type": "nan",
                 "latitude": 39.958846124230064,
-                "longitutde": 116.36119519048668
+                "longitude": 116.36119519048668
             },
             {
                 "id": 267948584,
                 "name": "主楼",
                 "type": "nan",
                 "latitude": 39.95861538741574,
-                "longitutde": 116.36249632024035
+                "longitude": 116.36249632024035
             },
             {
                 "id": 267948892,
                 "name": "学10楼",
                 "type": "nan",
                 "latitude": 39.95694187491446,
-                "longitutde": 116.3557715389512
+                "longitude": 116.3557715389512
             },
             {
                 "id": 267948893,
                 "name": "学11楼",
                 "type": "nan",
                 "latitude": 39.9569389,
-                "longitutde": 116.35644909999999
+                "longitude": 116.35644909999999
             },
             {
                 "id": 294110460,
                 "name": "励耘9号楼",
                 "type": "nan",
                 "latitude": 39.962158175779244,
-                "longitutde": 116.35529806287904
+                "longitude": 116.35529806287904
             },
             {
                 "id": 319522945,
                 "name": "教四楼",
                 "type": "nan",
                 "latitude": 39.95903254177049,
-                "longitutde": 116.36366070207978
+                "longitude": 116.36366070207978
             },
             {
                 "id": 361446563,
                 "name": "学生活动中心",
                 "type": "nan",
                 "latitude": 39.96116325,
-                "longitutde": 116.35716840000002
+                "longitude": 116.35716840000002
             },
             {
                 "id": 499427391,
                 "name": "北师大誊印厂",
                 "type": "nan",
                 "latitude": 39.962322825643895,
-                "longitutde": 116.35586516688234
+                "longitude": 116.35586516688234
             },
             {
                 "id": 499432986,
                 "name": "教工食堂",
                 "type": "restaurant",
                 "latitude": 39.96151260594258,
-                "longitutde": 116.36072240031575
+                "longitude": 116.36072240031575
             },
             {
                 "id": 499433000,
                 "name": "实习餐厅",
                 "type": "restaurant",
                 "latitude": 39.961541776195475,
-                "longitutde": 116.3612441113572
+                "longitude": 116.3612441113572
             },
             {
                 "id": 499434918,
                 "name": "新乐群餐厅",
                 "type": "restaurant",
                 "latitude": 39.9573295,
-                "longitutde": 116.3559354
+                "longitude": 116.3559354
             },
             {
                 "id": 499435186,
                 "name": "学5楼",
                 "type": "nan",
                 "latitude": 39.9584085535661,
-                "longitutde": 116.35551595273415
+                "longitude": 116.35551595273415
             },
             {
                 "id": 499435187,
                 "name": "学6楼",
                 "type": "nan",
                 "latitude": 39.95867542540221,
-                "longitutde": 116.35667698932265
+                "longitude": 116.35667698932265
             },
             {
                 "id": 499435188,
                 "name": "学7楼",
                 "type": "nan",
                 "latitude": 39.9580580772757,
-                "longitutde": 116.35668922379841
+                "longitude": 116.35668922379841
             },
             {
                 "id": 499435300,
                 "name": "学8楼",
                 "type": "nan",
                 "latitude": 39.957697092134204,
-                "longitutde": 116.35812053432336
+                "longitude": 116.35812053432336
             },
             {
                 "id": 499435539,
                 "name": "学9楼",
                 "type": "nan",
                 "latitude": 39.957272099371814,
-                "longitutde": 116.35816118414485
+                "longitude": 116.35816118414485
             },
             {
                 "id": 499437078,
                 "name": "西南餐厅",
                 "type": "restaurant",
                 "latitude": 39.95772799188773,
-                "longitutde": 116.35672117699171
+                "longitude": 116.35672117699171
             },
             {
                 "id": 499437130,
                 "name": "西北餐厅",
                 "type": "restaurant",
                 "latitude": 39.957324878301165,
-                "longitutde": 116.35672143066702
+                "longitude": 116.35672143066702
             },
             {
                 "id": 540297385,
                 "name": "学4楼",
                 "type": "nan",
                 "latitude": 39.95912922181595,
-                "longitutde": 116.35569710127297
+                "longitude": 116.35569710127297
             },
             {
                 "id": 540297386,
                 "name": "学3楼",
                 "type": "nan",
                 "latitude": 39.95956440627706,
-                "longitutde": 116.3556422830593
+                "longitude": 116.3556422830593
             },
             {
                 "id": 540297387,
                 "name": "学2楼",
                 "type": "nan",
                 "latitude": 39.96011563020758,
-                "longitutde": 116.35561444380805
+                "longitude": 116.35561444380805
             },
             {
                 "id": 540297388,
                 "name": "学1楼",
                 "type": "nan",
                 "latitude": 39.960598947419236,
-                "longitutde": 116.35557928323132
+                "longitude": 116.35557928323132
             },
             {
                 "id": 637146709,
                 "name": "学12楼",
                 "type": "nan",
                 "latitude": 39.95697481822409,
-                "longitutde": 116.35734469345368
+                "longitude": 116.35734469345368
             },
             {
                 "id": 637146714,
                 "name": "学13楼",
                 "type": "nan",
                 "latitude": 39.95695678165629,
-                "longitutde": 116.35815667574232
+                "longitude": 116.35815667574232
             },
             {
                 "id": 637146717,
                 "name": "学14楼",
                 "type": "nan",
                 "latitude": 39.956969471780866,
-                "longitutde": 116.3589454875575
+                "longitude": 116.3589454875575
             },
             {
                 "id": 665146861,
                 "name": "教二楼",
                 "type": "nan",
                 "latitude": 39.95802481285736,
-                "longitutde": 116.3638062042222
+                "longitude": 116.3638062042222
             },
             {
                 "id": 1087856281,
                 "name": "学18楼",
                 "type": "nan",
                 "latitude": 39.958370263765765,
-                "longitutde": 116.35627481132151
+                "longitude": 116.35627481132151
             },
             {
                 "id": 1087856282,
                 "name": "学17楼",
                 "type": "nan",
                 "latitude": 39.958368650000004,
-                "longitutde": 116.35707375000001
+                "longitude": 116.35707375000001
             },
             {
                 "id": 9637672,
                 "name": "励耘学苑",
                 "type": "nan",
                 "latitude": 39.959910254108344,
-                "longitutde": 116.36358654408164
+                "longitude": 116.36358654408164
             }
         ]
     }

@@ -1,46 +1,46 @@
 {
-    "id": 1602967113474450228,
+    "id": 567043880139706953,
     "name": "西交利物浦大学",
     "rating": 4.7,
-    "popularity": 72,
+    "popularity": 56,
     "data_path": "map_data/university_map/Xi'an_Jiaotong_Liverpool_University",
     "amenity": {
-        "affiliation": 1602967113474450228,
+        "affiliation": 567043880139706953,
         "amenity_list": [
             {
                 "id": 6612881587,
                 "name": "西交利物浦大学（南校区）",
                 "type": "school",
                 "latitude": 31.2712821,
-                "longitutde": 120.7359726
+                "longitude": 120.7359726
             },
             {
                 "id": 9560049104,
                 "name": "宏愿食堂",
                 "type": "food_court",
                 "latitude": 31.2721889,
-                "longitutde": 120.73604
+                "longitude": 120.73604
             },
             {
                 "id": 9560049105,
                 "name": "西厅",
                 "type": "restaurant",
                 "latitude": 31.2726236,
-                "longitutde": 120.7364177
+                "longitude": 120.7364177
             },
             {
                 "id": 9560049106,
                 "name": "东厅",
                 "type": "restaurant",
                 "latitude": 31.2720752,
-                "longitutde": 120.7368447
+                "longitude": 120.7368447
             },
             {
                 "id": 1036623717,
                 "name": "可能感兴趣的地点",
                 "type": "parking",
                 "latitude": 31.271546618812437,
-                "longitutde": 120.73902872243065
+                "longitude": 120.73902872243065
             }
         ]
     }

@@ -1,32 +1,32 @@
 {
-    "id": 3225481028775305742,
+    "id": -8140862748105044671,
     "name": "芝加哥大学",
     "rating": 4.6,
-    "popularity": 60,
+    "popularity": 44,
     "data_path": "map_data/university_map/University_of_Chicago",
     "amenity": {
-        "affiliation": 3225481028775305742,
+        "affiliation": -8140862748105044671,
         "amenity_list": [
             {
                 "id": 11608801905,
                 "name": "可能感兴趣的地点",
                 "type": "bench",
                 "latitude": 41.7859246,
-                "longitutde": -87.5913569
+                "longitude": -87.5913569
             },
             {
                 "id": 155418357,
                 "name": "Dorchester Parking Lot",
                 "type": "parking",
                 "latitude": 41.78509095954019,
-                "longitutde": -87.59082352671685
+                "longitude": -87.59082352671685
             },
             {
                 "id": 278952385,
                 "name": "Vendor #1",
                 "type": "shelter",
                 "latitude": 41.7844045,
-                "longitutde": -87.59073325
+                "longitude": -87.59073325
             }
         ]
     }
