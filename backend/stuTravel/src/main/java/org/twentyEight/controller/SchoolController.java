@@ -6,17 +6,18 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.twentyEight.pojo.Result;
-import org.twentyEight.service.SchoolService;
+import org.twentyEight.service.MapUpdateService;
+
 
 @RestController
 @RequestMapping("/schoolMapUpdate")
 public class SchoolController {
     @Autowired
-    private SchoolService schoolService;
+    private MapUpdateService mapUpdateService;
 
     @PostMapping("/import")
     public Result importFiles() {
-        schoolService.importJsonFilesFromDisk(System.getenv("MAP_DATA") + "/map_exports_test");
+        mapUpdateService.importJsonFilesFromDisk(System.getenv("MAP_DATA") + "/map_exports_test");
         return Result.success();
     }
 }

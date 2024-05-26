@@ -4,21 +4,19 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.PatchMapping;
 import org.twentyEight.mapper.PlaceMapper;
 import org.twentyEight.mapper.VenueMapper;
 import org.twentyEight.pojo.Place;
 import org.twentyEight.pojo.Venue;
-import org.twentyEight.service.SchoolService;
+import org.twentyEight.service.MapUpdateService;
 
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.util.Iterator;
-import java.util.List;
 
 @Service
-public class SchoolServiceImpl implements SchoolService {
+public class MapUpdateServiceImpl implements MapUpdateService {
     @Autowired
     private PlaceMapper placeMapper;
     @Autowired

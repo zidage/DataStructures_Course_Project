@@ -1,6 +1,6 @@
 package org.twentyEight.service;
 
 
-public interface SchoolService {
+public interface MapUpdateService {
     public void importJsonFilesFromDisk(String directoryPath);
 }
