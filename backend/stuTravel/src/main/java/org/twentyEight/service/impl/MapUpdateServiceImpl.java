@@ -9,11 +9,13 @@ import org.twentyEight.mapper.VenueMapper;
 import org.twentyEight.pojo.Place;
 import org.twentyEight.pojo.Venue;
 import org.twentyEight.service.MapUpdateService;
+import org.twentyEight.utils.HashUtil;
 
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.util.Iterator;
+import java.util.zip.CRC32;
 
 @Service
 public class MapUpdateServiceImpl implements MapUpdateService {
@@ -40,6 +42,8 @@ public class MapUpdateServiceImpl implements MapUpdateService {
                     place.setRating(rootNode.get("rating").asDouble());
                     place.setPopularity(rootNode.get("popularity").asInt());
                     place.setData_path(rootNode.get("data_path").asText());
+                    place.setAddress(rootNode.get("address").asText());
+                    place.setId(computeUniqueId(place.getAddress()));
                     placeMapper.insertPlace(place);
 
                     // 读取Venue信息
@@ -66,5 +70,11 @@ public class MapUpdateServiceImpl implements MapUpdateService {
                 }
             }
         }
+    }
+
+    private Long computeUniqueId(String name) {
+        CRC32 crc = new CRC32();
+        crc.update(name.getBytes());
+        return crc.getValue();
     }
 }

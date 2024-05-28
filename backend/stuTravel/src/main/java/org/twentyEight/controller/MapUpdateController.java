@@ -3,15 +3,14 @@ package org.twentyEight.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.twentyEight.pojo.Result;
 import org.twentyEight.service.MapUpdateService;
 
 
 @RestController
-@RequestMapping("/schoolMapUpdate")
-public class SchoolController {
+@RequestMapping("/MapUpdate")
+public class MapUpdateController {
     @Autowired
     private MapUpdateService mapUpdateService;
 

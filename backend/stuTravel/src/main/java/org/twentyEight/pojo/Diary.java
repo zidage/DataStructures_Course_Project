@@ -12,7 +12,8 @@ public class Diary {
     private String coverImg;
     private String state;
     private Integer createUser;
+    private Integer planId; // 与该游学日记相关的游学计划
     private Integer popularity;
-    private LocalDateTime crateTime;
+    private LocalDateTime createTime;
     private LocalDateTime updateTime;
 }

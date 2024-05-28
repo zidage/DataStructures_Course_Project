@@ -11,6 +11,7 @@
 
 
 from fileinput import filename
+import imp
 import geopandas as gpd
 import os
 import shutil
@@ -23,6 +24,7 @@ import osmnx as ox
 from shapely.geometry import Polygon, MultiPolygon, Point
 from random import randint
 import pickle
+import speed_limit
 
 
 def list_subdirectories(root_dir):
@@ -95,7 +97,7 @@ def info_parser(file):
     """
     with open(file, 'r', encoding='gb2312') as f:
         js = json.load(f)
-        return js["university"]["name"], js["university"]["rating"]
+        return js["university"]["name"], js["university"]["address"], js["university"]["rating"]
 
 
 def regular_parser(file):
@@ -174,6 +176,7 @@ def amenity_parser(file):
         print("Amenity file parsing error")
         return None
 
+osmid_existed = []
 
 def export_data_object(map_basket, amenity_basket, university):
     """
@@ -193,20 +196,32 @@ def export_data_object(map_basket, amenity_basket, university):
     # gdf = amenity_filter(map_basket["amenity"], map_basket["area"])
     # print(map_basket["amenity"].head(100))
     amenity_basket["amenity_list"] = []
+    
     try:
         # 将设施的名字，类型，位置放入amenity_basket的amenity_list列表中
         for idx, row in map_basket["amenity"].iterrows():
-            amenity_basket["amenity_list"].append({"id": row['osmid'], "name": row["name"], "type": row["amenity"],
-                                                  "latitude": row["geometry"].centroid.y, "longitude": row["geometry"].centroid.x})
+            try:
+                if not row["osmid"] in osmid_existed:
+                    amenity_basket["amenity_list"].append({"id": row['osmid'], "name": row["name"], "type": row["amenity"],
+                                                        "latitude": row["geometry"].centroid.y, "longitude": row["geometry"].centroid.x})
+                    osmid_existed.append(row["osmid"])
+            except:
+                print(f"Cannot desolve one amenity in {file_name}")
         for idx, row in map_basket["building"].iterrows():
-            amenity_basket["amenity_list"].append({"id": row['osmid'], "name": row["name"], "type": row["amenity"],
-                                                  "latitude": row["geometry"].centroid.y, "longitude": row["geometry"].centroid.x})    
+            try:
+                if not row["osmid"] in osmid_existed:
+                    amenity_basket["amenity_list"].append({"id": row['osmid'], "name": row["name"], "type": row["amenity"],
+                                                        "latitude": row["geometry"].centroid.y, "longitude": row["geometry"].centroid.x})
+                    osmid_existed.append(row["osmid"])
+            except:
+                print(f"Cannot desolve one building in {file_name}")    
     except:
         print(f"No amenity or building in {file_name}")
     # 导出的json文件的字典表示
     export_data = {
         "id": map_basket["id"],
         "name": map_basket["name"],
+        "address": map_basket["address"],
         "rating": map_basket["rating"],
         "popularity": map_basket["popularity"],
         "data_path": f"map_data/university_map/{file_name}",
@@ -214,7 +229,7 @@ def export_data_object(map_basket, amenity_basket, university):
     }
     with open(f"{save_path}/{file_name}_map.json", 'w', encoding='utf-8') as file:
         json.dump(export_data, file, indent=4, ensure_ascii=False)
-    with open(f"{save_path}/{file_name}_sr.pickle", 'wb') as file:
+    with open(f"{save_path}/{file_name}_sr.pickle", 'wb') as file: # sr指serialized
         pickle.dump(map_basket, file)  # 存储为pickle文件，把对象腌成泡菜
 
 
@@ -223,11 +238,19 @@ def get_graph(map_basket):
     try:
         nodes = ox.graph_to_gdfs(map_basket["graph"], edges=False).fillna("")
         edges = ox.graph_to_gdfs(map_basket["graph"], nodes=False).fillna("")
+        # print(edges["highway"])
         # print(nodes.iloc[2].name)
-        time_use_walk = []
+        walk_speed = []
+        bike_speed = []
         for idx, rows in edges.iterrows():
-            time_use_walk.append(rows["length"] / 4 / 1000 * 3600)
-        edges["time_use_walk"] = time_use_walk
+            if (type(rows['highway']) == list):
+                    rows['highway'] = rows['highway'][0]
+            
+            walk_speed.append(speed_limit.get_speed(0, rows['highway']))
+            bike_speed.append(speed_limit.get_speed(1, rows['highway']))
+            
+        edges["walk_speed"] = walk_speed
+        edges["bike_speed"] = bike_speed
 
     # print(edges["osmid"].head())
 
@@ -245,7 +268,7 @@ def get_graph(map_basket):
                 adjacency_list[u] = {}
             
             if v not in adjacency_list[u]:
-                adjacency_list[u][v] = (data["length"], data["time_use_walk"])
+                adjacency_list[u][v] = (data["length"], data["length"] / data["walk_speed"], data["length"] / data["bike_speed"])
                 # print(adjacency_list[u][v])
         
         for id, data in graph.nodes(data=True):
@@ -253,7 +276,7 @@ def get_graph(map_basket):
 
         # print(node_list)
         # print("get_graph ends")
-        return adjacency_list, node_list
+        return adjacency_list, node_list, walk_speed, bike_speed
     except:
         print("Parse terminate")
         return None, None
@@ -262,33 +285,58 @@ def get_graph(map_basket):
 # main函数
 root_dir = f'{os.environ["MAP_DATA"]}/university_map_test'
 delete_folders_with_few_files(root_dir)
-university_directories = list_subdirectories(root_dir)
+place_directories = list_subdirectories(root_dir)
 
-for university in university_directories:
-    files_path = get_files_in_folder(university)
-    map_basket = {"id": None, "name": None, "rating": None, "popularity": None, "graph": None, "area": None,
-                  "building": None, "amenity": None, "route": None, "adj_list": None, "nd_list": None}
-    amenity_basket = {"affiliation": None, "amenity_list": None}
-    for file in files_path:
-        parsed_line = file.split('_')  # 把下划线分隔的文件名拆成一个数组
-        file_type = parsed_line[-1]  # 得到文件类型
-        if file_type == 'info.json':
-            map_basket["name"], map_basket["rating"] = info_parser(file)
-            map_basket["id"] = hash(map_basket["name"])  # 计算该地点的哈希值
-            map_basket["popularity"] = int(
-                map_basket["rating"]) * randint(10, 25)  # 根据地点评分随机生成一个欢迎度
-            amenity_basket["affiliation"] = map_basket["id"]
-        elif file_type == 'graph.graphml':
-            map_basket["graph"] = graph_parser(file)  # 将图解析并存储
-            map_basket["adj_list"], map_basket["nd_list"] = get_graph(map_basket)
-            #if map_basket["adj_list"] is None or map_basket["nd_list"] is None:
-                #continue
-        elif file_type == 'area.gpkg':
-            map_basket["area"] = regular_parser(file)  # 将占据区域解析并存储
-        elif file_type == 'buildings.gpkg':
-            map_basket["building"] = building_parser(file)  # 将建筑解析并存储
-        elif file_type == 'amenity.gpkg':
-            map_basket["amenity"] = amenity_parser(file)  # 将设施解析并存储
+def update_map_data_all():
+    for place in place_directories:
+        files_path = get_files_in_folder(place)
+        map_basket = {"id": None, "name": None, "address": None, "rating": None, "popularity": None, "graph": None, "area": None,
+                    "building": None, "amenity": None, "route": None, "adj_list": None, "nd_list": None, "walk_speed": None, "bike_speed": None}
+        amenity_basket = {"affiliation": None, "amenity_list": None}
+        for file in files_path:
+            parsed_line = file.split('_')  # 把下划线分隔的文件名拆成一个数组
+            file_type = parsed_line[-1]  # 得到文件类型
+            if file_type == 'info.json':
+                map_basket["name"], map_basket["address"], map_basket["rating"] = info_parser(file)
+                map_basket["id"] = hash(map_basket["name"])  # 计算该地点的哈希值
+                map_basket["popularity"] = int(
+                    map_basket["rating"]) * randint(10, 25)  # 根据地点评分随机生成一个欢迎度
+                amenity_basket["affiliation"] = map_basket["id"]
+            elif file_type == 'graph.graphml':
+                map_basket["graph"] = graph_parser(file)  # 将图解析并存储
+                map_basket["adj_list"], map_basket["nd_list"], map_basket["walk_speed"], map_basket["bike_speed"] = get_graph(map_basket)
+                #if map_basket["adj_list"] is None or map_basket["nd_list"] is None:
+                    #continue
+            elif file_type == 'area.gpkg':
+                map_basket["area"] = regular_parser(file)  # 将占据区域解析并存储
+            elif file_type == 'buildings.gpkg':
+                map_basket["building"] = building_parser(file)  # 将建筑解析并存储
+            elif file_type == 'amenity.gpkg':
+                map_basket["amenity"] = amenity_parser(file)  # 将设施解析并存储
 
-    export_data_object(map_basket, amenity_basket, university)
-    print(university + 'map image and export data generated!')
+        export_data_object(map_basket, amenity_basket, place)
+        print(place + 'export data generated!')
+
+
+
+def update_traffic():
+    exported_directory = list_subdirectories(f'{os.environ["MAP_DATA"]}\\map_exports_test')
+    for place in exported_directory:
+        try:
+            with open(place + '\\' + place.split('\\')[-1] + '_sr.pickle', 'rb') as f:
+                map_basket = pickle.load(f)
+            
+            try:
+                map_basket["adj_list"], map_basket["nd_list"], map_basket["walk_speed"], map_basket["bike_speed"] = get_graph(map_basket)
+                with open(place + '\\' + place.split('\\')[-1] + '_sr.pickle', 'wb') as f:
+                    pickle.dump(map_basket, f)
+                    print("Successfully update traffic in " + place)
+            except:
+                print("Fail to update traffic in " + place)
+        except:
+            print("Fail to update traffic in " + place)
+        
+
+
+update_map_data_all()
+        

@@ -5,17 +5,22 @@ current_time = datetime.now()
 
 current_hour = current_time.hour
 
-offset = 0
+rush_hour = False
 
 if 7 <= current_hour <= 9:
-    offset = -5
+    rush_hour = True
 
 street_types_dict = {
     'motorway': 70,  # 高速公路，限速70mph
+    'motorway_link': 70,
     'trunk': 60,  # 主干道，限速60mph
+    'trunk_link': 60,
     'primary': 50,  # 主要道路，限速50mph
+    'primary_link': 50,
     'secondary': 40,  # 次要道路，限速40mph
+    'secondary_link': 40,
     'tertiary': 35,  # 三级道路，限速35mph
+    'tertiary_link': 35,
     'residential': 25,  # 居民区道路，限速25mph
     'service': 20,  # 服务道路，限速20mph
     'unclassified': 30,  # 未分类道路，限速30mph
@@ -40,6 +45,21 @@ street_types_dict = {
     'planned': 30,  # 计划中道路，限速30mph
 }
 
-# 对字典中的值进行加上偏移量
-for key, value in street_types_dict.items():
-    street_types_dict[key] = value + offset
+def get_speed(transport, street_type):
+    # 对字典中的值进行加上偏移量
+    
+    if transport == 0:
+        # 当在早晚高峰时段路越宽越拥挤，但对行人影响较小
+        # 行人默认速度为1.3m/s
+        try:
+            return 1.3 + (-0.007 if rush_hour else 0.005) * street_types_dict[street_type]
+        except:
+            return 1.3 + (-0.007 if rush_hour else 0.005) * street_types_dict['residential']
+    else:
+        # 当在早晚高峰时段路越宽越拥挤，但对自行车影响较大
+        # 自行车默认速度为3m/s
+        try:
+            return 3 + (-0.01 if rush_hour else 0.02) * street_types_dict[street_type]
+        except:
+            return 3 + (-0.01 if rush_hour else 0.02) * street_types_dict['residential']
+    

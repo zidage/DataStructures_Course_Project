@@ -10,7 +10,7 @@ public class MapViewGenerator {
 
     public MapViewGenerator() throws IOException {
         script_path = System.getenv("DS_SRC_MAIN");
-        pb = new ProcessBuilder("python", script_path + "\\python\\map_view_generator.py");
+        pb = new ProcessBuilder("python", script_path + "\\backend\\map_view_generator.py");
         process = pb.start();
         writer = new OutputStreamWriter(process.getOutputStream());
         reader = new BufferedReader(new InputStreamReader(process.getInputStream(), Charset.forName("GBK")));

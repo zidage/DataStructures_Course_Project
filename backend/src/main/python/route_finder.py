@@ -4,6 +4,11 @@ import pickle
 from datetime import datetime
 import heapq
 
+DISTANCE_FIRST = 0
+TIME_FIRST = 1
+WALK = 0
+BIKE = 1
+
 
 root_dir = f'{environ["MAP_DATA"]}/map_exports_test'
 
@@ -31,7 +36,7 @@ def heuristic(node, target):
     return abs(x1 - x2) + abs(y1 - y2)
 
 
-def astar(adjacency_list, node_list, start, end):
+def astar(adjacency_list, node_list, start, end, stategy=DISTANCE_FIRST, transport=WALK):
     wts = {node: float('inf') for node in adjacency_list}
     wts[start] = 0
     heap = [(0, 0, start)]
@@ -48,7 +53,7 @@ def astar(adjacency_list, node_list, start, end):
 
         for neighbor, weight in adjacency_list[current_node].items():
             try:
-                wt = current_g + weight[0]
+                wt = current_g + weight[stategy]
                 if wt < wts[neighbor]:
                     wts[neighbor] = wt
                     f = wt + heuristic(node_list[neighbor], node_list[end])
@@ -70,7 +75,7 @@ def astar(adjacency_list, node_list, start, end):
     return wts[end], path_node
 
 
-def route_find_test(place, map_basket, waypoints):
+def route_find_test(place, map_basket, waypoints, strategy=DISTANCE_FIRST, transport=WALK):
     route = []
     for i in range(len(waypoints) - 1):
         orig_node = ox.nearest_nodes(map_basket["graph"], waypoints[i][0], waypoints[i][1])

@@ -43,7 +43,11 @@ def new_view_generator(place, map_basket, wpt_gdf=None):
     # nodes, edges = ox.graph_to_gdfs(map_basket["graph"])
 
     if (len(map_basket["route"]) == 0):
-        m = map_basket["amenity"].explore(tooltip="name")
+        _, edges = ox.graph_to_gdfs(map_basket["graph"])
+        edges["walk_speed"] = map_basket["walk_speed"]
+        edges["bike_speed"] = map_basket["bike_speed"]
+        m = edges.explore(column="bike_speed", cmap="jet_r")
+        # m = map_basket["amenity"].explore(tooltip="name")
         m.save(f"{os.environ['MAP_DATA']}\\map_view_html_test\\{place}.html")
         print("html saved!")
         return

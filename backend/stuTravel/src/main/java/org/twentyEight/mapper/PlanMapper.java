@@ -1,7 +1,6 @@
 package org.twentyEight.mapper;
 
-import org.apache.ibatis.annotations.Insert;
-import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.*;
 import org.twentyEight.pojo.Plan;
 
 import java.util.List;
@@ -9,8 +8,9 @@ import java.util.List;
 @Mapper
 public interface PlanMapper {
     @Insert("insert into " +
-            "plan (create_user, title, place, transport, required_time) " +
-            "values (#{createUser}, #{title}, #{place}, #{transport}, #{requiredTime})")
+            "plan (create_user, title, transport, place_id, create_time, update_time) " +
+            "values (#{createUser}, #{title}, #{transport}, #{placeId}, #{createTime}, #{updateTime})")
+    @Options(useGeneratedKeys = true, keyProperty = "id")
     void insertPlan(Plan plan);
 
     @Insert({"<script>",
@@ -20,5 +20,14 @@ public interface PlanMapper {
             "</foreach>",
             "</script>"
     })
-    void insertPlanVenues(Integer planId, List<Integer> venueIds);
+    void insertPlanVenues(Integer planId, List<Long> venueIds);
+
+    @Delete("DELETE FROM Plan_Venue WHERE plan_id = #{planId}")
+    void deletePlanVenuesByPlanId(@Param("planId") Integer planId);
+
+    @Delete("DELETE FROM Plan WHERE id = #{id}")
+    void deletePlan(@Param("id") Integer id);
+
+    @Update("update Plan set title=#{title}, transport=#{transport}, update_time=now() where id=#{id}")
+    void updatePlan(Plan plan);
 }
