@@ -1,11 +1,25 @@
 {
-    "id": -7428318878780218411,
+    "id": 1743325786650824214,
     "name": "香港大学",
+    "address": "Pok Fu Lam, 香港",
     "rating": 4.3,
-    "popularity": 100,
+    "popularity": 60,
     "data_path": "map_data/university_map/The_University_of_Hong_Kong",
+    "description": "香港大學（英語：The University of Hong Kong，縮寫：HKU），簡稱港大，是香港的一所公立研究型大學，大學本部位於香港島中西區龍虎山。大學成立於1911年，以英國伯明翰大學為藍本，由兩所當時已存在的高等院校——香港西醫書院及香港工學院合併而成，並於1912年3月11日正式辦學，是香港最早建立的高等教育機構，亦是英國在印度以東最早成立的大學。香港大學是亞洲，以至全球最頂尖的大學之一，現時位居QS世界大學排名第26位、泰晤士高等教育世界大學排名第31位。該校自創校以來一直採用英文為主要教學語言，現在共有十所學術學院，作為跨學術領域的綜合大學，其以醫學、法律、教育學、社會學、哲學、國際關係、建筑学、新聞學、社會科學、政治學、文学等見長。\n港大是香港頂尖的大學之一，現時屬於「QS世界百強大學」、「泰晤士高等教育世界百強大學」、「美國新聞與世界報道世界百強大學」及「軟科世界百強大學」。該校自創校以來一直採用英文為主要教學語言，現在共有十所學術學院，作為跨學術領域的綜合大學，其以教育學、法律學、社會學、哲學、國際關係、建筑学、新聞學、社會科學、政治學、文学等見長。\n\n",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/e/e2/Duncan_Sloss_%28cropped%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/8/89/G._P._Jordan.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/7/7a/HKU_Centennial_Campus_201412.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/2/2c/HKU_Centennial_Campus_Centennial_Garden_201412.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/6/66/HKU_Centennial_Campus_Chi_Wah_Learning_Commons_Level_1_Entrance_201412.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/2/2c/HKU_Centennial_Campus_Courtyard_1_201412.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/c/c6/HKU_Centennial_Campus_L3_Podium_201412.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/5/57/HKU_Centennial_Campus_The_University_Street_Lennon_wall_blocked_20201010.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/2/24/HKU_Centennial_Campus_View1_201412.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/6/6e/HKU_Democracy_Wall_clear_20210716.jpg"
+    ],
     "amenity": {
-        "affiliation": -7428318878780218411,
+        "affiliation": 1743325786650824214,
         "amenity_list": [
             {
                 "id": 579172710,
@@ -218,13 +232,6 @@
                 "longitude": 114.13781755060727
             },
             {
-                "id": 5872358686,
-                "name": "Subway",
-                "type": "fast_food",
-                "latitude": 22.2826412,
-                "longitude": 114.1383404
-            },
-            {
                 "id": 5872360694,
                 "name": "iBakery",
                 "type": "nan",
@@ -286,13 +293,6 @@
                 "type": "nan",
                 "latitude": 22.283057026161366,
                 "longitude": 114.13547544219827
-            },
-            {
-                "id": 182172765,
-                "name": "綜合大樓 (香港大學學生會) Composite Building (HKU Students' Union)",
-                "type": "parking",
-                "latitude": 22.283185844930934,
-                "longitude": 114.13591825691748
             },
             {
                 "id": 182172767,

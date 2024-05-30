@@ -1,11 +1,25 @@
 {
-    "id": 2635695897935635103,
+    "id": 8230941482818199849,
     "name": "中国海洋大学",
+    "address": "中国山东省青岛市市南区鱼山路5号 邮政编码: 266005",
     "rating": 4.7,
     "popularity": 76,
     "data_path": "map_data/university_map/Ocean_University_of_China",
+    "description": "中国海洋大学（英語：Ocean University of China，缩写：OUC），简称中国海大、海大，位于山东省青岛市，始建于1924年，是中国一所以海洋和水产学科为特色，包括理学、工学、农学、医（药）学、经济学、管理学、文学、法学、教育学、历史学等学科门类较为齐全的教育部直属重点综合性大学。\n中国海洋大学是中华人民共和国顶尖高校之一，是“双一流A类”和原“985工程”、原“211工程”重点建设大学，同时入选国家111计划，为北极大学联盟、IAMRI联盟、海洋大学联盟成员校，是国务院学位委员会首批批准的具有博士学位授予权的单位，国家首批“卓越农林人才教育培养计划”、“卓越工程师教育培养计划”改革试点高校，以及青岛海洋科学与技术国家实验室牵头高校，现辖崂山、鱼山、浮山、西海岸4个校区。\n\n",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/e/ec/Cai_Yuanpei_1.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/5/5b/Gao_Enhong.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/b/b3/Wang_Ganchang_early_1950s.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/c/ce/Yushan_Campus_of_the_Ocean_University_of_China_01_2007-04.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/3/34/Zang_Kejia_1933.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/e/e1/%E4%B8%AD%E5%9B%BD%E6%B5%B7%E6%B4%8B%E5%A4%A7%E5%AD%A6%E5%B4%82%E5%B1%B1%E6%A0%A1%E5%8C%BA%E9%97%A8%E5%8F%A3.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/7/70/%E5%9B%BD%E7%AB%8B%E5%B1%B1%E4%B8%9C%E5%A4%A7%E5%AD%A6%E5%A4%8D%E6%A0%A1.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/5/57/%E5%B1%B1%E4%B8%9C%E6%B5%B7%E6%B4%8B%E5%AD%A6%E9%99%A2.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/6/69/%E7%A7%81%E7%AB%8B%E9%9D%92%E5%B2%9B%E5%A4%A7%E5%AD%A6.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/0/06/%E9%97%BB%E4%B8%80%E5%A4%9A02.jpg"
+    ],
     "amenity": {
-        "affiliation": 2635695897935635103,
+        "affiliation": 8230941482818199849,
         "amenity_list": [
             {
                 "id": 2024738707,
@@ -183,13 +197,6 @@
                 "longitude": 120.4978057901965
             },
             {
-                "id": 552537876,
-                "name": "第二食堂",
-                "type": "restaurant",
-                "latitude": 36.164701592848424,
-                "longitude": 120.49517927081851
-            },
-            {
                 "id": 552542985,
                 "name": "教育超市",
                 "type": "nan",
@@ -293,13 +300,6 @@
                 "type": "nan",
                 "latitude": 36.160045122855664,
                 "longitude": 120.49086824434185
-            },
-            {
-                "id": 554286853,
-                "name": "中国海洋大学崂山校区图书馆",
-                "type": "library",
-                "latitude": 36.1581626591715,
-                "longitude": 120.49246972534158
             },
             {
                 "id": 554286860,
@@ -538,13 +538,6 @@
                 "type": "nan",
                 "latitude": 36.159784350463596,
                 "longitude": 120.4997074933467
-            },
-            {
-                "id": 7894335,
-                "name": "第一食堂",
-                "type": "restaurant",
-                "latitude": 36.164162491951885,
-                "longitude": 120.49642706538711
             },
             {
                 "id": 7916416,

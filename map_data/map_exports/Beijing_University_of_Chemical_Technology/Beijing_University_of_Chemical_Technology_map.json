@@ -1,11 +1,19 @@
 {
-    "id": -3548293180943045551,
+    "id": 7428365813599995525,
     "name": "北京化工大学",
+    "address": "中国北京市朝阳区 邮政编码: 100013",
     "rating": 4.2,
-    "popularity": 64,
+    "popularity": 60,
     "data_path": "map_data/university_map/Beijing_University_of_Chemical_Technology",
+    "description": "北京化工大学（英語：Beijing University of Chemical Technology，縮寫：BUCT），创办于1958年，原名北京化工学院，是中华人民共和国为“培养尖端科学技术所需求的高级化工人才”而创建的一所大学，为教育部直属的全国重点大学，国家“211工程”和“985优势学科创新平台”重点建设院校。\n\n",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/f/fc/Beijing_University_of_Chemical_Technology_%2820240125140308%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/b/b5/Buct_houdebang.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/5/53/Buct_statue.jpg",
+        "https://upload.wikimedia.org/wikipedia/zh/7/77/Beijing_University_of_Chemical_Technology_logo.jpg"
+    ],
     "amenity": {
-        "affiliation": -3548293180943045551,
+        "affiliation": 7428365813599995525,
         "amenity_list": [
             {
                 "id": 6305137176,
@@ -288,27 +296,6 @@
                 "longitude": 116.14037645778012
             },
             {
-                "id": 833425797,
-                "name": "红色候车亭",
-                "type": "shelter",
-                "latitude": 40.25336395,
-                "longitude": 116.14648320000002
-            },
-            {
-                "id": 838013200,
-                "name": "保卫处",
-                "type": "police",
-                "latitude": 40.251569575193,
-                "longitude": 116.13875445317069
-            },
-            {
-                "id": 838082021,
-                "name": "燕贸亭",
-                "type": "shelter",
-                "latitude": 40.25908516774115,
-                "longitude": 116.14373423608339
-            },
-            {
                 "id": 921001719,
                 "name": "第二教学楼",
                 "type": "nan",
@@ -321,13 +308,6 @@
                 "type": "nan",
                 "latitude": 40.25311055029182,
                 "longitude": 116.14156793495484
-            },
-            {
-                "id": 921001721,
-                "name": "玉兰食堂",
-                "type": "restaurant",
-                "latitude": 40.25391932055239,
-                "longitude": 116.14123629210773
             },
             {
                 "id": 944919550,

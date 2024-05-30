@@ -1,11 +1,16 @@
 {
-    "id": -3401211801339335444,
+    "id": -5083916818926964444,
     "name": "江南大学",
+    "address": "中国江苏省无锡市滨湖区蠡湖大道1800号 邮政编码: 214126",
     "rating": 4.7,
-    "popularity": 52,
+    "popularity": 64,
     "data_path": "map_data/university_map/Jiangnan_University",
+    "description": "江南大学是位于中华人民共和国江苏省无锡市的一所全日制公办本科大学。\n\n",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/0/09/%E6%B1%9F%E5%8D%97%E5%A4%A7%E5%AD%A6_-_panoramio.jpg"
+    ],
     "amenity": {
-        "affiliation": -3401211801339335444,
+        "affiliation": -5083916818926964444,
         "amenity_list": [
             {
                 "id": 2569266588,
@@ -125,13 +130,6 @@
                 "type": "nan",
                 "latitude": 31.490024428325004,
                 "longitude": 120.26750228310058
-            },
-            {
-                "id": 289550980,
-                "name": "第一食堂江南苑",
-                "type": "restaurant",
-                "latitude": 31.490724129071527,
-                "longitude": 120.26685314810138
             },
             {
                 "id": 289552411,
@@ -258,13 +256,6 @@
                 "type": "nan",
                 "latitude": 31.485764995736567,
                 "longitude": 120.26664864794267
-            },
-            {
-                "id": 521961180,
-                "name": "第二食堂梁溪苑",
-                "type": "restaurant",
-                "latitude": 31.491713965008387,
-                "longitude": 120.26118925245174
             },
             {
                 "id": 521975589,

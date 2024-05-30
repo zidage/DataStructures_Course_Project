@@ -1,11 +1,16 @@
 {
-    "id": -4500431258566532129,
+    "id": -8492488915331752273,
     "name": "俄亥俄州立大学",
+    "address": "281 W Lane Ave, Columbus, OH 43210美国",
     "rating": 4.5,
-    "popularity": 48,
+    "popularity": 52,
     "data_path": "map_data/university_map/Ohio_State_University_(Columbus)",
+    "description": "俄亥俄州立大学（英語：The Ohio State University，縮寫：Ohio State 或 OSU）创建于1870年，是一所坐落于美国俄亥俄州首府哥伦布市北部的公立研究型大学。它是北美顶尖的学术联盟美國大學協會成员之一以及十大联盟成员。它也是美国五大湖地区顶尖的公立大学之一，被誉为“公立常春藤”。\n以占地面积计算，俄亥俄州立大学是北美面积最大的大学之一。开设的专业几乎涵盖了所有的学术领域，尤以经济学、商学，工程学，物理学等学科于世界名列前茅。根据国家科学基金会的2007年报告指出，2006年的研究支出为6亿5千2百万美元，在全美国公立大学中，排名第七；在所有公私立大学中，排名第十一，私人企业赞助研究，全美排名第二。商学院是国际商学院促进协会在1916年的创始者之一。\n大学百余年来培养了众多杰出校友，至少包括5位诺贝尔奖得主，9位羅德獎學金得主，7位丘吉爾獎學金得主，1位菲爾茲獎得主，8位普利策奖得主，64位貝利·高華德獎學金得主，6位參議員，15位眾議員，108位奧運獎牌獲得者和1位沃尔夫奖得主。许多对人类科技进步作出重大贡献的人物，包括大发明家查尔斯·凯特林，发现聚四氟乙烯（“特氟龙”）的罗伊·普朗克特，发明霍夫曼代码的大卫·霍夫曼，维基百科的联合发起者和创始人拉里·桑格；以及许多改写历史的人物，从柏林奥运会上的“黑色闪电”杰西·欧文斯，到火攻东京的柯蒂斯·李梅将军，再到冷战后改写政治格局的“民主导师”吉恩·夏普等，全都毕业于此校。\n学术排名方面，在世界四大主流大学排名机构公布的排名中，2021年QS世界排名108，2021年泰晤士高等教育世界排名80，2020年ARWU世界排名101-150，2023年US News世界排名43。大学声誉方面，在2020年泰晤士高等教育世界大学声誉排行榜中，被列于世界第71至80位。",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/d/d1/Drinko_Hall_%282006%29.jpg"
+    ],
     "amenity": {
-        "affiliation": -4500431258566532129,
+        "affiliation": -8492488915331752273,
         "amenity_list": [
             {
                 "id": 332471337,
@@ -603,46 +608,11 @@
                 "longitude": -83.01574551144262
             },
             {
-                "id": 30172308,
-                "name": "William Oxley Thompson Memorial Library",
-                "type": "library",
-                "latitude": 39.99925782463438,
-                "longitude": -83.01488114057572
-            },
-            {
-                "id": 30172346,
-                "name": "Ohio Union North Parking Garage",
-                "type": "parking",
-                "latitude": 39.99888795977054,
-                "longitude": -83.00893543757942
-            },
-            {
-                "id": 30172348,
-                "name": "Arps Garage",
-                "type": "parking",
-                "latitude": 40.00277861938601,
-                "longitude": -83.00997589138125
-            },
-            {
                 "id": 30172563,
                 "name": "Schottenstein Center & Value City Arena",
                 "type": "nan",
                 "latitude": 40.00760920391461,
                 "longitude": -83.02513053993819
-            },
-            {
-                "id": 38911610,
-                "name": "Tuttle Park Place Garage",
-                "type": "parking",
-                "latitude": 40.00285467917187,
-                "longitude": -83.01714114085384
-            },
-            {
-                "id": 38911612,
-                "name": "Northwest Garage",
-                "type": "parking",
-                "latitude": 40.002958050436504,
-                "longitude": -83.01619493585254
             },
             {
                 "id": 38917471,
@@ -960,25 +930,11 @@
                 "longitude": -83.0111144219245
             },
             {
-                "id": 154204611,
-                "name": "Mershon Auditorium",
-                "type": "theatre",
-                "latitude": 40.00055683374922,
-                "longitude": -83.008963012557
-            },
-            {
                 "id": 154204613,
                 "name": "Newton Hall",
                 "type": "nan",
                 "latitude": 39.99400553095585,
                 "longitude": -83.0148363371486
-            },
-            {
-                "id": 154204619,
-                "name": "Ohio Union",
-                "type": "community_centre",
-                "latitude": 39.99767504414933,
-                "longitude": -83.00864693576018
             },
             {
                 "id": 154204623,
@@ -993,13 +949,6 @@
                 "type": "nan",
                 "latitude": 39.997355820156,
                 "longitude": -83.01446957485962
-            },
-            {
-                "id": 154204631,
-                "name": "Prior Health Sciences Library",
-                "type": "library",
-                "latitude": 39.99477510014586,
-                "longitude": -83.01708599900807
             },
             {
                 "id": 154204633,
@@ -1205,13 +1154,6 @@
                 "longitude": -83.01409796075195
             },
             {
-                "id": 154204800,
-                "name": "CVS Pharmacy",
-                "type": "pharmacy",
-                "latitude": 39.994815668709286,
-                "longitude": -83.01413565476616
-            },
-            {
                 "id": 154204801,
                 "name": "Animal Science Building",
                 "type": "nan",
@@ -1245,13 +1187,6 @@
                 "type": "nan",
                 "latitude": 39.99454272086594,
                 "longitude": -83.01126523951233
-            },
-            {
-                "id": 154204806,
-                "name": "18th Avenue Library",
-                "type": "library",
-                "latitude": 40.00163969291666,
-                "longitude": -83.01334188828241
             },
             {
                 "id": 154204809,
@@ -1394,13 +1329,6 @@
                 "longitude": -83.0147482855679
             },
             {
-                "id": 158702631,
-                "name": "Wilce Student Health Center",
-                "type": "clinic",
-                "latitude": 39.99953343712377,
-                "longitude": -83.01643840320864
-            },
-            {
                 "id": 158711263,
                 "name": "Physical Activity and Education Services",
                 "type": "nan",
@@ -1413,13 +1341,6 @@
                 "type": "nan",
                 "latitude": 40.005996365211445,
                 "longitude": -83.01613554640662
-            },
-            {
-                "id": 158734277,
-                "name": "Lane Avenue Parking Garage",
-                "type": "parking",
-                "latitude": 40.005595299161456,
-                "longitude": -83.0161742120562
             },
             {
                 "id": 158742503,
@@ -1455,27 +1376,6 @@
                 "type": "nan",
                 "latitude": 39.998113283819215,
                 "longitude": -83.02107632343369
-            },
-            {
-                "id": 162877497,
-                "name": "Ohio Union South Parking Garage",
-                "type": "parking",
-                "latitude": 39.99836187202686,
-                "longitude": -83.00884055809337
-            },
-            {
-                "id": 162932157,
-                "name": "Neil Avenue Garage",
-                "type": "parking",
-                "latitude": 39.99762924656349,
-                "longitude": -83.01742569609637
-            },
-            {
-                "id": 162932204,
-                "name": "SAFEAUTO Hospitals Garage",
-                "type": "parking",
-                "latitude": 39.993435609527545,
-                "longitude": -83.01827075309791
             },
             {
                 "id": 231976895,
@@ -1520,20 +1420,6 @@
                 "longitude": -83.0791718417005
             },
             {
-                "id": 369601354,
-                "name": "9th Avenue East Garage",
-                "type": "parking",
-                "latitude": 39.99297470106758,
-                "longitude": -83.0155757889192
-            },
-            {
-                "id": 369601355,
-                "name": "9th Avenue West Garage",
-                "type": "parking",
-                "latitude": 39.99273993833477,
-                "longitude": -83.01666847638097
-            },
-            {
                 "id": 369601358,
                 "name": "Telecommunications Network Center",
                 "type": "nan",
@@ -1560,13 +1446,6 @@
                 "type": "nan",
                 "latitude": 39.99362414099763,
                 "longitude": -83.01877429790187
-            },
-            {
-                "id": 369947416,
-                "name": "Panera Bread",
-                "type": "fast_food",
-                "latitude": 39.993941035609474,
-                "longitude": -83.01824519971619
             },
             {
                 "id": 370270130,
@@ -1618,41 +1497,6 @@
                 "longitude": -83.02140724333778
             },
             {
-                "id": 373547727,
-                "name": "11th Avenue Garage",
-                "type": "parking",
-                "latitude": 39.99513685372236,
-                "longitude": -83.01301569489439
-            },
-            {
-                "id": 373552732,
-                "name": "Hang Over Easy",
-                "type": "cafe",
-                "latitude": 39.995061689687766,
-                "longitude": -83.01432209003919
-            },
-            {
-                "id": 373552739,
-                "name": "Adriatico's New York Style Pizza",
-                "type": "restaurant",
-                "latitude": 39.994523256121965,
-                "longitude": -83.01415846063121
-            },
-            {
-                "id": 373552742,
-                "name": "Bruegger's Bagels",
-                "type": "fast_food",
-                "latitude": 39.994638667171465,
-                "longitude": -83.0142265228752
-            },
-            {
-                "id": 373704487,
-                "name": "12th Avenue Garage",
-                "type": "parking",
-                "latitude": 39.99666258799904,
-                "longitude": -83.01741621827951
-            },
-            {
                 "id": 373705613,
                 "name": "Jennings Hall",
                 "type": "nan",
@@ -1693,13 +1537,6 @@
                 "type": "nan",
                 "latitude": 40.0053640525817,
                 "longitude": -83.00942357231988
-            },
-            {
-                "id": 376709744,
-                "name": "Credit Union of Ohio",
-                "type": "bank",
-                "latitude": 39.9951733607607,
-                "longitude": -83.0143477896726
             },
             {
                 "id": 376709746,
@@ -1763,13 +1600,6 @@
                 "type": "nan",
                 "latitude": 40.00725629419521,
                 "longitude": -83.01859110660908
-            },
-            {
-                "id": 396827340,
-                "name": "West Lane Garage",
-                "type": "parking",
-                "latitude": 40.007212936009694,
-                "longitude": -83.01795957483877
             },
             {
                 "id": 424161474,
@@ -2080,13 +1910,6 @@
                 "longitude": -83.00970927025823
             },
             {
-                "id": 537538847,
-                "name": "Wexner Center for the Arts",
-                "type": "arts_centre",
-                "latitude": 40.00075572873718,
-                "longitude": -83.00945616986007
-            },
-            {
                 "id": 538597078,
                 "name": "Tom W. Davis Tower",
                 "type": "nan",
@@ -2150,13 +1973,6 @@
                 "longitude": -83.0141187504144
             },
             {
-                "id": 732445629,
-                "name": "Wexner Medical Center Garage",
-                "type": "parking",
-                "latitude": 39.99316015746919,
-                "longitude": -83.02139800593721
-            },
-            {
                 "id": 838647045,
                 "name": "Wexner Medical Center Outpatient Care West Campus",
                 "type": "nan",
@@ -2218,13 +2034,6 @@
                 "type": "nan",
                 "latitude": 40.00217315576868,
                 "longitude": -83.02907719159245
-            },
-            {
-                "id": 910894653,
-                "name": "Old Cannon Garage",
-                "type": "parking",
-                "latitude": 39.991737809381,
-                "longitude": -83.01985290859618
             },
             {
                 "id": 949109634,

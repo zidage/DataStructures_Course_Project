@@ -1,11 +1,25 @@
 {
-    "id": 2278720211973027545,
+    "id": -3623411189479974676,
     "name": "埃默里大学",
+    "address": "201 Dowman Dr, Atlanta, GA 30322美国",
     "rating": 4.3,
-    "popularity": 76,
+    "popularity": 52,
     "data_path": "map_data/university_map/Emory_University",
+    "description": "埃默里大學（英語：Emory University），或譯艾文理大學、艾默利大學，創校於1836年，為一位於美國喬治亞州亞特蘭大都市地区迪卡尔布县德鲁伊山之私立研究型大學；另設有牛津校區。1836年循道宗主教约翰·埃默里创办埃默里学院为其起源。1915年学院迁到亚特兰大都市地区，改名为埃默里大学。它是乔治亚州第二老的私立高校。\n埃默里大學设有多个学院：埃默里文理学院、牛津学院、戈伊苏埃塔商学院、莱尼研究生院、法学院、内尔霍奇森伍德拉夫护理学院、罗琳斯公共卫生学院和康德勒神学院。埃默里大學与佐治亚理工学院一起运行生物医学工程系，该系与中国北京大学在教育和科研方面合作紧密。它和南京大学协作运行亚特兰大的孔子学院。埃默里大學与韩国科学技术院不断加强系际研究伙伴关系。埃默里大學的学生来自美国50个州、6个领土和100多个国家。\n埃默里医疗集团是喬治亞州最大的医疗集团系统，由七座大医院组成，其中包括国际知名的埃默里大学医院和埃默里大学医院中城院区。温希普癌症研究所、耶基斯国家灵长类研究中心和其它许多疾病和免疫研究中心也由埃默里大学运行。埃默里大学是国家过敏症和传染病研究所的疟疾病原体互动中心和美国卫生及公共服务部国家埃博拉训练和教育中心的主要组织者。埃默里大学是参加国家过敏症和传染病研究所肺结核研究项目的四所研究单位之一。国家级公共卫生机构国际联盟（International Association of National Public Health Institutes, IANPHI）的總部位在埃默里大学。美國疾病管制與預防中心和美国癌症协会的总部就位于大学校园边上。埃默里大学和卡特中心有伙伴关系。\n埃默里大學的学校基金会财产在美国排第16名，在全世界是第21富有的，根据《美国新闻与世界报道》2017年美國大学排行榜排第20名，综合排名第82名。研究生的数量和本科生的数量基本持平。常年錄取率保持在25%上下。卡內基高校评估把它评为“最高研究活动”。莱顿大学的高校排名里它被称为拥有最高科学成就和引文影响。国家科学基金会把它列为美国研究開發支出第36名高的学术机构。埃默里大學的研究主要由美國聯邦政府，尤其是國立衛生研究院支付。1995年埃默里大學被选入由62座美国和加拿大领先研究大学组成的美國學院與大學協會。在體育方面，埃默里大学是大學運動聯盟（UAA）的成員學校之一。",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/0/0e/Asa_G._C..jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/5/59/Emory_Campus_Aerial_Image.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/e/e9/Emory_Clocktower.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/e/ef/Emory_Glenn_Chapel.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/a/ab/Emory_Quad.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/4/45/Emory_ReadingRoom.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/4/4f/Emory_University_-_Administration_Building.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/1/18/Emory_University_-_Charles_and_Peggy_Evans_Anatomy_Building.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/9/91/Emory_University_School_of_Law.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/2/23/Plaque_on_The_Depot_at_Emory_University.jpg"
+    ],
     "amenity": {
-        "affiliation": 2278720211973027545,
+        "affiliation": -3623411189479974676,
         "amenity_list": [
             {
                 "id": 358779595,
@@ -365,13 +379,6 @@
                 "longitude": -84.3188868
             },
             {
-                "id": 25509346,
-                "name": "Starvine Parking Deck",
-                "type": "parking",
-                "latitude": 33.79605376155453,
-                "longitude": -84.30814670451583
-            },
-            {
                 "id": 40859912,
                 "name": "Emory University School of Medicine",
                 "type": "nan",
@@ -384,13 +391,6 @@
                 "type": "nan",
                 "latitude": 33.79440457203975,
                 "longitude": -84.32166526629133
-            },
-            {
-                "id": 40859914,
-                "name": "Peavine Parking Deck",
-                "type": "parking",
-                "latitude": 33.79335671260243,
-                "longitude": -84.32829124632504
             },
             {
                 "id": 41109061,
@@ -456,32 +456,11 @@
                 "longitude": -84.31908265028395
             },
             {
-                "id": 41169860,
-                "name": "Clinic B",
-                "type": "clinic",
-                "latitude": 33.791498840628144,
-                "longitude": -84.31983215846458
-            },
-            {
-                "id": 41169862,
-                "name": "Robert W. Woodruff Library",
-                "type": "library",
-                "latitude": 33.79051577102507,
-                "longitude": -84.3229142678356
-            },
-            {
                 "id": 41169863,
                 "name": "Harris Hall",
                 "type": "nan",
                 "latitude": 33.791253729876,
                 "longitude": -84.32149052967634
-            },
-            {
-                "id": 41169864,
-                "name": "Gambrell Parking Deck",
-                "type": "parking",
-                "latitude": 33.79042827729106,
-                "longitude": -84.31895381733224
             },
             {
                 "id": 41169865,
@@ -505,13 +484,6 @@
                 "longitude": -84.32378218053975
             },
             {
-                "id": 41556695,
-                "name": "Fishburne Parking Deck",
-                "type": "parking",
-                "latitude": 33.78906403492191,
-                "longitude": -84.32256731531271
-            },
-            {
                 "id": 42563699,
                 "name": "Emory National Primate Research Center",
                 "type": "nan",
@@ -524,20 +496,6 @@
                 "type": "nan",
                 "latitude": 33.793285333557115,
                 "longitude": -84.32598476100479
-            },
-            {
-                "id": 42701401,
-                "name": "Clairmont EFGH Deck",
-                "type": "parking",
-                "latitude": 33.798201122053165,
-                "longitude": -84.30936239292559
-            },
-            {
-                "id": 43317371,
-                "name": "Candler Library",
-                "type": "library",
-                "latitude": 33.791294948356544,
-                "longitude": -84.32353374246543
             },
             {
                 "id": 43448661,
@@ -608,13 +566,6 @@
                 "type": "nan",
                 "latitude": 33.79044770087064,
                 "longitude": -84.32417357924666
-            },
-            {
-                "id": 51286211,
-                "name": "William R. Cannon Chapel",
-                "type": "place_of_worship",
-                "latitude": 33.79131140798294,
-                "longitude": -84.32513272901481
             },
             {
                 "id": 51286262,
@@ -757,13 +708,6 @@
                 "longitude": -84.32456089922036
             },
             {
-                "id": 51302619,
-                "name": "Emory Clinic Building A",
-                "type": "clinic",
-                "latitude": 33.792454586372344,
-                "longitude": -84.32037802974511
-            },
-            {
                 "id": 51303656,
                 "name": "The Depot",
                 "type": "nan",
@@ -862,13 +806,6 @@
                 "longitude": -84.31855924140541
             },
             {
-                "id": 51313299,
-                "name": "Donna and Marvin Schwartz Center for Performing Arts",
-                "type": "theatre",
-                "latitude": 33.78924339142396,
-                "longitude": -84.32184926851029
-            },
-            {
                 "id": 51313455,
                 "name": "Glenn Church School Building",
                 "type": "nan",
@@ -888,13 +825,6 @@
                 "type": "nan",
                 "latitude": 33.79509537601059,
                 "longitude": -84.32846085414893
-            },
-            {
-                "id": 61494982,
-                "name": "Emory University Hospital",
-                "type": "hospital",
-                "latitude": 33.792121188345455,
-                "longitude": -84.3221790720872
             },
             {
                 "id": 65841964,
@@ -939,20 +869,6 @@
                 "longitude": -84.32265814174414
             },
             {
-                "id": 112921497,
-                "name": "Winship Cancer Institute Clinic C",
-                "type": "clinic",
-                "latitude": 33.792807927808674,
-                "longitude": -84.31944656098572
-            },
-            {
-                "id": 112921498,
-                "name": "Physician's Parking Deck",
-                "type": "parking",
-                "latitude": 33.7923914158339,
-                "longitude": -84.31909293262022
-            },
-            {
                 "id": 167773027,
                 "name": "Brumley Bridge",
                 "type": "nan",
@@ -965,13 +881,6 @@
                 "type": "nan",
                 "latitude": 33.794316043678144,
                 "longitude": -84.31759015725162
-            },
-            {
-                "id": 167777685,
-                "name": "Longstreet-Means Parking Deck",
-                "type": "parking",
-                "latitude": 33.794649141191165,
-                "longitude": -84.32309796764972
             },
             {
                 "id": 167837141,
@@ -1329,13 +1238,6 @@
                 "type": "nan",
                 "latitude": 33.78964523730989,
                 "longitude": -84.32311627776969
-            },
-            {
-                "id": 1673566,
-                "name": "The Clifton School",
-                "type": "kindergarten",
-                "latitude": 33.79572467466746,
-                "longitude": -84.31122321881354
             },
             {
                 "id": 7249634,

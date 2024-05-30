@@ -1,11 +1,22 @@
 {
-    "id": 5742639080850721524,
+    "id": 233298954557356321,
     "name": "中国科学技术大学",
+    "address": "中国河北省廊坊市广阳区云鹏道 邮政编码: 101127",
     "rating": 3,
-    "popularity": 69,
+    "popularity": 39,
     "data_path": "map_data/university_map/University_of_Science_and_Technology_of_China",
+    "description": "中国科学技术大学（英語：University of Science and Technology of China，縮寫：USTC），标准简称为中国科大，常用简称科大、中科大、中国科技大学或科技大是中国大陆的一所公立研究型大学，主体部分文革时期从北京迁出，现位于安徽省合肥市。\n中國科學技術大學是中华人民共和国理工科排名前列的高校之一，現時屬於「泰晤士高等教育世界百強大學」及「軟科世界百強大學」，是“双一流A类”和原“985工程”、原“211工程”重点建设大学，隶属于中国科学院，是一所由中国科学院直属管理的全国重点大学。同時是九校联盟（C9）和长三角高校合作联盟成员，中国大学校长联谊会成员。2017年被教育部评选为世界一流大学。为东亚研究型大学协会和环太平洋大学联盟的成员。\n中国科大实行“全院办校，所系结合”的办校方针，依托中国科学院的各个研究所，促进了教学与科研的一体化。注重数理基础教学，自建校始长期实行五年制本科学制（与清华改革同步，1996年前后，商学院等少数几个院系本科学制改为四年。1995年招生的少年班预科其实也是1996年通过普通高考获得大学学籍，于2000年毕业。陈至立主导的高等教育大规模扩招施行后，2000年入学的本科新生学制全部改为四年制）。中科大是建国后成立的大学中第一批设立研究生院的大学；还于1978年在李政道等人的主持下，创办了著名的少年班，80年代后期以后，逐渐演化为从高一不满16岁经历普通高考（北京高考的情况，1995年分数线大约750分之600分）招生，培养了千人上下的14岁前后入校的大学生。从1963年开始有第一届毕业生以来，科大已有72名毕业生（截至2017年）陆续当选中国科学院或中国工程院院士，约每1000名本科毕业生就产生1名院士、700多名硕士博士。",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/9/9a/1963-09_1963%E5%B9%B4_%E4%B8%AD%E5%9B%BD%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%E5%A4%A7%E5%AD%A6%E9%A6%96%E5%B1%8A%E6%AF%95%E4%B8%9A%E5%85%B8%E7%A4%BC_%E5%B7%A6%E8%B5%B7%E6%9D%A8%E7%A7%80%E5%B3%B0_%E9%83%AD%E6%B2%AB%E8%8B%A5_%E9%99%88%E6%AF%85_%E8%81%82%E8%8D%A3%E8%87%BB.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/6/6e/Bei_Shizhang_1930.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/8/82/Gate_of_USTC.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/d/d5/Guo_Moruo_in_1941.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/2/26/Huangshan_Yingkesong.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/4/4f/%E4%B8%AD%E5%9B%BD%E7%A7%91%E5%A4%A7%E5%9B%BE%E4%B9%A6%E9%A6%86.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/8/83/%E4%B8%AD%E5%9B%BD%E7%A7%91%E5%AD%A6%E4%B8%8E%E6%8A%80%E6%9C%AF%E5%A4%A7%E5%AD%A6%E6%B0%B4%E4%B8%8A%E6%8A%A5%E5%91%8A%E5%8E%85_USTC_H2O_Auditorium.jpg"
+    ],
     "amenity": {
-        "affiliation": 5742639080850721524,
+        "affiliation": 233298954557356321,
         "amenity_list": [
             {
                 "id": 3699437066,
@@ -141,13 +152,6 @@
                 "longitude": 117.2670934146144
             },
             {
-                "id": 265032063,
-                "name": "中国科学技术大学医院",
-                "type": "hospital",
-                "latitude": 31.83544832128668,
-                "longitude": 117.2606708310779
-            },
-            {
                 "id": 265575547,
                 "name": "第五教学楼",
                 "type": "nan",
@@ -216,13 +220,6 @@
                 "type": "nan",
                 "latitude": 31.840406519027173,
                 "longitude": 117.26481593006045
-            },
-            {
-                "id": 268207470,
-                "name": "USTC1958（东区）",
-                "type": "cafe",
-                "latitude": 31.840477846630456,
-                "longitude": 117.26321777480938
             },
             {
                 "id": 268836823,
@@ -337,13 +334,6 @@
                 "longitude": 117.26539494491603
             },
             {
-                "id": 271958264,
-                "name": "浴室",
-                "type": "public_bath",
-                "latitude": 31.837630700000002,
-                "longitude": 117.2624046
-            },
-            {
                 "id": 271958268,
                 "name": "原第四教学楼（西北楼）",
                 "type": "nan",
@@ -377,13 +367,6 @@
                 "type": "nan",
                 "latitude": 31.83936854715138,
                 "longitude": 117.2638354452817
-            },
-            {
-                "id": 284161541,
-                "name": "东区图书馆",
-                "type": "library",
-                "latitude": 31.839013783576565,
-                "longitude": 117.26386049237858
             },
             {
                 "id": 284161542,

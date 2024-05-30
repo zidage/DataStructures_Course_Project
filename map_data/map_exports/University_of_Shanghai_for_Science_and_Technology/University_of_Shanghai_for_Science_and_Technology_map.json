@@ -1,11 +1,24 @@
 {
-    "id": 661481827216232244,
+    "id": 585638289280125853,
     "name": "上海理工大学",
+    "address": "中国上海市杨浦区军工路516号 邮政编码: 200093",
     "rating": 4.7,
     "popularity": 56,
     "data_path": "map_data/university_map/University_of_Shanghai_for_Science_and_Technology",
+    "description": "上海理工大学（英語：University of Shanghai for Science and Technology，縮寫：USST），简称上海理工、上理，是一所位于中国上海的公立大学。国家国防科技工业局与上海市人民政府共建的国防特色高校，入选教育部卓越工程师教育培养计划，上海理工大学是一所以工学为主，理学、经济学、管理学、文学、法学、艺术学等多学科协调发展的上海市属重点大学，享有中国“制造业黄埔军校”的美誉。\n学校有军工路与复兴路2个校区。军工路校区位于上海中环城市高架路与黄浦江之间，原为美国弗吉尼亚州浸会创办的沪江大学校址。1952年秋全国高校院系调整，沪江大学停办，在军工路原址改办上海理工大学的前身上海机械学院，1994年更名为华东工业大学。复兴路校区位于上海城市繁华地带的徐汇区，紧邻美国驻上海总领事馆，是原同济医工学堂和中法国立工学院旧址，后发展为上海机械高等专科学校。1996年5月，同属机械工业部的华东工业大学与上海机械高等专科学校合并组建上海理工大学。\n\n",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/6/6e/AmbassadorUSST120711.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/0/0b/Platopainting.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/c/c3/%E4%B8%8A%E6%B5%B7%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%E5%9B%BE%E4%B9%A6%E9%A6%86.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/b/b1/%E4%B8%8A%E6%B5%B7%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%E5%B7%A5%E4%B8%9A%E8%AE%BE%E8%AE%A1%E6%95%99%E5%AD%A6%E6%A5%BC.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/e/e9/%E4%B8%8A%E6%B5%B7%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%E7%8E%AF%E5%BD%A2%E5%B9%BF%E5%9C%BA.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/0/01/%E4%BB%8E%E4%B8%8A%E6%B5%B7%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%E7%9C%BA%E6%9C%9B%E8%BF%9C%E5%A4%84%E4%B8%9C%E6%96%B9%E6%98%8E%E7%8F%A0%E5%A1%94.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/a/ab/%E5%9B%BD%E9%99%85%E6%96%87%E5%8C%96%E5%9B%AD.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/5/55/%E5%BE%90%E5%BF%97%E6%91%A9%E5%B0%B1%E8%AF%BB%E4%BA%8E%E4%B8%8A%E6%B5%B7%E6%B2%AA%E6%B1%9F%E5%A4%A7%E5%AD%A6%EF%BC%88%E4%BB%8A%E4%B8%8A%E6%B5%B7%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%EF%BC%89.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/3/3d/%E7%90%86%E5%A4%A7%E5%81%A5%E8%BA%AB%E6%88%BF.jpg"
+    ],
     "amenity": {
-        "affiliation": 661481827216232244,
+        "affiliation": 585638289280125853,
         "amenity_list": [
             {
                 "id": 1905718792,
@@ -62,13 +75,6 @@
                 "type": "library",
                 "latitude": 31.297320778840323,
                 "longitude": 121.55006089550632
-            },
-            {
-                "id": 155169489,
-                "name": "第五食堂",
-                "type": "restaurant",
-                "latitude": 31.298409018609956,
-                "longitude": 121.5528693986121
             },
             {
                 "id": 155171513,
@@ -132,13 +138,6 @@
                 "type": "nan",
                 "latitude": 31.296815856720414,
                 "longitude": 121.55124761263558
-            },
-            {
-                "id": 155312149,
-                "name": "浴室",
-                "type": "shower",
-                "latitude": 31.29606461338449,
-                "longitude": 121.55033030916692
             },
             {
                 "id": 155312947,
@@ -225,13 +224,6 @@
                 "longitude": 121.55034694999999
             },
             {
-                "id": 155454904,
-                "name": "医务室",
-                "type": "doctors",
-                "latitude": 31.29529968562605,
-                "longitude": 121.54995235601406
-            },
-            {
                 "id": 155454907,
                 "name": "基建规划处",
                 "type": "nan",
@@ -314,13 +306,6 @@
                 "type": "nan",
                 "latitude": 31.2958422,
                 "longitude": 121.55184919999998
-            },
-            {
-                "id": 155602963,
-                "name": "第二食堂 / 教工食堂",
-                "type": "restaurant",
-                "latitude": 31.295638375448075,
-                "longitude": 121.55147864632922
             },
             {
                 "id": 155615221,
@@ -692,13 +677,6 @@
                 "type": "nan",
                 "latitude": 31.297342142166357,
                 "longitude": 121.54962707247044
-            },
-            {
-                "id": 2403832,
-                "name": "湛恩纪念图书馆",
-                "type": "library",
-                "latitude": 31.297320778840323,
-                "longitude": 121.55006089550632
             },
             {
                 "id": 2403833,

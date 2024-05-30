@@ -1,11 +1,18 @@
 {
-    "id": 5394172925378019902,
+    "id": -8258245617539048425,
     "name": "伦敦大学玛利皇后学院",
+    "address": "327 Mile End Rd, Bethnal Green, London E1 4NS英国",
     "rating": 4.2,
-    "popularity": 80,
+    "popularity": 40,
     "data_path": "map_data/university_map/Queen_Mary_University_of_London",
+    "description": "伦敦玛丽女王大学（Queen Mary University of London）是英國伦敦大学系統的下属学院，得名于乔治五世的王后特克的玛丽。它由最早附属于人民宫的东伦敦技术学院发展起来，1915年加入伦敦大学系統，於1989年与西菲爾德學院合并，1995年合并了两所医学院。主校区位于伦敦东区麥爾安德。\n伦敦玛丽女王大学為罗素大学集团的成員之一，該校設有200多個學位的課程，在全英大學評比中，多數部門的研究評估分為5或5*，其在法律、財金、多媒體、電腦方面表現尤為突出。\n伦敦玛丽女王大学的教职工中不乏英國皇家學會、英國科學院、英國皇家醫學科學院和皇家工程院院士。在伦敦玛丽女王大学在校师生和過去的校友中，有9位諾貝爾獎得主 。\n\n",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/0/0b/Platopainting.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/c/c5/Queens%27_Building_%282899476115%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/8/85/Senate_House%2C_University_of_London.jpg"
+    ],
     "amenity": {
-        "affiliation": 5394172925378019902,
+        "affiliation": -8258245617539048425,
         "amenity_list": [
             {
                 "id": 246842416,
@@ -148,13 +155,6 @@
                 "longitude": -0.040132389006297724
             },
             {
-                "id": 29079452,
-                "name": "Mile End Library",
-                "type": "library",
-                "latitude": 51.52419788987734,
-                "longitude": -0.03964991223083276
-            },
-            {
                 "id": 29079476,
                 "name": "Francis Bancroft Building",
                 "type": "nan",
@@ -288,25 +288,11 @@
                 "longitude": -0.041989522112561684
             },
             {
-                "id": 263494318,
-                "name": "Baron de Stern Clock Tower",
-                "type": "clock",
-                "latitude": 51.52306025307413,
-                "longitude": -0.04021183199241555
-            },
-            {
                 "id": 397419888,
                 "name": "Graduate Centre",
                 "type": "nan",
                 "latitude": 51.52328435587661,
                 "longitude": -0.04158744790940423
-            },
-            {
-                "id": 612390091,
-                "name": "Tower Hamlets Local History Library and Archives",
-                "type": "library",
-                "latitude": 51.52382423136832,
-                "longitude": -0.04230781075114555
             },
             {
                 "id": 662754054,
@@ -377,13 +363,6 @@
                 "type": "nan",
                 "latitude": 51.52245702096392,
                 "longitude": -0.04398388455279627
-            },
-            {
-                "id": 1213391310,
-                "name": "Westfield Nursery",
-                "type": "childcare",
-                "latitude": 51.52344543622193,
-                "longitude": -0.04275797883053414
             },
             {
                 "id": 1214428298,

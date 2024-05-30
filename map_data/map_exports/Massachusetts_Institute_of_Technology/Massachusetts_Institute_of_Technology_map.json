@@ -1,11 +1,25 @@
 {
-    "id": -7801633625687701497,
+    "id": -4103013157370713090,
     "name": "麻省理工大学",
+    "address": "77 Massachusetts Ave, Cambridge, MA 02139美国",
     "rating": 4.7,
-    "popularity": 72,
+    "popularity": 88,
     "data_path": "map_data/university_map/Massachusetts_Institute_of_Technology",
+    "description": "麻省理工學院（英語：Massachusetts Institute of Technology，縮寫為MIT）是位於美國麻薩諸塞州劍橋市的私立研究型大學，成立於1861年。主校区沿查尔斯河而建，當時目的是為了響應美國與日俱增的工業化需求。学校採用了歐洲理工大學的模式辦學，早期著力於應用科學與工程學的實驗教學。學校的研究人員在第二次世界大战及冷戰期間，致力於開發電腦、雷達及慣性導航系統技術；戰後的防禦性科技研究使學校得以進一步發展，教職員人數及校園面積在占士·賴恩基利安的帶領下有所上升。大學於1916年遷往現在位於查爾斯河北岸的校址，沿岸伸延逾1英里（1.6公里），佔地168英畝（68公頃）。\n麻省理工学院擁有6間學術學院、32個學系部門，常獲納入全球最佳學府之列。學校一直聞名於物理科學與工程學的教研，但在近代亦大力發展諸如生命科學、經濟學、管理學、語言學等其他學術範疇。別名「工程師」的麻省理工體育校隊合計31支，涵蓋不同項目，學生因此可參與不同類型的跨校體育聯賽。\n麻省理工學院在2021年QS世界大學排名中位列全球第一，並與加州理工學院、倫敦帝國理工學院、蘇黎世聯邦理工學院並稱世界四大理工學院。截至2020年10月，麻省理工学院的校友、教授及研究人員涵蓋97位諾貝爾獎得主、8名菲爾茲獎獲獎者、26位图灵奖得主，以及52位國家科學獎章獲獎者、45位羅德學者、38名麥克阿瑟獎得主。該校同時具很強的創業文化，由其校友所創辦的公司利潤總值相當於全球第十一大經濟體（截至2014年）。\n\n",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/a/a7/Buzz_Aldrin_%28S69-31743%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/7/72/Ford-MIT_Nobel_Laureate_Lecture_Series_2000-09-18.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/2/20/Huntbeginsinlobby7.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/2/27/Infinitecorridor.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/0/01/Kismet_robot_20051016.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/1/1a/Kofi_Annan.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/c/c9/MIT_Boston_19th_c_byEdward_L_Allen_BPL_2351553844.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/0/05/MIT_Building_10_and_the_Great_Dome%2C_Cambridge_MA.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/a/ac/MIT_Dome_night1_Edit.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/0/00/MIT_Lobby_7.jpg"
+    ],
     "amenity": {
-        "affiliation": -7801633625687701497,
+        "affiliation": -4103013157370713090,
         "amenity_list": [
             {
                 "id": 313409064,
@@ -421,13 +435,6 @@
                 "longitude": -71.09477053765782
             },
             {
-                "id": 24494029,
-                "name": "W16 Kresge Auditorium",
-                "type": "auditorium",
-                "latitude": 42.35814261813033,
-                "longitude": -71.09505493638706
-            },
-            {
                 "id": 24494050,
                 "name": "50 Walker Memorial",
                 "type": "nan",
@@ -461,13 +468,6 @@
                 "type": "nan",
                 "latitude": 42.3611687345166,
                 "longitude": -71.08216508163287
-            },
-            {
-                "id": 24562763,
-                "name": "W15 MIT Chapel",
-                "type": "place_of_worship",
-                "latitude": 42.35833056115422,
-                "longitude": -71.0941286341662
             },
             {
                 "id": 24808074,
@@ -638,13 +638,6 @@
                 "longitude": -71.08485632477502
             },
             {
-                "id": 29618959,
-                "name": "N4 Albany Garage",
-                "type": "parking",
-                "latitude": 42.36202809042652,
-                "longitude": -71.09277533900406
-            },
-            {
                 "id": 29620676,
                 "name": "The Kendall Hotel",
                 "type": "nan",
@@ -769,13 +762,6 @@
                 "type": "nan",
                 "latitude": 42.362063254342985,
                 "longitude": -71.0847225450677
-            },
-            {
-                "id": 29890503,
-                "name": "W64 Koch Childcare Center",
-                "type": "childcare",
-                "latitude": 42.357717173414166,
-                "longitude": -71.1004141978726
             },
             {
                 "id": 29924888,

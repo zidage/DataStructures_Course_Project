@@ -1,11 +1,25 @@
 {
-    "id": -4895335004972737046,
+    "id": 5697935631195620703,
     "name": "西安交通大学",
-    "rating": 4.6,
-    "popularity": 48,
+    "address": "中国陕西省西安市碑林区交大商业街区咸宁西路28号 邮政编码: 710049",
+    "rating": 4.5,
+    "popularity": 92,
     "data_path": "map_data/university_map/Xian_Jiaotong_University",
+    "description": "西安交通大学（英語：Xi'an Jiaotong University，縮寫：XJTU），或簡稱交大、西交、西交大、西安交大，是中华人民共和国陕西省的一所全日制公办大学。位于陕西省会西安市。西交大由中华人民共和国教育部直接管理，亦为中华人民共和国全国重点大学。学校具有理工特色，并涵盖理、工、医、经、管、文、法等10个学科门类。。\n西安交通大学是中华人民共和国顶尖高校之一，是“C9高校联盟”成员之一，“双一流A类”和原“985工程”、原“211工程”重点建设大学。西安交大的前身是清末洋务派政治家、实业家和福利事业家盛宣怀于1896年创建的南洋公学，后曾易名南洋大学、上海工业专门学校，中华民国大陆时期后期称为国立交通大学。1955年，由于国际形势的风云变幻并为积极支援西北地区教育建设，国务院决定交通大学迁往西安，是为交大西迁，后因国家战略发生变化，由“主体西迁”，改为“两地办学”，设立交通大学西安部分和交通大学上海部分。1959年交通大学分立，交通大学西安部分定名为西安交通大学，原交通大学校长彭康被任命为西安交通大学首任校长。\n\n",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/b/b0/1947_Chiaotung_University_Nanking.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/e/e5/Donghanmu.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/8/85/JTU_Students_and_Teachers_moved_to_Xi%27an_in_1956.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/f/f5/Old_buildings_xjtu.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/b/b4/Old_buildings_xjtu_detail.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/7/75/Original_0RZI_1f3400008490125c.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/6/6d/SJTU_emblem_1926.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/0/08/SJTU_emblem_1934.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/4/48/SJTU_emblem_1940.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/4/4c/SJTU_flag_1909.jpg"
+    ],
     "amenity": {
-        "affiliation": -4895335004972737046,
+        "affiliation": 5697935631195620703,
         "amenity_list": [
             {
                 "id": 1652492980,
@@ -223,13 +237,6 @@
                 "type": "nan",
                 "latitude": 34.243268725022055,
                 "longitude": 108.97552801985239
-            },
-            {
-                "id": 263634244,
-                "name": "青年之家",
-                "type": "theatre",
-                "latitude": 34.24376216645546,
-                "longitude": 108.97669559927482
             },
             {
                 "id": 263807970,

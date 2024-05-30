@@ -1,11 +1,14 @@
 {
-    "id": 3403256821338602110,
-    "name": "南开大学",
-    "rating": 4.5,
-    "popularity": 100,
+    "id": 7419008082345425770,
+    "name": "南开大学深圳函授站",
+    "address": "中国广东省深圳市福田区笋岗八卦路55号 邮政编码: 518025",
+    "rating": 0,
+    "popularity": 0,
     "data_path": "map_data/university_map/Nankai_University",
+    "description": "No description available",
+    "images": "",
     "amenity": {
-        "affiliation": 3403256821338602110,
+        "affiliation": 7419008082345425770,
         "amenity_list": [
             {
                 "id": 8005677148,
@@ -85,13 +88,6 @@
                 "longitude": 117.15619776213032
             },
             {
-                "id": 543834370,
-                "name": "南开大学新图书馆",
-                "type": "library",
-                "latitude": 39.101905772326774,
-                "longitude": 117.15945943758355
-            },
-            {
                 "id": 543834371,
                 "name": "医学院",
                 "type": "nan",
@@ -146,27 +142,6 @@
                 "type": "nan",
                 "latitude": 39.10434089514943,
                 "longitude": 117.15102731185033
-            },
-            {
-                "id": 543877990,
-                "name": "二食堂",
-                "type": "restaurant",
-                "latitude": 39.10369024231618,
-                "longitude": 117.16035823754581
-            },
-            {
-                "id": 543877991,
-                "name": "一食堂",
-                "type": "restaurant",
-                "latitude": 39.10331990756311,
-                "longitude": 117.16081204267033
-            },
-            {
-                "id": 543878014,
-                "name": "Nankai University Library",
-                "type": "library",
-                "latitude": 39.10342725365163,
-                "longitude": 117.1669351375689
             },
             {
                 "id": 550835723,

@@ -1,11 +1,25 @@
 {
-    "id": -4534215957011695416,
+    "id": 3823829344559270398,
     "name": "麦吉尔大学",
+    "address": "845 Rue Sherbrooke O, Montréal, QC H3A 0G4加拿大",
     "rating": 4.5,
-    "popularity": 44,
+    "popularity": 48,
     "data_path": "map_data/university_map/McGill_University",
+    "description": "麥基爾大學（英語：McGill University，法語：Université McGill）為一所坐落於加拿大魁北克的公立研究型大學，使用英语授课。該校是U15大學聯盟、大英國協大學協會、美國大學協會成員校之一，學校成立於1821年英國殖民時期，是歷史悠久的加拿大老四校之首。該校两百年以来培育了14位諾貝爾獎得主以及147位羅德學者，數量遠超加拿大其他高校。麥基爾与多伦多大学、不列颠哥伦比亚大学并称加拿大大学“三强”。麥基爾大學在麥克林期刊(Maclean’s)發佈的權威加拿大大學排名中連年穩居全國研究型大學第一名；在英國《QS》高等教育研究机构最新发布的2024年世界大学排名中位列全球第30。\n大學本部位於蒙特利爾市中心中皇家山的山腳，另一個附屬校園則位於本部以西30公里、佈滿田野與林地的蒙特利爾島聖安娜-德-貝爾維尤。麥基爾眾學術單位被歸入13所大的學院內。 以每名學生的受惠金額來算，校方為其中一所擁有最多捐款回贈的加拿大高校（每位學生21,633加幣）。\n麥基爾大學所賦予的學位及文憑涵蓋逾300個學術領域。多數學生就讀於醫學、理學、文學、工程學、管理學五所較大型學院。省內、外及國際生的學費各有參差。\n截止2020年，麥基爾大學的校友、教职工及研究人员包括了14位諾貝爾獎得主及145位羅德學者，人數均為加拿大最多。另還有3名加拿大總理、13名加拿大最高法院大法官及眾多其他學術獎項的獲獎者。麥基爾校友同時協助了足球、籃球與冰球賽事的發展，及約翰霍普金斯醫學院、英屬哥倫比亞、維多利亞及艾爾伯塔大學的創立。",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/d/d1/2nd_University_Company_at_McGill_1915.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/0/02/George_Jehoshaphat_Mountain.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/8/83/James_McGill.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/5/58/JohnWilliamDawson.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/0/0f/McGill_Arts_Building2.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/c/c6/McGill_University%2C_Stained_Glass_War_Memorial.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/c/ce/McGill_University_Building4.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/7/7a/McGill_University_and_Mount_Royal%2C_Montreal_%28HS85-10-17321%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/a/a1/Mcgill_Building1.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/2/26/Montreal_-_McGill_Physics.jpg"
+    ],
     "amenity": {
-        "affiliation": -4534215957011695416,
+        "affiliation": 3823829344559270398,
         "amenity_list": [
             {
                 "id": 392505307,
@@ -162,13 +176,6 @@
                 "longitude": -73.58130793237729
             },
             {
-                "id": 19912993,
-                "name": "McLennan Library Building",
-                "type": "library",
-                "latitude": 45.50326881189692,
-                "longitude": -73.5759253838734
-            },
-            {
                 "id": 19912994,
                 "name": "Leacock Building",
                 "type": "university",
@@ -251,13 +258,6 @@
                 "type": "nan",
                 "latitude": 45.50447595179936,
                 "longitude": -73.57752505518306
-            },
-            {
-                "id": 20168923,
-                "name": "Redpath Library Building",
-                "type": "library",
-                "latitude": 45.503559876489405,
-                "longitude": -73.57675168152659
             },
             {
                 "id": 20168924,
@@ -505,13 +505,6 @@
                 "longitude": -73.58041209719158
             },
             {
-                "id": 80253182,
-                "name": "Fine Arts Core Education (F.A.C.E.) High School",
-                "type": "school",
-                "latitude": 45.506212485007524,
-                "longitude": -73.57476023881341
-            },
-            {
                 "id": 80263147,
                 "name": "Strathcona Music Building",
                 "type": "nan",
@@ -554,13 +547,6 @@
                 "longitude": -73.57966515060772
             },
             {
-                "id": 340257591,
-                "name": "Gelber Law Library",
-                "type": "library",
-                "latitude": 45.50373659617404,
-                "longitude": -73.5810382356257
-            },
-            {
                 "id": 340257925,
                 "name": "Charles Meredith House",
                 "type": "nan",
@@ -601,13 +587,6 @@
                 "type": "nan",
                 "latitude": 45.504387729247675,
                 "longitude": -73.57999604337637
-            },
-            {
-                "id": 15982217,
-                "name": "Hôpital neurologique de Montréal",
-                "type": "hospital",
-                "latitude": 45.509231950242174,
-                "longitude": -73.58130793237729
             }
         ]
     }

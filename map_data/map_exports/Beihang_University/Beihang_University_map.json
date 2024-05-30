@@ -1,11 +1,22 @@
 {
-    "id": -8527125320367501459,
+    "id": 5096648713945220865,
     "name": "Beihang University",
-    "rating": 4.2,
-    "popularity": 92,
+    "address": "中国北京市海淀区学院路37号 邮政编码: 100191",
+    "rating": 4.4,
+    "popularity": 80,
     "data_path": "map_data/university_map/Beihang_University",
+    "description": "北京航空航天大学（英語：Beihang University，缩写：BUAA），简称北航，是一所主体位于北京市的公立高等院校。\n北京航空航天大学是中华人民共和国工业和信息化部所属的7所高等院校之一。北航创办于1952年10月25日，原名北京航空学院，地处海淀区学院路，是20世纪50年代著名的八大学院之一；如今北航在北京市昌平区的沙河高教园区建有分校区，在北京市房山区窦店镇以及青岛市、合肥市、昆明市等地建有研究院。\n北京航空航天大学是“双一流A类”和原“985工程”、原“211工程”重点建设大学，同時亦入选珠峰计划、2011计划、111计划、卓越工程师教育培养计划，为国际宇航联合会、欧洲顶尖工业管理者高校联盟、中欧精英大学联盟、中国西班牙大学联盟、中俄工科大学联盟、中俄综合性大学联盟成员。2018年10月，北航拥有42个学院、研究院，覆盖工、理、管、医、法、文等10个学科门类，是以工科为主的综合性研究型高等学府；北航拥有1个国家实验室（筹）、9个国家重点实验室和一系列省部级实验室，承担了“月宫一号”等重大科研项目；北航还参与、组织了万维网联盟等23个协会组织。\n\n",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/0/0e/BUAA_Feng_Ru.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/3/3e/Gate_of_BUAA.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/9/94/HangzhouInnovationInstituteOfBeihangUniversity6.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/2/27/I_heart_BUAA.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/0/0b/Platopainting.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/b/b1/South_Gate_of_BUAA_Shahe_Campus.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/e/e8/YF-24_at_BUAA_02.jpg"
+    ],
     "amenity": {
-        "affiliation": -8527125320367501459,
+        "affiliation": 5096648713945220865,
         "amenity_list": [
             {
                 "id": 1030342287,
@@ -141,13 +152,6 @@
                 "longitude": 116.33627876763337
             },
             {
-                "id": 88777864,
-                "name": "北航图书馆",
-                "type": "library",
-                "latitude": 39.98252990678783,
-                "longitude": 116.34256756511793
-            },
-            {
                 "id": 88777866,
                 "name": "学生1公寓（留学生公寓）",
                 "type": "nan",
@@ -223,13 +227,6 @@
                 "type": "nan",
                 "latitude": 39.978427849142896,
                 "longitude": 116.33759532747044
-            },
-            {
-                "id": 190427034,
-                "name": "北航校医院",
-                "type": "hospital",
-                "latitude": 39.97923814246215,
-                "longitude": 116.3375259122085
             },
             {
                 "id": 190427035,
@@ -316,13 +313,6 @@
                 "longitude": 116.34055698500137
             },
             {
-                "id": 190427995,
-                "name": "东区食堂",
-                "type": "restaurant",
-                "latitude": 39.980611283680105,
-                "longitude": 116.34140147658505
-            },
-            {
                 "id": 190430062,
                 "name": "8公寓",
                 "type": "nan",
@@ -384,13 +374,6 @@
                 "type": "nan",
                 "latitude": 39.98112699449596,
                 "longitude": 116.34321562457411
-            },
-            {
-                "id": 190444423,
-                "name": "晨兴音乐厅",
-                "type": "concert_hall",
-                "latitude": 39.98051175884026,
-                "longitude": 116.34536403876933
             },
             {
                 "id": 190444424,

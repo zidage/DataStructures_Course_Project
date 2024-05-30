@@ -1,11 +1,16 @@
 {
-    "id": 4227864550447614014,
+    "id": 6565959990601784110,
     "name": "哈尔滨工业大学",
-    "rating": 4.7,
-    "popularity": 68,
+    "address": "中国黑龙江省哈尔滨市南岗区西大直街92号 邮政编码: 150001",
+    "rating": 4.6,
+    "popularity": 88,
     "data_path": "map_data/university_map/Harbin_Institute_of_Technology",
+    "description": "哈尔滨工业大学（英語：Harbin Institute of Technology，縮寫：HIT），简称哈工大，创建于1920年，隶属中华人民共和国工业和信息化部。哈尔滨工业大学是中华人民共和国顶尖高校之一，是“双一流A类”和原“985工程”、原“211工程”重点建设大学，是一所以理工为主，理、工、文、管、生命相结合，多学科、开放式的研究型高校，为中国C9联盟成员之一，拥有哈尔滨、威海和深圳三大校区，已建成一校三城区的「大哈工大」格局。",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/0/03/%E5%93%88%E5%B0%94%E6%BB%A8%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6%E8%A5%BF%E5%8C%97%E9%97%A8%E7%9C%8B%E4%B8%BB%E6%A5%BC.jpg"
+    ],
     "amenity": {
-        "affiliation": 4227864550447614014,
+        "affiliation": 6565959990601784110,
         "amenity_list": [
             {
                 "id": 5543318421,
@@ -92,13 +97,6 @@
                 "longitude": 126.62716314766793
             },
             {
-                "id": 259181645,
-                "name": "西苑餐厅",
-                "type": "restaurant",
-                "latitude": 45.7411818,
-                "longitude": 126.62181924999999
-            },
-            {
                 "id": 319254411,
                 "name": "A12公寓",
                 "type": "nan",
@@ -183,32 +181,11 @@
                 "longitude": 126.62760474199183
             },
             {
-                "id": 319264974,
-                "name": "学苑楼",
-                "type": "restaurant",
-                "latitude": 45.74198618041952,
-                "longitude": 126.62617870458546
-            },
-            {
-                "id": 319266332,
-                "name": "学子餐厅",
-                "type": "restaurant",
-                "latitude": 45.74244553128587,
-                "longitude": 126.62555940931598
-            },
-            {
                 "id": 319267328,
                 "name": "体育部",
                 "type": "nan",
                 "latitude": 45.74087892762851,
                 "longitude": 126.62430784268889
-            },
-            {
-                "id": 319268785,
-                "name": "图书馆",
-                "type": "library",
-                "latitude": 45.74333355,
-                "longitude": 126.62638595
             },
             {
                 "id": 319269944,
@@ -393,13 +370,6 @@
                 "longitude": 126.62778025921642
             },
             {
-                "id": 1092751690,
-                "name": "保卫处",
-                "type": "police",
-                "latitude": 45.7403264415512,
-                "longitude": 126.62546126759091
-            },
-            {
                 "id": 4434185,
                 "name": "A1公寓",
                 "type": "nan",
@@ -419,13 +389,6 @@
                 "type": "nan",
                 "latitude": 45.741587484290434,
                 "longitude": 126.62932857257263
-            },
-            {
-                "id": 4434294,
-                "name": "学士餐厅",
-                "type": "restaurant",
-                "latitude": 45.741447477521206,
-                "longitude": 126.62716314766793
             },
             {
                 "id": 4434311,

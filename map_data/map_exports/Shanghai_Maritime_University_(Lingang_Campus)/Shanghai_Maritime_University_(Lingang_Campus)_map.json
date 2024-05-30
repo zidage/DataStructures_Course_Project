@@ -1,11 +1,17 @@
 {
-    "id": -2104117085536098429,
+    "id": -4906215264993833621,
     "name": "上海海事大学",
+    "address": "中国上海市浦东新区海港大道1550号 邮政编码: 201308",
     "rating": 4.7,
-    "popularity": 64,
+    "popularity": 88,
     "data_path": "map_data/university_map/Shanghai_Maritime_University_(Lingang_Campus)",
+    "description": "上海海事大学（英文名：Shanghai Maritime University）是一所以航运、物流、海洋学科为特色，具有工、管、经、法、文、理等学科门类的多科性大学。\n\n",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/0/0b/Platopainting.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/4/49/Shanghai_Maritime_University.jpg"
+    ],
     "amenity": {
-        "affiliation": -2104117085536098429,
+        "affiliation": -4906215264993833621,
         "amenity_list": [
             {
                 "id": 270513783,
@@ -55,20 +61,6 @@
                 "type": "nan",
                 "latitude": 30.876423799543936,
                 "longitude": 121.90533313987692
-            },
-            {
-                "id": 730093772,
-                "name": "中远图书馆",
-                "type": "library",
-                "latitude": 30.87626897503027,
-                "longitude": 121.90147712343332
-            },
-            {
-                "id": 730093773,
-                "name": "海琴楼",
-                "type": "restaurant",
-                "latitude": 30.874596557912877,
-                "longitude": 121.90158792674286
             },
             {
                 "id": 730093774,
@@ -188,13 +180,6 @@
                 "type": "nan",
                 "latitude": 30.876883469871856,
                 "longitude": 121.90367153905166
-            },
-            {
-                "id": 3630243,
-                "name": "海馨楼",
-                "type": "restaurant",
-                "latitude": 30.877924192759725,
-                "longitude": 121.89762643901189
             },
             {
                 "id": 3632391,

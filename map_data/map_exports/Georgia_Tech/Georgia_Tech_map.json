@@ -1,11 +1,23 @@
 {
-    "id": -5399861889332495175,
+    "id": 1175380837002851243,
     "name": "佐治亚理工学院",
+    "address": "Atlanta, GA 30332美国",
     "rating": 4.6,
-    "popularity": 64,
+    "popularity": 96,
     "data_path": "map_data/university_map/Georgia_Tech",
+    "description": "佐治亚理工学院（英語：Georgia Institute of Technology，简称Georgia Tech或Tech，常缩写为Gatech），是美国一所公立研究型大学，始建于1885年，是美国大学协会、大學研究協會的成员之一。佐治亚理工学院多项理工专业位列全美前5，计算机科学(Computer Science/CS)与电子工程系(Electrical Engineering/EE)的排名都位列全美前5。学校总部位于美国佐治亚州首府亚特兰大市，与艾文理大学同处于一个城市。除了亚特兰大主校区，也在佐治亚州薩凡納、法国梅斯开设分校，在爱尔兰共和国的阿斯隆市、新加坡国立大学设有联合研究所。\n佐治亚理工以工程學、計算機、材料科學、建築學、管理學聞名於世，與東北部的麻省理工、西部的加州理工並稱美国三大理工学院。其下属的GTRI航空系统设计实验室承担了美国政府的一些机密的重大科研项目。校本部拥有143幢建筑物，校園曾是1996年夏季奧林匹克運動會的奧運村，擁有奧運級体育场馆、酒店、医院、科技廣場等其他設施。\n佐治亚理工曾与上海交通大学合作开设双学位项目，現於中國深圳開辦天津大学佐治亚理工深圳学院（GTSI）。",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/a/af/GEN_HENDRIX.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/0/01/Georgia_Tech_from_condo_building_at_Peachtree_St_and_North_Ave.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/e/ea/JimmyCarterPortrait_%28cropped%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/d/da/Juan_Carlos_Varela_%282014%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/7/7f/Kary_Mullis.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/0/06/Leading_Through_Adversity_Mike_Duke.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/0/04/Wayne_Clough.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/d/d9/William_L_Ball.jpg"
+    ],
     "amenity": {
-        "affiliation": -5399861889332495175,
+        "affiliation": 1175380837002851243,
         "amenity_list": [
             {
                 "id": 535031255,
@@ -659,60 +671,11 @@
                 "longitude": -84.3988081843318
             },
             {
-                "id": 42706609,
-                "name": "Pi Kappa Phi",
-                "type": "social_centre",
-                "latitude": 33.776681728885336,
-                "longitude": -84.39429634690947
-            },
-            {
-                "id": 42706610,
-                "name": "Phi Kappa Theta",
-                "type": "social_centre",
-                "latitude": 33.77668402828985,
-                "longitude": -84.39392562405486
-            },
-            {
-                "id": 42706611,
-                "name": "Alpha Tau Omega",
-                "type": "social_centre",
-                "latitude": 33.77626296652903,
-                "longitude": -84.39411752192169
-            },
-            {
-                "id": 42706636,
-                "name": "Beta Theta Pi",
-                "type": "social_centre",
-                "latitude": 33.77551120199759,
-                "longitude": -84.3944753591047
-            },
-            {
-                "id": 42706659,
-                "name": "Peters Parking Deck",
-                "type": "parking",
-                "latitude": 33.77500920888889,
-                "longitude": -84.39352094752982
-            },
-            {
-                "id": 42706662,
-                "name": "Sigma Nu",
-                "type": "social_centre",
-                "latitude": 33.77508220201811,
-                "longitude": -84.39434018346591
-            },
-            {
                 "id": 42706665,
                 "name": "Phi Delta Theta",
                 "type": "nan",
                 "latitude": 33.774636910483345,
                 "longitude": -84.3942046809102
-            },
-            {
-                "id": 42706669,
-                "name": "Chi Phi",
-                "type": "social_centre",
-                "latitude": 33.77435079360675,
-                "longitude": -84.39413459410483
             },
             {
                 "id": 42706678,
@@ -790,13 +753,6 @@
                 "type": "nan",
                 "latitude": 33.77166857658584,
                 "longitude": -84.39283632525256
-            },
-            {
-                "id": 42706715,
-                "name": "Burge Parking Deck",
-                "type": "parking",
-                "latitude": 33.77097384011783,
-                "longitude": -84.39394020072949
             },
             {
                 "id": 42706716,
@@ -897,41 +853,6 @@
                 "longitude": -84.39158548122336
             },
             {
-                "id": 42706778,
-                "name": "Christian Campus Fellowship",
-                "type": "place_of_worship",
-                "latitude": 33.77560600196178,
-                "longitude": -84.39161473803807
-            },
-            {
-                "id": 42706780,
-                "name": "Theta Xi",
-                "type": "social_centre",
-                "latitude": 33.775875299329996,
-                "longitude": -84.39163741264123
-            },
-            {
-                "id": 42706781,
-                "name": "Phi Kappa Sigma",
-                "type": "social_centre",
-                "latitude": 33.77612719517086,
-                "longitude": -84.39169616814607
-            },
-            {
-                "id": 42706784,
-                "name": "Sigma Chi",
-                "type": "social_centre",
-                "latitude": 33.775686196047985,
-                "longitude": -84.39228379137715
-            },
-            {
-                "id": 42706786,
-                "name": "Phi Kappa Tau",
-                "type": "social_centre",
-                "latitude": 33.7760763323645,
-                "longitude": -84.39300396795275
-            },
-            {
                 "id": 42706787,
                 "name": "Lambda Chi Alpha",
                 "type": "nan",
@@ -939,74 +860,11 @@
                 "longitude": -84.39239319967861
             },
             {
-                "id": 42706791,
-                "name": "Methodist Center (Wesley Foundation)",
-                "type": "place_of_worship",
-                "latitude": 33.77610792773931,
-                "longitude": -84.39333974663003
-            },
-            {
                 "id": 42706794,
                 "name": "Homer Rice Center for Sports Performance",
                 "type": "nan",
                 "latitude": 33.77351682937349,
                 "longitude": -84.3924955863439
-            },
-            {
-                "id": 42706799,
-                "name": "Alpha Epsilon Pi",
-                "type": "social_centre",
-                "latitude": 33.774143818818196,
-                "longitude": -84.39227791303239
-            },
-            {
-                "id": 42706800,
-                "name": "Presbyterian Center",
-                "type": "place_of_worship",
-                "latitude": 33.77445300432032,
-                "longitude": -84.39230470785226
-            },
-            {
-                "id": 42706808,
-                "name": "Alpha Delta Pi",
-                "type": "social_centre",
-                "latitude": 33.774506262272055,
-                "longitude": -84.3928153411337
-            },
-            {
-                "id": 42706813,
-                "name": "Catholic Center",
-                "type": "place_of_worship",
-                "latitude": 33.775481659425765,
-                "longitude": -84.3929867186283
-            },
-            {
-                "id": 42706814,
-                "name": "Alpha Delta Chi",
-                "type": "social_centre",
-                "latitude": 33.77536093334502,
-                "longitude": -84.39271882232217
-            },
-            {
-                "id": 42706815,
-                "name": "Chi Psi",
-                "type": "social_centre",
-                "latitude": 33.775150429283215,
-                "longitude": -84.39251828426659
-            },
-            {
-                "id": 42706816,
-                "name": "Alpha Chi Omega",
-                "type": "social_centre",
-                "latitude": 33.774880721015,
-                "longitude": -84.39284947678034
-            },
-            {
-                "id": 42706818,
-                "name": "Baptist Student Union",
-                "type": "place_of_worship",
-                "latitude": 33.774776192231194,
-                "longitude": -84.39226962798926
             },
             {
                 "id": 42706824,
@@ -1037,48 +895,6 @@
                 "longitude": -84.38907754700496
             },
             {
-                "id": 42725820,
-                "name": "Academy of Medicine",
-                "type": "school",
-                "latitude": 33.77836482064607,
-                "longitude": -84.38672353998432
-            },
-            {
-                "id": 42725860,
-                "name": "Kappa Alpha",
-                "type": "social_centre",
-                "latitude": 33.77650288240273,
-                "longitude": -84.39169379680818
-            },
-            {
-                "id": 42725899,
-                "name": "Delta Upsilon",
-                "type": "social_centre",
-                "latitude": 33.776663262112436,
-                "longitude": -84.39235472130781
-            },
-            {
-                "id": 42725913,
-                "name": "Sigma Phi Epsilon",
-                "type": "social_centre",
-                "latitude": 33.7766670143359,
-                "longitude": -84.39334603649422
-            },
-            {
-                "id": 42725942,
-                "name": "Lutheran Campus Ministry Center",
-                "type": "place_of_worship",
-                "latitude": 33.77665263070133,
-                "longitude": -84.39313370349194
-            },
-            {
-                "id": 42725945,
-                "name": "Delta Chi",
-                "type": "social_centre",
-                "latitude": 33.776646309943665,
-                "longitude": -84.39289692916186
-            },
-            {
                 "id": 42725962,
                 "name": "Paul H. Heffernan Architecture Archive House",
                 "type": "nan",
@@ -1086,81 +902,11 @@
                 "longitude": -84.39264812511405
             },
             {
-                "id": 42725968,
-                "name": "Zeta Tau Alpha",
-                "type": "social_centre",
-                "latitude": 33.77717570574743,
-                "longitude": -84.3933507449662
-            },
-            {
-                "id": 42725969,
-                "name": "Alpha Gamma Delta",
-                "type": "social_centre",
-                "latitude": 33.777177213056895,
-                "longitude": -84.39303847459054
-            },
-            {
-                "id": 42725972,
-                "name": "Alpha Sigma Phi",
-                "type": "social_centre",
-                "latitude": 33.77712625474264,
-                "longitude": -84.39284380811009
-            },
-            {
-                "id": 42726021,
-                "name": "Tau Kappa Epsilon",
-                "type": "social_center",
-                "latitude": 33.77719334253025,
-                "longitude": -84.39236321168941
-            },
-            {
-                "id": 42726048,
-                "name": "Zeta Beta Tau",
-                "type": "social_centre",
-                "latitude": 33.7778920832339,
-                "longitude": -84.39246346211631
-            },
-            {
-                "id": 42726049,
-                "name": "Theta Chi",
-                "type": "social_centre",
-                "latitude": 33.77761958562688,
-                "longitude": -84.39235005135676
-            },
-            {
                 "id": 42726100,
                 "name": "O'Keefe Main Building",
                 "type": "nan",
                 "latitude": 33.77877138743684,
                 "longitude": -84.39220573553003
-            },
-            {
-                "id": 42726110,
-                "name": "Alpha Xi Delta",
-                "type": "social_center",
-                "latitude": 33.777856553963026,
-                "longitude": -84.39182431973948
-            },
-            {
-                "id": 42726125,
-                "name": "Psi Upsilon",
-                "type": "social_centre",
-                "latitude": 33.77754509416255,
-                "longitude": -84.3917449663529
-            },
-            {
-                "id": 42726143,
-                "name": "Phi Gamma Delta",
-                "type": "social_centre",
-                "latitude": 33.77763197624779,
-                "longitude": -84.39325215259497
-            },
-            {
-                "id": 42726152,
-                "name": "Kappa Sigma",
-                "type": "social_centre",
-                "latitude": 33.77792289343774,
-                "longitude": -84.39320149006241
             },
             {
                 "id": 42726162,
@@ -1217,13 +963,6 @@
                 "type": "nan",
                 "latitude": 33.78026116093924,
                 "longitude": -84.3922573968054
-            },
-            {
-                "id": 42726829,
-                "name": "Family Housing Parking Deck",
-                "type": "parking",
-                "latitude": 33.78217757724258,
-                "longitude": -84.39496570648238
             },
             {
                 "id": 42726877,
@@ -1317,13 +1056,6 @@
                 "longitude": -84.39599048747753
             },
             {
-                "id": 42796811,
-                "name": "North Campus Parking Deck",
-                "type": "parking",
-                "latitude": 33.78013562021057,
-                "longitude": -84.39844858014588
-            },
-            {
                 "id": 42796835,
                 "name": "Bernie Marcus Nanotechnology Building",
                 "type": "nan",
@@ -1387,13 +1119,6 @@
                 "longitude": -84.40484877940072
             },
             {
-                "id": 42825663,
-                "name": "Curran Street Parking Deck",
-                "type": "parking",
-                "latitude": 33.77915687769634,
-                "longitude": -84.40553332316189
-            },
-            {
                 "id": 42825797,
                 "name": "Georgia Tech School of Music - Couch Building",
                 "type": "nan",
@@ -1413,34 +1138,6 @@
                 "type": "nan",
                 "latitude": 33.77599200817901,
                 "longitude": -84.39539096983069
-            },
-            {
-                "id": 42830020,
-                "name": "Delta Tau Delta",
-                "type": "social_centre",
-                "latitude": 33.775990771107004,
-                "longitude": -84.39482002362678
-            },
-            {
-                "id": 42830080,
-                "name": "Sigma Alpha Epsilon",
-                "type": "social_centre",
-                "latitude": 33.776088827682024,
-                "longitude": -84.3945391803929
-            },
-            {
-                "id": 42830212,
-                "name": "Phi Mu",
-                "type": "social_centre",
-                "latitude": 33.77672063034998,
-                "longitude": -84.39482185693437
-            },
-            {
-                "id": 42830320,
-                "name": "Pi Kappa Alpha",
-                "type": "social_centre",
-                "latitude": 33.77669485820007,
-                "longitude": -84.39526244785336
             },
             {
                 "id": 42830543,
@@ -1518,13 +1215,6 @@
                 "type": "nan",
                 "latitude": 33.77473398099418,
                 "longitude": -84.40315561203619
-            },
-            {
-                "id": 42872520,
-                "name": "Campus Recreation Parking Deck",
-                "type": "parking",
-                "latitude": 33.77619218948373,
-                "longitude": -84.40390269634757
             },
             {
                 "id": 42872533,
@@ -1765,25 +1455,11 @@
                 "longitude": -84.39328129707923
             },
             {
-                "id": 43332730,
-                "name": "Robert H. Ferst Center for the Arts",
-                "type": "theatre",
-                "latitude": 33.77510017832618,
-                "longitude": -84.39921119074312
-            },
-            {
                 "id": 43332735,
                 "name": "Bunger-Henry Building",
                 "type": "nan",
                 "latitude": 33.7756338779848,
                 "longitude": -84.39826440924395
-            },
-            {
-                "id": 43332751,
-                "name": "Student Center Parking Deck",
-                "type": "parking",
-                "latitude": 33.7741583877283,
-                "longitude": -84.40060575427366
             },
             {
                 "id": 43335055,
@@ -1854,20 +1530,6 @@
                 "type": "nan",
                 "latitude": 33.76948371151149,
                 "longitude": -84.39094393864899
-            },
-            {
-                "id": 43891100,
-                "name": "North Avenue Apartments South Parking Deck",
-                "type": "parking",
-                "latitude": 33.76867756308426,
-                "longitude": -84.39137214656648
-            },
-            {
-                "id": 60980695,
-                "name": "Phi Sigma Kappa",
-                "type": "social_center",
-                "latitude": 33.77715491659608,
-                "longitude": -84.39186233729217
             },
             {
                 "id": 88636657,
@@ -2059,13 +1721,6 @@
                 "longitude": -84.40445902670187
             },
             {
-                "id": 516716115,
-                "name": "West Village Dining Commons",
-                "type": "food_court",
-                "latitude": 33.77934053780364,
-                "longitude": -84.40484471439218
-            },
-            {
                 "id": 560915363,
                 "name": "Rodger A. and Helen B. Krone Engineered Biosystems Building",
                 "type": "nan",
@@ -2085,13 +1740,6 @@
                 "type": "nan",
                 "latitude": 33.77539769893423,
                 "longitude": -84.38792818339691
-            },
-            {
-                "id": 751387123,
-                "name": "Georgia Tech Police",
-                "type": "police",
-                "latitude": 33.781217765830554,
-                "longitude": -84.40328767664641
             },
             {
                 "id": 751387124,
@@ -2115,13 +1763,6 @@
                 "longitude": -84.40164915667472
             },
             {
-                "id": 951519945,
-                "name": "Alpha Phi",
-                "type": "social_centre",
-                "latitude": 33.77417870040718,
-                "longitude": -84.39269903510309
-            },
-            {
                 "id": 974793133,
                 "name": "The Pavilion",
                 "type": "nan",
@@ -2134,20 +1775,6 @@
                 "type": "nan",
                 "latitude": 33.77477340945875,
                 "longitude": -84.40051063675989
-            },
-            {
-                "id": 974793135,
-                "name": "Jimmy John's",
-                "type": "fast_food",
-                "latitude": 33.77508231775621,
-                "longitude": -84.40049517447852
-            },
-            {
-                "id": 977375254,
-                "name": "Kappa Alpha Theta",
-                "type": "social_centre",
-                "latitude": 33.77717329074721,
-                "longitude": -84.39163479790908
             },
             {
                 "id": 977377065,
@@ -2164,13 +1791,6 @@
                 "longitude": -84.40052490288535
             },
             {
-                "id": 977377067,
-                "name": "Dalney Street Parking Deck",
-                "type": "parking",
-                "latitude": 33.780095889291765,
-                "longitude": -84.40045644349857
-            },
-            {
                 "id": 1258398253,
                 "name": "Veteran's Resource Center",
                 "type": "nan",
@@ -2185,20 +1805,6 @@
                 "longitude": -84.388062222261
             },
             {
-                "id": 1258405684,
-                "name": "Dunkin'",
-                "type": "fast_food",
-                "latitude": 33.77508793654112,
-                "longitude": -84.40062245984053
-            },
-            {
-                "id": 302113,
-                "name": "Delta Sigma Phi",
-                "type": "social_centre",
-                "latitude": 33.77586505,
-                "longitude": -84.3925222
-            },
-            {
                 "id": 302115,
                 "name": "William Vernon Skiles Building",
                 "type": "nan",
@@ -2211,13 +1817,6 @@
                 "type": "nan",
                 "latitude": 33.77752759015947,
                 "longitude": -84.39509734392716
-            },
-            {
-                "id": 3178620,
-                "name": "Dorothy Murray Crosland Tower",
-                "type": "library",
-                "latitude": 33.77419662524505,
-                "longitude": -84.39516427921446
             },
             {
                 "id": 3178621,
@@ -2255,13 +1854,6 @@
                 "longitude": -84.39663058312019
             },
             {
-                "id": 3178630,
-                "name": "Price Gilbert Memorial Library",
-                "type": "library",
-                "latitude": 33.7743563489056,
-                "longitude": -84.39575611820459
-            },
-            {
                 "id": 3249305,
                 "name": "Jack C. Stein and Goldin Houses",
                 "type": "nan",
@@ -2295,13 +1887,6 @@
                 "type": "nan",
                 "latitude": 33.776330474502046,
                 "longitude": -84.38994734951424
-            },
-            {
-                "id": 3321074,
-                "name": "Technology Square Parking Deck",
-                "type": "parking",
-                "latitude": 33.77559714291259,
-                "longitude": -84.38954797817243
             },
             {
                 "id": 4041025,

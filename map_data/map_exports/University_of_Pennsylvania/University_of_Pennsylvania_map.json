@@ -1,11 +1,24 @@
 {
-    "id": 4296607851995854772,
+    "id": -2335933855742098527,
     "name": "University of Pennsylvania",
+    "address": "Philadelphia, PA 19104美国",
     "rating": 4.5,
-    "popularity": 92,
+    "popularity": 96,
     "data_path": "map_data/university_map/University_of_Pennsylvania",
+    "description": "宾夕法尼亚大学（英語：University of Pennsylvania），简称賓州大學或宾大（Penn 或UPenn），是一所位于美国宾夕法尼亚州费城的世界著名私立研究型大学。宾大是享譽國際的常春藤盟校之一，美洲大学协会的12所创始校之一，全球大学校长论坛成员。宾大创建于1740年，是美國第五古老的高等教育機構，也是美国第一所从事科学技术和人文教育的现代高等学校。该校的创建者是美利坚合众国著名开国元勋之一的本杰明·富兰克林。\n宾夕法尼亚大学在商学、工程、医学、建筑、法学、艺术、人文、社会科学和教育学等诸多学科中处于世界领先地位。学校拥有约4,500名教授，近10,000名全日制大學生与10,000多名研究生。2006年学校获得的科研经费达到6千6百多万美元，从事研究的人员包括约4,200名教职工，870名博士后，3,800名研究生与5,400多名技术人员。同时，学校每年的建设投入达到4亿美元以上，在常春藤盟校中名列前茅。\n宾夕法尼亚大学自成立以来共有36位校友、教职工及研究人员获得过诺贝尔奖。校友、教职工及研究人员中还包括了8位独立宣言的签署人、7位美国宪法的签署人、3位美国总统、46位州长以及9位外国国家元首。宾大校友共赢得了81枚奥运奖牌（其中26枚金牌）、28个托尼奖、16个格莱美奖、11个艾美奖和4个奥斯卡奖。2位宾大人曾是NASA宇航员，还有5位被授予荣誉勋章。\n\n",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/4/42/BenFranklinAtPennCropped.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/2/25/Ben_Franklin_sculpture_%28University_of_Pennsylvania%29.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/3/38/Foliage_at_Penn_2005_035.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/7/75/Penn_campus_11.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/6/69/Penn_campus_2.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/d/dd/University_of_Pennsylvania_College_Hall.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/2/22/University_of_Pennsylvania_Museum_of_Archaeology_and_Anthropology.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/f/fd/Winter_Penn_010.jpg",
+        "https://upload.wikimedia.org/wikipedia/zh/f/f4/UPenn-athletic-logo.jpg"
+    ],
     "amenity": {
-        "affiliation": 4296607851995854772,
+        "affiliation": -2335933855742098527,
         "amenity_list": [
             {
                 "id": 274217596,
@@ -820,13 +833,6 @@
                 "longitude": -75.19161844370785
             },
             {
-                "id": 32120084,
-                "name": "Van Pelt Library",
-                "type": "library",
-                "latitude": 39.9527011578669,
-                "longitude": -75.19391390272263
-            },
-            {
                 "id": 32120133,
                 "name": "Wistar Institute",
                 "type": "nan",
@@ -881,13 +887,6 @@
                 "type": "nan",
                 "latitude": 39.9536582650371,
                 "longitude": -75.19570563064102
-            },
-            {
-                "id": 32120984,
-                "name": "Annenberg Center for the Performing Arts",
-                "type": "theatre",
-                "latitude": 39.952939749702445,
-                "longitude": -75.19647185163795
             },
             {
                 "id": 32122150,
@@ -951,13 +950,6 @@
                 "type": "nan",
                 "latitude": 39.95386643071233,
                 "longitude": -75.19710980704927
-            },
-            {
-                "id": 50032990,
-                "name": "3499 Civic Center Boulevard",
-                "type": "parking",
-                "latitude": 39.945700994703195,
-                "longitude": -75.1973245948221
             },
             {
                 "id": 50033009,
@@ -1037,20 +1029,6 @@
                 "longitude": -75.19387967850996
             },
             {
-                "id": 51469206,
-                "name": "Irvine Auditorium",
-                "type": "theatre",
-                "latitude": 39.95089677047765,
-                "longitude": -75.19298537783297
-            },
-            {
-                "id": 51469213,
-                "name": "Fisher Fine Arts Library",
-                "type": "library",
-                "latitude": 39.95159811603926,
-                "longitude": -75.1927152106118
-            },
-            {
                 "id": 51469263,
                 "name": "Williams Hall",
                 "type": "nan",
@@ -1084,13 +1062,6 @@
                 "type": "nan",
                 "latitude": 39.94725976949581,
                 "longitude": -75.18903147876236
-            },
-            {
-                "id": 51469576,
-                "name": "Penn Museum Garage",
-                "type": "parking",
-                "latitude": 39.94863304284487,
-                "longitude": -75.19046501686002
             },
             {
                 "id": 51469683,
@@ -1170,13 +1141,6 @@
                 "longitude": -75.19951910636931
             },
             {
-                "id": 99959792,
-                "name": "Walnut Street West",
-                "type": "library",
-                "latitude": 39.95379959292788,
-                "longitude": -75.20246544475042
-            },
-            {
                 "id": 134093247,
                 "name": "ARSENAL tower",
                 "type": "nan",
@@ -1231,20 +1195,6 @@
                 "type": "nan",
                 "latitude": 39.948779325030145,
                 "longitude": -75.1987976530902
-            },
-            {
-                "id": 190327564,
-                "name": "Curie Garage",
-                "type": "parking",
-                "latitude": 39.947843321361894,
-                "longitude": -75.19706225142909
-            },
-            {
-                "id": 190327568,
-                "name": "Colket Translational Research Building",
-                "type": "clinic",
-                "latitude": 39.94628811088469,
-                "longitude": -75.19505713351543
             },
             {
                 "id": 190327582,
@@ -1359,13 +1309,6 @@
                 "longitude": -75.2000397704098
             },
             {
-                "id": 200676626,
-                "name": "Hummus Grill",
-                "type": "restaurant",
-                "latitude": 39.954321144610674,
-                "longitude": -75.20214353262952
-            },
-            {
                 "id": 205238780,
                 "name": "Hajoca Corporation Headquarters and Showroom",
                 "type": "nan",
@@ -1394,25 +1337,11 @@
                 "longitude": -75.19533004138741
             },
             {
-                "id": 264353074,
-                "name": "Penn Center for Rehabilitation and Care",
-                "type": "social_facility",
-                "latitude": 39.95500750735572,
-                "longitude": -75.19482162390162
-            },
-            {
                 "id": 264353351,
                 "name": "The Axis",
                 "type": "nan",
                 "latitude": 39.95523404066207,
                 "longitude": -75.19462492320727
-            },
-            {
-                "id": 264354467,
-                "name": "Lot 37",
-                "type": "parking",
-                "latitude": 39.9547799592733,
-                "longitude": -75.19108200995858
             },
             {
                 "id": 297391713,
@@ -1751,13 +1680,6 @@
                 "longitude": -75.18328459964029
             },
             {
-                "id": 334057570,
-                "name": "Cira Centre South Garage",
-                "type": "parking",
-                "latitude": 39.95266476232147,
-                "longitude": -75.1833701301408
-            },
-            {
                 "id": 335523311,
                 "name": "Tanenbaum Hall",
                 "type": "nan",
@@ -1779,34 +1701,6 @@
                 "longitude": -75.1949769346429
             },
             {
-                "id": 369570963,
-                "name": "Avril 50",
-                "type": "cafe",
-                "latitude": 39.953490069040555,
-                "longitude": -75.19252357223019
-            },
-            {
-                "id": 369570964,
-                "name": "Baby Blues BBQ",
-                "type": "restaurant",
-                "latitude": 39.953481458785866,
-                "longitude": -75.19241851137446
-            },
-            {
-                "id": 369570965,
-                "name": "Doc Magrogan's",
-                "type": "restaurant",
-                "latitude": 39.95359764531793,
-                "longitude": -75.19330335900489
-            },
-            {
-                "id": 369570967,
-                "name": "White Dog Cafe",
-                "type": "restaurant",
-                "latitude": 39.95356215,
-                "longitude": -75.192966
-            },
-            {
                 "id": 369570968,
                 "name": "The Saturn Club",
                 "type": "nan",
@@ -1821,25 +1715,11 @@
                 "longitude": -75.19260185983757
             },
             {
-                "id": 369570972,
-                "name": "Federal Donuts",
-                "type": "restaurant",
-                "latitude": 39.953588778545914,
-                "longitude": -75.19313353525808
-            },
-            {
                 "id": 556111426,
                 "name": "Richard D Wood Pediatric Ambulatory Care Center",
                 "type": "nan",
                 "latitude": 39.948437885769565,
                 "longitude": -75.19479747548101
-            },
-            {
-                "id": 556111428,
-                "name": "3600 Civic Center Boulevard Garage",
-                "type": "parking",
-                "latitude": 39.945948321792436,
-                "longitude": -75.19609320999787
             },
             {
                 "id": 624597559,
@@ -1898,25 +1778,11 @@
                 "longitude": -75.20355460986924
             },
             {
-                "id": 748793572,
-                "name": "Spruce Garage",
-                "type": "parking",
-                "latitude": 39.95182500420056,
-                "longitude": -75.19951478438321
-            },
-            {
                 "id": 748793576,
                 "name": "Penn Dental School",
                 "type": "nan",
                 "latitude": 39.95276790010943,
                 "longitude": -75.20342765468732
-            },
-            {
-                "id": 748793577,
-                "name": "40th Street Parking Lot",
-                "type": "parking",
-                "latitude": 39.954598618537,
-                "longitude": -75.20296241647522
             },
             {
                 "id": 748885496,
@@ -1989,13 +1855,6 @@
                 "longitude": -75.19299064603177
             },
             {
-                "id": 792353213,
-                "name": "Buerger Center",
-                "type": "clinic",
-                "latitude": 39.947145703825996,
-                "longitude": -75.19387729130328
-            },
-            {
                 "id": 1210674817,
                 "name": "Cyclotron",
                 "type": "nan",
@@ -2015,13 +1874,6 @@
                 "type": "nan",
                 "latitude": 39.949887571218326,
                 "longitude": -75.19426544462337
-            },
-            {
-                "id": 1594372,
-                "name": "Ryan Veterinary Hospital",
-                "type": "veterinary",
-                "latitude": 39.95066614803985,
-                "longitude": -75.20050382711015
             },
             {
                 "id": 4626869,

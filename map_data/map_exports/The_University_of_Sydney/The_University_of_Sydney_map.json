@@ -1,11 +1,25 @@
 {
-    "id": -2186791531374942300,
+    "id": -343925817426480780,
     "name": "The University of Sydney",
+    "address": "Camperdown NSW 2050澳大利亚",
     "rating": 4.4,
-    "popularity": 88,
+    "popularity": 84,
     "data_path": "map_data/university_map/The_University_of_Sydney",
+    "description": "悉尼大学（英语：The University of Sydney），简称悉大、USYD，是位於澳大利亚悉尼的公立研究型大学。學校创立于1850年，是澳大利亚歷史最悠久的大學，為南半球首屈一指的学术殿堂和世界著名的高等學府。悉尼大學目前名列2024年QS世界大學排名第19名、2021年泰晤士高等教育世界大學排名第51名、2021年US News世界大學排名第27名。其中悉尼大學商學院在《經濟學人》亞太二十五大商學院排名第15名，同時也是獲得商學院三重認證的全球頂尖商學院，其MBA於2024年由金融時報評比為全澳第一。根據2022年QS畢業生就業力排名，悉尼大學緊隨麻省理工學院、史丹佛大學和加州大學洛杉磯分校之後，排名世界第四位。\n悉尼大学是澳洲八校聯盟和六所砂岩学府的成员之一。悉尼大学同时也是环太平洋大学联盟、亚太国际贸易教育暨研究联盟、大英國協大學協會及全澳唯一入選全球管理教育聯盟（CEMS）的成员。\n悉尼大学历史上培养了一系列著名及重要的人物，包括八位澳大利亚总理、兩位澳大利亚總督、五位澳洲首席大法官、联合国大会主席、国际法院院长、世界银行行長、澳洲歷代首富，人數均為南半球最多。此外有七位校友獲得诺贝尔奖和克拉福德奖，以及110名学生获得罗德奖学金。",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/c/cd/Anderson_Stuart_Building_Sydney_Uni.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/3/36/Camperdown_Womens_College.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/d/d9/Charles_Perkins_Centre_interior%2C_Sydney.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/1/16/Dame_Joan_Sutherland%2C_by_Allan_Warren.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/9/9a/Fisher_Library%2C_University_of_Sydney.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/c/cd/Freehill_Tower_Foyer_-_St_Johns_College_U_Sydney.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/e/ed/Germaine_Greer%2C_28_October_2013_%28portrait_crop%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/b/b9/Gough_Whitlam_1962.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/6/6e/Great_Hall_-_St_Johns_College_U_Sydney.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/3/3b/Hathor_capital_on_display_at_the_Nicholson_Museum.jpg"
+    ],
     "amenity": {
-        "affiliation": -2186791531374942300,
+        "affiliation": -343925817426480780,
         "amenity_list": [
             {
                 "id": 515929955,
@@ -295,25 +309,11 @@
                 "longitude": 151.19304045142064
             },
             {
-                "id": 45777490,
-                "name": "Seymour Centre",
-                "type": "theatre",
-                "latitude": -33.88856272181209,
-                "longitude": 151.1935354806375
-            },
-            {
                 "id": 45777668,
                 "name": "W. H. Maze Building",
                 "type": "nan",
                 "latitude": -33.88835973088937,
                 "longitude": 151.19258598132583
-            },
-            {
-                "id": 46205383,
-                "name": "Shepherd Street Car Park",
-                "type": "parking",
-                "latitude": -33.888386045291526,
-                "longitude": 151.19475868590558
             },
             {
                 "id": 46206302,
@@ -792,13 +792,6 @@
                 "longitude": 151.1849172124195
             },
             {
-                "id": 604686879,
-                "name": "Sand Roll House",
-                "type": "animal_shelter",
-                "latitude": -33.88578237621351,
-                "longitude": 151.1820844230278
-            },
-            {
                 "id": 619369525,
                 "name": "Abercrombie Student Accommodation",
                 "type": "nan",
@@ -846,13 +839,6 @@
                 "type": "nan",
                 "latitude": -33.88527006961394,
                 "longitude": 151.19048749754364
-            },
-            {
-                "id": 1079380693,
-                "name": "Coffee @ Fisher",
-                "type": "cafe",
-                "latitude": -33.886832772717646,
-                "longitude": 151.19004330658154
             },
             {
                 "id": 1112478847,

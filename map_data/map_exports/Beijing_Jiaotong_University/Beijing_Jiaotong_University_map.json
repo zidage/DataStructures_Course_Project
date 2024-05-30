@@ -1,11 +1,25 @@
 {
-    "id": 5291710187814806959,
+    "id": 1407876452561339700,
     "name": "北京交通大学",
+    "address": "中国北京市海淀区交大东路",
     "rating": 4.7,
-    "popularity": 96,
+    "popularity": 72,
     "data_path": "map_data/university_map/Beijing_Jiaotong_University",
+    "description": "北京交通大学（英語：Beijing Jiaotong University，縮寫：BJTU），简称北京交大、北交大，原名北方交通大学，校本部座落在北京市海淀区西直门外上园村3号，是中国第一所专门培养管理人才的高等学校，是中国近代铁路管理、电信教育的发祥地。\n北京交通大学是教育部直属、教育部、交通运输部、北京市人民政府和中国国家铁路集团有限公司共建的全国重点大学，“211工程”、“985工程优势学科创新平台”（小985）项目建设高校、国家首批“双一流”建设高校，首轮建设任务已顺利完成，“智慧交通”一流学科领域建设得到评审专家高度评价。牵头的“2011计划”“轨道交通安全协同创新中心”是国家首批14个认定的协同创新中心之一。校训为王阳明之“知行”。\n\n",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/e/ea/BJTUgate.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/4/4c/Bjtu_siyuan_building.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/5/54/Bjtudoor1920.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/0/02/Bjtugingko.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/4/41/Bjtulibrary.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/7/7c/Fanghua_park_bjtu.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/1/14/Graduation_Jiaoda.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/9/95/Maoyishengbjtu.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/2/2f/Ming_pool_bjtu.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/0/0b/Platopainting.jpg"
+    ],
     "amenity": {
-        "affiliation": 5291710187814806959,
+        "affiliation": 1407876452561339700,
         "amenity_list": [
             {
                 "id": 1678269043,
@@ -337,32 +351,11 @@
                 "longitude": 116.3375425
             },
             {
-                "id": 4217498057,
-                "name": "研究生院",
-                "type": "atm",
-                "latitude": 39.9504896,
-                "longitude": 116.339459
-            },
-            {
-                "id": 188600671,
-                "name": "图书馆",
-                "type": "library",
-                "latitude": 39.950709726872034,
-                "longitude": 116.3373177144966
-            },
-            {
                 "id": 276198652,
                 "name": "16号学生公寓",
                 "type": "nan",
                 "latitude": 39.95216478193049,
                 "longitude": 116.33717933957088
-            },
-            {
-                "id": 276198748,
-                "name": "学生一食堂",
-                "type": "restaurant",
-                "latitude": 39.951800668806804,
-                "longitude": 116.33730971809479
             },
             {
                 "id": 276198818,

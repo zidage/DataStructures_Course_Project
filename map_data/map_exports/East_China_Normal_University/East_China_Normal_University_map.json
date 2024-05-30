@@ -1,11 +1,25 @@
 {
-    "id": 4761643986871023648,
+    "id": -689164611433511694,
     "name": "华东师范大学",
+    "address": "中国上海市普陀区中山北路3663号华东师范大学MBA 邮政编码: 200050",
     "rating": 4.6,
-    "popularity": 92,
+    "popularity": 64,
     "data_path": "map_data/university_map/East_China_Normal_University",
+    "description": "华东师范大学（英語：East China Normal University，缩写：ECNU），简称华师大或华东师大，是一所位于中国上海市的公立研究型大学，1951年由大夏大学和光华大学合并而成，是中华人民共和国创办的第一所师范大学。在1952年院系调整中，圣约翰大学主要院系并入。1972年更名为上海师范大学，1980年恢复原校名。\n华东师范大学是中华人民共和国顶尖高校之一，是“双一流A类”和原“985工程”、原“211工程”重点建设大学，是中国教育部直属，由教育部和上海市共同建设。截至2019年7月，学校拥有闵行和中山北路两个校区，并正在上海崇明区筹建崇明校区，设有4个学部，30个全日制学院，4个书院，8个实体研究院，2个国家重点实验室，2个管理型书院，3家直属附属医院，另有国家设在学校的教育部中学校长培训中心。\n\n",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/7/7c/Ecnu_zhongbei.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/4/42/Institute_of_Global_Chinese_Language_Teacher_Education.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/2/25/Liu_Xiang_Doha_2010.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/c/c2/Liwahe_ecnu.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/4/40/NYUShanghai.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/0/0b/Platopainting.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/7/7c/St_Johns_College_Shanghai.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/7/74/Statue_of_Mao_Zedong%2C_East_China_Normal_University.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/8/87/Statue_of_Mao_Zedong_2%2C_East_China_Normal_University.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/3/3d/View_with_Global_Harbor_towers%2C_Shanghai.JPG"
+    ],
     "amenity": {
-        "affiliation": 4761643986871023648,
+        "affiliation": -689164611433511694,
         "amenity_list": [
             {
                 "id": 1317286639,
@@ -120,13 +134,6 @@
                 "longitude": 121.40381255372205
             },
             {
-                "id": 113655495,
-                "name": "体育馆",
-                "type": "public_building",
-                "latitude": 31.229207114543705,
-                "longitude": 121.40477026800677
-            },
-            {
                 "id": 113655498,
                 "name": "文史楼",
                 "type": "nan",
@@ -190,32 +197,11 @@
                 "longitude": 121.39884006159869
             },
             {
-                "id": 116940019,
-                "name": "大学生活动中心",
-                "type": "public_building",
-                "latitude": 31.232040531826808,
-                "longitude": 121.40069909192128
-            },
-            {
-                "id": 116940021,
-                "name": "河东餐厅",
-                "type": "public_building",
-                "latitude": 31.231065976741426,
-                "longitude": 121.40383892341384
-            },
-            {
                 "id": 116940023,
                 "name": "设计学院",
                 "type": "nan",
                 "latitude": 31.22363465,
                 "longitude": 121.39850045
-            },
-            {
-                "id": 116940026,
-                "name": "对外汉语学院",
-                "type": "school",
-                "latitude": 31.22442338282922,
-                "longitude": 121.39933571744601
             },
             {
                 "id": 116940038,
@@ -244,13 +230,6 @@
                 "type": "nan",
                 "latitude": 31.22575307486435,
                 "longitude": 121.40090380513227
-            },
-            {
-                "id": 116940064,
-                "name": "办公楼",
-                "type": "public_building",
-                "latitude": 31.229516316891374,
-                "longitude": 121.40220084891484
             },
             {
                 "id": 116940066,
@@ -295,20 +274,6 @@
                 "longitude": 121.40213713687316
             },
             {
-                "id": 116941150,
-                "name": "河西餐厅",
-                "type": "public_building",
-                "latitude": 31.23238609292148,
-                "longitude": 121.39826542909555
-            },
-            {
-                "id": 116945145,
-                "name": "校医院",
-                "type": "hospital",
-                "latitude": 31.23157982853949,
-                "longitude": 121.40188208520183
-            },
-            {
                 "id": 116950296,
                 "name": "外语学院",
                 "type": "nan",
@@ -328,13 +293,6 @@
                 "type": "nan",
                 "latitude": 31.22957066177881,
                 "longitude": 121.40536675055388
-            },
-            {
-                "id": 375944085,
-                "name": "中山北路校区大礼堂",
-                "type": "public_building",
-                "latitude": 31.230095834749704,
-                "longitude": 121.4034292789618
             },
             {
                 "id": 376043948,
@@ -405,13 +363,6 @@
                 "type": "nan",
                 "latitude": 31.223848679055067,
                 "longitude": 121.39909057883682
-            },
-            {
-                "id": 5699952,
-                "name": "图书馆",
-                "type": "library",
-                "latitude": 31.230279433807944,
-                "longitude": 121.40181112384946
             }
         ]
     }

@@ -1,11 +1,16 @@
 {
-    "id": 6424067710672152853,
+    "id": 897026151466466891,
     "name": "洛桑联邦理工学院",
+    "address": "Rte Cantonale, 1015 Lausanne, 瑞士",
     "rating": 4.7,
-    "popularity": 40,
+    "popularity": 56,
     "data_path": "map_data/university_map/EPFL",
+    "description": "洛桑联邦理工学院（EPFL）（法語：École polytechnique fédérale de Lausanne，缩写EPFL），是一所世界顶尖的理工院校，最早成立於1853年，后在於1969年从洛桑大学独立。學校位於瑞士的法語區，與位於德語區的苏黎世联邦理工學院是姐妹校，也是瑞士僅有的兩所聯邦理工學院，直接由瑞士聯邦政府管理。2016在校生約10500名(大學生、碩士生、博士生以及博士後研究員)，340多名教授和5800多名教职员工分布于建筑设计系，基础科学系，工程系，计算机与通信科学系，生命科学系，管理系，人文系,7个系内。在教学与研究之外，洛桑联邦理工学院还负责操作核反应堆CROCUS，一个托卡马克聚变反应堆（Tokamak Fusion reactor），一台Blue Gene/Q超级计算机以及P3 bio-hazard设施等。学校以其师生比例，国际视野以及科研影响力而闻名。学校一系列高水平研究项目更加推动了学校作为一个研究型大学的声誉。其中最值得一提的是2013年的藍腦計畫（Blue Brain Project），学校从欧盟获得了5亿欧元的经费。建校宗旨：培养工程师和科学家、成為國家的科學與科技中心、並促進產學合作。\n\n",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/5/50/Vue_a%C3%A9rienne_EPFL_07-2009.jpg"
+    ],
     "amenity": {
-        "affiliation": 6424067710672152853,
+        "affiliation": 897026151466466891,
         "amenity_list": [
             {
                 "id": 311934443,
@@ -645,48 +650,6 @@
                 "longitude": 6.565237147752106
             },
             {
-                "id": 30403028,
-                "name": "PSE A",
-                "type": "science_park",
-                "latitude": 46.51779501624368,
-                "longitude": 6.562620677171817
-            },
-            {
-                "id": 30404104,
-                "name": "PSE B",
-                "type": "science_park",
-                "latitude": 46.51778677487911,
-                "longitude": 6.561950670283667
-            },
-            {
-                "id": 30404108,
-                "name": "PSE C",
-                "type": "science_park",
-                "latitude": 46.5173588252741,
-                "longitude": 6.56274901239345
-            },
-            {
-                "id": 30404110,
-                "name": "PPH",
-                "type": "science_park",
-                "latitude": 46.51762066350434,
-                "longitude": 6.564415722142002
-            },
-            {
-                "id": 30404111,
-                "name": "TCV",
-                "type": "science_park",
-                "latitude": 46.51767893829087,
-                "longitude": 6.565058754065227
-            },
-            {
-                "id": 30404114,
-                "name": "PPB",
-                "type": "science_park",
-                "latitude": 46.51717722584218,
-                "longitude": 6.564704101404291
-            },
-            {
                 "id": 35468394,
                 "name": "GC H",
                 "type": "nan",
@@ -839,20 +802,6 @@
                 "type": "nan",
                 "latitude": 46.51733740982185,
                 "longitude": 6.56197165275122
-            },
-            {
-                "id": 51739569,
-                "name": "QI G",
-                "type": "science_park",
-                "latitude": 46.51755818368216,
-                "longitude": 6.561396925253415
-            },
-            {
-                "id": 51739571,
-                "name": "QI H",
-                "type": "science_park",
-                "latitude": 46.51680712529533,
-                "longitude": 6.560856554192386
             },
             {
                 "id": 51739573,

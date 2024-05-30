@@ -1,11 +1,25 @@
 {
-    "id": -8697778731601857715,
+    "id": -3971377309287778807,
     "name": "北京邮电大学",
+    "address": "中国北京市海淀区北太平庄西土城路10号 邮政编码: 100876",
     "rating": 4.6,
-    "popularity": 64,
+    "popularity": 96,
     "data_path": "map_data/university_map/Beijing_University_of_Posts_and_Telecommunications",
+    "description": "北京邮电大学（英語：Beijing University of Posts and Telecommunications，缩写：BUPT），简称北邮，是中华人民共和国的第一所邮电高等学府，是教育部直属、工业和信息化部共建的全国重点大学，是一所以信息科技为特色、工学门类为主体、工管文理交叉融合的研究型大学，是中国信息科技人才的重要培养基地，是“双一流计划”、原“211工程”和原“985工程优势学科创新平台”高校。\n\n",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/1/17/BUPT_Gate.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/5/5e/BUPT_Hongfu_Campus_%2820220406141922%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/4/47/BUPT_Shahe_Campus_%2820231202143149%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/3/3d/BUPT_shahe_all.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/3/33/BUPT_shahe_canteen.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/0/0c/BUPT_shahe_dormitory.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/f/f6/BUPT_shahe_library.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/0/03/BUPT_shahe_teaching.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/6/6e/BUPT_xitucheng_library.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/6/6c/BUPT_xitucheng_main.jpg"
+    ],
     "amenity": {
-        "affiliation": -8697778731601857715,
+        "affiliation": -3971377309287778807,
         "amenity_list": [
             {
                 "id": 2463866303,
@@ -139,13 +153,6 @@
                 "type": "nan",
                 "latitude": 39.96206972580103,
                 "longitude": 116.35169002558602
-            },
-            {
-                "id": 265030102,
-                "name": "Maan Coffee",
-                "type": "cafe",
-                "latitude": 39.96229024454957,
-                "longitude": 116.35134495681494
             },
             {
                 "id": 265030103,
@@ -407,13 +414,6 @@
                 "longitude": 116.34958883009975
             },
             {
-                "id": 399013934,
-                "name": "综合食堂",
-                "type": "restaurant",
-                "latitude": 39.962573384090355,
-                "longitude": 116.35041201312971
-            },
-            {
                 "id": 399013935,
                 "name": "学生9号公寓",
                 "type": "nan",
@@ -468,13 +468,6 @@
                 "type": "nan",
                 "latitude": 39.96309150546253,
                 "longitude": 116.34908024592404
-            },
-            {
-                "id": 399018200,
-                "name": "北京邮电大学学生餐厅",
-                "type": "restaurant",
-                "latitude": 39.96197738709675,
-                "longitude": 116.35297100475785
             },
             {
                 "id": 399018201,
@@ -547,13 +540,6 @@
                 "longitude": 116.35228076177822
             },
             {
-                "id": 399041102,
-                "name": "北京邮电大学幼儿园",
-                "type": "childcare",
-                "latitude": 39.95817589829401,
-                "longitude": 116.35308498027358
-            },
-            {
                 "id": 399042378,
                 "name": "23号楼",
                 "type": "nan",
@@ -582,25 +568,11 @@
                 "longitude": 116.35326169354781
             },
             {
-                "id": 582551389,
-                "name": "教工餐厅",
-                "type": "restaurant",
-                "latitude": 39.962190958990035,
-                "longitude": 116.35220740365392
-            },
-            {
                 "id": 582551392,
                 "name": "北邮邮驿站",
                 "type": "nan",
                 "latitude": 39.96346296888694,
                 "longitude": 116.35125995026517
-            },
-            {
-                "id": 959801254,
-                "name": "北京中仁中医医院",
-                "type": "hospital",
-                "latitude": 39.956857048006455,
-                "longitude": 116.35444734968068
             }
         ]
     }

@@ -1,11 +1,25 @@
 {
-    "id": -2232769904628680425,
+    "id": -6331632888483798192,
     "name": "华南理工大学",
+    "address": "中国广东省广州市天河区五山路381号",
     "rating": 4.3,
-    "popularity": 92,
+    "popularity": 88,
     "data_path": "map_data/university_map/South_China_University_of_Technology",
+    "description": "华南理工大学简称华工、华工大，是一所直属中华人民共和国教育部的公立综合性研究型大学，位于广东省广州市，拥有五山、大学城和广州国际三个校区。\n华南理工大学是中华人民共和国顶尖高校之一，为“双一流”建设高校和广东省高水平大学。华工的历史可追溯至1918年成立的广东省立第一甲种工业学校，正式组建于1952年11月中国高校院系调整时期，时名“华南工学院”，是当时中国“四大工学院”之一，1988年1月改为现名。华工亦入列全国重点大学、“985工程”和“211工程”的名单中，也是現時13所廣東省高水平大學之一。\n目前，华工拥有全日制在校学生46,079人、专任教师3,272人，分布在世界各地的毕业生超56万人；二级院系35个，学科涵盖工、理、管、文、经、法、艺、农、医、教，尤以工科见长；国家级科研平台28个，部省级科研平台208个，科研实力位居全国和广东省前列。华工在2020年已进入世界大学学术排名的前200名，学校更提出在2050年全面建成世界一流大学的目标。\n\n",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/5/58/1952%E5%B9%B4%E5%8D%8E%E5%8D%97%E5%B7%A5%E5%AD%A6%E9%99%A2%E4%B8%BE%E8%A1%8C%E9%A6%96%E5%B1%8A%E5%BC%80%E5%AD%A6%E5%85%B8%E7%A4%BC%E7%9A%84%E6%8A%A5%E9%81%93.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/6/60/1956%E5%B9%B4%E5%8D%8E%E5%8D%97%E5%B7%A5%E5%AD%A6%E9%99%A2%E6%95%99%E5%B8%88%E9%9B%86%E4%BD%93%E7%85%A7.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/9/9e/Chit_Sang_Hall%2C_Lingnan_University.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/b/b3/GZFiveRams.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/e/e2/Guangzhou_Huanan_Ligong_Daxue_20231112.142745.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/2/22/SCUT_GZIC_D2.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/3/3e/SCUT_GZIC_D5_20220227.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/b/b0/SCUT_History.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/c/c6/SCUT_Library.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/1/16/SCUT_New_Motto_Stone.jpg"
+    ],
     "amenity": {
-        "affiliation": -2232769904628680425,
+        "affiliation": -6331632888483798192,
         "amenity_list": [
             {
                 "id": 3213479561,
@@ -162,13 +176,6 @@
                 "longitude": 113.33407179776707
             },
             {
-                "id": 9087902,
-                "name": "广州气象卫星地面站A站区",
-                "type": "research_institute",
-                "latitude": 23.164121122441337,
-                "longitude": 113.33961480987952
-            },
-            {
                 "id": 9087956,
                 "name": "工业和信息化部电子第五研究所",
                 "type": "research_institute",
@@ -251,13 +258,6 @@
                 "type": "nan",
                 "latitude": 23.155662241482126,
                 "longitude": 113.33772306880579
-            },
-            {
-                "id": 315240591,
-                "name": "西区饭堂（学生第六饭堂）",
-                "type": "restaurant",
-                "latitude": 23.154910311014085,
-                "longitude": 113.33636605023003
             },
             {
                 "id": 315241220,
@@ -407,13 +407,6 @@
                 "longitude": 113.33562311493806
             },
             {
-                "id": 354147366,
-                "name": "北区一饭堂",
-                "type": "restaurant",
-                "latitude": 23.165293866737805,
-                "longitude": 113.33711741705507
-            },
-            {
                 "id": 360052165,
                 "name": "4号楼 数学院",
                 "type": "nan",
@@ -491,20 +484,6 @@
                 "longitude": 113.3376389692421
             },
             {
-                "id": 360056891,
-                "name": "西湖厅",
-                "type": "restaurant",
-                "latitude": 23.15606080747772,
-                "longitude": 113.33836339384091
-            },
-            {
-                "id": 360056892,
-                "name": "中区饭堂（学生第五饭堂）",
-                "type": "restaurant",
-                "latitude": 23.155773953828305,
-                "longitude": 113.33857295284855
-            },
-            {
                 "id": 360746328,
                 "name": "广汽研究院",
                 "type": "nan",
@@ -517,20 +496,6 @@
                 "type": "nan",
                 "latitude": 23.158203894136932,
                 "longitude": 113.3412818391337
-            },
-            {
-                "id": 365981998,
-                "name": "饮食中心",
-                "type": "restaurant",
-                "latitude": 23.157350890522583,
-                "longitude": 113.3451524705891
-            },
-            {
-                "id": 365982000,
-                "name": "第一饭堂",
-                "type": "restaurant",
-                "latitude": 23.157174460426166,
-                "longitude": 113.34585780037996
             },
             {
                 "id": 365982005,
@@ -643,13 +608,6 @@
                 "type": "nan",
                 "latitude": 23.151860160747237,
                 "longitude": 113.33836376694074
-            },
-            {
-                "id": 365995711,
-                "name": "南区饭堂（学生第三饭堂）",
-                "type": "restaurant",
-                "latitude": 23.15225887500176,
-                "longitude": 113.3383767414217
             },
             {
                 "id": 365995712,
@@ -1135,13 +1093,6 @@
                 "longitude": 113.33632194738847
             },
             {
-                "id": 582746748,
-                "name": "发电所餐厅",
-                "type": "restaurant",
-                "latitude": 23.15779264605045,
-                "longitude": 113.3373656754476
-            },
-            {
                 "id": 583791974,
                 "name": "电讯处",
                 "type": "nan",
@@ -1182,13 +1133,6 @@
                 "type": "nan",
                 "latitude": 23.150694049154954,
                 "longitude": 113.33850497309302
-            },
-            {
-                "id": 9089678,
-                "name": "广东公安消防总队",
-                "type": "fire_station",
-                "latitude": 23.149264784033377,
-                "longitude": 113.33666582548688
             },
             {
                 "id": 16103319,

@@ -1,11 +1,25 @@
 {
-    "id": 3558520418816988514,
+    "id": 2389849288839396436,
     "name": "华中农业大学",
+    "address": "中国湖北省武汉市洪山区南湖路",
     "rating": 4.7,
     "popularity": 68,
     "data_path": "map_data/university_map/Huazhong_Agricultural_University",
+    "description": "华中农业大学（英語：Huazhong Agricultural University或Central China Agricultural University，缩写：HZAU、HAU或CCAU），簡稱“华中农大”或“华农”，是一所位於中国湖北省武汉市洪山区，以农科为特色的全科性综合大学。為中华人民共和国教育部直属国家211工程重点建设高校之一，为一流学科建设高校之一。\n\n",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/d/d5/Baojik_Yuan.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/9/9a/HZAU-Fukxiao.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/d/d6/HZAU-Gaoshi.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/5/50/HZAU-Huahui_Jidi.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/f/f6/HZAU-Niaokan.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/4/4f/HZAU-Sanjiao.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/2/2b/HZAU-Zhulou.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/4/4e/Jingyuan_Lou.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/9/9c/Jiu_Tushuguan.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/2/29/Jiu_Xiaomen.jpg"
+    ],
     "amenity": {
-        "affiliation": 3558520418816988514,
+        "affiliation": 2389849288839396436,
         "amenity_list": [
             {
                 "id": 1124414152,
@@ -330,13 +344,6 @@
                 "longitude": 114.35175871691656
             },
             {
-                "id": 98842746,
-                "name": "图书馆",
-                "type": "library",
-                "latitude": 30.473630043553968,
-                "longitude": 114.35137829203347
-            },
-            {
                 "id": 98842759,
                 "name": "大学生活动中心",
                 "type": "nan",
@@ -386,39 +393,11 @@
                 "longitude": 114.35137192279178
             },
             {
-                "id": 98842800,
-                "name": "逸夫楼",
-                "type": "public_building",
-                "latitude": 30.477786006424356,
-                "longitude": 114.3531137254349
-            },
-            {
                 "id": 99001176,
                 "name": "空调机房",
                 "type": "nan",
                 "latitude": 30.476893,
                 "longitude": 114.34882915
-            },
-            {
-                "id": 99002208,
-                "name": "一招",
-                "type": "public_building",
-                "latitude": 30.47798714435691,
-                "longitude": 114.34742987952329
-            },
-            {
-                "id": 106032839,
-                "name": "食科",
-                "type": "public_building",
-                "latitude": 30.47552504869587,
-                "longitude": 114.3516419126035
-            },
-            {
-                "id": 106032842,
-                "name": "园艺林学学院北楼",
-                "type": "school",
-                "latitude": 30.475348282326056,
-                "longitude": 114.35080829592597
             },
             {
                 "id": 106032844,
@@ -433,13 +412,6 @@
                 "type": "nan",
                 "latitude": 30.47540571026085,
                 "longitude": 114.34818383582403
-            },
-            {
-                "id": 106034958,
-                "name": "棉花楼",
-                "type": "public_building",
-                "latitude": 30.474998422963687,
-                "longitude": 114.34868375552469
             },
             {
                 "id": 106041964,
@@ -463,81 +435,11 @@
                 "longitude": 114.35016934999999
             },
             {
-                "id": 112320589,
-                "name": "华中农业大学动物医院",
-                "type": "public_building",
-                "latitude": 30.480224849999992,
-                "longitude": 114.33473024999999
-            },
-            {
                 "id": 112320593,
                 "name": "华中农业大学动物医院",
                 "type": "veterinary",
                 "latitude": 30.479860399999996,
                 "longitude": 114.33504429999999
-            },
-            {
-                "id": 114364905,
-                "name": "昆虫楼",
-                "type": "public_building",
-                "latitude": 30.474640603155883,
-                "longitude": 114.34825672500136
-            },
-            {
-                "id": 114365637,
-                "name": "新门诊部",
-                "type": "public_building",
-                "latitude": 30.476356167942313,
-                "longitude": 114.34824958677194
-            },
-            {
-                "id": 114365638,
-                "name": "门诊部",
-                "type": "public_building",
-                "latitude": 30.476334671387114,
-                "longitude": 114.34791399036452
-            },
-            {
-                "id": 114365643,
-                "name": "住院部",
-                "type": "public_building",
-                "latitude": 30.47661085258014,
-                "longitude": 114.34818821879698
-            },
-            {
-                "id": 114365645,
-                "name": "急诊室",
-                "type": "public_building",
-                "latitude": 30.47661047859382,
-                "longitude": 114.34845217389312
-            },
-            {
-                "id": 114367114,
-                "name": "一招食堂",
-                "type": "public_building",
-                "latitude": 30.477637049999995,
-                "longitude": 114.34722850000001
-            },
-            {
-                "id": 126183279,
-                "name": "水产",
-                "type": "public_building",
-                "latitude": 30.475025075368865,
-                "longitude": 114.35155921558484
-            },
-            {
-                "id": 126184001,
-                "name": "水电科",
-                "type": "public_building",
-                "latitude": 30.479682234495506,
-                "longitude": 114.3491015527402
-            },
-            {
-                "id": 126185809,
-                "name": "华中农大城乡规划设计院",
-                "type": "public_building",
-                "latitude": 30.47895595,
-                "longitude": 114.34300594999999
             },
             {
                 "id": 126186980,
@@ -624,32 +526,11 @@
                 "longitude": 114.35528055758633
             },
             {
-                "id": 126462448,
-                "name": "博园食堂",
-                "type": "restaurant",
-                "latitude": 30.47834912514209,
-                "longitude": 114.3560572568583
-            },
-            {
                 "id": 126462450,
                 "name": "博园教超",
                 "type": "nan",
                 "latitude": 30.477962424829627,
                 "longitude": 114.35600160748064
-            },
-            {
-                "id": 126462758,
-                "name": "清真食堂",
-                "type": "restaurant",
-                "latitude": 30.478749648042815,
-                "longitude": 114.35788798866494
-            },
-            {
-                "id": 126468184,
-                "name": "荟园食堂",
-                "type": "restaurant",
-                "latitude": 30.475368876343687,
-                "longitude": 114.35649793225234
             },
             {
                 "id": 126468185,
@@ -785,32 +666,11 @@
                 "longitude": 114.35719239143577
             },
             {
-                "id": 849511859,
-                "name": "桃园食堂",
-                "type": "restaurant",
-                "latitude": 30.473359975181644,
-                "longitude": 114.35622928387762
-            },
-            {
-                "id": 854259593,
-                "name": "梦泽园",
-                "type": "restaurant",
-                "latitude": 30.47741247246333,
-                "longitude": 114.35612672919753
-            },
-            {
                 "id": 865572500,
                 "name": "园艺植物生物学教育部重点实验室",
                 "type": "nan",
                 "latitude": 30.474796418300244,
                 "longitude": 114.35057926103363
-            },
-            {
-                "id": 913470205,
-                "name": "人文社科楼",
-                "type": "public_building",
-                "latitude": 30.473407365538684,
-                "longitude": 114.35299712436027
             },
             {
                 "id": 913470224,

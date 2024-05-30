@@ -1,11 +1,25 @@
 {
-    "id": -6355936517724835805,
+    "id": -1338195634331913486,
     "name": "中国人民大学",
+    "address": "中国北京市海淀区中关村大街59号 邮政编码: 100872",
     "rating": 4.6,
-    "popularity": 80,
+    "popularity": 76,
     "data_path": "map_data/university_map/Renmin_University_of_China",
+    "description": "中国人民大学（英語：Renmin University of China），簡稱人民大学、人大。位于中华人民共和国北京市，是一所以人文社会科学为主的综合性研究型全国重点大学，直属于中華人民共和國教育部，由教育部与北京市人民政府共建，是“双一流A类”和原“985工程”、原“211工程”重点建设大学，共有14個學科入選雙一流重點建設學科。\n2021年中国人民大学的QS世界大学排名为第581名。2022年起正式退出世界大学排名，将不会再对世界大学排名机构提供相关数据和经费。",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/1/16/Arts_Building_of_RUC.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/0/04/Caf%C3%A9_at_Renmin_University_of_China.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/1/18/Construction_site_of_Renmin_University_East_Campus_%2820180728151529%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/f/f1/Mingde_Complex.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/0/0b/Platopainting.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/f/fa/RenminUniversitysign.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/d/d8/Renmin_University_Entrance.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/4/46/Renmin_University_Entrance3.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/7/74/Renmin_University_of_China%2C_1950-1952.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/5/5e/Wuyuzhang_Road.JPG"
+    ],
     "amenity": {
-        "affiliation": -6355936517724835805,
+        "affiliation": -1338195634331913486,
         "amenity_list": [
             {
                 "id": 4736259000,
@@ -183,13 +197,6 @@
                 "longitude": 116.30393958290858
             },
             {
-                "id": 258855717,
-                "name": "西区食堂",
-                "type": "food_court",
-                "latitude": 39.96788141008601,
-                "longitude": 116.30155652023235
-            },
-            {
                 "id": 280166015,
                 "name": "体育部",
                 "type": "nan",
@@ -258,13 +265,6 @@
                 "type": "nan",
                 "latitude": 39.967417900077486,
                 "longitude": 116.30882809017389
-            },
-            {
-                "id": 298031484,
-                "name": "东区食堂",
-                "type": "restaurant",
-                "latitude": 39.96755910382012,
-                "longitude": 116.31118117295672
             },
             {
                 "id": 298031504,

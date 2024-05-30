@@ -1,11 +1,18 @@
 {
-    "id": -7996180786229299668,
+    "id": 6819881212657532859,
     "name": "兰州大学",
+    "address": "中国甘肃省兰州市城关区天水南路222号 邮政编码: 730000",
     "rating": 4.5,
-    "popularity": 88,
+    "popularity": 56,
     "data_path": "map_data/university_map/Lanzhou_University",
+    "description": "兰州大学（英語：Lanzhou University，缩写：LZU），簡稱蘭大，是中华人民共和国教育部直属的全国重点综合性大学，位于中华人民共和国甘肃省兰州市。\n兰州大学是中华人民共和国顶尖高校之一，是“双一流A类”和原“985工程”、原“211工程”重点建设大学。\n\n",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/f/ff/LZU_Library.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/5/55/LZU_library_in_Yuzhong_county.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/9/9f/%E5%85%B0%E5%B7%9E%E5%A4%A7%E5%AD%A6%E5%A4%A7%E9%97%A8_-_panoramio.jpg"
+    ],
     "amenity": {
-        "affiliation": -7996180786229299668,
+        "affiliation": 6819881212657532859,
         "amenity_list": [
             {
                 "id": 4183954123,

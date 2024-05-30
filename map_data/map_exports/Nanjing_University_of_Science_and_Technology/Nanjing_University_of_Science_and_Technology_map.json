@@ -1,11 +1,20 @@
 {
-    "id": 5238835872165028578,
+    "id": 4601198496494252130,
     "name": "南京理工大学",
+    "address": "中国江苏省南京市玄武区中山门外大街",
     "rating": 4.4,
-    "popularity": 56,
+    "popularity": 64,
     "data_path": "map_data/university_map/Nanjing_University_of_Science_and_Technology",
+    "description": "南京理工大学是直属于中华人民共和国工业和信息化部的全国重点大学。学校前身为中国人民解放军军事工程学院（简称哈军工）炮兵工程系，先后经历炮兵工程学院、华东工程学院、华东工学院等历史时期，1993年更名为南京理工大学。教育部“211工程”建设高校。兵器科学与技术一级学科评估排名全国第一（2012年）。\n\n",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/9/98/School_of_Chemical_Engineering_in_Nanjing_University_of_Science_and_Technology_2012-05.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/5/5c/School_of_Mechanical_Engineering_in_Nanjing_University_of_Science_and_Technology_2012-05.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/1/1a/The_Basic_Teaching_and_Lab_Building_in_Nanjing_University_of_Science_and_Technology_01_2012-05.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/3/3e/The_Comprehensive_Lab_Building_in_Nanjing_University_of_Science_and_Technology_2012-05.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/c/c0/Time_Square_in_Nanjing_University_of_Science_and_Technology_2012-05.JPG"
+    ],
     "amenity": {
-        "affiliation": 5238835872165028578,
+        "affiliation": 4601198496494252130,
         "amenity_list": [
             {
                 "id": 1470664904,
@@ -148,20 +157,6 @@
                 "longitude": 118.84963091800894
             },
             {
-                "id": 137775972,
-                "name": "中国工商银行",
-                "type": "bank",
-                "latitude": 32.03449868212794,
-                "longitude": 118.84798892571467
-            },
-            {
-                "id": 138883122,
-                "name": "南京理工大学图书馆",
-                "type": "library",
-                "latitude": 32.03002322357017,
-                "longitude": 118.85020206846086
-            },
-            {
                 "id": 139850960,
                 "name": "学生浴室",
                 "type": "nan",
@@ -195,13 +190,6 @@
                 "type": "nan",
                 "latitude": 32.03216762534509,
                 "longitude": 118.85345683732447
-            },
-            {
-                "id": 161844779,
-                "name": "教工研究生食堂",
-                "type": "restaurant",
-                "latitude": 32.03546671266102,
-                "longitude": 118.84816841538185
             },
             {
                 "id": 161844780,
@@ -251,20 +239,6 @@
                 "type": "nan",
                 "latitude": 32.02967555,
                 "longitude": 118.847492
-            },
-            {
-                "id": 164083826,
-                "name": "明苑美食广场",
-                "type": "food_court",
-                "latitude": 32.02626814309191,
-                "longitude": 118.84924200795126
-            },
-            {
-                "id": 164083827,
-                "name": "二三食堂",
-                "type": "restaurant",
-                "latitude": 32.02861476176806,
-                "longitude": 118.84827607419108
             },
             {
                 "id": 164084346,
@@ -321,13 +295,6 @@
                 "type": "library",
                 "latitude": 32.02773038878142,
                 "longitude": 118.85144195127384
-            },
-            {
-                "id": 656141740,
-                "name": "星苑美食广场",
-                "type": "restaurant",
-                "latitude": 32.024687525705325,
-                "longitude": 118.85335500221372
             },
             {
                 "id": 656141755,
@@ -412,13 +379,6 @@
                 "type": "nan",
                 "latitude": 32.024445637603925,
                 "longitude": 118.853521246568
-            },
-            {
-                "id": 656192330,
-                "name": "学生浴室",
-                "type": "public_bath",
-                "latitude": 32.02354104392012,
-                "longitude": 118.85324627463045
             },
             {
                 "id": 656192332,

@@ -1,11 +1,14 @@
 {
-    "id": -236376931086139025,
+    "id": -3641779128685656519,
     "name": "西北大学",
+    "address": "633 Clark St, Evanston, IL 60208美国",
     "rating": 4.7,
-    "popularity": 60,
+    "popularity": 80,
     "data_path": "map_data/university_map/Northwestern_University",
+    "description": "西北大学可以指：\n\n中国大陆\n西北大学 (中国大陆)，位于中华人民共和国陕西省西安市的大学。\n美国\n西北大学 (伊利诺伊州)（Northwestern University），一所位于美国伊利诺伊州埃文斯顿、芝加哥和卡塔尔的私立研究型大学。\n西北大学 (华盛顿州)（Northwest University），位于美国华盛顿州柯克兰的大学。\n南非\n西北大学 (南非)（North-West University），位於南非西北省的大學。\n泰国\n西北大學 (泰國)（Payap University），位於泰國的基督教大學。\n越南\n西北大学 (越南)（越南语：Trường Đại học Tây Bắc／場大學西北?，英語：Tay Bac University），位于越南山罗省的公立综合性大学",
+    "images": [],
     "amenity": {
-        "affiliation": -236376931086139025,
+        "affiliation": -3641779128685656519,
         "amenity_list": [
             {
                 "id": 2156446924,
@@ -358,13 +361,6 @@
                 "longitude": -87.67508503867266
             },
             {
-                "id": 33908912,
-                "name": "Pick-Staiger Concert Hall",
-                "type": "events_venue",
-                "latitude": 42.052674041501675,
-                "longitude": -87.67218416741945
-            },
-            {
                 "id": 33908919,
                 "name": "Fisk Hall",
                 "type": "nan",
@@ -708,13 +704,6 @@
                 "longitude": -87.67392674489611
             },
             {
-                "id": 42703541,
-                "name": "Seeley G. Mudd Science and Engineering Library",
-                "type": "library",
-                "latitude": 42.05819752191286,
-                "longitude": -87.67428986003807
-            },
-            {
                 "id": 42703542,
                 "name": "Frances Searle Building",
                 "type": "nan",
@@ -734,13 +723,6 @@
                 "type": "nan",
                 "latitude": 42.06114105875679,
                 "longitude": -87.67660865578
-            },
-            {
-                "id": 42703716,
-                "name": "Alice Millar Chapel",
-                "type": "place_of_worship",
-                "latitude": 42.05046459812716,
-                "longitude": -87.67714748574629
             },
             {
                 "id": 42703717,
@@ -806,20 +788,6 @@
                 "longitude": -87.67768855
             },
             {
-                "id": 42706556,
-                "name": "Sheil Catholic Center",
-                "type": "place_of_worship",
-                "latitude": 42.05594977591506,
-                "longitude": -87.6777195955237
-            },
-            {
-                "id": 42706563,
-                "name": "Fiedler Hillel",
-                "type": "place_of_worship",
-                "latitude": 42.054140922537876,
-                "longitude": -87.67870239105912
-            },
-            {
                 "id": 42708317,
                 "name": "Trienens Performance Center",
                 "type": "nan",
@@ -848,25 +816,11 @@
                 "longitude": -87.67815995
             },
             {
-                "id": 42708326,
-                "name": "Lambda Chi Alpha",
-                "type": "social_centre",
-                "latitude": 42.060487202324666,
-                "longitude": -87.67638772126128
-            },
-            {
                 "id": 42708327,
                 "name": "Sigma Phi Epsilon",
                 "type": "nan",
                 "latitude": 42.060486466497764,
                 "longitude": -87.67614462522404
-            },
-            {
-                "id": 42708331,
-                "name": "Alpha Epsilon Pi",
-                "type": "social_centre",
-                "latitude": 42.06137295912573,
-                "longitude": -87.67612527518139
             },
             {
                 "id": 42708343,
@@ -881,13 +835,6 @@
                 "type": "nan",
                 "latitude": 42.06049942211773,
                 "longitude": -87.67572172447224
-            },
-            {
-                "id": 42708346,
-                "name": "Zeta Beta Tau",
-                "type": "social_centre",
-                "latitude": 42.05906848745412,
-                "longitude": -87.67642238148461
             },
             {
                 "id": 42708347,
@@ -909,13 +856,6 @@
                 "type": "nan",
                 "latitude": 42.058772833895375,
                 "longitude": -87.67547681072259
-            },
-            {
-                "id": 42708362,
-                "name": "Sigma Chi",
-                "type": "social_centre",
-                "latitude": 42.059031156920895,
-                "longitude": -87.6761766100736
             },
             {
                 "id": 42708749,
@@ -944,20 +884,6 @@
                 "type": "nan",
                 "latitude": 42.054719806692965,
                 "longitude": -87.67496076571521
-            },
-            {
-                "id": 116713965,
-                "name": "Shanley Hall",
-                "type": "theatre",
-                "latitude": 42.05482331578258,
-                "longitude": -87.6759669274912
-            },
-            {
-                "id": 123307471,
-                "name": "Lakeside Parking Structure",
-                "type": "parking",
-                "latitude": 42.0510938805895,
-                "longitude": -87.67261140964936
             },
             {
                 "id": 123307477,
@@ -995,25 +921,11 @@
                 "longitude": -87.68424707449759
             },
             {
-                "id": 175187764,
-                "name": "Northwestern University Library",
-                "type": "library",
-                "latitude": 42.053143997702406,
-                "longitude": -87.67413013744064
-            },
-            {
                 "id": 182668630,
                 "name": "Seabury-Western Theological Seminary",
                 "type": "nan",
                 "latitude": 42.05692234966468,
                 "longitude": -87.67817523685045
-            },
-            {
-                "id": 182668631,
-                "name": "Seabury-Western Chapel",
-                "type": "place_of_worship",
-                "latitude": 42.05708032706312,
-                "longitude": -87.67775980953166
             },
             {
                 "id": 182668876,
@@ -1035,13 +947,6 @@
                 "type": "nan",
                 "latitude": 42.0513549882921,
                 "longitude": -87.67522114861521
-            },
-            {
-                "id": 214618504,
-                "name": "Deering Library",
-                "type": "library",
-                "latitude": 42.05321948004136,
-                "longitude": -87.67530072191643
             },
             {
                 "id": 214618520,
@@ -1079,13 +984,6 @@
                 "longitude": -87.67790445615856
             },
             {
-                "id": 218122478,
-                "name": "Delta Tau Delta",
-                "type": "social_centre",
-                "latitude": 42.05993944034896,
-                "longitude": -87.6761691230532
-            },
-            {
                 "id": 220670539,
                 "name": "Central Utility Plant",
                 "type": "nan",
@@ -1114,20 +1012,6 @@
                 "longitude": -87.67517484016795
             },
             {
-                "id": 258939209,
-                "name": "Sigma Nu",
-                "type": "social_centre",
-                "latitude": 42.06041695,
-                "longitude": -87.67665095
-            },
-            {
-                "id": 275849772,
-                "name": "Patrick G. and Shirley W. Ryan Center for the Musical Arts",
-                "type": "music_school",
-                "latitude": 42.051849273450685,
-                "longitude": -87.67154122601517
-            },
-            {
                 "id": 275851101,
                 "name": "Segal Visitors Center/Parking Garage",
                 "type": "nan",
@@ -1140,13 +1024,6 @@
                 "type": "nan",
                 "latitude": 42.05064654286216,
                 "longitude": -87.67247600552078
-            },
-            {
-                "id": 275854338,
-                "name": "North Campus Parking Garage",
-                "type": "parking",
-                "latitude": 42.05971904327958,
-                "longitude": -87.67420638883097
             },
             {
                 "id": 275854464,
@@ -1261,32 +1138,11 @@
                 "longitude": -87.6762392582278
             },
             {
-                "id": 3475448,
-                "name": "Phi Gamma Delta",
-                "type": "social_centre",
-                "latitude": 42.060208450000005,
-                "longitude": -87.67663375000001
-            },
-            {
-                "id": 4630782,
-                "name": "Theater and Interpretation Center",
-                "type": "events_venue",
-                "latitude": 42.052012017406966,
-                "longitude": -87.67295328381769
-            },
-            {
                 "id": 7088849,
                 "name": "Foster-Walker Complex",
                 "type": "nan",
                 "latitude": 42.05291472895368,
                 "longitude": -87.67874226309566
-            },
-            {
-                "id": 13276583,
-                "name": "Sigma Alpha Epsilon",
-                "type": "social_centre",
-                "latitude": 42.06000135,
-                "longitude": -87.67663375000001
             },
             {
                 "id": 16505176,

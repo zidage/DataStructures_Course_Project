@@ -1,11 +1,20 @@
 {
-    "id": 8938894362600221576,
+    "id": -7581311102102210590,
     "name": "北京科技大学",
+    "address": "中国北京市海淀区学院路30号 邮政编码: 100083",
     "rating": 4.6,
-    "popularity": 84,
+    "popularity": 88,
     "data_path": "map_data/university_map/University_of_Science_and_Technology_Beijing",
+    "description": "北京科技大学（英語：University of Science and Technology Beijing，縮寫：USTB），简称北科、北科大或北京科大，是位于北京市海淀区学院路的一所教育部直属的全国重点大学，是211工程、2011计划、985优势学科创新平台等高水平大学建设方案入选高校。学校占地约80.39万平方米，校舍建筑总面积97万平方米。\n\n",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/5/50/Mechanical_and_Information_Engineering_Building_of_USTB.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/0/0b/Platopainting.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/8/89/School_of_Materials_Science_and_Engineering_USTB.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/2/24/USTB_Gym.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/1/1c/USTB_west_gate.jpg"
+    ],
     "amenity": {
-        "affiliation": 8938894362600221576,
+        "affiliation": -7581311102102210590,
         "amenity_list": [
             {
                 "id": 2701036588,
@@ -155,20 +164,6 @@
                 "longitude": 116.3535650670045
             },
             {
-                "id": 314370873,
-                "name": "万秀园",
-                "type": "restaurant",
-                "latitude": 39.98753940000001,
-                "longitude": 116.35572030000002
-            },
-            {
-                "id": 314370874,
-                "name": "鸿博园",
-                "type": "restaurant",
-                "latitude": 39.98742248629061,
-                "longitude": 116.35121047642936
-            },
-            {
                 "id": 335564679,
                 "name": "图书馆",
                 "type": "nan",
@@ -258,13 +253,6 @@
                 "type": "nan",
                 "latitude": 39.98698133734116,
                 "longitude": 116.3501366807893
-            },
-            {
-                "id": 543835538,
-                "name": "友谊餐厅",
-                "type": "restaurant",
-                "latitude": 39.98704062412384,
-                "longitude": 116.35649589608842
             },
             {
                 "id": 543835539,

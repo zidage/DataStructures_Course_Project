@@ -1,11 +1,14 @@
 {
-    "id": 5197886373486707537,
-    "name": "中国石油大学（华东）",
-    "rating": 4.5,
-    "popularity": 44,
+    "id": 6978558145175919588,
+    "name": "中国石油大学",
+    "address": "中国北京市昌平区府学路18号 邮政编码: 102200",
+    "rating": 4.4,
+    "popularity": 88,
     "data_path": "map_data/university_map/China_University_of_Petroleum",
+    "description": "No description available",
+    "images": "",
     "amenity": {
-        "affiliation": 5197886373486707537,
+        "affiliation": 6978558145175919588,
         "amenity_list": [
             {
                 "id": 8579025243,
@@ -155,27 +158,6 @@
                 "longitude": 120.17248104545921
             },
             {
-                "id": 924350765,
-                "name": "荟萃苑餐厅",
-                "type": "restaurant",
-                "latitude": 35.94038754808707,
-                "longitude": 120.16819859076027
-            },
-            {
-                "id": 924350766,
-                "name": "玉兰苑餐厅",
-                "type": "restaurant",
-                "latitude": 35.94260033323508,
-                "longitude": 120.16751015654238
-            },
-            {
-                "id": 924350767,
-                "name": "图书馆",
-                "type": "library",
-                "latitude": 35.94271398393644,
-                "longitude": 120.16930194592388
-            },
-            {
                 "id": 924350769,
                 "name": "中国石油大学体育馆",
                 "type": "nan",
@@ -197,13 +179,6 @@
                 "longitude": 120.16514498597155
             },
             {
-                "id": 924350772,
-                "name": "唐岛湾餐厅",
-                "type": "restaurant",
-                "latitude": 35.94176718901342,
-                "longitude": 120.17380631321204
-            },
-            {
                 "id": 924350773,
                 "name": "工科楼E",
                 "type": "nan",
@@ -216,13 +191,6 @@
                 "type": "nan",
                 "latitude": 35.940955410774684,
                 "longitude": 120.17671386942109
-            },
-            {
-                "id": 924350775,
-                "name": "学苑餐厅",
-                "type": "restaurant",
-                "latitude": 35.941242752145534,
-                "longitude": 120.17637210451926
             },
             {
                 "id": 924350776,
@@ -552,13 +520,6 @@
                 "type": "nan",
                 "latitude": 35.940193998412575,
                 "longitude": 120.16979147708122
-            },
-            {
-                "id": 12571631,
-                "name": "图书馆东馆",
-                "type": "library",
-                "latitude": 35.94389789027909,
-                "longitude": 120.17407950241244
             }
         ]
     }

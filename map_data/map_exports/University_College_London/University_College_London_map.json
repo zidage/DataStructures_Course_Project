@@ -1,11 +1,25 @@
 {
-    "id": -5296486720904155140,
+    "id": -2597054545994128499,
     "name": "伦敦大学学院",
+    "address": "Gower St, London WC1E 6BT英国",
     "rating": 4.5,
     "popularity": 92,
     "data_path": "map_data/university_map/University_College_London",
+    "description": "倫敦大學學院（英語：University College London；縮寫：UCL）是一所坐落於英國倫敦的公立研究型大學，为英格兰第三古老的高等教育机构。\n學院最初於1826年由湯瑪斯·坎貝爾及亨利·布魯厄姆以“倫敦大學”（London University）之名創立，是倫敦市第一所高等學府，且為全英首間不拘學生性別及宗教背景的世俗高校。雖沒有直接介入學校的建設，但哲學家傑里米·邊沁對教育的理念啟發了創辦者，故獲譽為“倫大教父”。1836年，以書院聯邦制正式成立倫敦大學，學校改名為“倫敦大學學院”，與倫敦國王學院成為了此大學的兩位始創成員學院。學校隨後迅速發展並與多所專科院校合併，也在英格蘭開創了不少高校學系。該校雖然是倫敦大學的成員學院，但學院本身擁有包括獨立頒授學位的高度自治權，故性質與一般大學無異。\n倫敦大學學院共設11所學術學院，擁有超過100個學術科系與研究中心。其主校區位於倫敦市中心的布盧姆茨伯里區，并设位于斯特拉福德的东校区（UCL East），此外另設兩所分別坐落於澳大利亚及卡塔爾的衛星校園。同時，校內擁有17間圖書館、9所博物館及收藏區，館藏涵蓋不同學術範疇。倫大學院為英國其中一所“金三角名校”，亦是国民保健署建立的11所生物醫學研究基地及多個科技聯盟的始創者之一。\n該校在QS世界大學排名、泰晤士高等教育世界大學排名、世界大學學術排名和U.S. News世界大學排名中位居全球前十名、英國前五名。截止2020年10月，此校的師生、校友及研究人员包括了34名諾貝爾獎得主、3位菲爾茲獲獎者、多名政治要員與組織領袖及數位著名文藝人。\n\n",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/2/20/Flaxman_Gallery%2C_UCL.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/6/60/Four_founders_of_UCL.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/b/b4/Jeremy_Bentham_Auto-Icon.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/d/d1/Portrait_Gandhi.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/6/6f/Portico_and_steps%2C_University_College%2C_London_-_geograph.org.uk_-_364428.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/d/d1/Portrait_Gandhi.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/8/85/Senate_House%2C_University_of_London.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/d/db/The_London_University_by_Thomas_Hosmer_Shepherd_1827-28.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/3/36/UCL_Flaxman_Gallery_and_Jeremy_Bentham.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/1/14/UCL_Portico_Building.jpg"
+    ],
     "amenity": {
-        "affiliation": -5296486720904155140,
+        "affiliation": -2597054545994128499,
         "amenity_list": [
             {
                 "id": 644625847,
@@ -386,25 +400,11 @@
                 "longitude": -0.13293620700035413
             },
             {
-                "id": 90247857,
-                "name": "Macmillan Cancer Centre",
-                "type": "hospital",
-                "latitude": 51.523113513068424,
-                "longitude": -0.13521317955679413
-            },
-            {
                 "id": 224890376,
                 "name": "Henry Morley Building",
                 "type": "nan",
                 "latitude": 51.52383284408913,
                 "longitude": -0.13191642659310504
-            },
-            {
-                "id": 224890389,
-                "name": "Dr Williams's Library",
-                "type": "library",
-                "latitude": 51.52394831847178,
-                "longitude": -0.1315448273388189
             },
             {
                 "id": 248989218,
@@ -426,13 +426,6 @@
                 "type": "nan",
                 "latitude": 51.52686995149631,
                 "longitude": -0.12976652440792927
-            },
-            {
-                "id": 383553353,
-                "name": "Bloomsbury Theatre",
-                "type": "theatre",
-                "latitude": 51.525049213573666,
-                "longitude": -0.1328091564353965
             },
             {
                 "id": 413975406,
@@ -503,13 +496,6 @@
                 "type": "nan",
                 "latitude": 51.524766700279045,
                 "longitude": -0.13256272610268985
-            },
-            {
-                "id": 789265602,
-                "name": "UCL Institute of Education Library",
-                "type": "library",
-                "latitude": 51.52328623047904,
-                "longitude": -0.12862744389584055
             },
             {
                 "id": 802236338,
@@ -603,32 +589,11 @@
                 "longitude": -0.13376894791765662
             },
             {
-                "id": 953962864,
-                "name": "Mully's",
-                "type": "bar",
-                "latitude": 51.52505097271105,
-                "longitude": -0.13510223377748193
-            },
-            {
                 "id": 1050322259,
                 "name": "1-19 Torrington Place",
                 "type": "nan",
                 "latitude": 51.52188618249416,
                 "longitude": -0.13464020403891055
-            },
-            {
-                "id": 1073532207,
-                "name": "George Farha Cafe",
-                "type": "cafe",
-                "latitude": 51.52505739294919,
-                "longitude": -0.1351561996016858
-            },
-            {
-                "id": 661011,
-                "name": "Friends House",
-                "type": "place_of_worship",
-                "latitude": 51.52637094324479,
-                "longitude": -0.13242125541015132
             },
             {
                 "id": 11814819,

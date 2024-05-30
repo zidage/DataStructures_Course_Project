@@ -1,11 +1,25 @@
 {
-    "id": -5992972546141122329,
+    "id": 6600191303587687004,
     "name": "湖南大学",
-    "rating": 4.8,
-    "popularity": 60,
+    "address": "中国湖南省长沙市岳麓区麓山南路2号 邮政编码: 410012",
+    "rating": 4.7,
+    "popularity": 76,
     "data_path": "map_data/university_map/Hunan_University_",
+    "description": "湖南大學（英語：Hunan University，縮寫：HNU），簡稱湖大，是中华人民共和国湖南省的一所全日制公办本科高校，位於湖南省長沙市，為中华人民共和国教育部直屬大學。主校區東瀕湘江，西偎嶽麓山，置身嶽麓山—橘子洲國家5A級旅遊景區。其辦學起源於北宋開寶九年（公元976年）創建的嶽麓書院，以及清朝光緒23年（公元1897年）創建的時務學堂，光緒29年（公元1903年）合併改建為湖南高等學堂，民國15年（公元1926年）組建湖南省立湖南大學，並於民國26年（公元1937年）升格為國立湖南大學。新中國成立後，中共一大代表、教育家李達就任校長，校名由毛澤東題寫。现今的湖南大学也是双一流、985工程重點建設大學。\n\n",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/4/42/Gaizhi.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/4/49/Hnuapartment.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/c/c6/Hnustadium.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/b/bc/No_2_building.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/8/8d/Old_library.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/2/2c/Qnc.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/c/c5/Seek_truth.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/3/32/Yuelu-Academy-Gate.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/e/e2/%E5%A4%A7%E7%A4%BC%E5%A0%82.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/1/10/%E7%A7%91%E5%AD%A6%E9%A6%86.jpg"
+    ],
     "amenity": {
-        "affiliation": -5992972546141122329,
+        "affiliation": 6600191303587687004,
         "amenity_list": [
             {
                 "id": 7715264720,
@@ -48,13 +62,6 @@
                 "type": "nan",
                 "latitude": 28.184204540996117,
                 "longitude": 112.94083237566896
-            },
-            {
-                "id": 54827275,
-                "name": "湖南大学图书馆",
-                "type": "library",
-                "latitude": 28.183706498608835,
-                "longitude": 112.93883838872598
             },
             {
                 "id": 272516773,
@@ -125,13 +132,6 @@
                 "type": "nan",
                 "latitude": 28.180932913511956,
                 "longitude": 112.9382503976646
-            },
-            {
-                "id": 312550765,
-                "name": "湖南大学五、三食堂",
-                "type": "restaurant",
-                "latitude": 28.18216315,
-                "longitude": 112.94305464999998
             },
             {
                 "id": 312552700,
@@ -216,13 +216,6 @@
                 "type": "nan",
                 "latitude": 28.185235367548987,
                 "longitude": 112.93770182442962
-            },
-            {
-                "id": 337142429,
-                "name": "湖南大学第四食堂",
-                "type": "restaurant",
-                "latitude": 28.185805387683608,
-                "longitude": 112.939173897157
             },
             {
                 "id": 337142437,

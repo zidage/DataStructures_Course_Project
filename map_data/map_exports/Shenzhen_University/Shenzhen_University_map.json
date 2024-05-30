@@ -1,11 +1,25 @@
 {
-    "id": 5680978408826209720,
+    "id": -2502414963696863932,
     "name": "深圳大学",
-    "rating": 4.4,
-    "popularity": 100,
+    "address": "中国广东省深圳市南山区南海大道3688号 邮政编码: 518060",
+    "rating": 4.3,
+    "popularity": 48,
     "data_path": "map_data/university_map/Shenzhen_University",
+    "description": "深圳大学（英語：Shenzhen University，缩写：SZU），简称深大，成立於1983年，位於中国广东省深圳市，是一所教学科研并重型的综合性大学。学校以“特区大学、窗口大学、实验大学”为办学特色，拥有从学士、硕士到博士的完整人才培养体系以及多层次的科学研究和社会服务体系，是現時13所广东省高水平大学之一。现有粤海、丽湖两个校区。\n\n",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/3/3b/Arial_Night_View_of_SZU_Xili_Campus.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/8/81/Central_Plaza_of_Yuehai_Campus%2C_Shenzhen_University.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/0/0c/Hanking_Center_%26_Tencent_Tower_from_SZU2021.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/9/90/Lake_Wenshan_of_Shenzhen_University.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/e/e2/Motto_of_Shenzhen_University.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/b/b2/SZU_Xili_Campus_Aerial_Image_From_SusTech.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/2/2e/Southern_Area_of_Yuehai_Campus%2C_Shenzhen_University.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/8/8c/%E6%96%87%E7%A7%91%E6%A8%93.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/e/e2/%E6%B7%B1%E5%9C%B3%E5%A4%A7%E5%AD%A6%E5%9B%BE%E4%B9%A6%E9%A6%86%E5%8D%97%E9%A6%86_20100918.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/2/28/%E6%B7%B1%E5%9C%B3%E5%A4%A7%E5%AD%A6%E4%BD%93%E8%82%B2%E9%A6%86.JPG"
+    ],
     "amenity": {
-        "affiliation": 5680978408826209720,
+        "affiliation": -2502414963696863932,
         "amenity_list": [
             {
                 "id": 2428968567,
@@ -197,13 +211,6 @@
                 "longitude": 113.92987987101306
             },
             {
-                "id": 230847105,
-                "name": "图书馆北馆",
-                "type": "library",
-                "latitude": 22.53642403210915,
-                "longitude": 113.93056962500235
-            },
-            {
                 "id": 230847106,
                 "name": "金工坊",
                 "type": "nan",
@@ -218,32 +225,11 @@
                 "longitude": 113.92668377784639
             },
             {
-                "id": 230847108,
-                "name": "教工餐厅",
-                "type": "restaurant",
-                "latitude": 22.537464251457997,
-                "longitude": 113.92922942024553
-            },
-            {
                 "id": 230847536,
                 "name": "留学生楼",
                 "type": "nan",
                 "latitude": 22.532467404242606,
                 "longitude": 113.92789850542127
-            },
-            {
-                "id": 230935221,
-                "name": "晨风餐厅（老西南餐厅）",
-                "type": "restaurant",
-                "latitude": 22.531137552932943,
-                "longitude": 113.92654737145315
-            },
-            {
-                "id": 230935723,
-                "name": "凯风餐厅（新西南餐厅）",
-                "type": "restaurant",
-                "latitude": 22.531177650035378,
-                "longitude": 113.92595059997238
             },
             {
                 "id": 230956722,
@@ -316,13 +302,6 @@
                 "longitude": 113.93269091996783
             },
             {
-                "id": 231214221,
-                "name": "听山餐厅",
-                "type": "restaurant",
-                "latitude": 22.53172951513943,
-                "longitude": 113.92911048235523
-            },
-            {
                 "id": 231406104,
                 "name": "H4",
                 "type": "nan",
@@ -342,13 +321,6 @@
                 "type": "nan",
                 "latitude": 22.540337430396704,
                 "longitude": 113.93012717201609
-            },
-            {
-                "id": 231436813,
-                "name": "文山湖餐厅",
-                "type": "restaurant",
-                "latitude": 22.532642933434538,
-                "longitude": 113.92911591166619
             },
             {
                 "id": 231572980,
@@ -379,13 +351,6 @@
                 "longitude": 113.93387345691282
             },
             {
-                "id": 231796343,
-                "name": "校医院",
-                "type": "hospital",
-                "latitude": 22.53544099503494,
-                "longitude": 113.93383945513878
-            },
-            {
                 "id": 231796344,
                 "name": "银桦斋",
                 "type": "nan",
@@ -412,27 +377,6 @@
                 "type": "nan",
                 "latitude": 22.536364433736566,
                 "longitude": 113.93245713543885
-            },
-            {
-                "id": 231796623,
-                "name": "荔山餐厅",
-                "type": "restaurant",
-                "latitude": 22.537033431560044,
-                "longitude": 113.93328049034552
-            },
-            {
-                "id": 231796624,
-                "name": "实验餐厅",
-                "type": "restaurant",
-                "latitude": 22.537134177748854,
-                "longitude": 113.93368079403656
-            },
-            {
-                "id": 237484981,
-                "name": "图书馆南馆",
-                "type": "library",
-                "latitude": 22.534350283384647,
-                "longitude": 113.93119279064105
             },
             {
                 "id": 242066977,
@@ -475,13 +419,6 @@
                 "type": "nan",
                 "latitude": 22.533114899999998,
                 "longitude": 113.92642494999998
-            },
-            {
-                "id": 317029242,
-                "name": "档案馆",
-                "type": "library",
-                "latitude": 22.536901392178613,
-                "longitude": 113.93139146661129
             },
             {
                 "id": 319101983,
@@ -580,13 +517,6 @@
                 "type": "nan",
                 "latitude": 22.53707499922197,
                 "longitude": 113.934687768659
-            },
-            {
-                "id": 971088922,
-                "name": "荔天餐厅",
-                "type": "restaurant",
-                "latitude": 22.536621476727767,
-                "longitude": 113.93354445942855
             },
             {
                 "id": 976048326,

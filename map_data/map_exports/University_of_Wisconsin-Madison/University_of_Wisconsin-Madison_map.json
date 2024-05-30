@@ -1,11 +1,17 @@
 {
-    "id": 8692698571731518670,
+    "id": 4784578879782535886,
     "name": "威斯康星大学麦迪逊分校",
+    "address": "Madison, WI, 美国",
     "rating": 4.6,
-    "popularity": 80,
+    "popularity": 60,
     "data_path": "map_data/university_map/University_of_Wisconsin-Madison",
+    "description": "威斯康辛大學麥迪遜分校（英語：University of Wisconsin–Madison，簡稱UW-Madison、Wisconsin、威大、UW），位于美国威斯康辛州首府麥迪遜，是威斯康辛大学系统的旗艦分校。成立於1848年，是一所公立研究型大学，美國大學協會及十大聯盟的創始成员。\n威斯康辛大學麥迪遜分校校園面積936英畝，現設有20個學院，在教育學、社會科學、歷史學、自然科学、電腦科學、醫學以及工程学等學術领域均享負盛名。作为威斯康星大学系统的旗舰学府，被誉为公立常春藤大学，意謂能夠提供如常春藤盟校般教育體驗的美国公立大学。\n截至2020年10月，威斯康辛大學麥迪遜分校产生了19名諾貝爾獎得主。\n\n",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/5/50/BascomHill.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/7/7c/Memorial_Union_and_quadrangle.jpg"
+    ],
     "amenity": {
-        "affiliation": 8692698571731518670,
+        "affiliation": 4784578879782535886,
         "amenity_list": [
             {
                 "id": 439069510,
@@ -1331,27 +1337,6 @@
                 "longitude": -89.41597437611601
             },
             {
-                "id": 7175265285,
-                "name": "UW-Madison Intercity Bus",
-                "type": "bus_station",
-                "latitude": 43.0715537,
-                "longitude": -89.3976363
-            },
-            {
-                "id": 36969789,
-                "name": "Eagle Heights Community Center",
-                "type": "community_centre",
-                "latitude": 43.08833495080773,
-                "longitude": -89.4364788396689
-            },
-            {
-                "id": 36981717,
-                "name": "Brown Shelter",
-                "type": "shelter",
-                "latitude": 43.086856670050786,
-                "longitude": -89.43900548470228
-            },
-            {
                 "id": 36999138,
                 "name": "Apartment Services Office",
                 "type": "nan",
@@ -1394,13 +1379,6 @@
                 "longitude": -89.41358335545338
             },
             {
-                "id": 37516021,
-                "name": "Lot 36 - Observatory Drive Ramp",
-                "type": "parking",
-                "latitude": 43.076070035502866,
-                "longitude": -89.41412672898846
-            },
-            {
                 "id": 37516023,
                 "name": "DeLuca Biochemistry Laboratories",
                 "type": "nan",
@@ -1441,13 +1419,6 @@
                 "type": "nan",
                 "latitude": 43.07573166442428,
                 "longitude": -89.4149686769159
-            },
-            {
-                "id": 37550815,
-                "name": "Steenbock Memorial Library",
-                "type": "library",
-                "latitude": 43.0761102291403,
-                "longitude": -89.41336793404992
             },
             {
                 "id": 37691885,
@@ -1569,13 +1540,6 @@
                 "longitude": -89.39843589284706
             },
             {
-                "id": 37804099,
-                "name": "Wisconsin State Historical Society",
-                "type": "library",
-                "latitude": 43.07539874704573,
-                "longitude": -89.40004929671535
-            },
-            {
                 "id": 37862319,
                 "name": "Chamberlin House",
                 "type": "nan",
@@ -1695,13 +1659,6 @@
                 "longitude": -89.41806685310053
             },
             {
-                "id": 38019751,
-                "name": "School of Veterinary Medicine",
-                "type": "veterinary",
-                "latitude": 43.07513834977828,
-                "longitude": -89.42024584269245
-            },
-            {
                 "id": 38060693,
                 "name": "Humphrey Hall",
                 "type": "nan",
@@ -1728,13 +1685,6 @@
                 "type": "nan",
                 "latitude": 43.07962774931361,
                 "longitude": -89.43027681853994
-            },
-            {
-                "id": 38064536,
-                "name": "Lot 76 - University Bay Ramp",
-                "type": "parking",
-                "latitude": 43.07987586085933,
-                "longitude": -89.42894743397534
             },
             {
                 "id": 38226215,
@@ -2101,13 +2051,6 @@
                 "longitude": -89.39678812214149
             },
             {
-                "id": 56997833,
-                "name": "Engineering Drive Ramp (Lot 17)",
-                "type": "parking",
-                "latitude": 43.0717314917094,
-                "longitude": -89.41238323258236
-            },
-            {
                 "id": 56997834,
                 "name": "1410 Engineering Dr",
                 "type": "nan",
@@ -2171,13 +2114,6 @@
                 "longitude": -89.4389443011378
             },
             {
-                "id": 101606146,
-                "name": "Memorial Library",
-                "type": "library",
-                "latitude": 43.07535413988397,
-                "longitude": -89.39796969616316
-            },
-            {
                 "id": 101606150,
                 "name": "Extension Building",
                 "type": "nan",
@@ -2213,13 +2149,6 @@
                 "longitude": -89.39530804181167
             },
             {
-                "id": 102234786,
-                "name": "21 N. Park St. and Lot 29 Ramp",
-                "type": "parking",
-                "latitude": 43.068197436636886,
-                "longitude": -89.40001835655293
-            },
-            {
                 "id": 102239119,
                 "name": "Smith Residence Hall",
                 "type": "nan",
@@ -2227,46 +2156,11 @@
                 "longitude": -89.40039278103627
             },
             {
-                "id": 103242253,
-                "name": "Lot 46 - Lake & Johnson Ramp",
-                "type": "parking",
-                "latitude": 43.07232321952354,
-                "longitude": -89.39665396164088
-            },
-            {
-                "id": 103242254,
-                "name": "Fluno Center",
-                "type": "conference_centre",
-                "latitude": 43.07287382784689,
-                "longitude": -89.39654105149108
-            },
-            {
-                "id": 107463295,
-                "name": "Waisman Center",
-                "type": "clinic",
-                "latitude": 43.078460600108286,
-                "longitude": -89.43412445383277
-            },
-            {
-                "id": 107463303,
-                "name": "American Family Children's Hospital",
-                "type": "hospital",
-                "latitude": 43.07682076206986,
-                "longitude": -89.43336893889303
-            },
-            {
                 "id": 107463313,
                 "name": "Rennebohm Hall",
                 "type": "nan",
                 "latitude": 43.0784847583093,
                 "longitude": -89.42818033412813
-            },
-            {
-                "id": 107463322,
-                "name": "Lot 75 - UW Hospital Ramp",
-                "type": "parking",
-                "latitude": 43.076345191265396,
-                "longitude": -89.43001033949416
             },
             {
                 "id": 107463323,
@@ -2360,13 +2254,6 @@
                 "longitude": -89.40000895469619
             },
             {
-                "id": 153640718,
-                "name": "Porchlight",
-                "type": "social_facility",
-                "latitude": 43.072440730192795,
-                "longitude": -89.40290615778275
-            },
-            {
                 "id": 153640719,
                 "name": "Teacher Education",
                 "type": "nan",
@@ -2435,13 +2322,6 @@
                 "type": "nan",
                 "latitude": 43.07611041457604,
                 "longitude": -89.40503669216113
-            },
-            {
-                "id": 159531184,
-                "name": "The Crossing",
-                "type": "place_of_worship",
-                "latitude": 43.07301121983442,
-                "longitude": -89.40539573320494
             },
             {
                 "id": 171441058,
@@ -2563,13 +2443,6 @@
                 "longitude": -89.42805964352888
             },
             {
-                "id": 174817939,
-                "name": "University Club",
-                "type": "restaurant",
-                "latitude": 43.07463009793077,
-                "longitude": -89.39928760938403
-            },
-            {
                 "id": 174825275,
                 "name": "Carl Schuman Shelter",
                 "type": "nan",
@@ -2589,13 +2462,6 @@
                 "type": "nan",
                 "latitude": 43.077587033300254,
                 "longitude": -89.42701934994011
-            },
-            {
-                "id": 175146005,
-                "name": "University Avenue Ramp (Lot 20)",
-                "type": "parking",
-                "latitude": 43.074132363472444,
-                "longitude": -89.40877697886553
             },
             {
                 "id": 175151219,
@@ -2675,32 +2541,11 @@
                 "longitude": -89.42253868839325
             },
             {
-                "id": 300842389,
-                "name": "Bernie's Place",
-                "type": "childcare",
-                "latitude": 43.08280622651683,
-                "longitude": -89.44188143889953
-            },
-            {
                 "id": 338130757,
                 "name": "Pres House Apartments",
                 "type": "nan",
                 "latitude": 43.07433902271982,
                 "longitude": -89.3985706511307
-            },
-            {
-                "id": 360719077,
-                "name": "Pres House",
-                "type": "place_of_worship",
-                "latitude": 43.07459884568783,
-                "longitude": -89.39869665321018
-            },
-            {
-                "id": 360719081,
-                "name": "Saint Paul University Catholic Center",
-                "type": "place_of_worship",
-                "latitude": 43.07464927789646,
-                "longitude": -89.39840133126026
             },
             {
                 "id": 360724943,
@@ -2724,20 +2569,6 @@
                 "longitude": -89.41089430017848
             },
             {
-                "id": 412588608,
-                "name": "Luther Memorial Church",
-                "type": "place_of_worship",
-                "latitude": 43.07292481073325,
-                "longitude": -89.40338712316323
-            },
-            {
-                "id": 484383229,
-                "name": "Hamel Music Center",
-                "type": "arts_centre",
-                "latitude": 43.07366279780623,
-                "longitude": -89.39798051313927
-            },
-            {
                 "id": 490171328,
                 "name": "Meat Science and Animal Biologics Discovery",
                 "type": "nan",
@@ -2752,20 +2583,6 @@
                 "longitude": -89.42454376918379
             },
             {
-                "id": 565832280,
-                "name": "The BBQ Stand",
-                "type": "bar",
-                "latitude": 43.07687768457109,
-                "longitude": -89.39922688854905
-            },
-            {
-                "id": 565832283,
-                "name": "Brat Stand",
-                "type": "fast_food",
-                "latitude": 43.07678835303616,
-                "longitude": -89.39992230196819
-            },
-            {
                 "id": 720057188,
                 "name": "Civil War Stockade",
                 "type": "nan",
@@ -2778,27 +2595,6 @@
                 "type": "nan",
                 "latitude": 43.074595338411584,
                 "longitude": -89.43111604122933
-            },
-            {
-                "id": 870590639,
-                "name": "UW Health University Hospital",
-                "type": "hospital",
-                "latitude": 43.076375111357365,
-                "longitude": -89.4319620097037
-            },
-            {
-                "id": 870590652,
-                "name": "Lot 63 - Children's Hospital Ramp",
-                "type": "parking",
-                "latitude": 43.07728616618718,
-                "longitude": -89.4334258939936
-            },
-            {
-                "id": 894733524,
-                "name": "Linden Drive Ramp (Lot 67)",
-                "type": "parking",
-                "latitude": 43.076003492032534,
-                "longitude": -89.41962042418774
             },
             {
                 "id": 907777252,

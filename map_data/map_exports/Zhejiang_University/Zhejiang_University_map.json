@@ -1,11 +1,25 @@
 {
-    "id": -5155038076638842757,
+    "id": -7602934345391073860,
     "name": "浙江大学",
+    "address": "中国浙江省杭州市西湖区余杭塘路866号 邮政编码: 310027",
     "rating": 4.6,
-    "popularity": 56,
+    "popularity": 60,
     "data_path": "map_data/university_map/Zhejiang_University",
+    "description": "浙江大学簡称浙大，是一所直属中华人民共和国教育部的综合型研究型创新型大学，本部位于浙江省杭州市，拥有紫金港、玉泉、西溪、华家池、之江、舟山、海宁等7个校区。\n浙江大学前身可追溯至1897年时任杭州知府林启所设立的浙江省第一所国人自办的新式书院——求是书院。求是书院后改称浙江高等学堂，在辛亥革命后因学制问题而停办。1927年作为国立第三中山大学由求是、浙高校友于求是书院旧址重建，后于1928年改名为国立浙江大学。1936－1949年竺可桢校长任内，浙大延揽学衡社、科学社学者而成为学术重镇。抗战爆发后西迁贵州省，被当时访问该校的英国学者李约瑟赞誉为“东方剑桥”。中华人民共和国成立后，经历院系调整，文理学院被剥离，农学院、医学院各自独立建校，之江大学工学院系被并入，成为多科性工业大学。1998年，由浙江大学、浙江医科大学、浙江农业大学、杭州大学重新合并为一所综合性大学。\n浙江大学是中华人民共和国排名前列的高校之一，是“双一流A类”和原“985工程”、原“211工程”重点建设大学，現時屬於「QS世界百強大學」、「泰晤士高等教育世界百強大學」、「美國新聞與世界報道世界百強大學」及「軟科世界百強大學」，在2023软科世界大学学术排名中位居第33名，2023年QS世界大学排名中位居第42名，在2024年泰晤士高等教育世界大学排名中位居第55名，在2022美国新闻与世界报道中位居第93名。 在浙江省各地及北京、上海、郑州、三亚等地设有研究机构。\n\n",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/4/4c/Advanced_Data_Structures_Class_at_ZJU_Zijingang_West_Teaching_Area.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/0/0b/Platopainting.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/6/66/The_High_School_Affiliated_to_Zhejiang_University_2014-03.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/a/af/The_Second_Affiliated_Hospital_of_Zhejiang_University_School_of_Medicine_6.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/7/7e/Women%27s_Hospital_of_Zhejiang_University_03.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/9/9c/Yuquan_campus_18.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/f/f5/Yuquan_campus_20.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/9/99/Yuquan_campus_30.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/c/cc/Yuquan_campus_76.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/b/b0/Zhoushan_campus.jpg"
+    ],
     "amenity": {
-        "affiliation": -5155038076638842757,
+        "affiliation": -7602934345391073860,
         "amenity_list": [
             {
                 "id": 1705321807,
@@ -92,13 +106,6 @@
                 "longitude": 120.03457256788455
             },
             {
-                "id": 305157253,
-                "name": "浙江工业大学图书馆",
-                "type": "library",
-                "latitude": 30.22735559347165,
-                "longitude": 120.02999537369575
-            },
-            {
                 "id": 306534031,
                 "name": "法学楼",
                 "type": "nan",
@@ -111,20 +118,6 @@
                 "type": "nan",
                 "latitude": 30.22638640195119,
                 "longitude": 120.0321932399191
-            },
-            {
-                "id": 331784574,
-                "name": "Kantine",
-                "type": "restaurant",
-                "latitude": 30.222879829014367,
-                "longitude": 120.0192251190529
-            },
-            {
-                "id": 415494705,
-                "name": "养贤府",
-                "type": "restaurant",
-                "latitude": 30.231861644873852,
-                "longitude": 120.03991457993186
             },
             {
                 "id": 532917149,
@@ -153,13 +146,6 @@
                 "type": "nan",
                 "latitude": 30.22597622976966,
                 "longitude": 120.03219016869087
-            },
-            {
-                "id": 543842182,
-                "name": "集贤廊",
-                "type": "shelter",
-                "latitude": 30.23198953887084,
-                "longitude": 120.03879883886373
             },
             {
                 "id": 543885023,
@@ -265,13 +251,6 @@
                 "type": "nan",
                 "latitude": 30.223661851262417,
                 "longitude": 120.02785108176025
-            },
-            {
-                "id": 549381311,
-                "name": "家和堂",
-                "type": "restaurant",
-                "latitude": 30.231578975256703,
-                "longitude": 120.03590927188681
             },
             {
                 "id": 549381312,

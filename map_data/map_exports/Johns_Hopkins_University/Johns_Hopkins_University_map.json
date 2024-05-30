@@ -1,11 +1,25 @@
 {
-    "id": -4660838385923304839,
+    "id": -2482056510237430452,
     "name": "霍普金斯大学",
+    "address": "Baltimore, MD 21218美国",
     "rating": 4.3,
-    "popularity": 52,
+    "popularity": 76,
     "data_path": "map_data/university_map/Johns_Hopkins_University",
+    "description": "約翰斯·霍普金斯大學（英語：The Johns Hopkins University），简称霍普金斯（英語：Johns Hopkins、Hopkins或JHU），是一所主校区位於美國馬里蘭州巴爾的摩的研究型私立大學，1876年依據慈善家约翰斯·霍普金斯的遗嘱用其遗产建立。約翰斯·霍普金斯大學附設10個學院及主要分支機構，並在美国马里兰州、華府、義大利和中国设有校区或國際中心。\n约翰斯·霍普金斯大学采用德国古老的海德堡大学研究所的概念，被认为是美国第一所研究型大学，是美洲大学协会的12个创始会员之一。它的成功引发了美国其它大学向研究型大学转型。美国国家科学基金会连续31年将该校列为全美科研经费开支最高的大学。约翰斯·霍普金斯大学在醫學、公共衛生、生物學、統計學、歷史學與國際關係等相關學術領域闻名世界，也是哈勃空间望远镜和詹姆斯·韦伯空间望远镜的地面控制中心所在地。\n截至2020年4月，共有39名校友、教职工及研究人员获诺贝尔奖。\n在2019年末，约翰斯·霍普金斯大学的冠状病毒資源中心（Coronavirus Resource Center）开始透過收集来自全球数百个来源的数据来追蹤2020年的嚴重特殊傳染性肺炎疫情全球病例，成为有关各國疫情引用最多的来源之一。",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/d/d3/1625_Massachusetts_Avenue%2C_NW.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/e/ed/Cohen-Davison_Family_Theatre%2C_Peabody_Institute%2C_Baltimore.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/2/2b/Garden_near_Johns_Hopkins.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/0/0a/George_Peabody_Library%2C_Peabody_Institute_-_view_1.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/5/55/George_Peabody_Library%2C_Peabody_Institute_-_view_2.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/e/ed/Homewood_Museum%2C_Johns_Hopkins_University%2C_Baltimore%2C_MD.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/f/fa/JHU-V.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/1/1f/JHU_1.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/a/a9/JHU_Gilman_Hall.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/c/cd/JHU_Homewood_sign.jpg"
+    ],
     "amenity": {
-        "affiliation": -4660838385923304839,
+        "affiliation": -2482056510237430452,
         "amenity_list": [
             {
                 "id": 1808834399,
@@ -253,13 +267,6 @@
                 "longitude": -76.62186629323371
             },
             {
-                "id": 180508454,
-                "name": "Milton S. Eisenhower Library",
-                "type": "library",
-                "latitude": 39.32905844077842,
-                "longitude": -76.61940886738934
-            },
-            {
                 "id": 180508455,
                 "name": "Muller Building",
                 "type": "nan",
@@ -370,13 +377,6 @@
                 "type": "nan",
                 "latitude": 39.3284522664115,
                 "longitude": -76.62174875030507
-            },
-            {
-                "id": 180508482,
-                "name": "West Garage",
-                "type": "parking",
-                "latitude": 39.33046156429057,
-                "longitude": -76.6219416750386
             },
             {
                 "id": 180508485,
@@ -519,25 +519,11 @@
                 "longitude": -76.61718042307203
             },
             {
-                "id": 336375527,
-                "name": "Homewood Friends Meeting House",
-                "type": "place_of_worship",
-                "latitude": 39.32635702174619,
-                "longitude": -76.61700713727225
-            },
-            {
                 "id": 336375537,
                 "name": "The Smokler Center For Jewish Life",
                 "type": "nan",
                 "latitude": 39.32652726090007,
                 "longitude": -76.61703660142659
-            },
-            {
-                "id": 336375643,
-                "name": "A W Wilson Memorial United Methodist Church",
-                "type": "place_of_worship",
-                "latitude": 39.331845043944305,
-                "longitude": -76.61745492887006
             },
             {
                 "id": 336375710,
@@ -608,13 +594,6 @@
                 "type": "nan",
                 "latitude": 39.32902225451071,
                 "longitude": -76.62250140080423
-            },
-            {
-                "id": 442592150,
-                "name": "Homewood Early Learning Center",
-                "type": "childcare",
-                "latitude": 39.32633751978305,
-                "longitude": -76.62457062089766
             },
             {
                 "id": 859933672,

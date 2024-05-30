@@ -1,11 +1,22 @@
 {
-    "id": -2068662800259476774,
+    "id": 3183872255910693971,
     "name": "电子科技大学",
+    "address": "中国四川省成都市成华区建设路一环路东二段4号 邮政编码: 610056",
     "rating": 5,
-    "popularity": 100,
+    "popularity": 60,
     "data_path": "map_data/university_map/University_of_Electronic_Science_and_Technology_of_China",
+    "description": "电子科技大学（英語：University of Electronic Science and Technology of China，缩写：UESTC），简称电子科大或成电（得名于原校名成都电讯工程学院），位于中國四川省成都市，是中华人民共和国教育部直属重点大学。\n电子科技大学是中华人民共和国顶尖高校之一，是“双一流A类”和原“985工程”、原“211工程”重点建设大学。电子科大是工商管理硕士协会成员。电子科大于1956年由交通大学（现上海交通大学、西安交通大学）、南京工学院（现东南大学）、华南工学院（现华南理工大学）的电讯工程有关专业合并创建而成，为中国最早的七所重点国防工业院校之一。2017年教育部全国第四轮一级学科评估结果中，“电子科学与技术”学科为A+，“信息与通信工程”学科为A+，“计算机科学与技术”学科为A。\n\n",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/9/94/Gingko_Avenue%2C_University_of_Electronic_Science_and_Technology_of_China.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/0/0b/Platopainting.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/5/56/The_First_Opening_Ceremony_of_University_of_Electronic_Science_and_Technology_of_China.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/b/b4/UESTC_-_Building_1.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/7/7a/Uestc_library.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/e/e6/%E7%94%B5%E5%AD%90%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6%E4%B8%AD%E5%B1%B1%E5%AD%A6%E9%99%A2%EF%BC%88%E5%8C%97%E9%97%A8%EF%BC%89_-_panoramio.jpg",
+        "https://upload.wikimedia.org/wikipedia/zh/4/4a/UESTC_logo.jpg"
+    ],
     "amenity": {
-        "affiliation": -2068662800259476774,
+        "affiliation": 3183872255910693971,
         "amenity_list": [
             {
                 "id": 2271614410,
@@ -505,20 +516,6 @@
                 "longitude": 103.93451365983337
             },
             {
-                "id": 217855263,
-                "name": "成电会堂",
-                "type": "events_venue",
-                "latitude": 30.758691687469124,
-                "longitude": 103.92721772899971
-            },
-            {
-                "id": 217855271,
-                "name": "校安保中心",
-                "type": "police",
-                "latitude": 30.76012919749749,
-                "longitude": 103.92699334309887
-            },
-            {
                 "id": 217855275,
                 "name": "体育馆",
                 "type": "nan",
@@ -659,13 +656,6 @@
                 "longitude": 103.93461217822342
             },
             {
-                "id": 544136506,
-                "name": "春晖苑",
-                "type": "restaurant",
-                "latitude": 30.75872574874655,
-                "longitude": 103.93162460224005
-            },
-            {
                 "id": 544136507,
                 "name": "学知苑28栋",
                 "type": "nan",
@@ -736,13 +726,6 @@
                 "longitude": 103.93485872877598
             },
             {
-                "id": 574644721,
-                "name": "思学苑",
-                "type": "restaurant",
-                "latitude": 30.755600266410582,
-                "longitude": 103.93173857703377
-            },
-            {
                 "id": 596904656,
                 "name": "硕丰苑9栋",
                 "type": "nan",
@@ -757,20 +740,6 @@
                 "longitude": 103.93325474431866
             },
             {
-                "id": 596973487,
-                "name": "银杏苑",
-                "type": "restaurant",
-                "latitude": 30.757107744072385,
-                "longitude": 103.92857193590015
-            },
-            {
-                "id": 596973492,
-                "name": "西北餐厅",
-                "type": "restaurant",
-                "latitude": 30.757309638593654,
-                "longitude": 103.92782609280742
-            },
-            {
                 "id": 603368212,
                 "name": "商业街",
                 "type": "nan",
@@ -783,13 +752,6 @@
                 "type": "nan",
                 "latitude": 30.7583883303606,
                 "longitude": 103.9262305150077
-            },
-            {
-                "id": 604832425,
-                "name": "西门桥头候车点",
-                "type": "shelter",
-                "latitude": 30.756967164491932,
-                "longitude": 103.92604518996441
             },
             {
                 "id": 618752446,
@@ -1028,13 +990,6 @@
                 "type": "nan",
                 "latitude": 30.755098508419376,
                 "longitude": 103.92832872101069
-            },
-            {
-                "id": 806848396,
-                "name": "图书馆",
-                "type": "library",
-                "latitude": 30.75268823865831,
-                "longitude": 103.92627837738159
             },
             {
                 "id": 806848402,

@@ -1,11 +1,16 @@
 {
-    "id": 2803787654061758156,
+    "id": 1068360718626952904,
     "name": "中国矿业大学",
-    "rating": 3.7,
-    "popularity": 63,
+    "address": "中国北京市海淀区五道口 邮政编码: 100083",
+    "rating": 4,
+    "popularity": 60,
     "data_path": "map_data/university_map/China_University_of_Mining_and_Technology",
+    "description": "中国矿业大学，简称矿大，是一所以工科为主、以矿业为特色的教育部直属大学，是首批进入中国国家“211工程”和“优势学科创新平台项目”的重点大學，首批世界一流学科建设高校。前身为1909年创校于河南焦作的焦作路矿学堂，目前位于江苏省徐州市。\n\n",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/zh/f/fa/CUMT_logo.jpg"
+    ],
     "amenity": {
-        "affiliation": 2803787654061758156,
+        "affiliation": 1068360718626952904,
         "amenity_list": [
             {
                 "id": 2784769537,
@@ -85,20 +90,6 @@
                 "longitude": 117.13793175709228
             },
             {
-                "id": 273646146,
-                "name": "一食堂",
-                "type": "restaurant",
-                "latitude": 34.216704674023866,
-                "longitude": 117.13542327780772
-            },
-            {
-                "id": 273646232,
-                "name": "二食堂",
-                "type": "restaurant",
-                "latitude": 34.21477944184332,
-                "longitude": 117.13344731664208
-            },
-            {
                 "id": 273646958,
                 "name": "研究生2号宿舍楼",
                 "type": "nan",
@@ -111,13 +102,6 @@
                 "type": "nan",
                 "latitude": 34.21104055480852,
                 "longitude": 117.13457134409755
-            },
-            {
-                "id": 273647067,
-                "name": "三食堂",
-                "type": "restaurant",
-                "latitude": 34.21215153137149,
-                "longitude": 117.13463133965445
             },
             {
                 "id": 273647303,
@@ -412,13 +396,6 @@
                 "type": "nan",
                 "latitude": 34.21744627851601,
                 "longitude": 117.14051449610116
-            },
-            {
-                "id": 6759054,
-                "name": "中国矿业大学图书馆",
-                "type": "library",
-                "latitude": 34.216464748268635,
-                "longitude": 117.13907769107477
             }
         ]
     }

@@ -1,11 +1,25 @@
 {
-    "id": 7251646981661614087,
+    "id": -7098110886105959630,
     "name": "武汉大学",
-    "rating": 4.6,
-    "popularity": 60,
+    "address": "中国湖北省武汉市武昌区 邮政编码: 430072",
+    "rating": 4.5,
+    "popularity": 72,
     "data_path": "map_data/university_map/Wuhan_University",
+    "description": "武汉大学（英語：Wuhan University，縮寫：WHU），简称武大，是一所位於中国大陆湖北省武汉市武昌区的副部级科研型綜合大學。\n学缘可以追溯到清末。1913年为六大国立高师之一的国立武昌高等师范学校，1923年更名为国立武昌师范大学，1924年更名为国立武昌大学，1926年合并组建国立武昌中山大学，于1928年正式定名国立武汉大学，是“民国四大名校”之一。1949年更名为武汉大学，2000年8月2日合并组建新的武汉大学。学校坐拥珞珈山东湖南岸风景区一线，占地面积5178亩，建筑面积258万平方米，中西合璧的宫殿式建筑群古朴典雅，樱花烂漫时，不负“中国最美丽的大学校园”之誉（其次为坐拥东南旖旎海岸的厦门大学）。\n武汉大学是中华人民共和国文理综合排名前列的高校之一，是“双一流A类”和原“985工程”、原“211工程”重点建设大学，学科覆盖文、史、哲、经、管、法、理、工、农、医、教、艺全部12个门类，是一所覆盖全部学科门类的综合研究型大学。2010年代中期以后国际各大评价体系中，武汉大学稳居中国内地前十名。2023年QS世界大学排名中，武汉大学位居中国大陆第8位，全世界第197位。在2022年泰晤士高等教育世界大学排名中位列中国内地第八名，世界第157名。在2016-2017年“金砖五国与新兴经济体”地区排第21位。",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/d/d5/3rd_classroom_building_of_whu.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/7/72/Cherry_Blossom_in_Wuhan_University.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/7/7c/College_of_chinese_and_history_of_whu.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/e/ed/Dining_hall_of_Yingyuan_of_whu.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/d/dd/Foreign_languages_whu.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/d/d2/Luojiashan.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/0/09/Old_law_school_building_of_whu.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/3/30/Old_school_of_science_of_whu.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/b/bd/School_of_biz_whu.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/d/dc/School_of_c_and_j_of_whu.JPG"
+    ],
     "amenity": {
-        "affiliation": 7251646981661614087,
+        "affiliation": -7098110886105959630,
         "amenity_list": [
             {
                 "id": 1196688831,
@@ -694,13 +708,6 @@
                 "longitude": 114.36067873084343
             },
             {
-                "id": 103642342,
-                "name": "校医院",
-                "type": "hospital",
-                "latitude": 30.535837047455633,
-                "longitude": 114.35847526052817
-            },
-            {
                 "id": 103746462,
                 "name": "风光村",
                 "type": "nan",
@@ -783,13 +790,6 @@
                 "type": "nan",
                 "latitude": 30.53635584530216,
                 "longitude": 114.35668472976921
-            },
-            {
-                "id": 103751587,
-                "name": "梅园食堂",
-                "type": "restaurant",
-                "latitude": 30.537863546313112,
-                "longitude": 114.35901867511717
             },
             {
                 "id": 103751588,
@@ -909,13 +909,6 @@
                 "type": "nan",
                 "latitude": 30.542516205281437,
                 "longitude": 114.3581090217259
-            },
-            {
-                "id": 103753739,
-                "name": "枫园食堂",
-                "type": "restaurant",
-                "latitude": 30.539422855568013,
-                "longitude": 114.36646293444002
             },
             {
                 "id": 103753740,
@@ -1149,13 +1142,6 @@
                 "longitude": 114.36434433705001
             },
             {
-                "id": 103947058,
-                "name": "湖滨食堂",
-                "type": "restaurant",
-                "latitude": 30.54386597727623,
-                "longitude": 114.36441166222656
-            },
-            {
                 "id": 103948529,
                 "name": "风雨馆",
                 "type": "nan",
@@ -1219,13 +1205,6 @@
                 "longitude": 114.35375784249719
             },
             {
-                "id": 103948549,
-                "name": "桂园食堂",
-                "type": "restaurant",
-                "latitude": 30.54063638781796,
-                "longitude": 114.35358737524801
-            },
-            {
                 "id": 103948553,
                 "name": "桂園三舍",
                 "type": "nan",
@@ -1259,13 +1238,6 @@
                 "type": "nan",
                 "latitude": 30.528365947514587,
                 "longitude": 114.3568995321669
-            },
-            {
-                "id": 104108001,
-                "name": "武汉大学图书馆(信息分馆)",
-                "type": "library",
-                "latitude": 30.531426179567582,
-                "longitude": 114.35566448919462
             },
             {
                 "id": 104108003,
@@ -1371,13 +1343,6 @@
                 "type": "nan",
                 "latitude": 30.53103762505912,
                 "longitude": 114.35267813248487
-            },
-            {
-                "id": 104372393,
-                "name": "信息学部四食堂",
-                "type": "restaurant",
-                "latitude": 30.529611750651444,
-                "longitude": 114.35279141867905
             },
             {
                 "id": 104372398,
@@ -1961,13 +1926,6 @@
                 "longitude": 114.35357343161219
             },
             {
-                "id": 153741407,
-                "name": "武汉大学工学部集贸市场",
-                "type": "marketplace",
-                "latitude": 30.542687366084916,
-                "longitude": 114.35139654743541
-            },
-            {
                 "id": 153741412,
                 "name": "自强超市",
                 "type": "nan",
@@ -2094,13 +2052,6 @@
                 "longitude": 114.35515870990152
             },
             {
-                "id": 153744434,
-                "name": "武汉大学图书馆(工学分馆)",
-                "type": "library",
-                "latitude": 30.546107251752822,
-                "longitude": 114.35577504745007
-            },
-            {
                 "id": 153751900,
                 "name": "水工实验楼",
                 "type": "nan",
@@ -2218,13 +2169,6 @@
                 "type": "nan",
                 "latitude": 30.54537952180227,
                 "longitude": 114.359099148091
-            },
-            {
-                "id": 169548677,
-                "name": "武汉大学图书馆",
-                "type": "library",
-                "latitude": 30.537724081993524,
-                "longitude": 114.35744863295702
             },
             {
                 "id": 172524030,
@@ -2430,13 +2374,6 @@
                 "longitude": 114.3663150751677
             },
             {
-                "id": 255653426,
-                "name": "化学与分子科学学院",
-                "type": "college",
-                "latitude": 30.53869280563024,
-                "longitude": 114.35370098581033
-            },
-            {
                 "id": 256668237,
                 "name": "信息学部7栋",
                 "type": "nan",
@@ -2470,13 +2407,6 @@
                 "type": "nan",
                 "latitude": 30.52856979285728,
                 "longitude": 114.35437074092607
-            },
-            {
-                "id": 286543789,
-                "name": "信息学部一食堂",
-                "type": "restaurant",
-                "latitude": 30.530711814543665,
-                "longitude": 114.35369320188249
             },
             {
                 "id": 303368388,
@@ -2540,13 +2470,6 @@
                 "type": "nan",
                 "latitude": 30.544416826914205,
                 "longitude": 114.35355113232445
-            },
-            {
-                "id": 306379133,
-                "name": "校医一分院",
-                "type": "hospital",
-                "latitude": 30.544286365128304,
-                "longitude": 114.35408818320039
             },
             {
                 "id": 306379145,
@@ -2759,20 +2682,6 @@
                 "longitude": 114.35143996091358
             },
             {
-                "id": 314672039,
-                "name": "图书馆医学分馆",
-                "type": "library",
-                "latitude": 30.556947098056703,
-                "longitude": 114.35139147635287
-            },
-            {
-                "id": 314689014,
-                "name": "医学部一食堂",
-                "type": "restaurant",
-                "latitude": 30.55649641721604,
-                "longitude": 114.3521303898845
-            },
-            {
                 "id": 314689016,
                 "name": "留学生公寓",
                 "type": "nan",
@@ -2827,13 +2736,6 @@
                 "type": "nan",
                 "latitude": 30.558910073816296,
                 "longitude": 114.35093324110144
-            },
-            {
-                "id": 314697935,
-                "name": "医学部二食堂",
-                "type": "restaurant",
-                "latitude": 30.558550042356785,
-                "longitude": 114.34987352539758
             },
             {
                 "id": 314697938,
@@ -2913,32 +2815,11 @@
                 "longitude": 114.36359890720196
             },
             {
-                "id": 380915237,
-                "name": "工学部2食堂，动机学院小型飞机停放处",
-                "type": "restaurant",
-                "latitude": 30.54612106817638,
-                "longitude": 114.36033706538547
-            },
-            {
                 "id": 380915252,
                 "name": "电气工程学院报告厅",
                 "type": "nan",
                 "latitude": 30.546195422938794,
                 "longitude": 114.35770489296901
-            },
-            {
-                "id": 410145303,
-                "name": "八一路生鮮市場",
-                "type": "marketplace",
-                "latitude": 30.533436378825737,
-                "longitude": 114.35813828957629
-            },
-            {
-                "id": 433204238,
-                "name": "工学部CBD",
-                "type": "restaurant",
-                "latitude": 30.543897826385713,
-                "longitude": 114.35756822504996
             },
             {
                 "id": 437524629,
@@ -3088,13 +2969,6 @@
                 "longitude": 114.35213537086298
             },
             {
-                "id": 1037155686,
-                "name": "田园食堂",
-                "type": "restaurant",
-                "latitude": 30.544445530721894,
-                "longitude": 114.35193790319865
-            },
-            {
                 "id": 1037322791,
                 "name": "快递存放处（星湖园玻璃房）",
                 "type": "nan",
@@ -3109,25 +2983,11 @@
                 "longitude": 114.35279090084958
             },
             {
-                "id": 1037696274,
-                "name": "珞珈糕点",
-                "type": "restaurant",
-                "latitude": 30.529914170743215,
-                "longitude": 114.35301178617433
-            },
-            {
                 "id": 1047817723,
                 "name": "艺舟书画工作室",
                 "type": "nan",
                 "latitude": 30.52997190281678,
                 "longitude": 114.3492727931315
-            },
-            {
-                "id": 1055889661,
-                "name": "CBD",
-                "type": "place_of_worship",
-                "latitude": 30.54186310541319,
-                "longitude": 114.3676416732553
             },
             {
                 "id": 1077348917,

@@ -1,11 +1,20 @@
 {
-    "id": 7410475243980579075,
+    "id": -196079164611982519,
     "name": "苏州大学",
+    "address": "中国江苏省苏州市姑苏区东环路50号 邮政编码: 215006",
     "rating": 4.5,
     "popularity": 48,
     "data_path": "map_data/university_map/Soochow_University",
+    "description": "蘇州大學，簡稱蘇大，是江苏省省属重点综合性大学、“211工程”全国重点建设大学和首批“2011计划”牵头高校，其前身有東吳大學（創建於1900年）、無錫國學專修學校（創建於1920年）、江蘇省立教育學院（創建於1928年），以及國立社會教育學院（創建於1941年）。1952年，原江蘇教育學院、中國文學院（原無錫國學專修學校）、國立社會教育學院於兩年前合校而成的蘇南文化教育學院，與東吳大學等校有關文理系科合並在東吳大學舊址組建蘇南師範學院，同年定名江蘇師範學院，1982年更名為蘇州大學。以后苏州蚕桑专科学校、苏州丝绸工学院、苏州医学院等先后并入苏州大学。\n\n",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/1/19/Motto_stone_of_Soochow_University-20240505.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/0/02/QingXiDongWu_at_Old_SooChow_Univ_in_Suzhou.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/8/82/Soochow_University_Kenneth_Wang_School_of_Law.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/8/8b/SuDa_clock_building.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/7/75/Suzhou_University_Gate.jpg"
+    ],
     "amenity": {
-        "affiliation": 7410475243980579075,
+        "affiliation": -196079164611982519,
         "amenity_list": [
             {
                 "id": 4206641653,
@@ -169,13 +178,6 @@
                 "longitude": 121.54707752084953
             },
             {
-                "id": 404905850,
-                "name": "安素堂",
-                "type": "place_of_worship",
-                "latitude": 25.09404559765425,
-                "longitude": 121.54742318687023
-            },
-            {
                 "id": 404905851,
                 "name": "愛徒樓",
                 "type": "nan",
@@ -223,13 +225,6 @@
                 "type": "nan",
                 "latitude": 25.09410438273726,
                 "longitude": 121.54575103678405
-            },
-            {
-                "id": 453933597,
-                "name": "中正圖書館",
-                "type": "library",
-                "latitude": 25.093453427169965,
-                "longitude": 121.54645078430595
             },
             {
                 "id": 453933861,

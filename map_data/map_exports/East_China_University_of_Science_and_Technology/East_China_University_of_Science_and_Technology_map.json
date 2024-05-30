@@ -1,11 +1,18 @@
 {
-    "id": -3213015306848521572,
+    "id": 1613910138924242417,
     "name": "华东理工大学",
+    "address": "中国上海市徐汇区梅陇路130号 邮政编码: 200231",
     "rating": 4.5,
-    "popularity": 60,
+    "popularity": 84,
     "data_path": "map_data/university_map/East_China_University_of_Science_and_Technology",
+    "description": "华东理工大学，简称华理，创建于1952年，是中华人民共和国教育部直属的一所具有理工特色，覆盖理学、工学、农学、医学、法学、管理学、经济学、文学、哲学、教育学、艺术学等11个学科门类的一所中国重点大学。\n其办学历史可追溯到100多年前的南洋公学和震旦学院，由交通大学（上海）、震旦大学（上海）、大同大学（上海）、东吴大学（苏州）、江南大学（无锡）等校化工系在1952年全国院系调整时合并组建而成，1993年2月更为现名。现拥有徐汇、奉贤、金山科技园三大校区。\n\n",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/b/b5/ECUST_gate_Fengxian.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/e/e5/ECUST_gate_Xuhui.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/0/0b/Platopainting.jpg"
+    ],
     "amenity": {
-        "affiliation": -3213015306848521572,
+        "affiliation": 1613910138924242417,
         "amenity_list": [
             {
                 "id": 5081322071,
@@ -83,13 +90,6 @@
                 "type": "restaurant",
                 "latitude": 31.146774950000005,
                 "longitude": 121.41716305000001
-            },
-            {
-                "id": 335054083,
-                "name": "三食堂",
-                "type": "restaurant",
-                "latitude": 31.147951715657815,
-                "longitude": 121.41762921957509
             },
             {
                 "id": 335055676,

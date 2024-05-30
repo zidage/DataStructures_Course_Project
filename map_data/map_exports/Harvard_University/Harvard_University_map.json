@@ -1,11 +1,25 @@
 {
-    "id": -522004988780879865,
+    "id": 7513738906356278613,
     "name": "哈佛大学",
+    "address": "Massachusetts Hall, Cambridge, MA 02138美国",
     "rating": 4.5,
-    "popularity": 48,
+    "popularity": 52,
     "data_path": "map_data/university_map/Harvard_University",
+    "description": "哈佛大學（英語：Harvard University）為一所本部坐落於美國麻省劍橋市的私立研究型大學。其因歷史、學術影響力、財富等因素而獲評為世上最享負盛名的學府之一。\n哈佛於1636年由當地的殖民地立法機關立案成立，迄今為全美歷史最悠久的高等學府，並擁有北美最古老的校董委員會。 其最初稱之為「新學院」（New College），該機構為了感謝一名年輕的克爾文派牧師約翰·哈佛所作出的捐贈，而改名為「哈佛學院」。雖然從沒有與任何宗教派別有正式的聯繫，但早期的學院還是以培養公理會及一位論派神職者為主要職責。可是自18世紀起，其課程與學生群體的宗教性質漸漸淡化，而19世紀的哈佛則進一步成為波士頓菁英的文化起源地。美國南北戰爭後，當時的校長查爾斯·艾略特將哈佛各個學術機構綜合成一所研究型大學，並增添小班授課以及入學考試，而這些模式同時也影響國家的中高等教育政策。此校亦為美洲大學協會12個創始成員之一，並在經濟大蕭條及二次大戰後進一步修改課程及收生政策。後與拉德克利夫學院合併成為男女校。\n校方目前共有十所學院及一所高等研究院。這些單位偏佈鄰近各區：其本部位於劍橋的哈佛园；醫學、公共衛生及牙醫學院位於波士頓的長木醫學區；而包括哈佛體育場在內的大學體育設施以及商學院則在奧爾斯頓。哈佛同時擁有龐大的資產，每年所收到的捐款回贈數目長期位列全球教育機構之首。\n哈佛大學為全美最難入讀的學府之一。學校的研究生課程較為多元化，而學士教育則主要集中在文理學範疇。校方在2007年起實行財政援助政策，家庭年收入低於一定數目的學生獲得不同程度的學費豁免。哈佛擁有全美最古老的圖書館系統，這同時也是全球最具規模的私立及大學圖書館系統，館藏量逾1,600萬冊。其為常春藤盟校成員之一，現共有42支參與不同運動競賽的代表隊，屬全美大學體育協會甲組。除了體育，學生的課外生活還包括各個學會所舉辦的活動。哈佛校友涵蓋8名美國總統及多國領袖與政治要員；其亦培養了62名富豪企業家及335位羅德學者，人數均為全美最多。截止2020年10月，共有161名諾貝爾獎得主、18位菲尔兹奖得主、14位图灵奖得主現在或曾經在哈佛學習或工作。\n\n",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/7/7a/Bright_Hockey_Center%2C_Harvard.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/0/0b/Harvard_Rowing_Crew_at_Henley_2004_-2.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/2/2b/Harvard_Yard%2C_Dudesleeper.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/d/d3/Harvard_college_-_annenberg_hall.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/f/fe/Harvard_memorial_church_winter_2009.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/d/dc/Harvard_memorial_hall.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/1/1e/Harvard_stadium_2009h.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/c/c6/Jb_colonial_harvard_2_m.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/4/4e/John_Harvard_statue.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/4/4e/John_Harvard_statue_at_Harvard_University.jpg"
+    ],
     "amenity": {
-        "affiliation": -522004988780879865,
+        "affiliation": 7513738906356278613,
         "amenity_list": [
             {
                 "id": 257536184,
@@ -484,27 +498,6 @@
                 "longitude": -71.1239417
             },
             {
-                "id": 371247606,
-                "name": "Eliot House Library",
-                "type": "library",
-                "latitude": 42.3700745,
-                "longitude": -71.1219298
-            },
-            {
-                "id": 585463485,
-                "name": "American Repertory Theater",
-                "type": "theatre",
-                "latitude": 42.3748602,
-                "longitude": -71.1229496
-            },
-            {
-                "id": 29513588,
-                "name": "Leverett House Library",
-                "type": "library",
-                "latitude": 42.369386722357426,
-                "longitude": -71.11680027000526
-            },
-            {
                 "id": 29513596,
                 "name": "5 Cowperthwaite St (Graduate Housing)",
                 "type": "nan",
@@ -673,13 +666,6 @@
                 "longitude": -71.12120463912244
             },
             {
-                "id": 29530612,
-                "name": "Loeb Drama Center",
-                "type": "theatre",
-                "latitude": 42.37485493676179,
-                "longitude": -71.12297781467176
-            },
-            {
                 "id": 29530618,
                 "name": "University Hall",
                 "type": "nan",
@@ -806,13 +792,6 @@
                 "longitude": -71.1277293398474
             },
             {
-                "id": 29590842,
-                "name": "Soldiers Field Park Garage",
-                "type": "parking",
-                "latitude": 42.364585600000005,
-                "longitude": -71.11995834999999
-            },
-            {
                 "id": 29629077,
                 "name": "Terry Terrace",
                 "type": "nan",
@@ -890,13 +869,6 @@
                 "longitude": -71.11850250789816
             },
             {
-                "id": 29633581,
-                "name": "Houghton Library",
-                "type": "library",
-                "latitude": 42.3731868945741,
-                "longitude": -71.11592395633956
-            },
-            {
                 "id": 29633886,
                 "name": "William James Hall",
                 "type": "nan",
@@ -909,13 +881,6 @@
                 "type": "nan",
                 "latitude": 42.37722444216177,
                 "longitude": -71.11246337112702
-            },
-            {
-                "id": 29634503,
-                "name": "Lamont Library",
-                "type": "library",
-                "latitude": 42.37276102309186,
-                "longitude": -71.11548479335804
             },
             {
                 "id": 29634530,
@@ -1091,13 +1056,6 @@
                 "type": "nan",
                 "latitude": 42.378615499118105,
                 "longitude": -71.11963852084367
-            },
-            {
-                "id": 29684442,
-                "name": "Harvard-Yenching Library",
-                "type": "library",
-                "latitude": 42.377667243247494,
-                "longitude": -71.11372448782326
             },
             {
                 "id": 29684466,
@@ -1289,13 +1247,6 @@
                 "longitude": -71.12174330109976
             },
             {
-                "id": 29725638,
-                "name": "Widener Memorial Library",
-                "type": "library",
-                "latitude": 42.37345608621086,
-                "longitude": -71.11649649892253
-            },
-            {
                 "id": 29725683,
                 "name": "Dana-Palmer House",
                 "type": "nan",
@@ -1352,13 +1303,6 @@
                 "longitude": -71.12599865396376
             },
             {
-                "id": 29788303,
-                "name": "Harvard Hillel",
-                "type": "place_of_worship",
-                "latitude": 42.37124171423925,
-                "longitude": -71.11742359838449
-            },
-            {
                 "id": 29788731,
                 "name": "Thayer Hall",
                 "type": "nan",
@@ -1378,13 +1322,6 @@
                 "type": "nan",
                 "latitude": 42.372493263391654,
                 "longitude": -71.11794552252829
-            },
-            {
-                "id": 29789985,
-                "name": "Memorial Church",
-                "type": "place_of_worship",
-                "latitude": 42.374892847308466,
-                "longitude": -71.11606415078619
             },
             {
                 "id": 29790475,
@@ -1639,13 +1576,6 @@
                 "longitude": -71.12378323803867
             },
             {
-                "id": 29826765,
-                "name": "Qube (Quincy Library)",
-                "type": "library",
-                "latitude": 42.37040455445595,
-                "longitude": -71.1169491688827
-            },
-            {
                 "id": 29826842,
                 "name": "Gund Hall",
                 "type": "nan",
@@ -1863,13 +1793,6 @@
                 "longitude": -71.12209391553327
             },
             {
-                "id": 33529303,
-                "name": "Baker Library / Bloomberg Center",
-                "type": "library",
-                "latitude": 42.36641957010304,
-                "longitude": -71.12279380569021
-            },
-            {
                 "id": 40001273,
                 "name": "Belfer Building",
                 "type": "nan",
@@ -1889,13 +1812,6 @@
                 "type": "university",
                 "latitude": 42.37624317799954,
                 "longitude": -71.12278114435557
-            },
-            {
-                "id": 40038032,
-                "name": "Schlesinger Library",
-                "type": "library",
-                "latitude": 42.37575000835037,
-                "longitude": -71.12312660337344
             },
             {
                 "id": 40038107,
@@ -2129,13 +2045,6 @@
                 "longitude": -71.12083097674356
             },
             {
-                "id": 1052049399,
-                "name": "Carpenter Center",
-                "type": "arts_centre",
-                "latitude": 42.37361116207903,
-                "longitude": -71.11428068303834
-            },
-            {
                 "id": 1064361906,
                 "name": "Cabot Hall",
                 "type": "nan",
@@ -2302,20 +2211,6 @@
                 "type": "nan",
                 "latitude": 42.37640352882944,
                 "longitude": -71.11673192251143
-            },
-            {
-                "id": 64844,
-                "name": "Hilles Library",
-                "type": "library",
-                "latitude": 42.380905857489324,
-                "longitude": -71.12510522302071
-            },
-            {
-                "id": 65393,
-                "name": "Center for Astrophysics",
-                "type": "research_institute",
-                "latitude": 42.381416447310684,
-                "longitude": -71.12810100854584
             },
             {
                 "id": 65399,

@@ -1,11 +1,25 @@
 {
-    "id": 2697160429878879899,
+    "id": -161297811206492992,
     "name": "清华大学",
+    "address": "中国北京市海淀区蓝旗营双清路30号 邮政编码: 100190",
     "rating": 4.6,
-    "popularity": 60,
+    "popularity": 96,
     "data_path": "map_data/university_map/Tsinghua_University",
+    "description": "清华大学（英語：Tsinghua University，縮寫：THU），简称清华，舊称清华学堂、游美肄业馆、清华学校、國立清華大學，是一所位于中华人民共和国北京市海淀区清华园的公立大学。始建于1911年，因北京西北郊清华园而得名，初为清政府利用美国退还的部分庚子赔款所建“遊美学务处”及附设“肄业馆”，1925年始设大学部。抗日战争爆发后，清华大学与北京大学、南开大学南迁长沙，组建国立长沙临时大学。1938年国立长沙临时大学内迁昆明，易名国立西南联合大学。1946年清华大学部分迁回北京清华园复校，拥有文、法、理、工、农等5个学院。1949年中华人民共和国成立后，国立清华大学归属中央人民政府教育部，更名“清华大学”；而国立清华大学則于1956年由原大陸時期校长梅貽琦，在台湾新竹复校，仍沿用原名。\n1952年，高校院系调整，清华大学文、法、理、农、航天等院系外迁，吸纳外校工科，转为多科性工业大学，在土木、水利、计算机、核能等领域贡献卓越，被誉为“工程师的摇篮”。1978年后，逐步恢复理科、人文社科、经济管理类学科。1999年，原中央工艺美术学院并入，成立美术学院。2006年，与北京协和医学院合作办学，培养临床医学专业学生。2012年，原中国人民银行研究生部并入，成立五道口金融学院。2013年，黑石集團捐助成立清華大學蘇世民書院及獎學金，與著名的牛津大學羅德獎學金及劍橋大學蓋茲獎學金在捐助規模及名聲上皆相當。\n清華大學是中華人民共和國頂尖的高校之一，現屬於「QS世界百強大學」、「泰晤士高等教育世界百強大學」、「美國新聞與世界報道世界百強大學」及「軟科世界百強大學」，是「雙一流A類」和原「985工程」、原「211工程」重點建設大學。截至2022年8月，清华大学擁有美術館、博物館、圖書館、21个学院。清华大学还拥有433个科研机构、數家校办产业以及一個科技園區，分別為清华控股及其旗下的诚志集团、清華科技園等。\n清華大學在2018年《QS世界大學排名》、《泰晤士高等教育世界大學排名》、《世界大学学术排名》、《USNEWS世界大學排名》中均排在中國大陆首位。清華大學於2019年《泰晤士高等教育世界大學排名》更首次奪得亞洲第一。\n\n",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/4/40/1132%2C_NATIONAL_SOUTHWEST_ASSOCIATEO_UNIVERSITY.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/d/d0/2018%E5%B9%B4%E6%B8%85%E8%8F%AF%E8%80%81%E9%A4%A8%E6%AD%A3%E9%96%80.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/d/d1/Andrew_Yao_P1130016.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/f/fa/Bond_for_Boxer_Rebellion_Indemnity.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/f/f8/CNYang.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/9/97/CercisChinensisFlowers3.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/3/36/Experimental_Reactor%2C_Tsinghua_University%2C_1960.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/b/b8/Gao_Quan_Guo_Ming_Zhong_Shu%2C_Tsinghua_University%2C_1935.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/b/b7/Gate%2C_National_Tsing_Hua_University.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/6/68/GuoXueYuan-Teachers-1925-Tsinghua.jpg"
+    ],
     "amenity": {
-        "affiliation": 2697160429878879899,
+        "affiliation": -161297811206492992,
         "amenity_list": [
             {
                 "id": 380423078,
@@ -792,13 +806,6 @@
                 "longitude": 116.30966349999998
             },
             {
-                "id": 33432033,
-                "name": "观畴园餐厅",
-                "type": "restaurant",
-                "latitude": 40.00558825,
-                "longitude": 116.3161479
-            },
-            {
                 "id": 33457842,
                 "name": "大礼堂",
                 "type": "nan",
@@ -874,20 +881,6 @@
                 "type": "nan",
                 "latitude": 40.009810775756655,
                 "longitude": 116.32328088100122
-            },
-            {
-                "id": 79696970,
-                "name": "紫荆园餐厅",
-                "type": "restaurant",
-                "latitude": 40.01054359077398,
-                "longitude": 116.3224908629777
-            },
-            {
-                "id": 79696971,
-                "name": "桃李园餐厅",
-                "type": "restaurant",
-                "latitude": 40.009676505609306,
-                "longitude": 116.31993633631726
             },
             {
                 "id": 79696972,
@@ -1093,13 +1086,6 @@
                 "longitude": 116.32340201941552
             },
             {
-                "id": 80319114,
-                "name": "逸夫馆",
-                "type": "library",
-                "latitude": 40.003591173112525,
-                "longitude": 116.31738647266097
-            },
-            {
                 "id": 80320310,
                 "name": "9003大楼",
                 "type": "nan",
@@ -1163,20 +1149,6 @@
                 "longitude": 116.32729351763803
             },
             {
-                "id": 80342046,
-                "name": "听涛园餐厅",
-                "type": "restaurant",
-                "latitude": 40.00527381983277,
-                "longitude": 116.32082237136727
-            },
-            {
-                "id": 80342091,
-                "name": "丁香园餐厅",
-                "type": "restaurant",
-                "latitude": 40.00698680888347,
-                "longitude": 116.32060730945769
-            },
-            {
                 "id": 80342199,
                 "name": "节水科研教育基地",
                 "type": "nan",
@@ -1196,13 +1168,6 @@
                 "type": "nan",
                 "latitude": 40.00511974999999,
                 "longitude": 116.32380045000001
-            },
-            {
-                "id": 80716519,
-                "name": "清华大学医院",
-                "type": "hospital",
-                "latitude": 40.00156754007174,
-                "longitude": 116.3121188727586
             },
             {
                 "id": 80716523,
@@ -1590,13 +1555,6 @@
                 "longitude": 116.32218013108815
             },
             {
-                "id": 84652150,
-                "name": "闻馨园餐厅",
-                "type": "restaurant",
-                "latitude": 40.00560925,
-                "longitude": 116.32260195000002
-            },
-            {
                 "id": 84653292,
                 "name": "东配楼",
                 "type": "nan",
@@ -1716,13 +1674,6 @@
                 "longitude": 116.329972073225
             },
             {
-                "id": 158112141,
-                "name": "新清华学堂",
-                "type": "theatre",
-                "latitude": 40.00034062397059,
-                "longitude": 116.32343365092271
-            },
-            {
                 "id": 158134858,
                 "name": "环境节能楼（环境工程系）",
                 "type": "nan",
@@ -1777,20 +1728,6 @@
                 "type": "nan",
                 "latitude": 40.000540205008384,
                 "longitude": 116.31083522350092
-            },
-            {
-                "id": 226625472,
-                "name": "寓园教工食堂",
-                "type": "restaurant",
-                "latitude": 39.99702415,
-                "longitude": 116.31304954999999
-            },
-            {
-                "id": 226629272,
-                "name": "南园教工食堂",
-                "type": "restaurant",
-                "latitude": 39.9945656761964,
-                "longitude": 116.32108450858831
             },
             {
                 "id": 226632802,
@@ -2444,32 +2381,11 @@
                 "longitude": 116.31669793720548
             },
             {
-                "id": 226670893,
-                "name": "保卫处派出所",
-                "type": "police",
-                "latitude": 40.00040910648098,
-                "longitude": 116.32103692838069
-            },
-            {
                 "id": 226671389,
                 "name": "校史馆",
                 "type": "nan",
                 "latitude": 40.00076686470754,
                 "longitude": 116.32322033524419
-            },
-            {
-                "id": 226671400,
-                "name": "蒙民伟音乐厅",
-                "type": "theatre",
-                "latitude": 40.00061553760366,
-                "longitude": 116.32237939919726
-            },
-            {
-                "id": 226671429,
-                "name": "人文社科图书馆（凯风楼）",
-                "type": "library",
-                "latitude": 40.003006390221145,
-                "longitude": 116.32238842374656
             },
             {
                 "id": 226936358,
@@ -2491,13 +2407,6 @@
                 "type": "nan",
                 "latitude": 40.00372007225536,
                 "longitude": 116.31030084167584
-            },
-            {
-                "id": 354312341,
-                "name": "学生区快递服务站",
-                "type": "post_office",
-                "latitude": 40.01171785974566,
-                "longitude": 116.32100162937303
             },
             {
                 "id": 408816988,
@@ -2647,13 +2556,6 @@
                 "longitude": 116.3151044
             },
             {
-                "id": 544328791,
-                "name": "清芬园餐厅",
-                "type": "restaurant",
-                "latitude": 40.00451292293523,
-                "longitude": 116.32204381523384
-            },
-            {
                 "id": 662609741,
                 "name": "刘卿楼（工物系新馆）",
                 "type": "nan",
@@ -2722,20 +2624,6 @@
                 "type": "nan",
                 "latitude": 40.00052540353773,
                 "longitude": 116.32756445547959
-            },
-            {
-                "id": 852646108,
-                "name": "李文正馆",
-                "type": "library",
-                "latitude": 40.004157681546815,
-                "longitude": 116.31764915665362
-            },
-            {
-                "id": 852646109,
-                "name": "老馆",
-                "type": "library",
-                "latitude": 40.00354188263025,
-                "longitude": 116.31881730675624
             },
             {
                 "id": 856849934,
@@ -2815,32 +2703,11 @@
                 "longitude": 116.31428573578808
             },
             {
-                "id": 915707513,
-                "name": "北区浴室",
-                "type": "shower",
-                "latitude": 40.006751337553574,
-                "longitude": 116.31707815069767
-            },
-            {
-                "id": 916062407,
-                "name": "家园",
-                "type": "restaurant",
-                "latitude": 39.99345427640555,
-                "longitude": 116.31599376415487
-            },
-            {
                 "id": 937482182,
                 "name": "清华大学经济管理学院",
                 "type": "nan",
                 "latitude": 39.998455103356505,
                 "longitude": 116.32331841247218
-            },
-            {
-                "id": 937833947,
-                "name": "甲所",
-                "type": "restaurant",
-                "latitude": 39.99966821196954,
-                "longitude": 116.3162843813505
             },
             {
                 "id": 937833948,
@@ -2932,13 +2799,6 @@
                 "type": "nan",
                 "latitude": 40.00448094717068,
                 "longitude": 116.32078562593867
-            },
-            {
-                "id": 1065783252,
-                "name": "洗车房",
-                "type": "car_wash",
-                "latitude": 39.99894419999999,
-                "longitude": 116.30966349999998
             },
             {
                 "id": 1067508253,

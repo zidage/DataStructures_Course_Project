@@ -1,11 +1,18 @@
 {
-    "id": -7733438226643067737,
+    "id": 1748269021169358264,
     "name": "滑铁卢大学",
+    "address": "200 University Ave W, Waterloo, ON N2L 3G1加拿大",
     "rating": 4.3,
-    "popularity": 60,
+    "popularity": 72,
     "data_path": "map_data/university_map/University_of_Waterloo",
+    "description": "滑鐵盧大學（英語：University of Waterloo，常簡稱為UWaterloo、UW、滑大）是加拿大安大略省滑铁卢的一所省立研究型大學，前身為教會學校，建校於1957年。因加拿大最早成立的計算機科學系而知名，工程系全科為建教合作制度，且擁有全球最大規模与北美洲唯一的的獨立數學院（Faculty of Mathematics）和加拿大最大的環境學院（Faculty of Environment）。占地面積約為1000英畝，屬于中型。另設四個分校區，是U15大學聯盟成員。滑鐵盧的代表隊曾多次獲得ACM國際大學生程序設計競賽的北美冠軍。校隊名為「Warriors」。\n滑鐵盧大學以學習與實習並重的建教合作（co-operative education）而立足，本科生在課程進行期間將在相關機構工作以作實習。多年來畢業生在硅谷各大公司就業率名列前茅。\n相較于其他安省的類似理工科大學，該校的學生有着傑出的表現。在Maclean杂志15年来对加拿大非医学博士类别的综合性大学的排名裡，University of Waterloo有13次排名第一。2014在Maclean的Best Overall排名中例第三，2015年升上Best Overall 第一，躋身UBC和多倫多大學之上。計算機科學2016世界排名第18名。\n2018年十月，滑鐵盧大學副教授唐娜·斯特里克蘭獲得諾貝爾物理學獎，斯特里克蘭研發了一種「產生高密度、超短光學脈衝」的方法。這種脈衝放大技術能讓激光以極高的精確度在各種材料商進行切割、鑽洞等操作，還可對生物組織進行操作，並應用於眼科手術，瑞典皇家科學院贊此成就是具有「革命性的」。斯特里克蘭為歷史上第三位獲得此獎項的女性，也成為55年以來首位榮獲諾貝爾物理學獎的女科學家。",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/0/0e/WaterlooMathBuilding.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/a/a4/Waterloo_ontario_campus_1.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/e/ed/Waterloo_ontario_campus_3.jpg"
+    ],
     "amenity": {
-        "affiliation": -7733438226643067737,
+        "affiliation": 1748269021169358264,
         "amenity_list": [
             {
                 "id": 308161455,
@@ -631,13 +638,6 @@
                 "longitude": -80.5706126543983
             },
             {
-                "id": 1551340188,
-                "name": "Notre Dame Chapel",
-                "type": "place_of_worship",
-                "latitude": 43.468698,
-                "longitude": -80.5454615
-            },
-            {
                 "id": 4381017964,
                 "name": "Siegfried Hall (Residence)",
                 "type": "nan",
@@ -757,25 +757,11 @@
                 "longitude": -80.5451066320317
             },
             {
-                "id": 43250611,
-                "name": "Health Services",
-                "type": "doctors",
-                "latitude": 43.470475077782424,
-                "longitude": -80.54609349159931
-            },
-            {
                 "id": 43250612,
                 "name": "St. Jerome's University",
                 "type": "nan",
                 "latitude": 43.46942910552048,
                 "longitude": -80.5458228478216
-            },
-            {
-                "id": 43250617,
-                "name": "University Club",
-                "type": "restaurant",
-                "latitude": 43.47233805030186,
-                "longitude": -80.54738364974935
             },
             {
                 "id": 43250618,
@@ -818,13 +804,6 @@
                 "type": "nan",
                 "latitude": 43.468028193408756,
                 "longitude": -80.54163231940505
-            },
-            {
-                "id": 43250626,
-                "name": "Dana Porter Library",
-                "type": "library",
-                "latitude": 43.46972418198412,
-                "longitude": -80.54226487722835
             },
             {
                 "id": 43250627,
@@ -1175,13 +1154,6 @@
                 "type": "nan",
                 "latitude": 43.470624374746265,
                 "longitude": -80.53348712472955
-            },
-            {
-                "id": 145890265,
-                "name": "Graduate House",
-                "type": "pub",
-                "latitude": 43.46972402776912,
-                "longitude": -80.5409410933507
             },
             {
                 "id": 147379102,
@@ -1779,13 +1751,6 @@
                 "longitude": -80.55128912823159
             },
             {
-                "id": 368656349,
-                "name": "Bright Starts Co-operative Early Learning Centre",
-                "type": "childcare",
-                "latitude": 43.477059441921604,
-                "longitude": -80.54492325683668
-            },
-            {
                 "id": 370204260,
                 "name": "Science Teaching Complex",
                 "type": "nan",
@@ -1833,13 +1798,6 @@
                 "type": "nan",
                 "latitude": 43.469277170558286,
                 "longitude": -80.54667093630515
-            },
-            {
-                "id": 502224327,
-                "name": "The Village at University Gates",
-                "type": "social_facility",
-                "latitude": 43.47688228199862,
-                "longitude": -80.5706126543983
             },
             {
                 "id": 692358718,

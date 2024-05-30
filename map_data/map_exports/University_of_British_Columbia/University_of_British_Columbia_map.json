@@ -1,11 +1,25 @@
 {
-    "id": -8800156312023493746,
+    "id": -3239103872022168131,
     "name": "不列颠哥伦比亚大学",
+    "address": "Vancouver, BC V6T 1Z4加拿大",
     "rating": 4.5,
-    "popularity": 44,
+    "popularity": 56,
     "data_path": "map_data/university_map/University_of_British_Columbia",
+    "description": "英屬哥倫比亞大學（英語：University of British Columbia，简称UBC），又或译为英属哥伦比亚大学等，简称卑诗大学或卑大，是一所位於加拿大卑詩省的公立大學，也是U15大學聯盟、大英國協大學協會、环太平洋大学联盟、和Universitas 21成員之一。截至目前，不列颠哥伦比亚大学共培养了8位諾貝爾獎得主。學校主校區位於緊鄰溫哥華市西端的大學保留地，於1908年創校，為卑詩省最古老的大學，起初為研究性合作機構，後來逐漸發展為聞名國際的綜合大學；另外位於基隆拿市的新校區成立于2005年，稱為英屬哥倫比亞大學奧卡納干分校，取代原奧卡納干大學學院。\n不列颠哥伦比亚大学与麦吉尔大学、多伦多大学并称加拿大大学“三强”。不列颠哥伦比亚大学现在稳定在加拿大的第二学术要地，其2019年在国际学术论坛上发表的论文超一万篇，被引用的各类文献稳定在北美前三，仅次于哈佛大学文献的被引用次数。同时，不列颠哥伦比亚大学作为加拿大西部实力最強的高等教育学府，在加拿大和美国乃至世界的影响力重大，在社会的各类建设中起到了十分重要的角色作用。这也导致了不列颠哥伦比亚大学在每年招生的选择上面有着非常严格的入学门槛，为加拿大最难入读的学府之一。\n不列颠哥伦比亚大学也是加拿大粒子与核物理国家实验室TRIUMF的所在地，该实验室拥有世界上最大的回旋加速器。除了彼得沃尔高等研究所和斯图尔特·布鲁森量子物质研究所之外，UBC和马克斯·普朗克学会还共同成立了北美第一家专门研究量子材料的马克斯·普朗克研究所。UBC图书馆系统更是加拿大最大的研究图书馆之一，在其21个分支中拥有超过990万册的藏书。\n不列颠哥伦比亚大学被誉为西海岸的明珠，素有“北美最美校园”之誉，其内部设有古花园建筑以及日式经典庭院。在主旗杆旁边的玫瑰花园(Rose Garden)更是来温哥华旅游的人们的必经之地。\n截至目前，不列颠哥伦比亚大学共培养了8名诺贝尔奖得主、71名罗德学者、65名奥林匹克运动员、10名美国文理科学院和英国皇家学会院士以及208名加拿大皇家学会院士。三名加拿大总理都曾在UBC接受教育，包括加拿大首位女总理金·坎贝尔和现任总理贾斯汀·特鲁多。",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/a/a7/Bertram_Brockhouse.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/0/04/Beverley_McLachlin_%28crop%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/5/5b/Bjarni_Tryggvason.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/2/22/Chan_centre_performing_arts_concert_tessler.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/4/48/Chem1.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/2/22/Dr_Patrick_Soon-Shiong_%2814212355607%29_cropped.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/8/86/Irving_K._Barber_Library.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/b/be/Justin_Trudeau_and_Benigno_Aquino_III_November_2015_cropped.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/3/3f/Peter_A._Allard_School_of_Law.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/0/0b/Platopainting.jpg"
+    ],
     "amenity": {
-        "affiliation": -8800156312023493746,
+        "affiliation": -3239103872022168131,
         "amenity_list": [
             {
                 "id": 289808264,
@@ -1009,27 +1023,6 @@
                 "longitude": -123.2486442
             },
             {
-                "id": 1369643082,
-                "name": "UBC Campus Mailing Services",
-                "type": "post_office",
-                "latitude": 49.2606569,
-                "longitude": -123.2534078
-            },
-            {
-                "id": 27318161,
-                "name": "Walter C. Koerner Library",
-                "type": "library",
-                "latitude": 49.26663567720493,
-                "longitude": -123.25514565964575
-            },
-            {
-                "id": 27318163,
-                "name": "Irving K. Barber Learning Centre",
-                "type": "library",
-                "latitude": 49.26757589422168,
-                "longitude": -123.25275128284376
-            },
-            {
                 "id": 27989126,
                 "name": "Buchanan Building Block A",
                 "type": "nan",
@@ -1098,13 +1091,6 @@
                 "type": "nan",
                 "latitude": 49.26782865993558,
                 "longitude": -123.25775763442333
-            },
-            {
-                "id": 36810744,
-                "name": "Frederic Wood Theatre",
-                "type": "theatre",
-                "latitude": 49.26804967515104,
-                "longitude": -123.25694872107651
             },
             {
                 "id": 36810745,
@@ -1338,20 +1324,6 @@
                 "longitude": -123.25214212028912
             },
             {
-                "id": 83418470,
-                "name": "St Mark's Parish",
-                "type": "place_of_worship",
-                "latitude": 49.27215354578205,
-                "longitude": -123.24898901319949
-            },
-            {
-                "id": 83418484,
-                "name": "Corpus Christi College",
-                "type": "college",
-                "latitude": 49.272379106045584,
-                "longitude": -123.24937747299754
-            },
-            {
                 "id": 83425769,
                 "name": "Corus",
                 "type": "nan",
@@ -1450,13 +1422,6 @@
                 "longitude": -123.253893104245
             },
             {
-                "id": 83433308,
-                "name": "Triple O's/Trek Express",
-                "type": "restaurant",
-                "latitude": 49.26571088850886,
-                "longitude": -123.25432371254999
-            },
-            {
                 "id": 83441340,
                 "name": "Centre For Advanced Wood Processing",
                 "type": "nan",
@@ -1553,13 +1518,6 @@
                 "type": "nan",
                 "latitude": 49.26827827820658,
                 "longitude": -123.2542403531642
-            },
-            {
-                "id": 96911450,
-                "name": "University Hill Secondary School",
-                "type": "school",
-                "latitude": 49.25427525604026,
-                "longitude": -123.23875634905532
             },
             {
                 "id": 98675523,
@@ -2367,13 +2325,6 @@
                 "longitude": -123.25438790854867
             },
             {
-                "id": 98838330,
-                "name": "West Parkade",
-                "type": "parking",
-                "latitude": 49.262596812986736,
-                "longitude": -123.25502606101192
-            },
-            {
                 "id": 98838332,
                 "name": "Douglas T. Kenny Building",
                 "type": "nan",
@@ -2533,13 +2484,6 @@
                 "type": "nan",
                 "latitude": 49.258931457270755,
                 "longitude": -123.25060314545073
-            },
-            {
-                "id": 98962852,
-                "name": "Old Barn Community Centre",
-                "type": "community_centre",
-                "latitude": 49.25890743230897,
-                "longitude": -123.24828632787738
             },
             {
                 "id": 98962854,
@@ -2738,13 +2682,6 @@
                 "longitude": -123.24665371378312
             },
             {
-                "id": 99135915,
-                "name": "Thunderbird Parkade",
-                "type": "parking",
-                "latitude": 49.26165892777215,
-                "longitude": -123.24305133758807
-            },
-            {
                 "id": 99136485,
                 "name": "Gerald McGavin Building",
                 "type": "nan",
@@ -2780,13 +2717,6 @@
                 "longitude": -123.24447309523289
             },
             {
-                "id": 99136523,
-                "name": "Purdy Pavilion",
-                "type": "social_facility",
-                "latitude": 49.26327050212687,
-                "longitude": -123.2459434859195
-            },
-            {
                 "id": 99136527,
                 "name": "Koerner Pavilion",
                 "type": "nan",
@@ -2806,20 +2736,6 @@
                 "type": "nan",
                 "latitude": 49.26423373913913,
                 "longitude": -123.24841873846385
-            },
-            {
-                "id": 99205664,
-                "name": "North Parkade",
-                "type": "parking",
-                "latitude": 49.26904172544098,
-                "longitude": -123.25093479864941
-            },
-            {
-                "id": 99205665,
-                "name": "Hillel House",
-                "type": "place_of_worship",
-                "latitude": 49.26860411058755,
-                "longitude": -123.251344733225
             },
             {
                 "id": 99272763,
@@ -2862,13 +2778,6 @@
                 "type": "nan",
                 "latitude": 49.26338182449007,
                 "longitude": -123.24927810727173
-            },
-            {
-                "id": 99272772,
-                "name": "Health Sciences Parkade",
-                "type": "parking",
-                "latitude": 49.26339992063298,
-                "longitude": -123.24785129583782
             },
             {
                 "id": 99272773,
@@ -3382,13 +3291,6 @@
                 "longitude": -123.24860277342528
             },
             {
-                "id": 341691675,
-                "name": "Life Building",
-                "type": "community_centre",
-                "latitude": 49.2674451908761,
-                "longitude": -123.25007869951791
-            },
-            {
                 "id": 341691691,
                 "name": "War Memorial Gym",
                 "type": "nan",
@@ -3422,13 +3324,6 @@
                 "type": "nan",
                 "latitude": 49.267350016445505,
                 "longitude": -123.2536751905824
-            },
-            {
-                "id": 391516812,
-                "name": "AMS Nest (Student Union Building)",
-                "type": "community_centre",
-                "latitude": 49.266575633270094,
-                "longitude": -123.24980620496964
             },
             {
                 "id": 434818187,
@@ -3620,13 +3515,6 @@
                 "longitude": -123.24734404816982
             },
             {
-                "id": 666054140,
-                "name": "Wesbrook Community Centre",
-                "type": "community_centre",
-                "latitude": 49.25401513509822,
-                "longitude": -123.23772132028235
-            },
-            {
                 "id": 671959007,
                 "name": "Vista Point",
                 "type": "nan",
@@ -3683,13 +3571,6 @@
                 "longitude": -123.24743556830114
             },
             {
-                "id": 685568293,
-                "name": "Sage Bistro",
-                "type": "restaurant",
-                "latitude": 49.26913041520272,
-                "longitude": -123.25683774708833
-            },
-            {
                 "id": 686503839,
                 "name": "Library Preservation and Archives",
                 "type": "nan",
@@ -3723,13 +3604,6 @@
                 "type": "nan",
                 "latitude": 49.25989745329426,
                 "longitude": -123.24846092588733
-            },
-            {
-                "id": 797143814,
-                "name": "MacInnes Field Parkade",
-                "type": "parking",
-                "latitude": 49.26672796866023,
-                "longitude": -123.2490168692664
             },
             {
                 "id": 800010194,
@@ -3816,27 +3690,6 @@
                 "longitude": -123.24772236901875
             },
             {
-                "id": 1065949666,
-                "name": "Saw-Whet",
-                "type": "childcare",
-                "latitude": 49.26040382309511,
-                "longitude": -123.23651615992819
-            },
-            {
-                "id": 1065949667,
-                "name": "Barish",
-                "type": "childcare",
-                "latitude": 49.26047177548994,
-                "longitude": -123.23553048631136
-            },
-            {
-                "id": 1065949668,
-                "name": "Willow",
-                "type": "childcare",
-                "latitude": 49.260832772468625,
-                "longitude": -123.23533352906593
-            },
-            {
                 "id": 1065965985,
                 "name": "Pump House",
                 "type": "nan",
@@ -3921,13 +3774,6 @@
                 "longitude": -123.24686581692048
             },
             {
-                "id": 1420041,
-                "name": "Woodward Library",
-                "type": "library",
-                "latitude": 49.26455296572474,
-                "longitude": -123.24758894066613
-            },
-            {
                 "id": 1424726,
                 "name": "Mary Murrin Hall",
                 "type": "nan",
@@ -3961,13 +3807,6 @@
                 "type": "nan",
                 "latitude": 49.27097134089447,
                 "longitude": -123.25031604799362
-            },
-            {
-                "id": 10061281,
-                "name": "X̱wi7x̱wa",
-                "type": "library",
-                "latitude": 49.26545378685537,
-                "longitude": -123.25654032746822
             }
         ]
     }

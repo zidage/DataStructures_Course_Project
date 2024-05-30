@@ -1,11 +1,25 @@
 {
-    "id": -2356198230064453738,
+    "id": -2727197307933931888,
     "name": "早稻田大学",
-    "rating": 4.3,
-    "popularity": 72,
+    "address": "1 Chome-104 Totsukamachi, Shinjuku City, Tokyo 169-8050日本",
+    "rating": 4.4,
+    "popularity": 60,
     "data_path": "map_data/university_map/Waseda_University",
+    "description": "早稻田大學（日语：早稲田大学／わせだだいがく Waseda Daigaku */?；英語：Waseda University），简称早大（日语：早大／そうだい SSo Dai */?）、早稻田，是一所本部位於日本东京都新宿区早稻田的私立研究型大学，於1882年由明治維新時期日本首相大隈重信創立。\n该校在政治学、法学、文学、商学、理工学、教育学、藝術、體育等多個領域對近代日本有著重大的影響，與慶應義塾大学合称早庆，被譽爲日本「私立雙雄」（日语：私学の雄)。\n\n",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/4/4c/1930_Li_Dazhao_Chinese_comintern.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/1/12/Arakawa_2009_Festa_On_Ice.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/2/22/Campas_cafe_Waseda_University_2010.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/4/4b/Cheerleader_Waseda.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/6/6f/Fumio_Kishida_20211005.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/5/5c/Green_Cab_W-5_and_W-6_Waseda_University_Campus_Shuttle_Rainbow_II.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/8/8c/Hirokazu_Kore-eda_Cannes_2015.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/2/2c/Ibuka_Masaru.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/7/7e/Japan_natural_location_map_with_side_map_of_the_Ryukyu_Islands.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/2/29/Japenesecheerleaders.jpg"
+    ],
     "amenity": {
-        "affiliation": -2356198230064453738,
+        "affiliation": -2727197307933931888,
         "amenity_list": [
             {
                 "id": 1923218170,
@@ -48,13 +62,6 @@
                 "type": "nan",
                 "latitude": 35.70995304357749,
                 "longitude": 139.71917514896168
-            },
-            {
-                "id": 120266726,
-                "name": "早稲田大学図書館",
-                "type": "library",
-                "latitude": 35.7109108912774,
-                "longitude": 139.71814722015066
             },
             {
                 "id": 3201776,

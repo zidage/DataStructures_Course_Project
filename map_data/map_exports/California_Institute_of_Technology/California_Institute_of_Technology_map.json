@@ -1,11 +1,19 @@
 {
-    "id": -7390487646478873147,
+    "id": -838473767456653064,
     "name": "加州理工学院",
+    "address": "1200 E California Blvd, Pasadena, CA 91125美国",
     "rating": 4.7,
-    "popularity": 76,
+    "popularity": 100,
     "data_path": "map_data/university_map/California_Institute_of_Technology",
+    "description": "加州理工學院（英語：California Institute of Technology，縮寫：Caltech）是一所位於美國加利福尼亚州帕萨迪纳的私立研究型大學，創建於1891年，以自然科学及工程学著称，常被评为世界前十的大学之一，並與麻省理工學院、倫敦帝國理工學院、蘇黎世聯邦理工學院並稱世界四大理工學院。\n加州理工學院的規模不大，現有1204名研究生和977名本科生，約有300名教授以及超過600名研究學者。截止2020年10月，加州理工學院的校友、教授及研究人员中，共有40位校友或教授獲得41次諾貝爾獎（包括其他研究人员总人数达76人）、4位獲得菲爾茲獎、6位获得图灵奖，70位校友獲得美國國家科學獎章或國家技術與創新獎章，112位教授獲選為美國國家學院院士。另外，美國國家航空暨太空總署的噴射推進實驗室也是由加州理工學院管理。\n英國的《泰晤士高等教育》在2011-2012學年和2012-2013學年的評鑑中，都評加州理工學院為世界第一的大學。加州理工在《美國新聞與世界報道》的全美大學排名中，也常居前十名。而在物理學、行星科學、地球科學領域，加州理工学院被公認為全美领先。",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/3/32/Annenberg_center.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/3/37/Beckman_Institute_Reflection.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/d/d7/Throop_Hall_at_Caltech%2C_in_Pasadena_%2800035486%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/9/9d/Throop_Polytechnic_Institute%2C_Pasadena%2C_Calif.jpg"
+    ],
     "amenity": {
-        "affiliation": -7390487646478873147,
+        "affiliation": -838473767456653064,
         "amenity_list": [
             {
                 "id": 566600648,
@@ -211,20 +219,6 @@
                 "longitude": -118.12386774230521
             },
             {
-                "id": 30794560,
-                "name": "Parking Structure 2",
-                "type": "parking",
-                "latitude": 34.13859306265063,
-                "longitude": -118.12838434122507
-            },
-            {
-                "id": 30794564,
-                "name": "Parking Structure 1",
-                "type": "parking",
-                "latitude": 34.13988804677521,
-                "longitude": -118.12840498223689
-            },
-            {
                 "id": 32735305,
                 "name": "Venerable House",
                 "type": "nan",
@@ -279,13 +273,6 @@
                 "type": "nan",
                 "latitude": 34.13807418582432,
                 "longitude": -118.12191672361891
-            },
-            {
-                "id": 44634965,
-                "name": "Young Student Health Center",
-                "type": "doctors",
-                "latitude": 34.135292314791606,
-                "longitude": -118.12497546649683
             },
             {
                 "id": 44634969,
@@ -505,27 +492,6 @@
                 "longitude": -118.12453227219675
             },
             {
-                "id": 44635080,
-                "name": "Fairchild Library",
-                "type": "library",
-                "latitude": 34.137347900917725,
-                "longitude": -118.1247971725388
-            },
-            {
-                "id": 45094662,
-                "name": "Browne Café",
-                "type": "restaurant",
-                "latitude": 34.1376113853926,
-                "longitude": -118.12325213321529
-            },
-            {
-                "id": 45095035,
-                "name": "Broad Cafe",
-                "type": "restaurant",
-                "latitude": 34.139716643536865,
-                "longitude": -118.12683740487546
-            },
-            {
                 "id": 45420596,
                 "name": "Morrisroe",
                 "type": "nan",
@@ -594,13 +560,6 @@
                 "type": "nan",
                 "latitude": 34.139682973447584,
                 "longitude": -118.12323907682325
-            },
-            {
-                "id": 192368807,
-                "name": "Caltech Employees Federal Credit Union",
-                "type": "bank",
-                "latitude": 34.137024828220895,
-                "longitude": -118.12831383405327
             },
             {
                 "id": 192368808,

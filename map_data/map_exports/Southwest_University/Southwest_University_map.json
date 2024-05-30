@@ -1,11 +1,25 @@
 {
-    "id": 8755367856473493365,
+    "id": -3679837880685685328,
     "name": "西南大学",
+    "address": "中国重庆市北碚区八一路 邮政编码: 400715",
     "rating": 4.1,
-    "popularity": 88,
+    "popularity": 68,
     "data_path": "map_data/university_map/Southwest_University",
+    "description": "西南大学（英語：Southwest University，缩写作：SWU），简称「西大」，位于重庆市北碚区缙云山山麓，是2005年7月经中国教育部批准，由原西南师范大学、原西南农业大学合并组建的教育部直属重点综合性大学，是中国首批雙一流高校，211工程建设学校，985优势学科创新平台项目建设大学，是国家布局在中西部的高水平综合型大学。\n\n",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/5/5e/Swu_38jiao.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/c/cd/Swu_liyuan.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/5/50/Swu_taoyuan.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/b/ba/Swu_xinlixueyuan.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/4/47/%E8%A5%BF%E5%8D%97%E5%A4%A7%E5%AD%A6%E6%A0%A1%E9%97%A8%EF%BC%88%E5%8C%97%E7%A2%9A%EF%BC%89.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/c/c5/%E8%A5%BF%E5%8D%97%E5%A4%A7%E5%AD%B8%E6%96%87%E5%AD%B8%E9%99%A2.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/4/44/Swu_1xingzheng.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/9/91/Swu_33jiao.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/c/cc/Swu_33jiaoce.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/4/43/Swu_8jiao.JPG"
+    ],
     "amenity": {
-        "affiliation": 8755367856473493365,
+        "affiliation": -3679837880685685328,
         "amenity_list": [
             {
                 "id": 3106346026,
@@ -239,13 +253,6 @@
                 "longitude": 106.4189144789916
             },
             {
-                "id": 350242168,
-                "name": "西南大学中心图书馆",
-                "type": "library",
-                "latitude": 29.82309146499684,
-                "longitude": 106.4204829564406
-            },
-            {
                 "id": 368577143,
                 "name": "西南大学羽毛球馆",
                 "type": "nan",
@@ -279,13 +286,6 @@
                 "type": "nan",
                 "latitude": 29.822157409133812,
                 "longitude": 106.42007085659243
-            },
-            {
-                "id": 368589387,
-                "name": "楠园第一食堂",
-                "type": "food_court",
-                "latitude": 29.82033337906131,
-                "longitude": 106.41530567538108
             },
             {
                 "id": 368597446,
@@ -512,20 +512,6 @@
                 "longitude": 106.41260628468875
             },
             {
-                "id": 840970010,
-                "name": "西南大学动物医院",
-                "type": "veterinary",
-                "latitude": 29.813571410099588,
-                "longitude": 106.40812304125488
-            },
-            {
-                "id": 840970018,
-                "name": "养殖场",
-                "type": "animal_shelter",
-                "latitude": 29.81647585188899,
-                "longitude": 106.40829379560091
-            },
-            {
                 "id": 842727306,
                 "name": "楠园二舍",
                 "type": "nan",
@@ -659,13 +645,6 @@
                 "longitude": 106.4224171074498
             },
             {
-                "id": 843421757,
-                "name": "李园学生食堂",
-                "type": "food_court",
-                "latitude": 29.82261164876405,
-                "longitude": 106.42245886461036
-            },
-            {
                 "id": 843421759,
                 "name": "西南大学音乐学院",
                 "type": "nan",
@@ -708,25 +687,11 @@
                 "longitude": 106.42612712671291
             },
             {
-                "id": 843421780,
-                "name": "西南大学弘文图书馆",
-                "type": "library",
-                "latitude": 29.827285979742346,
-                "longitude": 106.42581672500098
-            },
-            {
                 "id": 843421784,
                 "name": "西南大学医院",
                 "type": "nan",
                 "latitude": 29.827796430830755,
                 "longitude": 106.42754711171023
-            },
-            {
-                "id": 843421800,
-                "name": "禾丰楼",
-                "type": "food_court",
-                "latitude": 29.829102045207037,
-                "longitude": 106.42739977998085
             },
             {
                 "id": 843421803,
@@ -776,13 +741,6 @@
                 "type": "nan",
                 "latitude": 29.826625829364527,
                 "longitude": 106.41853755511856
-            },
-            {
-                "id": 843465223,
-                "name": "梅园学生食堂",
-                "type": "food_court",
-                "latitude": 29.82687676144658,
-                "longitude": 106.4191022718938
             },
             {
                 "id": 843465224,
@@ -841,13 +799,6 @@
                 "longitude": 106.42391328662285
             },
             {
-                "id": 843465271,
-                "name": "桃园学生食堂",
-                "type": "food_court",
-                "latitude": 29.83035128902923,
-                "longitude": 106.42305073295512
-            },
-            {
                 "id": 843465272,
                 "name": "桃园三舍",
                 "type": "nan",
@@ -874,13 +825,6 @@
                 "type": "nan",
                 "latitude": 29.829206071892216,
                 "longitude": 106.42390632281626
-            },
-            {
-                "id": 843465284,
-                "name": "橘园学生食堂",
-                "type": "food_court",
-                "latitude": 29.82910177334515,
-                "longitude": 106.42212160637995
             },
             {
                 "id": 843465285,
@@ -1105,13 +1049,6 @@
                 "type": "nan",
                 "latitude": 29.814128759309252,
                 "longitude": 106.41363432940118
-            },
-            {
-                "id": 11564781,
-                "name": "崇实图书馆",
-                "type": "library",
-                "latitude": 29.81576446845479,
-                "longitude": 106.41500732145462
             },
             {
                 "id": 11661636,

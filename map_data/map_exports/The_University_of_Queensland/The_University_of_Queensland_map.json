@@ -1,11 +1,21 @@
 {
-    "id": 8099988175583142734,
+    "id": -82019314247904183,
     "name": "The University of Queensland",
-    "rating": 4.5,
+    "address": "St Lucia QLD 4072澳大利亚",
+    "rating": 4.4,
     "popularity": 88,
     "data_path": "map_data/university_map/The_University_of_Queensland",
+    "description": "昆士蘭大學（英語：The University of Queensland；簡稱昆大、UQ），是一所位于澳大利亚昆士蘭州首府布里斯本的公立研究型大学，于1909年12月10日由昆士兰州议会成立，為昆士蘭的第一所大學，也是澳洲最古老、規模最大的學府之一，在全澳拥有四个校区和若干研究中心。根据四大全球大学評比機構的平均排名，昆士兰大学在澳大利亚大学中位列第三。昆士蘭大學是澳洲六所砂岩學府之一，澳洲八校联盟和Universitas 21成員，也是edX的创始成员。",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/7/7d/Commemorating_June_4_Massacre_at_University_of_Queensland.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/b/b3/Forgan_Smith%2C_Michie%2C_Biology_Library_and_Mayne_Hall_Buildings.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/0/0b/Obama_visits_Australia_111117-M-BO337-024.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/f/fa/UQU_Logo.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/7/72/UQ_Lake_viewed_toward_South-West.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/2/28/University_of_Queensland.jpg"
+    ],
     "amenity": {
-        "affiliation": 8099988175583142734,
+        "affiliation": -82019314247904183,
         "amenity_list": [
             {
                 "id": 262334903,
@@ -582,13 +592,6 @@
                 "longitude": 153.0136673084653
             },
             {
-                "id": 23750675,
-                "name": "Multi Level Carpark 1",
-                "type": "parking",
-                "latitude": -27.494931465690076,
-                "longitude": 153.01043992286824
-            },
-            {
                 "id": 23750767,
                 "name": "James and Mary Emilia Mayne Centre",
                 "type": "nan",
@@ -615,13 +618,6 @@
                 "type": "nan",
                 "latitude": -27.49694947778158,
                 "longitude": 153.01137789678071
-            },
-            {
-                "id": 24257895,
-                "name": "Multi Level Carpark 2",
-                "type": "parking",
-                "latitude": -27.494841989070494,
-                "longitude": 153.0098207450606
             },
             {
                 "id": 24257980,
@@ -720,13 +716,6 @@
                 "type": "nan",
                 "latitude": -27.500236603218482,
                 "longitude": 153.01284535426856
-            },
-            {
-                "id": 24258434,
-                "name": "Dougie's Lair",
-                "type": "cafe",
-                "latitude": -27.5028923958779,
-                "longitude": 153.00829222698485
             },
             {
                 "id": 24281043,
@@ -937,13 +926,6 @@
                 "type": "nan",
                 "latitude": -27.49791701254972,
                 "longitude": 153.0103906180198
-            },
-            {
-                "id": 48015757,
-                "name": "Conifer Knoll Parking Station",
-                "type": "parking",
-                "latitude": -27.4993658499036,
-                "longitude": 153.01813765315413
             },
             {
                 "id": 71296372,
@@ -1422,13 +1404,6 @@
                 "longitude": 153.01551955
             },
             {
-                "id": 510047683,
-                "name": "UQ Tennis Centre Toilet and Change Rooms",
-                "type": "toilets",
-                "latitude": -27.494516827831365,
-                "longitude": 153.01533076162255
-            },
-            {
                 "id": 510735589,
                 "name": "Bishop Tower",
                 "type": "nan",
@@ -1618,13 +1593,6 @@
                 "longitude": 153.00984767086902
             },
             {
-                "id": 1071003035,
-                "name": "Dougie",
-                "type": "cafe",
-                "latitude": -27.503170524855943,
-                "longitude": 153.0088501604135
-            },
-            {
                 "id": 12766,
                 "name": "Colin Clark Building",
                 "type": "nan",
@@ -1637,13 +1605,6 @@
                 "type": "nan",
                 "latitude": -27.498015211071422,
                 "longitude": 153.01216118366114
-            },
-            {
-                "id": 7480498,
-                "name": "P8 Playing Field 8 Carpark",
-                "type": "parking",
-                "latitude": -27.493336437452196,
-                "longitude": 153.01155740598895
             },
             {
                 "id": 10238892,

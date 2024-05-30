@@ -1,11 +1,25 @@
 {
-    "id": -1306570213176012224,
+    "id": 9185110955475436681,
     "name": "华南农业大学",
-    "rating": 4.5,
-    "popularity": 92,
+    "address": "中国广东省广州市天河区五山路483号 邮政编码: 510642",
+    "rating": 4.4,
+    "popularity": 84,
     "data_path": "map_data/university_map/South_China_Agricultural_University",
+    "description": "华南农业大学（英語：South China Agricultural University，縮寫：SCAU），简称华南农大、在广东省一般简称华农，地处中华人民共和国广东省广州市，是中华人民共和国教育部直属，中华人民共和国水利部、中华人民共和国农业农村部和广东省共建的一所全国重点大学，位列“双一流”，入选“基础学科招生改革试点”、“2011计划”、“111计划”、卓越工程师教育培养计划、卓越农林人才教育培养计划、国家建设高水平大学公派研究生项目、中国政府奖学金来华留学生接收院校、国家大学生文化素质教育基地，粤港澳高校联盟、CDIO工程教育联盟成员单位。拥有五山校区和增城教学科研基地。\n华农的办学历史可追溯到1909年，起初为广东全省农事试验场附设农业讲习所，正式组建于1952年11月中国高校院系调整时期，时名“华南农学院”，1984年改为现名。华农现在以农业科学和生命科学为优势学科，如今发展目标是成为一所农、工、文、理、经、管、法、艺等多学科协调发展的综合性研究型大学，是华南地区农业类高等学府，是广东省和农业部共建的“省211工程”（非教育部“211工程”）大学，2022年入选为“双一流”建设高校，是現時13所廣東省高水平大學之一。\n\n",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/b/b3/GZFiveRams.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/e/ea/South_China_Agricultural_University.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/7/79/Yuexiu_Park_3.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/5/52/%E4%B8%81%E9%A2%96%E6%95%99%E6%8E%88%E5%A1%91%E5%83%8F.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/5/52/%E4%B8%AD%E5%B1%B1%E5%A4%A7%E5%AD%A6%E7%9F%B3%E7%89%8C%E6%97%A7%E5%9D%80%E5%BB%BA%E7%AD%91-%E5%86%9C%E5%AD%A6%E9%99%A2%E5%A5%A0%E5%9F%BA%E7%9F%B3.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/1/18/%E4%B8%AD%E5%B1%B1%E5%A4%A7%E5%AD%A6%E7%9F%B3%E7%89%8C%E6%97%A7%E5%9D%80%E5%BB%BA%E7%AD%91-%E5%A4%A9%E6%96%87%E5%8F%B0.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/1/19/%E4%B8%AD%E5%B1%B1%E5%A4%A7%E5%AD%A6%E7%9F%B3%E7%89%8C%E6%97%A7%E5%9D%80%E5%BB%BA%E7%AD%91-%E6%AD%A3%E9%97%A8%E7%89%8C%E5%9D%8A%EF%BC%882017%EF%BC%89.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/7/70/%E4%B8%AD%E5%B1%B1%E5%A4%A7%E5%AD%A6%E7%9F%B3%E7%89%8C%E6%97%A7%E5%9D%80%E5%BB%BA%E7%AD%91-%E7%8B%AE%E5%A4%B4%E5%96%B7%E6%B0%B4%E6%B1%A0.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/0/04/%E4%B8%AD%E5%B1%B1%E5%A4%A7%E5%AD%A6%E7%9F%B3%E7%89%8C%E6%97%A7%E5%9D%80%E5%BB%BA%E7%AD%91-%E7%A0%94%E7%A9%B6%E9%99%A2.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/a/ae/%E5%8D%8E%E5%8D%97%E5%86%9C%E4%B8%9A%E5%A4%A7%E5%AD%A616%E5%8F%B7%E6%A5%BC.jpg"
+    ],
     "amenity": {
-        "affiliation": -1306570213176012224,
+        "affiliation": 9185110955475436681,
         "amenity_list": [
             {
                 "id": 3749349564,
@@ -274,13 +288,6 @@
                 "longitude": 113.34635689628216
             },
             {
-                "id": 205491391,
-                "name": "荷园饭堂",
-                "type": "restaurant",
-                "latitude": 23.163241307603563,
-                "longitude": 113.36229385071479
-            },
-            {
                 "id": 205495146,
                 "name": "华南农业大学 第四教学大楼",
                 "type": "nan",
@@ -300,13 +307,6 @@
                 "type": "nan",
                 "latitude": 23.16080375752267,
                 "longitude": 113.34631425841596
-            },
-            {
-                "id": 205503559,
-                "name": "三角市（华农市场）",
-                "type": "marketplace",
-                "latitude": 23.1594091775646,
-                "longitude": 113.34986716152127
             },
             {
                 "id": 317102401,
@@ -386,27 +386,6 @@
                 "longitude": 113.3481910319732
             },
             {
-                "id": 614119183,
-                "name": "华南农业大学图书馆 档案楼",
-                "type": "library",
-                "latitude": 23.160860474994248,
-                "longitude": 113.34845454489101
-            },
-            {
-                "id": 614119184,
-                "name": "华南农业大学图书馆 总馆",
-                "type": "library",
-                "latitude": 23.160198336364772,
-                "longitude": 113.34824811962375
-            },
-            {
-                "id": 614119185,
-                "name": "华南农业大学图书馆 信息楼",
-                "type": "library",
-                "latitude": 23.159663906919683,
-                "longitude": 113.34780199356922
-            },
-            {
                 "id": 614119186,
                 "name": "艺术学院音乐楼",
                 "type": "nan",
@@ -442,25 +421,11 @@
                 "longitude": 113.34422558560658
             },
             {
-                "id": 693341430,
-                "name": "感恩亭",
-                "type": "shelter",
-                "latitude": 23.163005073677432,
-                "longitude": 113.34423392393624
-            },
-            {
                 "id": 693383708,
                 "name": "实验动物中心",
                 "type": "nan",
                 "latitude": 23.166113664243547,
                 "longitude": 113.34292629899345
-            },
-            {
-                "id": 693481413,
-                "name": "惠泽亭",
-                "type": "shelter",
-                "latitude": 23.158109476644686,
-                "longitude": 113.34498256859268
             },
             {
                 "id": 865561494,

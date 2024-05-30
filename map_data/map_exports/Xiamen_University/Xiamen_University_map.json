@@ -1,11 +1,25 @@
 {
-    "id": -3892429681942945420,
+    "id": -5537161119289724639,
     "name": "厦门大学",
+    "address": "中国福建省厦门市思明区思明南路422号 邮政编码: 361005",
     "rating": 4.5,
-    "popularity": 76,
+    "popularity": 88,
     "data_path": "map_data/university_map/Xiamen_University",
+    "description": "厦门大学（英语：Xiamen University，缩写：XMU，建校初期为Amoy University），简称厦大，1921年4月由爱国华侨领袖陈嘉庚创办，初名私立厦门大学，是中国近代教育史上第一所华侨创办的大学。1937年7月，厦门大学由私立改为国立，更名国立厦门大学。\n厦门大学是中华人民共和国顶尖高校之一，是“双一流A类”和原“985工程”、原“211工程”重点建设大学，是中华人民共和国教育部直属，由教育部、福建省和厦门市共建。厦门大学主校区依山傍海，有着“中国最美大学”的美誉。\n\n",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/b/b9/ChinaXiamenUniversity.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/d/df/Jiannan_Auditorium_of_XMU.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/0/0b/Platopainting.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/6/6f/Shaw_Building%2CXiamen_University.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/d/d5/Swimming_pool_xmu.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/6/6f/The_soccer_court_of_xmu.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/9/91/Xia_Men_University_Western_Gate.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/5/5f/XiamenUniversityStudentHall.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/1/18/Xiamen_University%2C_view_from_Hongshan.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/2/20/Xiamenuniversityconcert.jpg"
+    ],
     "amenity": {
-        "affiliation": -3892429681942945420,
+        "affiliation": -5537161119289724639,
         "amenity_list": [
             {
                 "id": 1761690575,
@@ -174,13 +188,6 @@
                 "type": "nan",
                 "latitude": 24.441849940273602,
                 "longitude": 118.08950046840313
-            },
-            {
-                "id": 409154036,
-                "name": "厦门大学图书馆",
-                "type": "library",
-                "latitude": 24.441304095352297,
-                "longitude": 118.09163089596686
             },
             {
                 "id": 459839525,

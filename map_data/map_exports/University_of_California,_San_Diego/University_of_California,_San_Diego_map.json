@@ -1,11 +1,18 @@
 {
-    "id": -1387501015262390524,
+    "id": 2369609669081468539,
     "name": "加利福尼亚大学圣迭戈分校",
+    "address": "9500 Gilman Dr, La Jolla, CA 92093美国",
     "rating": 4.5,
-    "popularity": 52,
+    "popularity": 64,
     "data_path": "map_data/university_map/University_of_California,_San_Diego",
+    "description": "圣迭戈加利福尼亚大学（英語：University of California, San Diego；常用縮寫「UCSD」或「UC San Diego」，又译「加利福尼亚大学圣迭戈分校」或「圣迭戈加州大学」，是美國一所公立研究型大学。同时，依据卡内基高等教育机构分级，为全美131所“最高学术产出”的学府之一。加利福尼亚大学圣迭戈分校成立於1960年，最初与斯克里普斯海洋研究所相邻，是加州大學系統中第七个成立的校区。該校位於美國加利福尼亞州南部城市聖迭戈以北城鎮拉霍亞的太平洋滨海，同时其校园也是所有加州大學校区中第二大、共佔地866公頃，僅次於戴維斯分校。\n加利福尼亚大学圣迭戈分校一共有七个本科生通识学院、五个学术型研究学院（雅各布工程学院、生命科学学院、物质科学学院、文学艺术学院和社会科学学院）和六个专业型研究学院（赫伯特·沃特海姆公共卫生与人类长寿科学学院、斯凯格药学院、医学院、全球政策和战略学院、雷迪管理学院和斯克里普斯海洋研究所）。加利福尼亚大学圣迭戈分校医院也隶属于该校，为医学、药学学科提供科研场所以及为附近居民提供医疗服务。此外，加利福尼亚大学圣迭戈分校还拥有19个独立研究所，包括圣迭戈超级计算机中心、高通研究所、能源科学研究所等。大学和其他研究机构广泛展开研究合作，在2017年美国科学基金会的榜单中，加利福尼亚大学圣迭戈分校的科研经费投入超过了11亿美元，在全美所有大学中名列第七。\n聖地牙哥加州大學雖然建校只有短短的六十年，但是已經成為美國頂尖以研究科學為主，且學術聲望非常高的研究性公立大學，也被譽為「公立常春藤」之一，同時也是美國重要的學術聯盟美國大學協會的成員。截止2018年10月，加利福尼亚大学圣迭戈分校的校友、教授及研究人员中，共有二十七位诺贝尔奖得主、三位菲尔兹奖得主、八位美国国家科学奖章得主、八位麦克阿瑟奖得主和两位普利策奖得主。另外，在现教职员工中，一共有29名美国国家工程院院士、70名美国国家科学院院士、45名美国国家医学院院士和110名美国文理科学院院士。",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/5/54/Geisel_West%2C_UCSD.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/4/4c/Price_Center%2C_UCSD.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/1/12/San_Diego_Supercomputer_Center_East1.JPG"
+    ],
     "amenity": {
-        "affiliation": -1387501015262390524,
+        "affiliation": 2369609669081468539,
         "amenity_list": [
             {
                 "id": 277842932,
@@ -932,13 +939,6 @@
                 "longitude": -117.2361
             },
             {
-                "id": 368167400,
-                "name": "Oceanview Terrace",
-                "type": "restaurant",
-                "latitude": 32.8830852,
-                "longitude": -117.2426822
-            },
-            {
                 "id": 368174306,
                 "name": "Robinson Building Complex",
                 "type": "nan",
@@ -988,13 +988,6 @@
                 "longitude": -117.24337173740491
             },
             {
-                "id": 31802320,
-                "name": "Student Health Services",
-                "type": "clinic",
-                "latitude": 32.879453623740986,
-                "longitude": -117.23805178781467
-            },
-            {
                 "id": 31807101,
                 "name": "Peterson Hall",
                 "type": "nan",
@@ -1028,13 +1021,6 @@
                 "type": "nan",
                 "latitude": 32.884285169823855,
                 "longitude": -117.24090466693184
-            },
-            {
-                "id": 31808898,
-                "name": "Thurgood Marshall Residence Halls",
-                "type": "student_accommodation",
-                "latitude": 32.88352581110134,
-                "longitude": -117.24304184062493
             },
             {
                 "id": 31809598,
@@ -1077,13 +1063,6 @@
                 "type": "nan",
                 "latitude": 32.86528454989131,
                 "longitude": -117.25299354042095
-            },
-            {
-                "id": 31816001,
-                "name": "Molli and Arthur Wagner Dance Building",
-                "type": "studio",
-                "latitude": 32.871901354639746,
-                "longitude": -117.24009158543295
             },
             {
                 "id": 31816189,
@@ -1471,13 +1450,6 @@
                 "longitude": -117.23068153229389
             },
             {
-                "id": 31819876,
-                "name": "Mandell Weiss Theatre",
-                "type": "theatre",
-                "latitude": 32.870969590140945,
-                "longitude": -117.24126768085057
-            },
-            {
                 "id": 31819901,
                 "name": "Marine Conservation Facility",
                 "type": "nan",
@@ -1525,13 +1497,6 @@
                 "type": "nan",
                 "latitude": 32.88306261277013,
                 "longitude": -117.23381353146465
-            },
-            {
-                "id": 31839265,
-                "name": "Foodworx",
-                "type": "restaurant",
-                "latitude": 32.878804667054624,
-                "longitude": -117.23041766921791
             },
             {
                 "id": 31839344,
@@ -1623,13 +1588,6 @@
                 "type": "nan",
                 "latitude": 32.87915475027269,
                 "longitude": -117.23097131701874
-            },
-            {
-                "id": 31841369,
-                "name": "Perlman Ambulatory Care Center",
-                "type": "clinic",
-                "latitude": 32.8781491909587,
-                "longitude": -117.22473576495885
             },
             {
                 "id": 31841431,
@@ -1954,13 +1912,6 @@
                 "longitude": -117.25135245
             },
             {
-                "id": 38019912,
-                "name": "Gilman Parking Structure",
-                "type": "parking",
-                "latitude": 32.877584341981645,
-                "longitude": -117.23368303198586
-            },
-            {
                 "id": 38561158,
                 "name": "Computer Science & Engineering",
                 "type": "nan",
@@ -1980,20 +1931,6 @@
                 "type": "nan",
                 "latitude": 32.86585585928867,
                 "longitude": -117.25066642465664
-            },
-            {
-                "id": 39623389,
-                "name": "Hopkins Parking Structure",
-                "type": "parking",
-                "latitude": 32.88380420783912,
-                "longitude": -117.23935943438231
-            },
-            {
-                "id": 42854054,
-                "name": "WongAvery Library",
-                "type": "library",
-                "latitude": 32.87534625226033,
-                "longitude": -117.2369753807085
             },
             {
                 "id": 67750292,
@@ -2045,13 +1982,6 @@
                 "longitude": -117.2422649938333
             },
             {
-                "id": 99148767,
-                "name": "Stage Room at the Pub",
-                "type": "pub",
-                "latitude": 32.877040557605184,
-                "longitude": -117.23948248175842
-            },
-            {
                 "id": 103615499,
                 "name": "Skaggs School of Pharmacy and Pharmaceutical Sciences",
                 "type": "nan",
@@ -2087,32 +2017,11 @@
                 "longitude": -117.24008192492504
             },
             {
-                "id": 159385495,
-                "name": "Geisel Library",
-                "type": "library",
-                "latitude": 32.881142026577734,
-                "longitude": -117.23757505108902
-            },
-            {
-                "id": 165682124,
-                "name": "Pangea Parking Structure",
-                "type": "parking",
-                "latitude": 32.884245931793366,
-                "longitude": -117.24310202110581
-            },
-            {
                 "id": 180765919,
                 "name": "Village East Building 5",
                 "type": "nan",
                 "latitude": 32.887848723333114,
                 "longitude": -117.24175481131768
-            },
-            {
-                "id": 180765922,
-                "name": "The Bistro at the Strand",
-                "type": "restaurant",
-                "latitude": 32.88792127743608,
-                "longitude": -117.24204988870004
             },
             {
                 "id": 180765923,
@@ -2141,13 +2050,6 @@
                 "type": "nan",
                 "latitude": 32.888038768135345,
                 "longitude": -117.24164753983894
-            },
-            {
-                "id": 234850625,
-                "name": "One Miramar Parking Structure",
-                "type": "parking",
-                "latitude": 32.87368863399523,
-                "longitude": -117.22531942779914
             },
             {
                 "id": 234850739,
@@ -2304,13 +2206,6 @@
                 "longitude": -117.24286938560388
             },
             {
-                "id": 331424980,
-                "name": "64 Degrees",
-                "type": "restaurant",
-                "latitude": 32.87473455000001,
-                "longitude": -117.2420385
-            },
-            {
                 "id": 331459770,
                 "name": "Housing Dining and Hospitality Administration Building",
                 "type": "nan",
@@ -2330,13 +2225,6 @@
                 "type": "nan",
                 "latitude": 32.87829579025011,
                 "longitude": -117.24241562274358
-            },
-            {
-                "id": 335148528,
-                "name": "Sheila and Hughes Potiker Theatre",
-                "type": "theatre",
-                "latitude": 32.87125626197127,
-                "longitude": -117.24063626357635
             },
             {
                 "id": 339300248,
@@ -2365,13 +2253,6 @@
                 "type": "nan",
                 "latitude": 32.87776264705344,
                 "longitude": -117.22642852865668
-            },
-            {
-                "id": 370126091,
-                "name": "Moores Cancer Center",
-                "type": "hospital",
-                "latitude": 32.878283832772496,
-                "longitude": -117.2228671290879
             },
             {
                 "id": 370126097,
@@ -2535,13 +2416,6 @@
                 "longitude": -117.25429135674088
             },
             {
-                "id": 399594735,
-                "name": "Sixty Four North",
-                "type": "restaurant",
-                "latitude": 32.874928284174054,
-                "longitude": -117.24230073990573
-            },
-            {
                 "id": 401316513,
                 "name": "J. Craig Venter Institute",
                 "type": "nan",
@@ -2561,13 +2435,6 @@
                 "type": "nan",
                 "latitude": 32.87884221491402,
                 "longitude": -117.23678627905653
-            },
-            {
-                "id": 439620065,
-                "name": "Canyon Vista Restaurant",
-                "type": "restaurant",
-                "latitude": 32.88420127893718,
-                "longitude": -117.23318572719984
             },
             {
                 "id": 444171228,
@@ -2626,13 +2493,6 @@
                 "longitude": -117.2432904000349
             },
             {
-                "id": 455141284,
-                "name": "Athena Parking Structure",
-                "type": "parking",
-                "latitude": 32.87927798126559,
-                "longitude": -117.221686361019
-            },
-            {
                 "id": 455148510,
                 "name": "East Campus Utility Plant",
                 "type": "nan",
@@ -2645,13 +2505,6 @@
                 "type": "nan",
                 "latitude": 32.878278994092675,
                 "longitude": -117.22402222109568
-            },
-            {
-                "id": 558642930,
-                "name": "Ola",
-                "type": "parking",
-                "latitude": 32.87543793121812,
-                "longitude": -117.22395612452102
             },
             {
                 "id": 558642931,
@@ -2743,20 +2596,6 @@
                 "type": "nan",
                 "latitude": 32.87780899831885,
                 "longitude": -117.23017821026478
-            },
-            {
-                "id": 586411173,
-                "name": "Vela",
-                "type": "parking",
-                "latitude": 32.87629389773597,
-                "longitude": -117.22269826134246
-            },
-            {
-                "id": 587047714,
-                "name": "South Parking Structure",
-                "type": "parking",
-                "latitude": 32.874032376756446,
-                "longitude": -117.2371225555154
             },
             {
                 "id": 605106218,
@@ -2983,20 +2822,6 @@
                 "longitude": -117.23485327179765
             },
             {
-                "id": 947605124,
-                "name": "Mandell Weiss Forum",
-                "type": "theatre",
-                "latitude": 32.872012995294924,
-                "longitude": -117.24107892508589
-            },
-            {
-                "id": 947605125,
-                "name": "Theodore and Adele Shank Theatre",
-                "type": "theatre",
-                "latitude": 32.87232090328391,
-                "longitude": -117.24084190876886
-            },
-            {
                 "id": 964484490,
                 "name": "Guava",
                 "type": "nan",
@@ -3039,20 +2864,6 @@
                 "longitude": -117.2350001221451
             },
             {
-                "id": 989774306,
-                "name": "Scholars Parking Structure",
-                "type": "parking",
-                "latitude": 32.88034013162123,
-                "longitude": -117.24167675698807
-            },
-            {
-                "id": 1003758351,
-                "name": "Splash Cafe",
-                "type": "fast_food",
-                "latitude": 32.86580187309845,
-                "longitude": -117.25010905481676
-            },
-            {
                 "id": 1005474519,
                 "name": "Shark Shores",
                 "type": "nan",
@@ -3065,13 +2876,6 @@
                 "type": "nan",
                 "latitude": 32.86526155,
                 "longitude": -117.25055055
-            },
-            {
-                "id": 1072534876,
-                "name": "Epstein Family Amphitheater",
-                "type": "theatre",
-                "latitude": 32.87922898934227,
-                "longitude": -117.23305780056424
             },
             {
                 "id": 1078326951,
@@ -3214,13 +3018,6 @@
                 "longitude": -117.24204032111007
             },
             {
-                "id": 6729677,
-                "name": "Campus Point Parking Structure",
-                "type": "parking",
-                "latitude": 32.88002632190021,
-                "longitude": -117.22552000415541
-            },
-            {
                 "id": 7201001,
                 "name": "Ida and Cecil Green Faculty Club",
                 "type": "nan",
@@ -3247,13 +3044,6 @@
                 "type": "nan",
                 "latitude": 32.88118671080834,
                 "longitude": -117.23323639472713
-            },
-            {
-                "id": 15010844,
-                "name": "Café Ventanas",
-                "type": "restaurant",
-                "latitude": 32.88615888480832,
-                "longitude": -117.242832461685
             },
             {
                 "id": 15011371,

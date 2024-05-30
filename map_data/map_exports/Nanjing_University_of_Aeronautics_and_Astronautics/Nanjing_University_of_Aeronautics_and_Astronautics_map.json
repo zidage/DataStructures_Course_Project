@@ -1,11 +1,16 @@
 {
-    "id": 6055965675828266948,
+    "id": 136781934349781257,
     "name": "南京航空航天大学",
+    "address": "中国江苏省南京市秦淮区御道街29号 邮政编码: 210095",
     "rating": 4.7,
-    "popularity": 76,
+    "popularity": 72,
     "data_path": "map_data/university_map/Nanjing_University_of_Aeronautics_and_Astronautics",
+    "description": "南京航空航天大学，是中华人民共和国江苏省的一所全日制公办本科大学。本部位于江苏省南京市，在常州市也有校区，隶属于中华人民共和国工业和信息化部，由国家国防科技工业局和江苏省人民政府重点共建，是一所以航空航天技术为主的高校。南京航空航天大学的前身是1952年10月创建的南京航空工业专科学校；1956年升格为南京航空学院，同年苏州航空工业专科学校并入，是中华人民共和国成立以后创办的第一批航空高等院校之一。1978年被中华人民共和国国务院确定为全国重点大学，1981年经国务院批准成为全国首批具有博士学位授予权的高校，1996年进入211工程建设，2000年经中华人民共和国教育部批准设立研究生院，2011年成为985工程优势学科创新平台项目重点建设高校。\n\n",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/6/6a/Nanjing_University_of_Aeronautics_and_Astronautics_%28Gate_on_Zhongshan_E._Rd.%29.jpg"
+    ],
     "amenity": {
-        "affiliation": 6055965675828266948,
+        "affiliation": 136781934349781257,
         "amenity_list": [
             {
                 "id": 916831940,
@@ -272,13 +277,6 @@
                 "type": "nan",
                 "latitude": 32.03577838050965,
                 "longitude": 118.81614541842279
-            },
-            {
-                "id": 916831940,
-                "name": "明故宫食堂",
-                "type": "restaurant",
-                "latitude": 32.03544814570814,
-                "longitude": 118.81616067173111
             },
             {
                 "id": 916831941,

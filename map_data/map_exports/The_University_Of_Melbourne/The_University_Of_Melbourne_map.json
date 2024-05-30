@@ -1,11 +1,25 @@
 {
-    "id": -6042163622348917716,
+    "id": 7787264637225698379,
     "name": "The University of Melbourne",
+    "address": "Parkville VIC 3052澳大利亚",
     "rating": 4.5,
-    "popularity": 76,
+    "popularity": 96,
     "data_path": "map_data/university_map/The_University_Of_Melbourne",
+    "description": "墨爾本大學（英語：The University of Melbourne，简称墨大）位于澳洲維多利亞州墨尔本，建校於1853年，為澳洲历史第二悠久的大学、维多利亚州最古老的大学。墨尔本大学是澳洲六所砂岩學府之一，八大名校的盟校成員，也是Universitas 21、環太平洋大学联盟和亞太國際貿易教育暨研究聯盟的成员大學，並與蒙納許大學、墨爾本皇家理工大學合稱「墨爾本三大校」，為全澳洲最優秀的高等教育學府。\n墨尔本大学在四大主要大學排行榜上皆位居世界前四十名，亦為亞太地區名列前茅的頂級院校。大學的多個學科在QS世界大學學科排名都處於全球領先水平，包括社會學、教育學、醫學、心理學、護理學等皆為全球20強，其餘包括人文社科、土木工程、建築學、傳播學等學科則位列全球50強；墨尔本商学院位居世界百强，其中2021年工商管理位列全球第26，會計及金融位列全球第18，經濟学位列全球第30。在2020年QS畢業生就業能力排行榜中，墨尔本大学位列全球第七、澳洲第二。\n大學曾為多位英國君主及皇室成員授予榮譽博士學位，亦有校友活躍於各領域。墨爾本大学至今已培養出8位诺贝尔奖得主，並有120位學生獲得羅德獎學金。",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/6/64/Ac.isaacs.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/1/19/Autumn_at_The_University_of_Melbourne.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/1/13/Burnet_2jpg.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/3/31/Cate_Blanchett_face_1.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/2/28/Janet_Clarke_Hall_%28University_of_Melbourne%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/c/c8/Julia_Gillard_2010.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/9/97/Medley_hall.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/4/44/Melbourne_University-South_Lawn.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/8/8e/Melbourne_University_grand_building.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/4/47/Melbourne_uni_1888_building.jpg"
+    ],
     "amenity": {
-        "affiliation": -6042163622348917716,
+        "affiliation": 7787264637225698379,
         "amenity_list": [
             {
                 "id": 245806622,
@@ -911,13 +925,6 @@
                 "longitude": 144.96005437380256
             },
             {
-                "id": 22818905,
-                "name": "Royal Dental Hospital of Melbourne",
-                "type": "hospital",
-                "latitude": -37.799411575517034,
-                "longitude": 144.96484267862135
-            },
-            {
                 "id": 22870778,
                 "name": "Alan Gilbert Building",
                 "type": "nan",
@@ -937,20 +944,6 @@
                 "type": "nan",
                 "latitude": -37.79938613142346,
                 "longitude": 144.95893919225944
-            },
-            {
-                "id": 22871073,
-                "name": "Brownless Biomedical Library",
-                "type": "library",
-                "latitude": -37.79898565099572,
-                "longitude": 144.9594625711757
-            },
-            {
-                "id": 22871257,
-                "name": "Baillieu Library",
-                "type": "library",
-                "latitude": -37.798359592475386,
-                "longitude": 144.95934387287775
             },
             {
                 "id": 22871271,
@@ -1226,13 +1219,6 @@
                 "longitude": 144.96172801676838
             },
             {
-                "id": 23766613,
-                "name": "Eastern Resource Centre Library",
-                "type": "library",
-                "latitude": -37.79936373785484,
-                "longitude": 144.96282026964406
-            },
-            {
                 "id": 23766620,
                 "name": "Building 168",
                 "type": "nan",
@@ -1324,13 +1310,6 @@
                 "longitude": 144.95969094944738
             },
             {
-                "id": 29191119,
-                "name": "Newman Chapel",
-                "type": "place_of_worship",
-                "latitude": -37.79541677018212,
-                "longitude": 144.963820915592
-            },
-            {
                 "id": 30613903,
                 "name": "The Spot",
                 "type": "nan",
@@ -1385,13 +1364,6 @@
                 "type": "nan",
                 "latitude": -37.7946892671821,
                 "longitude": 144.96419674158432
-            },
-            {
-                "id": 45171850,
-                "name": "St Mary's Newman Academic Centre",
-                "type": "library",
-                "latitude": -37.79547204493621,
-                "longitude": 144.96308494557212
             },
             {
                 "id": 45172773,
@@ -1779,13 +1751,6 @@
                 "longitude": 144.9633491977558
             },
             {
-                "id": 89909474,
-                "name": "University Health",
-                "type": "clinic",
-                "latitude": -37.80170269241834,
-                "longitude": 144.96555780197718
-            },
-            {
                 "id": 109013250,
                 "name": "780 Elizabeth Street",
                 "type": "nan",
@@ -1903,13 +1868,6 @@
                 "type": "nan",
                 "latitude": -37.803302087320674,
                 "longitude": 144.95949958958516
-            },
-            {
-                "id": 260381314,
-                "name": "Queensberry Children's Centre",
-                "type": "kindergarten",
-                "latitude": -37.80407805511073,
-                "longitude": 144.96127001403667
             },
             {
                 "id": 293946229,

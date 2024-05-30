@@ -1,11 +1,25 @@
 {
-    "id": 8185001098022114704,
+    "id": 7200541828527252958,
     "name": "复旦大学",
+    "address": "中国上海市杨浦区邯郸路220号 邮政编码: 200437",
     "rating": 4.5,
-    "popularity": 76,
+    "popularity": 64,
     "data_path": "map_data/university_map/Fudan_University",
+    "description": "复旦大学（英語：Fudan University），简称復旦，旧称復旦公學、國立復旦大學，始创于1905年，位于中国上海，是一所综合性研究型大学。复旦大学校名取自《尚书大传》之“日月光华，旦复旦兮”，表示取之不尽，用之不竭的自力更生和勤奋，更含不忘“震旦”之旧和复兴中华的意义。1917年始设大学部，1952年院系调整，苏、浙、皖、沪等地大批文理学科的专家学者调入复旦，复旦大学自此成为人文社会和自然科学的全国重镇。2000年与上海医科大学合并组建新的复旦大学。\n复旦大学是中华人民共和国文理综合排名拔尖的高校之一，現時屬於「QS世界百強大學」、「泰晤士高等教育世界百強大學」及「軟科世界百強大學」，是“双一流A类”和原“985工程”、原“211工程”重点建设大学，拥有邯郸、枫林、张江、江湾四大校区，中山、华山等18家附属医院（含筹）以及复旦附中等若干所附属学校和基礎教育集團。\n\n",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/7/7f/201704_Gate_of_Fudan_University_Jiangwan_Campus.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/6/69/Chen_Wangdao.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/5/5f/FuDanUni.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/6/6e/FuDanZhangjiang.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/8/87/Fudan-building3.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/2/24/Fudan-guanghualou.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/4/4b/Fudan-xianghuitang.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/2/2d/Fudan_University_Jiangwan_Campus.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/f/f6/Fudanyanstatue.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/8/8c/Li_Denghui.jpg"
+    ],
     "amenity": {
-        "affiliation": 8185001098022114704,
+        "affiliation": 7200541828527252958,
         "amenity_list": [
             {
                 "id": 5311523524,
@@ -239,13 +253,6 @@
                 "longitude": 121.50343253552938
             },
             {
-                "id": 301674314,
-                "name": "复旦大学理科图书馆",
-                "type": "library",
-                "latitude": 31.29925032644226,
-                "longitude": 121.49835042595329
-            },
-            {
                 "id": 301674315,
                 "name": "学生服务站",
                 "type": "nan",
@@ -258,13 +265,6 @@
                 "type": "nan",
                 "latitude": 31.300960817992767,
                 "longitude": 121.49857080757651
-            },
-            {
-                "id": 301674317,
-                "name": "本部食堂",
-                "type": "restaurant",
-                "latitude": 31.303044682300715,
-                "longitude": 121.50193668554752
             },
             {
                 "id": 301674318,
@@ -314,20 +314,6 @@
                 "type": "nan",
                 "latitude": 31.302810524572248,
                 "longitude": 121.49351111872336
-            },
-            {
-                "id": 302928372,
-                "name": "美国研究中心",
-                "type": "college",
-                "latitude": 31.29750218712975,
-                "longitude": 121.4989998673543
-            },
-            {
-                "id": 302928373,
-                "name": "复旦南区食堂",
-                "type": "restaurant",
-                "latitude": 31.29397355745314,
-                "longitude": 121.49551060532154
             },
             {
                 "id": 302928384,

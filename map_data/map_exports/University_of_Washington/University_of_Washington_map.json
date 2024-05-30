@@ -1,11 +1,14 @@
 {
-    "id": 7645651039292909846,
+    "id": -5061608838027120899,
     "name": "University of Washington",
-    "rating": 4.6,
-    "popularity": 84,
+    "address": "1410 NE Campus Pkwy, Seattle, WA 98195美国",
+    "rating": 4.7,
+    "popularity": 80,
     "data_path": "map_data/university_map/University_of_Washington",
+    "description": "華盛頓大學（University of Washington）是位于美国華盛頓州西雅图的一所大学。\n華盛頓大學还可能指：\n\n圣路易斯华盛顿大学（Washington University in St.Louis），位於美国密蘇里州圣路易斯\n華盛頓州立大學（Washington State University），位于美国華盛頓州\n喬治·華盛頓大學（George Washington University），位於美国華盛頓特區",
+    "images": [],
     "amenity": {
-        "affiliation": 7645651039292909846,
+        "affiliation": -5061608838027120899,
         "amenity_list": [
             {
                 "id": 31430215,
@@ -862,25 +865,11 @@
                 "longitude": -122.31002936356137
             },
             {
-                "id": 4428338190,
-                "name": "Skagit Lane Bike House",
-                "type": "bicycle_parking",
-                "latitude": 47.6563162,
-                "longitude": -122.3074044
-            },
-            {
                 "id": 26447597,
                 "name": "Kane Hall",
                 "type": "nan",
                 "latitude": 47.65659335240471,
                 "longitude": -122.30919863244304
-            },
-            {
-                "id": 26447602,
-                "name": "Odegaard Undergraduate Library",
-                "type": "library",
-                "latitude": 47.6564691897874,
-                "longitude": -122.31040253123165
             },
             {
                 "id": 26447608,
@@ -958,13 +947,6 @@
                 "type": "nan",
                 "latitude": 47.65429737038699,
                 "longitude": -122.30453731420761
-            },
-            {
-                "id": 30896555,
-                "name": "Engineering Library",
-                "type": "library",
-                "latitude": 47.6546329904445,
-                "longitude": -122.30450215676025
             },
             {
                 "id": 30896622,
@@ -1077,13 +1059,6 @@
                 "type": "nan",
                 "latitude": 47.6539606488239,
                 "longitude": -122.30581929755867
-            },
-            {
-                "id": 30925209,
-                "name": "Hughes Penthouse Theater",
-                "type": "theatre",
-                "latitude": 47.66071549400801,
-                "longitude": -122.30811227228526
             },
             {
                 "id": 37119927,
@@ -1296,13 +1271,6 @@
                 "longitude": -122.30864858151844
             },
             {
-                "id": 53904684,
-                "name": "South Campus Garage",
-                "type": "parking",
-                "latitude": 47.64954600022566,
-                "longitude": -122.30993318023381
-            },
-            {
                 "id": 53904691,
                 "name": "Haring Center",
                 "type": "nan",
@@ -1394,13 +1362,6 @@
                 "longitude": -122.30356244257058
             },
             {
-                "id": 54216365,
-                "name": "Hall Health Center",
-                "type": "clinic",
-                "latitude": 47.65615603320954,
-                "longitude": -122.30409334465861
-            },
-            {
                 "id": 54224398,
                 "name": "Merrill Hall",
                 "type": "nan",
@@ -1434,13 +1395,6 @@
                 "type": "nan",
                 "latitude": 47.656567034233674,
                 "longitude": -122.31271035019013
-            },
-            {
-                "id": 54453444,
-                "name": "Laurel Village Community Center",
-                "type": "community_centre",
-                "latitude": 47.66013145096689,
-                "longitude": -122.29144655981092
             },
             {
                 "id": 54453447,
@@ -1709,13 +1663,6 @@
                 "longitude": -122.30216282069334
             },
             {
-                "id": 160544897,
-                "name": "Padelford Parking Garage",
-                "type": "parking",
-                "latitude": 47.657134397450726,
-                "longitude": -122.30336383208625
-            },
-            {
                 "id": 160545994,
                 "name": "Burke Museum of Natural History and Culture",
                 "type": "nan",
@@ -1798,20 +1745,6 @@
                 "type": "nan",
                 "latitude": 47.65239565,
                 "longitude": -122.31419484999999
-            },
-            {
-                "id": 222712284,
-                "name": "Portage Bay Parking Facility",
-                "type": "parking",
-                "latitude": 47.65294484380856,
-                "longitude": -122.31360425465888
-            },
-            {
-                "id": 222712286,
-                "name": "Brotman Baty Surgery Pavilion",
-                "type": "clinic",
-                "latitude": 47.64854738409049,
-                "longitude": -122.30528301156802
             },
             {
                 "id": 222713780,
@@ -1954,13 +1887,6 @@
                 "longitude": -122.30710581637747
             },
             {
-                "id": 222831554,
-                "name": "Allen Library",
-                "type": "library",
-                "latitude": 47.65553412466345,
-                "longitude": -122.30703778250036
-            },
-            {
                 "id": 222832149,
                 "name": "Southwest Maintenance Building",
                 "type": "nan",
@@ -1975,13 +1901,6 @@
                 "longitude": -122.31475878213908
             },
             {
-                "id": 222832151,
-                "name": "Child Care Center",
-                "type": "kindergarten",
-                "latitude": 47.655020370425994,
-                "longitude": -122.31532367826752
-            },
-            {
                 "id": 222832152,
                 "name": "Ethnic Cultural Center",
                 "type": "nan",
@@ -1994,20 +1913,6 @@
                 "type": "nan",
                 "latitude": 47.654487202891204,
                 "longitude": -122.31365131113101
-            },
-            {
-                "id": 222832154,
-                "name": "University of Washington Center for Anxiety and Trauma Stress",
-                "type": "clinic",
-                "latitude": 47.654781627831994,
-                "longitude": -122.3136170821938
-            },
-            {
-                "id": 222832156,
-                "name": "Ethnic Cultural Theater",
-                "type": "theatre",
-                "latitude": 47.655178229758434,
-                "longitude": -122.31418958366109
             },
             {
                 "id": 222832626,
@@ -2050,13 +1955,6 @@
                 "type": "nan",
                 "latitude": 47.657435075429234,
                 "longitude": -122.31243626238559
-            },
-            {
-                "id": 242182549,
-                "name": "University of Washington Medical Center - Montlake",
-                "type": "hospital",
-                "latitude": 47.64930885355031,
-                "longitude": -122.30750550057519
             },
             {
                 "id": 256401988,
@@ -2178,25 +2076,11 @@
                 "longitude": -122.31703549731368
             },
             {
-                "id": 430647912,
-                "name": "University of Washington Police Department",
-                "type": "police",
-                "latitude": 47.6544158451642,
-                "longitude": -122.3126174993468
-            },
-            {
                 "id": 436171057,
                 "name": "Mueller Hall",
                 "type": "nan",
                 "latitude": 47.65211265483072,
                 "longitude": -122.30544919202126
-            },
-            {
-                "id": 436174112,
-                "name": "Floyd and Delores Jones Playhouse",
-                "type": "theatre",
-                "latitude": 47.656648180572574,
-                "longitude": -122.31359547063408
             },
             {
                 "id": 436972746,
@@ -2255,32 +2139,11 @@
                 "longitude": -122.3047907388787
             },
             {
-                "id": 610060508,
-                "name": "Foster Business Library",
-                "type": "library",
-                "latitude": 47.65928171425978,
-                "longitude": -122.30807214775368
-            },
-            {
                 "id": 702590756,
                 "name": "Hans Rosling Center",
                 "type": "nan",
                 "latitude": 47.65449252323899,
                 "longitude": -122.31171402292891
-            },
-            {
-                "id": 762382398,
-                "name": "T-Wing Bike House",
-                "type": "bicycle_parking",
-                "latitude": 47.65145195250107,
-                "longitude": -122.30840452352112
-            },
-            {
-                "id": 762382399,
-                "name": "Life Sciences Bike House",
-                "type": "bicycle_parking",
-                "latitude": 47.651822200000005,
-                "longitude": -122.3090442
             },
             {
                 "id": 885743335,
@@ -2295,13 +2158,6 @@
                 "type": "nan",
                 "latitude": 47.651638248645106,
                 "longitude": -122.31052174290294
-            },
-            {
-                "id": 967246617,
-                "name": "Paccar Bike House",
-                "type": "bicycle_parking",
-                "latitude": 47.65869196546299,
-                "longitude": -122.30872440673076
             },
             {
                 "id": 969657964,
@@ -2323,13 +2179,6 @@
                 "type": "nan",
                 "latitude": 47.664655739549374,
                 "longitude": -122.29983647320486
-            },
-            {
-                "id": 1066815950,
-                "name": "Hub Bike House",
-                "type": "bicycle_parking",
-                "latitude": 47.65588552527136,
-                "longitude": -122.30471481860995
             },
             {
                 "id": 1078307975,
@@ -2400,13 +2249,6 @@
                 "type": "nan",
                 "latitude": 47.655014050204834,
                 "longitude": -122.3040317755801
-            },
-            {
-                "id": 2955450,
-                "name": "Suzzallo Library",
-                "type": "library",
-                "latitude": 47.6557779267717,
-                "longitude": -122.30815879311207
             },
             {
                 "id": 2955463,

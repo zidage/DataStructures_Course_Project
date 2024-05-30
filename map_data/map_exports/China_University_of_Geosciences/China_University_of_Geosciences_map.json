@@ -1,11 +1,24 @@
 {
-    "id": -577431858910291665,
+    "id": 5294884621717499858,
     "name": "中国地质大学（武汉）",
+    "address": "中国湖北省武汉市洪山区鲁磨路388号 邮政编码: 430079",
     "rating": 4.9,
-    "popularity": 76,
+    "popularity": 60,
     "data_path": "map_data/university_map/China_University_of_Geosciences",
+    "description": "中国地质大学（武汉），简称地大（英語：China University of Geosciences，缩写：CUG），是中国地质大学的两个独立办学实体之一（另一个为中国地质大学（北京））。学校的历史可追溯至1952年的北京地质学院（1952-1970），后经历湖北地质学院（1970-1975），武汉地质学院（1975–1987）两个时期，直到1987年原国家教育委员会批准组建中国地质大学，在武汉和北京两地办学，并设总部在中国地质大学（武汉）。\n中国地质大学（武汉）是中国地球科学领域的顶尖大学，其地球科学学科领域进入ESI全球前1‰。是中国“211工程”、“双一流”重点建设大学。学校以地球科学为主要特色，学科涵盖理、工、文、管、经、法、教、艺等门类，地质学、地质资源与地质工程2个一级学科入选“双一流”建设学科。\n学校现有两个校区，分别为南望山校区和未来城校区。南望山校区位于湖北省武汉市洪山区，毗邻东湖国家级高新技术开发区和“武汉·中国光谷”；未来城校区位于湖北省武汉市东湖新技术开发区，其于2013年开始建设，于2019年竣工并投入使用。学校拥有国家4A级旅游景区——逸夫博物馆。南望山校区拥有一条长约380米的“地大隧道”贯通学校西、北校区，拥有有一座“地大天桥”连接东、西校区。\n\n",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/b/b8/%E4%B8%AD%E5%9B%BD%E5%9C%B0%E8%B4%A8%E5%A4%A7%E5%AD%A6%EF%BC%88%E6%AD%A6%E6%B1%89%EF%BC%89%E4%B8%9C%E5%8C%BA%E5%8C%96%E7%9F%B3%E6%9E%97.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/1/15/%E4%B8%AD%E5%9B%BD%E5%9C%B0%E8%B4%A8%E5%A4%A7%E5%AD%A6%EF%BC%88%E6%AD%A6%E6%B1%89%EF%BC%89%E5%8C%97%E5%8C%BA%E5%87%89%E4%BA%AD.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/7/75/%E5%9C%B0%E5%A4%A7%E9%9A%A7%E9%81%93.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/f/f9/CUG_State_Key_Laboratories.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/1/1d/Cug_01.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/3/32/Cug_2.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/4/46/Cug_3.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/a/ac/Cug_4.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/c/c5/Cug_5.jpg"
+    ],
     "amenity": {
-        "affiliation": -577431858910291665,
+        "affiliation": 5294884621717499858,
         "amenity_list": [
             {
                 "id": 3061019294,
@@ -288,13 +301,6 @@
                 "longitude": 114.39516318753368
             },
             {
-                "id": 282652900,
-                "name": "中国地质大学图书馆",
-                "type": "library",
-                "latitude": 30.520929175063518,
-                "longitude": 114.3937992589361
-            },
-            {
                 "id": 282654783,
                 "name": "研究生公寓2号楼",
                 "type": "nan",
@@ -321,13 +327,6 @@
                 "type": "nan",
                 "latitude": 30.522598018439755,
                 "longitude": 114.39880954523161
-            },
-            {
-                "id": 283729607,
-                "name": "学一食堂",
-                "type": "food_court",
-                "latitude": 30.524438390555964,
-                "longitude": 114.39068332477599
             },
             {
                 "id": 283734562,
@@ -370,13 +369,6 @@
                 "type": "nan",
                 "latitude": 30.532011950996228,
                 "longitude": 114.39653892728096
-            },
-            {
-                "id": 283735718,
-                "name": "北区学生一食堂",
-                "type": "restaurant",
-                "latitude": 30.52952778212465,
-                "longitude": 114.39340628310704
             },
             {
                 "id": 283735719,
@@ -582,20 +574,6 @@
                 "longitude": 114.39462198906527
             },
             {
-                "id": 283739278,
-                "name": "中国银行ATM",
-                "type": "bank",
-                "latitude": 30.531510232639413,
-                "longitude": 114.39344383843518
-            },
-            {
-                "id": 283739279,
-                "name": "中国工商银行ATM",
-                "type": "bank",
-                "latitude": 30.53141806382997,
-                "longitude": 114.39345916464367
-            },
-            {
                 "id": 283739291,
                 "name": "教三楼",
                 "type": "nan",
@@ -715,13 +693,6 @@
                 "longitude": 114.4012274
             },
             {
-                "id": 283999177,
-                "name": "震旦园教工餐厅",
-                "type": "restaurant",
-                "latitude": 30.52060864581727,
-                "longitude": 114.40032438430832
-            },
-            {
                 "id": 283999184,
                 "name": "地质过程与矿产资源国家重点实验室",
                 "type": "nan",
@@ -734,13 +705,6 @@
                 "type": "nan",
                 "latitude": 30.5195910140281,
                 "longitude": 114.39989771863824
-            },
-            {
-                "id": 301933406,
-                "name": "东苑食堂",
-                "type": "restaurant",
-                "latitude": 30.523180272706096,
-                "longitude": 114.40035224410413
             },
             {
                 "id": 306197350,
@@ -778,13 +742,6 @@
                 "longitude": 114.39121455214992
             },
             {
-                "id": 488421043,
-                "name": "学二食堂",
-                "type": "restaurant",
-                "latitude": 30.524051900000003,
-                "longitude": 114.3907351
-            },
-            {
                 "id": 690884959,
                 "name": "中国地质大学教学综合楼AB座",
                 "type": "nan",
@@ -799,25 +756,11 @@
                 "longitude": 114.39705945465714
             },
             {
-                "id": 848480901,
-                "name": "学三食堂",
-                "type": "restaurant",
-                "latitude": 30.522978600000005,
-                "longitude": 114.39135715
-            },
-            {
                 "id": 848480902,
                 "name": "弘毅堂",
                 "type": "nan",
                 "latitude": 30.52286305449118,
                 "longitude": 114.39169377145585
-            },
-            {
-                "id": 848480903,
-                "name": "西苑食堂",
-                "type": "restaurant",
-                "latitude": 30.523581422169183,
-                "longitude": 114.39073482709335
             },
             {
                 "id": 848480908,
@@ -839,13 +782,6 @@
                 "type": "nan",
                 "latitude": 30.524785963887016,
                 "longitude": 114.39099401870219
-            },
-            {
-                "id": 1228766351,
-                "name": "胡馨园餐厅",
-                "type": "restaurant",
-                "latitude": 30.52130215,
-                "longitude": 114.39946359999998
             }
         ]
     }

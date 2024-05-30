@@ -1,11 +1,19 @@
 {
-    "id": 9164290293576897266,
+    "id": 2514202766448795613,
     "name": "佛罗里达大学",
+    "address": "Gainesville, FL 32611美国",
     "rating": 4.4,
-    "popularity": 48,
+    "popularity": 100,
     "data_path": "map_data/university_map/University_of_Florida",
+    "description": "佛羅里達大學（英語：University of Florida，簡稱UF，也稱作UFL）是一所位於美國佛羅里達州蓋恩斯維爾市的公立研究型大學。佛羅里達大學建校可追溯至1853年，是佛羅里達州的頂尖學府，被譽為美國“公立常春藤”之一。\n佛羅里達大學是美國大學協會會員之一。， 該大學被卡內基教學促進基金會歸類為最高的第一級研究型大學 (R-1: Doctoral Universities)。2023年美國新聞與世界報道大學排名（US News）將其並列為全美公立大學第6名及全球大學第98名。該大學在2021-2022世界大學排名（CWUR）中名列第86名、2020-2021世界大學學术排名（ARWU）中名列第88名。\n體育方面，佛羅里達大學是全國大學體育協會（NCAA）的成員，隸屬東南聯盟學校之一，該校大學運動隊的吉祥物是一只名叫Albert的短吻鱷（alligator），簡稱Gator，是該校重要的校園文化之一。因此佛羅里達大學的學生以及球隊粉丝習慣性自稱為Gator，而大學運動隊在聯賽中的習慣性稱呼是Florida Gators。",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/1/1d/Dsg_UF_Ben_Hill_Griffin_Stadium_Inside_20050507.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/4/41/Dsg_UF_Century_Tower_20050507.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/2/29/Lake_Alice_Winter.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/4/42/Pugh_Hall_at_the_University_of_Florida.JPG"
+    ],
     "amenity": {
-        "affiliation": 9164290293576897266,
+        "affiliation": 2514202766448795613,
         "amenity_list": [
             {
                 "id": 583406704,
@@ -1044,32 +1052,11 @@
                 "longitude": -82.3449233366864
             },
             {
-                "id": 150800199,
-                "name": "Parking Garage 5",
-                "type": "parking",
-                "latitude": 29.64326118218843,
-                "longitude": -82.35128381602222
-            },
-            {
                 "id": 150800200,
                 "name": "Weaver Hall",
                 "type": "nan",
                 "latitude": 29.64701441631705,
                 "longitude": -82.3507500150931
-            },
-            {
-                "id": 150800203,
-                "name": "UF Shands Garage 2",
-                "type": "parking",
-                "latitude": 29.638872240355806,
-                "longitude": -82.34677657026396
-            },
-            {
-                "id": 150800205,
-                "name": "UF Shands Garage 3",
-                "type": "parking",
-                "latitude": 29.63865464488912,
-                "longitude": -82.34776539953484
             },
             {
                 "id": 150800625,
@@ -1098,13 +1085,6 @@
                 "type": "nan",
                 "latitude": 29.647312226690627,
                 "longitude": -82.35021997794523
-            },
-            {
-                "id": 150803324,
-                "name": "Gator Corner Dining Center",
-                "type": "food_court",
-                "latitude": 29.64803998846252,
-                "longitude": -82.35014616753719
             },
             {
                 "id": 150821681,
@@ -1273,13 +1253,6 @@
                 "type": "nan",
                 "latitude": 29.64694900503964,
                 "longitude": -82.34320179925133
-            },
-            {
-                "id": 150823416,
-                "name": "Parking Garage 4",
-                "type": "parking",
-                "latitude": 29.645267144119366,
-                "longitude": -82.3429798042721
             },
             {
                 "id": 150858517,
@@ -1464,13 +1437,6 @@
                 "longitude": -82.34209028806532
             },
             {
-                "id": 150860048,
-                "name": "Marston Science Library",
-                "type": "library",
-                "latitude": 29.647934061661157,
-                "longitude": -82.3439277202402
-            },
-            {
                 "id": 150860049,
                 "name": "Music Building",
                 "type": "nan",
@@ -1497,13 +1463,6 @@
                 "type": "nan",
                 "latitude": 29.648383008963247,
                 "longitude": -82.34015735066087
-            },
-            {
-                "id": 150869222,
-                "name": "Hume Commons",
-                "type": "community_centre",
-                "latitude": 29.644522199934787,
-                "longitude": -82.3524825685886
             },
             {
                 "id": 150869223,
@@ -1604,25 +1563,11 @@
                 "longitude": -82.34901233971767
             },
             {
-                "id": 150958003,
-                "name": "Diamond Commons",
-                "type": "community_centre",
-                "latitude": 29.642402624281328,
-                "longitude": -82.34047500247624
-            },
-            {
                 "id": 151101671,
                 "name": "Beaty Tower A",
                 "type": "nan",
                 "latitude": 29.644096344641355,
                 "longitude": -82.34076886397885
-            },
-            {
-                "id": 151101676,
-                "name": "UF Housing & Residence Education Office",
-                "type": "office",
-                "latitude": 29.64416195015475,
-                "longitude": -82.33980745178194
             },
             {
                 "id": 151101679,
@@ -1637,13 +1582,6 @@
                 "type": "nan",
                 "latitude": 29.651627662710652,
                 "longitude": -82.34103857149964
-            },
-            {
-                "id": 154223625,
-                "name": "Smathers Library",
-                "type": "library",
-                "latitude": 29.65091309916564,
-                "longitude": -82.34180910076492
             },
             {
                 "id": 154223630,
@@ -1679,13 +1617,6 @@
                 "type": "nan",
                 "latitude": 29.650739763018535,
                 "longitude": -82.34010958311225
-            },
-            {
-                "id": 154223652,
-                "name": "Student Infirmary",
-                "type": "clinic",
-                "latitude": 29.649530559869596,
-                "longitude": -82.34659098881423
             },
             {
                 "id": 154223663,
@@ -1793,20 +1724,6 @@
                 "longitude": -82.34714927362475
             },
             {
-                "id": 154233152,
-                "name": "UF Health Davis Cancer Pavilion",
-                "type": "clinic",
-                "latitude": 29.637733225565146,
-                "longitude": -82.3496280054944
-            },
-            {
-                "id": 154233166,
-                "name": "Environmental Health & Safety",
-                "type": "office",
-                "latitude": 29.643531414588832,
-                "longitude": -82.34391308400538
-            },
-            {
                 "id": 154233177,
                 "name": "HPNP Building",
                 "type": "nan",
@@ -1870,13 +1787,6 @@
                 "longitude": -82.34163539380422
             },
             {
-                "id": 196848218,
-                "name": "Parking Garage 7",
-                "type": "parking",
-                "latitude": 29.65060435135061,
-                "longitude": -82.35153910962964
-            },
-            {
                 "id": 196848219,
                 "name": "ΘΧ",
                 "type": "nan",
@@ -1896,13 +1806,6 @@
                 "type": "nan",
                 "latitude": 29.648193000584715,
                 "longitude": -82.35592490707555
-            },
-            {
-                "id": 208630203,
-                "name": "Broward Dining Center",
-                "type": "food_court",
-                "latitude": 29.646956839138017,
-                "longitude": -82.34127443504768
             },
             {
                 "id": 220368156,
@@ -1938,13 +1841,6 @@
                 "type": "nan",
                 "latitude": 29.647365296414282,
                 "longitude": -82.35842377157358
-            },
-            {
-                "id": 259926043,
-                "name": "Keys Commons",
-                "type": "community_centre",
-                "latitude": 29.64772870747043,
-                "longitude": -82.35335779247389
             },
             {
                 "id": 259926044,
@@ -2080,13 +1976,6 @@
                 "longitude": -82.36376689413243
             },
             {
-                "id": 259968301,
-                "name": "Lakeside Commons",
-                "type": "community_centre",
-                "latitude": 29.6418543696752,
-                "longitude": -82.36620307315849
-            },
-            {
                 "id": 264182363,
                 "name": "Dauer Hall",
                 "type": "nan",
@@ -2101,20 +1990,6 @@
                 "longitude": -82.34412556917553
             },
             {
-                "id": 276732667,
-                "name": "Jennings Hall Office",
-                "type": "community_centre",
-                "latitude": 29.64437964768072,
-                "longitude": -82.3422149180427
-            },
-            {
-                "id": 276736808,
-                "name": "Beaty Commons",
-                "type": "community_centre",
-                "latitude": 29.6443754750699,
-                "longitude": -82.340597407778
-            },
-            {
                 "id": 276736809,
                 "name": "Beaty Creekside Apartments",
                 "type": "nan",
@@ -2127,20 +2002,6 @@
                 "type": "nan",
                 "latitude": 29.64590926621783,
                 "longitude": -82.33981185308271
-            },
-            {
-                "id": 277001074,
-                "name": "UPD Centrex Building",
-                "type": "police",
-                "latitude": 29.643933028089357,
-                "longitude": -82.34308584854644
-            },
-            {
-                "id": 277082915,
-                "name": "Norman Garage",
-                "type": "parking",
-                "latitude": 29.645503287864393,
-                "longitude": -82.33749630020682
             },
             {
                 "id": 277082917,
@@ -2162,20 +2023,6 @@
                 "type": "nan",
                 "latitude": 29.641846238345483,
                 "longitude": -82.34323111473202
-            },
-            {
-                "id": 278093471,
-                "name": "Springs Common",
-                "type": "community_centre",
-                "latitude": 29.648707064164764,
-                "longitude": -82.35712573964636
-            },
-            {
-                "id": 278909993,
-                "name": "Graham Area Office",
-                "type": "community_centre",
-                "latitude": 29.64587792716264,
-                "longitude": -82.35108897247044
             },
             {
                 "id": 278909996,
@@ -2204,20 +2051,6 @@
                 "type": "nan",
                 "latitude": 29.649690714408862,
                 "longitude": -82.35771181983505
-            },
-            {
-                "id": 289899832,
-                "name": "Corry Village Commons",
-                "type": "community_centre",
-                "latitude": 29.646393139364008,
-                "longitude": -82.36091140990166
-            },
-            {
-                "id": 292712663,
-                "name": "Baby Gator",
-                "type": "childcare",
-                "latitude": 29.645374444574866,
-                "longitude": -82.36051897036847
             },
             {
                 "id": 293325244,
@@ -2318,13 +2151,6 @@
                 "longitude": -82.36629762438076
             },
             {
-                "id": 294213159,
-                "name": "UVS Commons",
-                "type": "community_centre",
-                "latitude": 29.638740538916792,
-                "longitude": -82.37100127774131
-            },
-            {
                 "id": 294234916,
                 "name": "Maguire 15",
                 "type": "nan",
@@ -2393,13 +2219,6 @@
                 "type": "nan",
                 "latitude": 29.64076329579241,
                 "longitude": -82.37105686560488
-            },
-            {
-                "id": 294234938,
-                "name": "Maguire 13",
-                "type": "community_centre",
-                "latitude": 29.641146785864,
-                "longitude": -82.37080293571175
             },
             {
                 "id": 294234940,
@@ -2563,20 +2382,6 @@
                 "longitude": -82.3703670572225
             },
             {
-                "id": 395178830,
-                "name": "Parking Garage 11",
-                "type": "parking",
-                "latitude": 29.636308474009024,
-                "longitude": -82.36844060778968
-            },
-            {
-                "id": 395178832,
-                "name": "Phillips Center for the Performing Arts",
-                "type": "theatre",
-                "latitude": 29.635281556342246,
-                "longitude": -82.36929771524106
-            },
-            {
                 "id": 404962874,
                 "name": "Varsity Tennis Building",
                 "type": "nan",
@@ -2591,32 +2396,11 @@
                 "longitude": -82.37008520000664
             },
             {
-                "id": 404962878,
-                "name": "UF Mail & Documents Services",
-                "type": "post_office",
-                "latitude": 29.642838683966776,
-                "longitude": -82.36704250273888
-            },
-            {
                 "id": 404962880,
                 "name": "Facilities Services Human Resources",
                 "type": "nan",
                 "latitude": 29.643636299132215,
                 "longitude": -82.37020632413879
-            },
-            {
-                "id": 421670143,
-                "name": "UF Emerging Pathogens Institute",
-                "type": "research_institute",
-                "latitude": 29.637254367268312,
-                "longitude": -82.35197781443804
-            },
-            {
-                "id": 421670144,
-                "name": "UF Cancer & Genetics Research Complex",
-                "type": "research_institute",
-                "latitude": 29.638016427762327,
-                "longitude": -82.3515897740249
             },
             {
                 "id": 421670145,
@@ -2675,32 +2459,11 @@
                 "longitude": -82.36356341874517
             },
             {
-                "id": 426255502,
-                "name": "Cultural Plaza",
-                "type": "shelter",
-                "latitude": 29.637508599999997,
-                "longitude": -82.36853185000001
-            },
-            {
                 "id": 427713642,
                 "name": "Baughman Center Administration",
                 "type": "nan",
                 "latitude": 29.64201552284666,
                 "longitude": -82.36361841243114
-            },
-            {
-                "id": 427905273,
-                "name": "Hume Hall",
-                "type": "shelter",
-                "latitude": 29.644974875115107,
-                "longitude": -82.3521656558575
-            },
-            {
-                "id": 428102716,
-                "name": "Fraternity Row",
-                "type": "shelter",
-                "latitude": 29.648219960983116,
-                "longitude": -82.3576410088733
             },
             {
                 "id": 435952120,
@@ -2729,20 +2492,6 @@
                 "type": "nan",
                 "latitude": 29.6476356044728,
                 "longitude": -82.34809059057083
-            },
-            {
-                "id": 462870343,
-                "name": "UF Health Medical Plaza",
-                "type": "clinic",
-                "latitude": 29.63783575651358,
-                "longitude": -82.34898470876922
-            },
-            {
-                "id": 469683807,
-                "name": "Jimmy John's",
-                "type": "fast_food",
-                "latitude": 29.635254917438353,
-                "longitude": -82.35555787028537
             },
             {
                 "id": 469683809,
@@ -2808,13 +2557,6 @@
                 "longitude": -82.35447023702199
             },
             {
-                "id": 475581007,
-                "name": "Natural Area Teaching Pavilion",
-                "type": "shelter",
-                "latitude": 29.633497190936097,
-                "longitude": -82.36744262415563
-            },
-            {
                 "id": 479181002,
                 "name": "College of Veterinary Medicine",
                 "type": "nan",
@@ -2862,20 +2604,6 @@
                 "type": "nan",
                 "latitude": 29.64814684594335,
                 "longitude": -82.34850626600253
-            },
-            {
-                "id": 481256536,
-                "name": "Bus Shelter McCarty Drive North",
-                "type": "shelter",
-                "latitude": 29.645294628567342,
-                "longitude": -82.34699662750594
-            },
-            {
-                "id": 481256537,
-                "name": "Bus Shelter McCarty Drive South",
-                "type": "shelter",
-                "latitude": 29.64539788361958,
-                "longitude": -82.34696026419103
             },
             {
                 "id": 481256551,
@@ -2976,13 +2704,6 @@
                 "longitude": -82.34531351559227
             },
             {
-                "id": 481262058,
-                "name": "Vending Machines Shelter",
-                "type": "shelter",
-                "latitude": 29.646269031978598,
-                "longitude": -82.34493024564188
-            },
-            {
                 "id": 481262060,
                 "name": "Field Lab, Forestry",
                 "type": "nan",
@@ -3002,13 +2723,6 @@
                 "type": "nan",
                 "latitude": 29.641451638904506,
                 "longitude": -82.34340820038804
-            },
-            {
-                "id": 644534617,
-                "name": "Facilities Services Motor Pool",
-                "type": "fuel",
-                "latitude": 29.642830287307998,
-                "longitude": -82.36785227646811
             },
             {
                 "id": 644534618,
@@ -3144,13 +2858,6 @@
                 "longitude": -82.3613247986982
             },
             {
-                "id": 802735546,
-                "name": "Parking Garage 14",
-                "type": "parking",
-                "latitude": 29.642334523967204,
-                "longitude": -82.35135116224536
-            },
-            {
                 "id": 856556116,
                 "name": "Sanders Football Practice Fields",
                 "type": "nan",
@@ -3219,20 +2926,6 @@
                 "type": "nan",
                 "latitude": 29.64882177959252,
                 "longitude": -82.34863171940707
-            },
-            {
-                "id": 858697924,
-                "name": "Racquet Club Dining Center",
-                "type": "food_court",
-                "latitude": 29.650125342184225,
-                "longitude": -82.34634810405282
-            },
-            {
-                "id": 858697926,
-                "name": "Florida Pool Office/Lockers",
-                "type": "dressing_room",
-                "latitude": 29.65047062967884,
-                "longitude": -82.34740610243733
             },
             {
                 "id": 858697927,
@@ -3324,13 +3017,6 @@
                 "type": "nan",
                 "latitude": 29.64633457513757,
                 "longitude": -82.34777702373668
-            },
-            {
-                "id": 863211314,
-                "name": "Bookstore & Welcome Center Parking Garage",
-                "type": "parking",
-                "latitude": 29.64539048119577,
-                "longitude": -82.34825262581829
             },
             {
                 "id": 863362357,
@@ -4096,13 +3782,6 @@
                 "longitude": -82.35366066450044
             },
             {
-                "id": 1015400666,
-                "name": "Beaty Towers",
-                "type": "shelter",
-                "latitude": 29.644956947579114,
-                "longitude": -82.34019312453209
-            },
-            {
                 "id": 1027671966,
                 "name": "Communicore Building",
                 "type": "nan",
@@ -4241,13 +3920,6 @@
                 "type": "nan",
                 "latitude": 29.64668574867239,
                 "longitude": -82.33777689763588
-            },
-            {
-                "id": 12122775,
-                "name": "Library West",
-                "type": "library",
-                "latitude": 29.651387546999885,
-                "longitude": -82.34290975661152
             }
         ]
     }

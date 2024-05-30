@@ -1,11 +1,25 @@
 {
-    "id": -8209789001280454097,
+    "id": -2910463941939079254,
     "name": "卡内基梅隆大学",
+    "address": "5000 Forbes Ave, Pittsburgh, PA 15213美国",
     "rating": 4.8,
-    "popularity": 64,
+    "popularity": 52,
     "data_path": "map_data/university_map/Carnegie_Mellon_University",
+    "description": "卡内基·梅隆大学（英語：Carnegie Mellon University，缩写为CMU）是一所位於美國賓夕法尼亞州匹茲堡的研究型私立大學。\n卡内基·梅隆大學的歷史從1900年美国钢铁大亨安德魯·卡內基創立的卡內基技術學校開始。1912年，學校發展為卡內基理工學院，並開始授予四年文憑。1967年，卡內基理工學院和梅隆工業研究學院合併，成為卡內基梅隆大學。大學主校園面積為0.57平方公里，距離匹茲堡市中心約5公里。校園附近有匹茲堡卡內基博物館、匹茲堡卡內基圖書館主館、卡內基音樂廳、申利公園、菲普斯溫室及植物園、匹茲堡高爾夫俱樂部以及匹茲堡大學主校園。\n卡內基梅隆大學共有七所學院：卡内基工学院、藝術學院、迪特里希人文及社會科學學院、梅隆理學院、泰珀商學院、海因茨信息系统和公共政策學院、以及计算机科學學院。学校在匹兹堡，硅谷，卡塔尔和卢旺达设有校区，并在全世界六大洲开设学位项目。\n在2018年泰晤士高等教育世界大学排行榜中，卡内基梅隆大学排名世界第20位，在同一机构的学科排名中，学校的计算机科学排名世界第六位，工程和技术排名第十二位，商学和经济学排名第十五位。在USNews发布的排行榜中，学校排名全美第25位，其中计算机科学排名全美第一位。学校拥有世界顶尖的机器人学和戏剧学项目，以及全世界建立最早的计算机学院之一。\n卡内基梅隆大學拥有来自全世界114个国家的14,799名學生，超过5,000名教职人员和超过100,000名的校友。截止2019年3月，学校的教员和校友中共有20人获得诺贝尔奖，13人获得图灵奖，22人获评美国艺术与科学院院士，19人进入美国科学促进会，72人入选美国国家学院，7人获得奥斯卡金像奖，44人获得托尼奖，114人获得艾美奖。\n卡内基梅隆大學共有17個體育代表隊，它是NCAA中的大學運動聯盟（UAA）成員學校之一。\n\n",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/0/03/AWMellon.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/b/b5/Andrew_Carnegie%2C_three-quarter_length_portrait%2C_seated%2C_facing_slightly_left%2C_1913.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/1/13/CMU_Hamerschlag_Hall.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/5/5a/Carnegie-Mellon-University-29_Inside_Gates_Center.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/d/dd/CarnegieMellonBuggy.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/e/e5/Carnegie_Mellon_The_Cut_Planet.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/1/11/Cmu_panorama.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/f/ff/Hunt_Library_CMU_-_IMG_7844.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/9/91/John_f_nash_20061102_3.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/f/f7/Mobot.jpg"
+    ],
     "amenity": {
-        "affiliation": -8209789001280454097,
+        "affiliation": -2910463941939079254,
         "amenity_list": [
             {
                 "id": 367960585,
@@ -274,13 +288,6 @@
                 "longitude": -79.9444779
             },
             {
-                "id": 367960585,
-                "name": "Cyert Center for Early Education",
-                "type": "kindergarten",
-                "latitude": 40.4454541,
-                "longitude": -79.9433899
-            },
-            {
                 "id": 6549948478,
                 "name": "Posner Center",
                 "type": "nan",
@@ -330,32 +337,11 @@
                 "longitude": -79.94561606035204
             },
             {
-                "id": 27574204,
-                "name": "Hunt Library",
-                "type": "library",
-                "latitude": 40.44111058745497,
-                "longitude": -79.94373973890518
-            },
-            {
-                "id": 27574237,
-                "name": "East Campus Garage",
-                "type": "parking",
-                "latitude": 40.4438211596947,
-                "longitude": -79.9400292933513
-            },
-            {
                 "id": 27574394,
                 "name": "Cohon University Center",
                 "type": "nan",
                 "latitude": 40.44348398527624,
                 "longitude": -79.94197894957651
-            },
-            {
-                "id": 27574406,
-                "name": "Purnell Center for the Arts",
-                "type": "arts_centre",
-                "latitude": 40.44351753079678,
-                "longitude": -79.9435400585842
             },
             {
                 "id": 27574545,
@@ -631,13 +617,6 @@
                 "longitude": -79.94839884297106
             },
             {
-                "id": 103686985,
-                "name": "Webster Hall Parking Garage",
-                "type": "parking",
-                "latitude": 40.44752153551381,
-                "longitude": -79.95166138468251
-            },
-            {
                 "id": 544174664,
                 "name": "Alumni Hall",
                 "type": "nan",
@@ -659,13 +638,6 @@
                 "longitude": -79.94623245690477
             },
             {
-                "id": 544174673,
-                "name": "WQED",
-                "type": "studio",
-                "latitude": 40.44672558082425,
-                "longitude": -79.94471838638637
-            },
-            {
                 "id": 544174675,
                 "name": "Morewood Gardens",
                 "type": "nan",
@@ -680,25 +652,11 @@
                 "longitude": -79.94532964978173
             },
             {
-                "id": 739910512,
-                "name": "Residence on Fifth",
-                "type": "student_accommodation",
-                "latitude": 40.44687190873955,
-                "longitude": -79.94676938044499
-            },
-            {
                 "id": 879491687,
                 "name": "Zupanic Family STEM Center",
                 "type": "nan",
                 "latitude": 40.44640465706121,
                 "longitude": -79.94665283358844
-            },
-            {
-                "id": 1000419332,
-                "name": "Tartans Pavilion",
-                "type": "food_court",
-                "latitude": 40.4426444110885,
-                "longitude": -79.94006802376559
             },
             {
                 "id": 1001941217,

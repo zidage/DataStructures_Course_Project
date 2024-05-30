@@ -1,11 +1,22 @@
 {
-    "id": -978976201706880186,
+    "id": 1186202654989570943,
     "name": "加利福尼亚大学洛杉矶分校",
+    "address": "美国 California, Los Angeles, 邮政编码: 90095",
     "rating": 4.6,
-    "popularity": 92,
+    "popularity": 60,
     "data_path": "map_data/university_map/University_of_California,_Los_Angeles",
+    "description": "加州大学洛杉矶分校（英語：University of California, Los Angeles），簡稱UCLA，是一所位于美国加利福尼亚州洛杉矶的公立研究型大学，创办于1919年，是加州大学系统中的第三所大学，目前擁有约31,600名本科生与14,300名研究生，提供包括学士、硕士与博士在内331种不同的学位课程（其中学士学位124个；硕士学位98个；博士以及专业学位共109个）。加州大学洛杉矶分校是全美国大學申请人数最多的学校，2020年有139,490人申请入学加州大学洛杉矶分校，是全美入學競爭最激烈的公立大学之一。 2023年在U.S. News世界大學排名全美公立大學第一名。\n截止2020年10月，加州大学洛杉矶分校的校友、教授及研究人员中，共有25位诺贝尔奖得主、3位菲尔兹奖得主、5位图灵奖得主。洛加大同时也因其学生在奥林匹克运动会中取得的优异成绩而闻名于世，截止2021年，该校的校友、学生、教练和其他人员等共获得了270枚奥运奖牌（包括136枚金牌）。",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/c/c8/California_Nanosystems_Institute%2C_interior_walkways%2C_UCLA.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/0/0c/Drake_Stadium_2008.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/3/3e/Hughandhazeldarlinglawlibrary.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/8/8e/Royce_Hall%2C_University_of_California%2C_Los_Angeles_%2823-09-2003%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/8/8e/Royce_Hall%2C_University_of_California%2C_Los_Angeles_%2823-09-2003%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/4/41/UCLA-old-statenormal-campus.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/8/85/UCLA-vermontcampus-1922.jpg"
+    ],
     "amenity": {
-        "affiliation": -978976201706880186,
+        "affiliation": 1186202654989570943,
         "amenity_list": [
             {
                 "id": 358851306,
@@ -750,13 +761,6 @@
                 "longitude": -118.43925255238703
             },
             {
-                "id": 30724960,
-                "name": "Parking 5",
-                "type": "parking",
-                "latitude": 34.07416709162318,
-                "longitude": -118.442900204839
-            },
-            {
                 "id": 44631681,
                 "name": "Jacaranda Court",
                 "type": "nan",
@@ -785,27 +789,6 @@
                 "longitude": -118.45075124534418
             },
             {
-                "id": 44669492,
-                "name": "Marion Davies Children's Health Center",
-                "type": "clinic",
-                "latitude": 34.06517297342393,
-                "longitude": -118.442436320582
-            },
-            {
-                "id": 44669498,
-                "name": "Reed Neurological Research Center",
-                "type": "research_institute",
-                "latitude": 34.06622212191013,
-                "longitude": -118.44480487987718
-            },
-            {
-                "id": 44669501,
-                "name": "Semel Institute for Neuroscience and Human Behavior",
-                "type": "research_institute",
-                "latitude": 34.06578420379455,
-                "longitude": -118.44456302925059
-            },
-            {
                 "id": 46364638,
                 "name": "Rehabilitation Building",
                 "type": "nan",
@@ -832,13 +815,6 @@
                 "type": "nan",
                 "latitude": 34.06021218613117,
                 "longitude": -118.44848025335347
-            },
-            {
-                "id": 179088301,
-                "name": "Brain Research Institute",
-                "type": "research_institute",
-                "latitude": 34.06634236662472,
-                "longitude": -118.444372140437
             },
             {
                 "id": 184444681,
@@ -988,20 +964,6 @@
                 "longitude": -118.44771295748808
             },
             {
-                "id": 422876521,
-                "name": "Ahmanson-Lovelace Brain Mapping Center",
-                "type": "clinic",
-                "latitude": 34.06670093861319,
-                "longitude": -118.44438203330157
-            },
-            {
-                "id": 422876522,
-                "name": "Ashe Student Health Center",
-                "type": "clinic",
-                "latitude": 34.07155459310803,
-                "longitude": -118.44482081233038
-            },
-            {
                 "id": 422876523,
                 "name": "Birch Residential Building",
                 "type": "nan",
@@ -1058,13 +1020,6 @@
                 "longitude": -118.4498861664983
             },
             {
-                "id": 422876535,
-                "name": "Charles E. Young Research Library",
-                "type": "library",
-                "latitude": 34.074954355710155,
-                "longitude": -118.44147562172556
-            },
-            {
                 "id": 422876536,
                 "name": "Collins Executive Education Center",
                 "type": "nan",
@@ -1114,25 +1069,11 @@
                 "longitude": -118.45047777580899
             },
             {
-                "id": 422876543,
-                "name": "Doris Stein Eye Research Center",
-                "type": "research_institute",
-                "latitude": 34.064517312724114,
-                "longitude": -118.44455836637489
-            },
-            {
                 "id": 422876544,
                 "name": "Dykstra Hall",
                 "type": "nan",
                 "latitude": 34.07003133820368,
                 "longitude": -118.45007078885484
-            },
-            {
-                "id": 422876545,
-                "name": "Wasserman Building",
-                "type": "clinic",
-                "latitude": 34.06525724251725,
-                "longitude": -118.44462884892268
             },
             {
                 "id": 422876549,
@@ -1261,13 +1202,6 @@
                 "longitude": -118.4453998765414
             },
             {
-                "id": 422876579,
-                "name": "Jules Stein Eye Institute",
-                "type": "hospital",
-                "latitude": 34.065004240383736,
-                "longitude": -118.44385851478822
-            },
-            {
                 "id": 422876580,
                 "name": "Kaufman Hall",
                 "type": "nan",
@@ -1352,20 +1286,6 @@
                 "longitude": -118.44289717444566
             },
             {
-                "id": 422876595,
-                "name": "Manoukian Medical Building",
-                "type": "clinic",
-                "latitude": 34.06554591104982,
-                "longitude": -118.44577684022107
-            },
-            {
-                "id": 422876596,
-                "name": "Goldberg Medical Building",
-                "type": "clinic",
-                "latitude": 34.064356290712134,
-                "longitude": -118.44611431793678
-            },
-            {
                 "id": 422876597,
                 "name": "Melnitz East",
                 "type": "nan",
@@ -1429,74 +1349,11 @@
                 "longitude": -118.45185456443856
             },
             {
-                "id": 422876614,
-                "name": "Parking 1",
-                "type": "parking",
-                "latitude": 34.0651368053515,
-                "longitude": -118.44725625324071
-            },
-            {
-                "id": 422876615,
-                "name": "Parking 2",
-                "type": "parking",
-                "latitude": 34.068603498626366,
-                "longitude": -118.4398126052902
-            },
-            {
-                "id": 422876616,
-                "name": "Parking 3",
-                "type": "parking",
-                "latitude": 34.077187696516695,
-                "longitude": -118.44001868826973
-            },
-            {
-                "id": 422876617,
-                "name": "Parking 8",
-                "type": "parking",
-                "latitude": 34.06824196722539,
-                "longitude": -118.44674314600935
-            },
-            {
-                "id": 422876618,
-                "name": "Parking 9",
-                "type": "parking",
-                "latitude": 34.06803709691822,
-                "longitude": -118.44381936421907
-            },
-            {
-                "id": 422876619,
-                "name": "Parking DD",
-                "type": "parking",
-                "latitude": 34.06974506124925,
-                "longitude": -118.4501566532569
-            },
-            {
-                "id": 422876620,
-                "name": "Parking E",
-                "type": "parking",
-                "latitude": 34.06504159226602,
-                "longitude": -118.44205773840055
-            },
-            {
-                "id": 422876621,
-                "name": "Parking RC",
-                "type": "parking",
-                "latitude": 34.07524435734255,
-                "longitude": -118.45107633275985
-            },
-            {
                 "id": 422876622,
                 "name": "Pauley Pavilion",
                 "type": "nan",
                 "latitude": 34.070377860179875,
                 "longitude": -118.44676691277616
-            },
-            {
-                "id": 422876623,
-                "name": "Morton Medical Building (MP200)",
-                "type": "clinic",
-                "latitude": 34.06522537147543,
-                "longitude": -118.44656113276879
             },
             {
                 "id": 422876624,
@@ -1511,13 +1368,6 @@
                 "type": "nan",
                 "latitude": 34.07069675511622,
                 "longitude": -118.44158570343366
-            },
-            {
-                "id": 422876626,
-                "name": "Powell Library",
-                "type": "library",
-                "latitude": 34.071605534633655,
-                "longitude": -118.44217512789841
             },
             {
                 "id": 422876627,
@@ -1611,13 +1461,6 @@
                 "longitude": -118.43847761023387
             },
             {
-                "id": 422876641,
-                "name": "Southern Regional Library Facility",
-                "type": "library",
-                "latitude": 34.07096364850199,
-                "longitude": -118.45417727736772
-            },
-            {
                 "id": 422876642,
                 "name": "Sproul Cove",
                 "type": "nan",
@@ -1639,13 +1482,6 @@
                 "longitude": -118.44523457500016
             },
             {
-                "id": 422876645,
-                "name": "Student Activities Center (SAC)",
-                "type": "community_centre",
-                "latitude": 34.07155538154028,
-                "longitude": -118.44413466852626
-            },
-            {
                 "id": 422876647,
                 "name": "Terasaki Life Sciences Building",
                 "type": "nan",
@@ -1658,13 +1494,6 @@
                 "type": "nan",
                 "latitude": 34.074576798944015,
                 "longitude": -118.43849402946061
-            },
-            {
-                "id": 422876652,
-                "name": "UCLA Police Department",
-                "type": "police",
-                "latitude": 34.06732736047872,
-                "longitude": -118.44542607959819
             },
             {
                 "id": 422876653,
@@ -1737,20 +1566,6 @@
                 "longitude": -118.43932862523263
             },
             {
-                "id": 425246942,
-                "name": "Fire Station 37",
-                "type": "fire_station",
-                "latitude": 34.05981279423649,
-                "longitude": -118.44895194002261
-            },
-            {
-                "id": 425246943,
-                "name": "Parking 32",
-                "type": "parking",
-                "latitude": 34.05996156865707,
-                "longitude": -118.44777048370153
-            },
-            {
                 "id": 425246956,
                 "name": "West Medical Steam Plant",
                 "type": "nan",
@@ -1791,13 +1606,6 @@
                 "type": "nan",
                 "latitude": 34.06813894324528,
                 "longitude": -118.44498297226106
-            },
-            {
-                "id": 854806689,
-                "name": "Rosenfeld Library",
-                "type": "library",
-                "latitude": 34.07436519113721,
-                "longitude": -118.44344621356647
             },
             {
                 "id": 964822668,
@@ -1891,13 +1699,6 @@
                 "longitude": -118.44304278989664
             },
             {
-                "id": 2389785,
-                "name": "Ronald Reagan UCLA Medical Center",
-                "type": "hospital",
-                "latitude": 34.06645928145889,
-                "longitude": -118.44634083241235
-            },
-            {
                 "id": 6287582,
                 "name": "Boelter Hall",
                 "type": "nan",
@@ -1938,13 +1739,6 @@
                 "type": "nan",
                 "latitude": 34.066905750625715,
                 "longitude": -118.43991354977851
-            },
-            {
-                "id": 6287588,
-                "name": "LuValle Commons",
-                "type": "food_court",
-                "latitude": 34.07365388028025,
-                "longitude": -118.43925255238703
             },
             {
                 "id": 6287589,

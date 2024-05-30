@@ -1,11 +1,25 @@
 {
-    "id": -7146856377404687585,
+    "id": 7851890043278252108,
     "name": "密西根大学",
+    "address": "500 S State St, Ann Arbor, MI 48109美国",
     "rating": 4.4,
-    "popularity": 48,
+    "popularity": 60,
     "data_path": "map_data/university_map/University_of_Michigan-Ann_Arbor",
+    "description": "密西根大学（英語：University of Michigan，简称：U-M、UMich或Michigan），简称密大，坐落于美国密西根州安娜堡市，是一所成立于1817年的公立研究型大学，为美洲大学协会的创始院校之一。\n密西根大学是世界顶尖的综合性研究型大学，在2020年自然指数的报告中，其研究输出位居美国第5位，仅次于哈佛大学、史丹福大学、麻省理工学院和加州大学伯克利分校。大学研究经费的数额为全美第2，美国联邦政府对大学研究资助的数额为全美第3。根据《US News》、世界大学学术排名、QS世界大学排名、泰晤士高等教育世界大学排名等主流学术排名，密西根大学的综合排名位居世界前30位。密西根大学是众多知名学术组织的成员，包括美洲大学协会（AAU）、大学研究协会（URA）等。密西根大学亦是最受学生欢迎的院校之一，每年的本科申请量超过80,000份，位列美国前10位。密西根大学医学院、法学院、工学院和教育学院都排在《US News》全美前10名。此外，根据《US News》的排名，密西根大学大部分专业都在全美前20名。除学术和科研之外，密西根大学也在泰晤士报评出的声誉排名中位列世界第15位。\n密西根大学自建校以来，在国际上一直享有很高声誉，素有「西部的哈佛大學」、「美國公立大學的母親」等美譽。《US News》大学排名在1987年第一次发布时，密西根大学位居美国第7位，法学院排名位居美国第3位，仅次于耶鲁法学院跟哈佛法学院。在政治学和心理学上，「密西根学派」是与芝加哥学派、哥伦比亚学派齐名的三大学派。该校每年都会公布密西根大学消费者信心指数，是密西根大学罗斯商学院的一项成果。在2006年发布的华尔街日报工商管理硕士（MBA）排名中，罗斯商学院位列全美第1位。体育方面，密西根大学是美国历史最悠久的高校体育联盟—十大联盟的成员学校之一。\n截止2020年10月，密西根大学的校友和教职研究人员中诞生了26名诺贝尔奖得主、6名图灵奖得主、2名菲尔兹奖得主、2名阿貝爾獎得主。\n密西根大学是培养优秀华人学者的摇篮和聚集地之一。著名校友包括八位國內外國家元首或政府首腦，它培养了47名美國參議員、 218名美國眾議院議員、42名美國內閣秘書、41位美國各州州長、和26位在世的億萬富翁。密西根培养了华裔诺贝尔奖得主丁肇中，中国工程院首任院长朱光亚、物理学家吴大猷、化学家张存浩、航天技术和火箭发动机专家任新民、美国国家科学院海外院士朱敬一、历史学家黄仁宇等。",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/0/0d/A_picture_of_the_University_of_Michigan_campus_in_Ann_Arbor%2C_Michigan%2C_USA.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/6/6e/Alice_Freeman_Palmer%2C_1881-1887.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/2/21/Campus_University_of_Michigan_%28NBY_2827%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/9/99/ClaudeShannon_MFO3807.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/a/ab/Engineering_Building_UOM_1905.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/9/90/History_of_the_University_of_Michigan_%281906%29_%2814576452150%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/6/66/James_Rowland_Angell_cph.3a51566.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/e/e2/JasperCropseyUniversityOfMichigan.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/d/dc/Law_Building%2C_U._of_M.%2C_Ann_Arbor%2C_Mich._%28NBY_7895%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/8/8e/Library_and_Chapel%2C_University_of_Michigan%2C_Ann_Arbor_%28front_elevation%29_MET_DT369502.jpg"
+    ],
     "amenity": {
-        "affiliation": -7146856377404687585,
+        "affiliation": 7851890043278252108,
         "amenity_list": [
             {
                 "id": 62621809,
@@ -1086,25 +1100,11 @@
                 "longitude": -83.72920554704083
             },
             {
-                "id": 82245561,
-                "name": "Pierpont Commons",
-                "type": "community_centre",
-                "latitude": 42.291143110726566,
-                "longitude": -83.71749773072935
-            },
-            {
                 "id": 82246736,
                 "name": "Bob and Betty Beyster Building",
                 "type": "nan",
                 "latitude": 42.29296400974245,
                 "longitude": -83.71626680359543
-            },
-            {
-                "id": 82246737,
-                "name": "Walgreen Drama Center",
-                "type": "arts_centre",
-                "latitude": 42.29191623122929,
-                "longitude": -83.71748485589036
             },
             {
                 "id": 82246798,
@@ -1128,39 +1128,11 @@
                 "longitude": -83.71389830262581
             },
             {
-                "id": 97181955,
-                "name": "Hill Structure",
-                "type": "parking",
-                "latitude": 42.27234369770441,
-                "longitude": -83.7367886280887
-            },
-            {
                 "id": 99883661,
                 "name": "West Hall",
                 "type": "nan",
                 "latitude": 42.275901118214854,
                 "longitude": -83.73635270166173
-            },
-            {
-                "id": 99883665,
-                "name": "Shapiro Undergraduate Library",
-                "type": "library",
-                "latitude": 42.27562148385323,
-                "longitude": -83.73718316799037
-            },
-            {
-                "id": 99883671,
-                "name": "William L. Clements Library",
-                "type": "library",
-                "latitude": 42.27545698043049,
-                "longitude": -83.73800298756039
-            },
-            {
-                "id": 99883675,
-                "name": "Hatcher Graduate Library",
-                "type": "library",
-                "latitude": 42.27620420632597,
-                "longitude": -83.7381950278311
             },
             {
                 "id": 99883679,
@@ -1182,13 +1154,6 @@
                 "type": "nan",
                 "latitude": 42.267615144690794,
                 "longitude": -83.74102549561059
-            },
-            {
-                "id": 132574383,
-                "name": "Fletcher Structure",
-                "type": "parking",
-                "latitude": 42.280138897631694,
-                "longitude": -83.7360311292332
             },
             {
                 "id": 154202605,
@@ -1233,13 +1198,6 @@
                 "longitude": -83.73255236301854
             },
             {
-                "id": 154202642,
-                "name": "Thayer Street Parking Structure",
-                "type": "parking",
-                "latitude": 42.27973369979412,
-                "longitude": -83.73995794637142
-            },
-            {
                 "id": 154202651,
                 "name": "Helen Newberry Residence",
                 "type": "nan",
@@ -1259,13 +1217,6 @@
                 "type": "nan",
                 "latitude": 42.27239892907981,
                 "longitude": -83.74031325373836
-            },
-            {
-                "id": 154202660,
-                "name": "Tappan Hall",
-                "type": "library",
-                "latitude": 42.275492389249315,
-                "longitude": -83.73928273875211
             },
             {
                 "id": 154202662,
@@ -1296,13 +1247,6 @@
                 "longitude": -83.73613016537759
             },
             {
-                "id": 154202674,
-                "name": "Kresge Business Admin Library",
-                "type": "clinic",
-                "latitude": 42.272845224385335,
-                "longitude": -83.73688310510899
-            },
-            {
                 "id": 154202677,
                 "name": "The Connector",
                 "type": "nan",
@@ -1310,25 +1254,11 @@
                 "longitude": -83.74193317361883
             },
             {
-                "id": 154202681,
-                "name": "Cook Legal Research Library",
-                "type": "clinic",
-                "latitude": 42.27382577716608,
-                "longitude": -83.73936984612374
-            },
-            {
                 "id": 154202689,
                 "name": "Randall Lab",
                 "type": "nan",
                 "latitude": 42.276644220493786,
                 "longitude": -83.73661666115309
-            },
-            {
-                "id": 154203557,
-                "name": "Hill Auditorium",
-                "type": "concert_hall",
-                "latitude": 42.27914566512838,
-                "longitude": -83.73906677501842
             },
             {
                 "id": 154203570,
@@ -1352,13 +1282,6 @@
                 "longitude": -83.74120051008674
             },
             {
-                "id": 154203577,
-                "name": "Power Center for the Performing Arts",
-                "type": "theatre",
-                "latitude": 42.28087743881818,
-                "longitude": -83.73579652716845
-            },
-            {
                 "id": 154203580,
                 "name": "Michigan League",
                 "type": "nan",
@@ -1371,13 +1294,6 @@
                 "type": "nan",
                 "latitude": 42.27459765136342,
                 "longitude": -83.73646277983018
-            },
-            {
-                "id": 154203582,
-                "name": "Michigan Union",
-                "type": "community_centre",
-                "latitude": 42.27516491952654,
-                "longitude": -83.74156377604368
             },
             {
                 "id": 154203584,
@@ -1604,13 +1520,6 @@
                 "longitude": -83.74110365435034
             },
             {
-                "id": 192429436,
-                "name": "NC100",
-                "type": "parking",
-                "latitude": 42.301569571734056,
-                "longitude": -83.70562913549634
-            },
-            {
                 "id": 193357102,
                 "name": "Burton Tower",
                 "type": "nan",
@@ -1623,27 +1532,6 @@
                 "type": "nan",
                 "latitude": 42.266043697164164,
                 "longitude": -83.74114039647844
-            },
-            {
-                "id": 193813106,
-                "name": "U-M P2 M18 Taubman Structure",
-                "type": "parking",
-                "latitude": 42.283299955964864,
-                "longitude": -83.72753354448731
-            },
-            {
-                "id": 193910369,
-                "name": "U-M Lot P1 M15 North Entrance Structure",
-                "type": "parking",
-                "latitude": 42.28492226038848,
-                "longitude": -83.73249071295739
-            },
-            {
-                "id": 223569638,
-                "name": "U-M M61 Glen Structure",
-                "type": "parking",
-                "latitude": 42.28364328243498,
-                "longitude": -83.73648751045707
             },
             {
                 "id": 224112759,
@@ -1672,13 +1560,6 @@
                 "type": "nan",
                 "latitude": 42.2977743,
                 "longitude": -83.71572985
-            },
-            {
-                "id": 230128786,
-                "name": "Duderstadt Center",
-                "type": "library",
-                "latitude": 42.29116256559188,
-                "longitude": -83.71572828941426
             },
             {
                 "id": 242379149,
@@ -1870,20 +1751,6 @@
                 "longitude": -83.72017697827476
             },
             {
-                "id": 291926400,
-                "name": "Gerald R. Ford Presidential Library",
-                "type": "library",
-                "latitude": 42.288577212795396,
-                "longitude": -83.712295290459
-            },
-            {
-                "id": 291927192,
-                "name": "Bentley Historical Library",
-                "type": "library",
-                "latitude": 42.28956236839375,
-                "longitude": -83.71225643887257
-            },
-            {
                 "id": 291965358,
                 "name": "Gerstacker Building",
                 "type": "nan",
@@ -2045,13 +1912,6 @@
                 "longitude": -83.69386943550084
             },
             {
-                "id": 298600690,
-                "name": "Ann Arbor Fire Department Station 5",
-                "type": "fire_station",
-                "latitude": 42.30055064059309,
-                "longitude": -83.71226170470227
-            },
-            {
                 "id": 298600694,
                 "name": "Northwood IV Community Center",
                 "type": "nan",
@@ -2164,13 +2024,6 @@
                 "longitude": -83.73417146727317
             },
             {
-                "id": 302169787,
-                "name": "Taubman Health Sciences Library",
-                "type": "library",
-                "latitude": 42.28358327734774,
-                "longitude": -83.73453605778292
-            },
-            {
                 "id": 302169788,
                 "name": "Medical Science Unit II",
                 "type": "nan",
@@ -2248,20 +2101,6 @@
                 "longitude": -83.73609077135592
             },
             {
-                "id": 305031997,
-                "name": "U-M M86 Ann Structure",
-                "type": "parking",
-                "latitude": 42.28254578799528,
-                "longitude": -83.73474399187472
-            },
-            {
-                "id": 305031998,
-                "name": "U-M M5 Catherine Structure",
-                "type": "parking",
-                "latitude": 42.282922444993105,
-                "longitude": -83.73477410136445
-            },
-            {
                 "id": 306551604,
                 "name": "UM Tennis Center",
                 "type": "nan",
@@ -2283,34 +2122,6 @@
                 "longitude": -83.74305642284251
             },
             {
-                "id": 313502936,
-                "name": "Ambulatory Surgery and Medical Procedures Center",
-                "type": "clinic",
-                "latitude": 42.308764396546394,
-                "longitude": -83.67275126209948
-            },
-            {
-                "id": 313502937,
-                "name": "Rachel Upjohn Building",
-                "type": "clinic",
-                "latitude": 42.30764788469906,
-                "longitude": -83.67525518668656
-            },
-            {
-                "id": 313502938,
-                "name": "East Ann Arbor Health and Geriatric Center",
-                "type": "clinic",
-                "latitude": 42.30797749361654,
-                "longitude": -83.67382891276664
-            },
-            {
-                "id": 316162257,
-                "name": "U-M P3 Structure",
-                "type": "parking",
-                "latitude": 42.282629464364845,
-                "longitude": -83.72728351874711
-            },
-            {
                 "id": 334625284,
                 "name": "Ronald McDonald House Charities of Ann Arbor",
                 "type": "nan",
@@ -2323,13 +2134,6 @@
                 "type": "nan",
                 "latitude": 42.27681254110379,
                 "longitude": -83.7353553331257
-            },
-            {
-                "id": 382245084,
-                "name": "Thompson Structure",
-                "type": "parking",
-                "latitude": 42.275550919549715,
-                "longitude": -83.74364720016781
             },
             {
                 "id": 382245085,
@@ -2430,39 +2234,11 @@
                 "longitude": -83.74793517584375
             },
             {
-                "id": 454598899,
-                "name": "Radiology",
-                "type": "clinic",
-                "latitude": 42.308566344979546,
-                "longitude": -83.67344393404237
-            },
-            {
-                "id": 460494756,
-                "name": "concessions",
-                "type": "fast_food",
-                "latitude": 42.26754690460376,
-                "longitude": -83.74833495465296
-            },
-            {
                 "id": 474868750,
                 "name": "Chabad House",
                 "type": "nan",
                 "latitude": 42.2721995622666,
                 "longitude": -83.73980970995892
-            },
-            {
-                "id": 487058610,
-                "name": "Towsley Chidren House",
-                "type": "childcare",
-                "latitude": 42.2734362255236,
-                "longitude": -83.7335642681439
-            },
-            {
-                "id": 490236476,
-                "name": "First Aid",
-                "type": "clinic",
-                "latitude": 42.26746150450776,
-                "longitude": -83.74935068137029
             },
             {
                 "id": 493359073,
@@ -2484,13 +2260,6 @@
                 "type": "nan",
                 "latitude": 42.27356822804809,
                 "longitude": -83.74109699186342
-            },
-            {
-                "id": 504121174,
-                "name": "Central Campus Transit Center",
-                "type": "bus_station",
-                "latitude": 42.27794430035634,
-                "longitude": -83.73522763164063
             },
             {
                 "id": 519406620,
@@ -2547,13 +2316,6 @@
                 "type": "nan",
                 "latitude": 42.2770862966203,
                 "longitude": -83.74110230064757
-            },
-            {
-                "id": 612103759,
-                "name": "Concessions",
-                "type": "fast_food",
-                "latitude": 42.26755647455818,
-                "longitude": -83.74907825321505
             },
             {
                 "id": 721963128,
@@ -2708,13 +2470,6 @@
                 "type": "nan",
                 "latitude": 42.29978881060438,
                 "longitude": -83.70518468261807
-            },
-            {
-                "id": 3999761,
-                "name": "U-M P4 M22 Simpson Circle Parking Structure",
-                "type": "parking",
-                "latitude": 42.28198016300666,
-                "longitude": -83.72920554704083
             },
             {
                 "id": 4015972,

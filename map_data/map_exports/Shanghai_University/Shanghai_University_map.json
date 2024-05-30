@@ -1,11 +1,21 @@
 {
-    "id": 4022441290990976307,
+    "id": -4707242385014560097,
     "name": "上海大学",
+    "address": "中国上海市宝山区聚丰园路266号 邮政编码: 200444",
     "rating": 4.6,
-    "popularity": 52,
+    "popularity": 80,
     "data_path": "map_data/university_map/Shanghai_University",
+    "description": "上海大学（英語：Shanghai University，縮寫：SHU），简称上大，是上海市属、中国“211工程”重点建设的综合性大学，是中国教育部与上海市政府共建高校，上海市首批高水平地方高校建设试点，教育部一流学科建设高校。\n上海大学是拥有国家试点学院的17所高校之一，是教育部实施“卓越工程师教育培养计划”的首批高校之一，是中宣部、教育部实施“卓越新闻传播人才教育培养计划”的高校之一。钱伟长学院入选教育部首批“三全育人”综合改革试点院（系）单位。现有宝山、嘉定、延长三个校区。现设有30个学院和1个校管系。设有94个本科专业，28个一级学科博士学位授权点、8个交叉学科博士点， 45个一级学科硕士学位授权点（含一级学科博士学位授权点）、1个二级学科硕士学位授权点（一级学科未覆盖）、22个硕士专业学位类别，20个博士后科研流动站。\n上海大学的历史可以追溯到1922年，当时是中国共产党领导下的革命大学，首任校长于右任，教务长瞿秋白。五年后年被南京国民政府关闭。关闭56年后，1983年上海大学复校。1994年5月27日，上海工业大学、上海科学技术大学、原上海大学和上海科技高等专科学校组建为新的上海大学。1994－2010年，钱伟长任校长，首次在中国引进\"三学期制\"。\n上海大学本科教学采用“博雅教育”模式，开设了类似于东京大学教养学部的社区学院。本科新生第一年按理学工学类，人文社科类，经济管理类进行大类培养。上海大学在国际三大检索（SCI、EI、CPCI-S）收录的学术论文数分别位于全国高校49、43、28位。另外上海大學還有自己的基礎教育集團。\n\n",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/f/f2/Shanghai_Universtiry_YanChang_Gate.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/c/ca/The_1st_classroom_building_in_shanghai_university.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/f/f4/Wenhui_library_in_shanghai_university.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/f/ff/Xing_jian_building_in_shanghai_university.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/4/4a/%E4%B8%8A%E6%B5%B7%E5%A4%A7%E5%AD%A6%E5%98%89%E5%AE%9A%E6%A0%A1%E5%8C%BA%E6%A0%A1%E7%89%8C.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/7/73/%E4%B8%8A%E6%B5%B7%E5%A4%A7%E5%AD%A6%E5%BB%B6%E9%95%BF%E6%A0%A1%E5%8C%BA%E7%AC%AC%E5%9B%9B%E6%95%99%E5%AD%A6%E6%A5%BC.JPG"
+    ],
     "amenity": {
-        "affiliation": 4022441290990976307,
+        "affiliation": -4707242385014560097,
         "amenity_list": [
             {
                 "id": 9054860245,
@@ -344,13 +354,6 @@
                 "longitude": 121.38286251221601
             },
             {
-                "id": 696699090,
-                "name": "上大浴室",
-                "type": "public_bath",
-                "latitude": 31.317960966353663,
-                "longitude": 121.38404114817163
-            },
-            {
                 "id": 696699093,
                 "name": "材料复合研究中心",
                 "type": "nan",
@@ -421,20 +424,6 @@
                 "longitude": 121.39518777758332
             },
             {
-                "id": 978588312,
-                "name": "上海大学本部图书馆",
-                "type": "library",
-                "latitude": 31.3186991180845,
-                "longitude": 121.3873886434378
-            },
-            {
-                "id": 978588320,
-                "name": "钱伟长图书馆",
-                "type": "library",
-                "latitude": 31.316111523978716,
-                "longitude": 121.39497817441283
-            },
-            {
                 "id": 980909969,
                 "name": "材料实验楼",
                 "type": "nan",
@@ -489,20 +478,6 @@
                 "type": "nan",
                 "latitude": 31.315119199999998,
                 "longitude": 121.39522565
-            },
-            {
-                "id": 980909979,
-                "name": "吾馨楼",
-                "type": "restaurant",
-                "latitude": 31.31246779811977,
-                "longitude": 121.38480889959718
-            },
-            {
-                "id": 980909984,
-                "name": "水秀楼",
-                "type": "restaurant",
-                "latitude": 31.318246574264382,
-                "longitude": 121.3912397046007
             },
             {
                 "id": 980909985,
@@ -958,13 +933,6 @@
                 "type": "nan",
                 "latitude": 31.3148810356353,
                 "longitude": 121.39428998701958
-            },
-            {
-                "id": 13343048,
-                "name": "尔美食堂",
-                "type": "restaurant",
-                "latitude": 31.321119216039463,
-                "longitude": 121.386662400249
             },
             {
                 "id": 13343049,

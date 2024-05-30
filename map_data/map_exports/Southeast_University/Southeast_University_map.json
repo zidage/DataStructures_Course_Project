@@ -1,11 +1,16 @@
 {
-    "id": -9199579103264354722,
+    "id": 3448390311129751055,
     "name": "Southeast University",
+    "address": "251/A Tejgaon I/A, Dhaka 1208孟加拉国",
     "rating": 4.5,
-    "popularity": 48,
+    "popularity": 52,
     "data_path": "map_data/university_map/Southeast_University",
+    "description": "旗口水母目（Semaeostomeae，本意即“像旗子一樣的嘴”），是缽水母綱下的一個目，因嘴部呈正方形、看起來像旗子一樣而得名。該目的生物通常有八條觸手。",
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/3/36/Sea_nettles.jpg"
+    ],
     "amenity": {
-        "affiliation": -9199579103264354722,
+        "affiliation": 3448390311129751055,
         "amenity_list": [
             {
                 "id": 9082359128,
@@ -288,13 +293,6 @@
                 "longitude": 118.78426332619568
             },
             {
-                "id": 237316233,
-                "name": "香园餐厅",
-                "type": "restaurant",
-                "latitude": 32.05746102307931,
-                "longitude": 118.7836832007018
-            },
-            {
                 "id": 237316234,
                 "name": "群英楼",
                 "type": "nan",
@@ -328,13 +326,6 @@
                 "type": "nan",
                 "latitude": 32.05423278155221,
                 "longitude": 118.79090083378613
-            },
-            {
-                "id": 237318480,
-                "name": "东南大学校医院",
-                "type": "hospital",
-                "latitude": 32.053961225977964,
-                "longitude": 118.79083656895035
             },
             {
                 "id": 237445907,
@@ -386,13 +377,6 @@
                 "longitude": 118.78960084418698
             },
             {
-                "id": 404071178,
-                "name": "沙塘园餐厅",
-                "type": "restaurant",
-                "latitude": 32.054945759844145,
-                "longitude": 118.78929068262116
-            },
-            {
                 "id": 404071179,
                 "name": "沙塘园二舍",
                 "type": "nan",
@@ -405,13 +389,6 @@
                 "type": "nan",
                 "latitude": 32.05519407916505,
                 "longitude": 118.78880013990091
-            },
-            {
-                "id": 404071182,
-                "name": "南京图书馆成贤街分馆",
-                "type": "library",
-                "latitude": 32.05329467506641,
-                "longitude": 118.79068097702157
             },
             {
                 "id": 981890957,
@@ -582,13 +559,6 @@
                 "longitude": 118.79353333372443
             },
             {
-                "id": 1056854748,
-                "name": "莘园餐厅",
-                "type": "restaurant",
-                "latitude": 32.05665578708528,
-                "longitude": 118.79366719451208
-            },
-            {
                 "id": 1056854749,
                 "name": "新五舍",
                 "type": "nan",
@@ -645,13 +615,6 @@
                 "longitude": 118.79298886106616
             },
             {
-                "id": 1056854757,
-                "name": "东南大学东浴室",
-                "type": "public_bath",
-                "latitude": 32.056792317275644,
-                "longitude": 118.79303220418403
-            },
-            {
                 "id": 1056854758,
                 "name": "文园宾馆",
                 "type": "nan",
@@ -692,13 +655,6 @@
                 "type": "nan",
                 "latitude": 32.056349547905434,
                 "longitude": 118.7903215555129
-            },
-            {
-                "id": 6989378,
-                "name": "四牌楼图书馆",
-                "type": "library",
-                "latitude": 32.0564578372244,
-                "longitude": 118.7882258537965
             },
             {
                 "id": 11748939,
