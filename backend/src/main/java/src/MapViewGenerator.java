@@ -37,11 +37,11 @@ public class MapViewGenerator {
     public static void main(String[] args) throws IOException, InterruptedException {
         MapViewGenerator mapViewGenerator = new MapViewGenerator();
         mapViewGenerator.creatQuery(
-                "-r Harbin_Institute_of_Technology_Weihai 1226934978 425467438 657768326 657768305 6001784001 17344858");
+                "-r 1234 0 0 Harbin_Institute_of_Technology_Weihai 1226934978 425467438 657768326 657768305 6001784001 17344858");
         System.out.println(mapViewGenerator.reader.readLine());
         System.out.println(mapViewGenerator.reader.readLine());
         mapViewGenerator.creatQuery(
-                "-r Massachusetts_Institute_of_Technology 1884055322 1982225149 3869527706 4378381010 24494029 187565435");
+                "-r 1234 1 1 Massachusetts_Institute_of_Technology 1884055322 1982225149 3869527706 4378381010 24494029 187565435");
         System.out.println(mapViewGenerator.reader.readLine());
         System.out.println(mapViewGenerator.reader.readLine());
         mapViewGenerator.creatQuery(

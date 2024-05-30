@@ -16,4 +16,22 @@
             and create_user=#{userId}
         </where>
     </select>
+    <select id="listCommunity" resultType="org.twentyEight.pojo.Diary">
+        select * from diary
+        <where>
+            <if test="placeId!=null">
+                and place_id = #{placeId}
+            </if>
+            and state != '草稿'
+            and state != '私密'
+        </where>
+    </select>
+    <select id="getByDiaryId" resultType="org.twentyEight.pojo.Diary">
+        select * from diary
+        <where>
+            id = #{id}
+            and state != '草稿'
+            and state != '私密'
+        </where>
+    </select>
 </mapper>

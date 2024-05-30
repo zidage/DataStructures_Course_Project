@@ -12,7 +12,7 @@ import java.util.List;
 public interface PlaceMapper {
 
 
-    @Insert("insert into place(id, name, popularity, data_path, rating, address) values(#{id},#{name},#{popularity},#{data_path},#{rating},#{address})")
+    @Insert("insert into place(id, name, popularity, formatted_name, rating, address, description, images) values(#{id},#{name},#{popularity},#{formattedName},#{rating},#{address}, #{description}, #{images})")
     void insertPlace(Place place);
 
     @Select("select * from place where id = #{id}")

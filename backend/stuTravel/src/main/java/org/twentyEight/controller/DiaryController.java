@@ -1,5 +1,6 @@
 package org.twentyEight.controller;
 
+import com.github.pagehelper.Page;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import org.twentyEight.pojo.Diary;
@@ -14,13 +15,38 @@ public class DiaryController {
     @Autowired
     private DiaryService diaryService;
 
-    @PostMapping
+    @PostMapping("/newDiary")
     public Result add(@RequestBody Diary diary) {
         diaryService.add(diary);
         return Result.success();
     }
 
+    @GetMapping("/{diaryId}")
+    public Result<Diary> getByDiaryId(@PathVariable Integer diaryId) {
+        Diary diary = diaryService.getByDiaryId(diaryId);
+        incrementPopularityByDiaryId(diaryId);
+        if (diary == null) {
+            return Result.error("日记不存在或不可见");
+        }
+        return Result.success(diary);
+    }
 
+    private void incrementPopularityByDiaryId(Integer diaryId) {
+        diaryService.incrementPopularityByDiaryId(diaryId);
+    }
+
+    @PutMapping("/{diaryId}/rating")
+    public Result rateDiaryById(@PathVariable Integer diaryId, @RequestParam Double rating) {
+        Diary diary = diaryService.getByDiaryId(diaryId);
+        if (diary == null) {
+            return Result.error("日记不存在或不可见");
+        }
+        Integer ratingCount = diary.getRatingCount();
+        diary.setRating((diary.getRating() * ratingCount + rating) / (ratingCount + 1));
+        diary.setRatingCount(ratingCount + 1);
+        diaryService.updateRating(diary);
+        return Result.success();
+    }
 
     @GetMapping("/myDiaries")
     public Result<PageBean<Diary>> list(
@@ -32,4 +58,16 @@ public class DiaryController {
         PageBean<Diary> pb = diaryService.list(pageNum, pageSize, planId, state);
         return Result.success(pb);
     }
+
+    @GetMapping("/community")
+    public Result<PageBean<Diary>> listCommunity(
+            Integer pageNum,
+            Integer pageSize,
+            @RequestParam(required = false) String title,
+            @RequestParam(required = false) Long placeId
+    ) {
+        PageBean<Diary> pb = diaryService.listCommunity(pageNum, pageSize, placeId);
+        return Result.success(pb);
+    }
+
 }

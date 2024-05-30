@@ -30,13 +30,13 @@ def route_find(map_basket, orig, dest):
     return ox.shortest_path(map_basket["graph"], orig_node, dest_node, weight="length")
 
 
-def heuristic(node, target):
+def heuristic(node, target, strategy):
     x1, y1 = node
     x2, y2 = target
-    return abs(x1 - x2) + abs(y1 - y2)
+    return 0 if strategy == TIME_FIRST else abs(x1 - x2) + abs(y1 - y2)
 
 
-def astar(adjacency_list, node_list, start, end, stategy=DISTANCE_FIRST, transport=WALK):
+def astar(adjacency_list, node_list, start, end, strategy=DISTANCE_FIRST, transport=WALK):
     wts = {node: float('inf') for node in adjacency_list}
     wts[start] = 0
     heap = [(0, 0, start)]
@@ -44,6 +44,8 @@ def astar(adjacency_list, node_list, start, end, stategy=DISTANCE_FIRST, transpo
 
     if start == end:
         return 0, [start]
+
+    weight_select = 0 if strategy == DISTANCE_FIRST else strategy + transport
 
     while heap:
         _, current_g, current_node = heapq.heappop(heap)
@@ -53,10 +55,10 @@ def astar(adjacency_list, node_list, start, end, stategy=DISTANCE_FIRST, transpo
 
         for neighbor, weight in adjacency_list[current_node].items():
             try:
-                wt = current_g + weight[stategy]
+                wt = current_g + weight[weight_select]
                 if wt < wts[neighbor]:
                     wts[neighbor] = wt
-                    f = wt + heuristic(node_list[neighbor], node_list[end])
+                    f = wt + heuristic(node_list[neighbor], node_list[end], strategy)
                     heapq.heappush(heap, (f, wt, neighbor))
                     previous[neighbor] = current_node
             except:
@@ -80,7 +82,7 @@ def route_find_test(place, map_basket, waypoints, strategy=DISTANCE_FIRST, trans
     for i in range(len(waypoints) - 1):
         orig_node = ox.nearest_nodes(map_basket["graph"], waypoints[i][0], waypoints[i][1])
         dest_node = ox.nearest_nodes(map_basket["graph"], waypoints[i + 1][0], waypoints[i + 1][1])
-        wt, path = astar(map_basket["adj_list"], map_basket["nd_list"], orig_node, dest_node)
+        wt, path = astar(map_basket["adj_list"], map_basket["nd_list"], orig_node, dest_node, strategy, transport)
         route.append((path, wt))
     
     return route

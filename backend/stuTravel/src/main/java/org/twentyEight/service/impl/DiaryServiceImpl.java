@@ -50,4 +50,38 @@ public class DiaryServiceImpl implements DiaryService {
         pb.setItems(p.getResult());
         return pb;
     }
+
+    @Override
+    public PageBean<Diary> listCommunity(Integer pageNum, Integer pageSize, Long placeId) {
+        PageBean<Diary> pb = new PageBean<>();
+        // 开启分页查询 PageHelper
+        PageHelper.startPage(pageNum, pageSize);
+        // 调用Mapper完成查询
+        List<Diary> as = diaryMapper.listCommunity(placeId);
+        // Page中提供了方法，可以获取PageHelper分页查询后，得到的总记录条数和当前页数据
+        Page<Diary> p = (Page<Diary>) as;
+
+        // 把数据填充到PageBean对象之中
+        pb.setTotal(p.getTotal());
+        pb.setItems(p.getResult());
+        return pb;
+    }
+
+    @Override
+    public Diary getByDiaryId(Integer diaryId) {
+        return diaryMapper.getByDiaryId(diaryId);
+    }
+
+    @Override
+    public void incrementPopularityByDiaryId(Integer diaryId) {
+        diaryMapper.incrementPopularityByDiaryId(diaryId);
+    }
+
+    @Override
+    public void updateRating(Diary diary) {
+        Integer diaryId = diary.getId();
+        Double rating = diary.getRating();
+        Integer ratingCount = diary.getRatingCount();
+        diaryMapper.updateRating(diaryId, rating, ratingCount);
+    }
 }

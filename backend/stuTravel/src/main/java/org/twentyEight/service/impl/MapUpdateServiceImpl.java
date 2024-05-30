@@ -14,7 +14,9 @@ import org.twentyEight.utils.HashUtil;
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
+import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.List;
 import java.util.zip.CRC32;
 
 @Service
@@ -41,9 +43,21 @@ public class MapUpdateServiceImpl implements MapUpdateService {
                     place.setName(rootNode.get("name").asText());
                     place.setRating(rootNode.get("rating").asDouble());
                     place.setPopularity(rootNode.get("popularity").asInt());
-                    place.setData_path(rootNode.get("data_path").asText());
+                    String[] dataPath = rootNode.get("data_path").asText().split("/");
+                    place.setFormattedName(dataPath[dataPath.length - 1]);
                     place.setAddress(rootNode.get("address").asText());
                     place.setId(computeUniqueId(place.getAddress()));
+                    place.setDescription(rootNode.get("description").asText());
+                    JsonNode arrayNode =  rootNode.get("images");
+                    if (arrayNode != null && arrayNode.isArray()) {
+                        List<String> imageUrls = new ArrayList<>();
+                        Iterator<JsonNode> it=arrayNode.elements();
+                        while(it.hasNext()) {
+                            JsonNode itemNode = it.next();
+                            imageUrls.add(itemNode.asText());
+                        }
+                        place.setImages(objectMapper.writeValueAsString(imageUrls));
+                    }
                     placeMapper.insertPlace(place);
 
                     // 读取Venue信息

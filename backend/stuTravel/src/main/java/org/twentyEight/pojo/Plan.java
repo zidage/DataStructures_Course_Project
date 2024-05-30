@@ -11,7 +11,9 @@ public class Plan {
     private String title;
     private Long placeId;
     private String transport;
+    private String strategy;
     private Integer requiredTime;
+    private String mapView;
     private LocalDateTime createTime;
     private LocalDateTime updateTime;
 }

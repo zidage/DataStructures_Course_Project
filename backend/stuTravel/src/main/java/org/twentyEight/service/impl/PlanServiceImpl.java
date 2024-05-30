@@ -12,6 +12,8 @@ import org.twentyEight.pojo.Place;
 import org.twentyEight.pojo.Plan;
 import org.twentyEight.pojo.Venue;
 import org.twentyEight.service.PlanService;
+import org.twentyEight.utils.MapViewGenerationUtil;
+import org.twentyEight.utils.NearestVenueUtil;
 import org.twentyEight.utils.ThreadLocalUtil;
 
 import java.time.LocalDateTime;
@@ -28,6 +30,8 @@ public class PlanServiceImpl implements PlanService {
     @Autowired
     private PlaceMapper placeMapper;
 
+
+
     @Override
     public void createPlanWithVenues(Plan plan, Long placeId, List<Long> venueIds) {
         Map<String, Object> map = ThreadLocalUtil.get();
@@ -39,7 +43,11 @@ public class PlanServiceImpl implements PlanService {
         planMapper.insertPlan(plan);
         if (venueIds != null && !venueIds.isEmpty()) {
             planMapper.insertPlanVenues(plan.getId(), venueIds);
+            for (Long venueId : venueIds) {
+                venueMapper.incrementPopularityByVenueId(venueId);
+            }
         }
+        updatePlanMapView(plan, placeId, venueIds);
     }
 
     @Override
@@ -62,8 +70,10 @@ public class PlanServiceImpl implements PlanService {
         planMapper.updatePlan(plan);
         planMapper.deletePlanVenuesByPlanId(plan.getId());
 
-        planMapper.insertPlanVenues(plan.getId(), venueIds);
-
+        if (venueIds != null && !venueIds.isEmpty()) {
+            planMapper.insertPlanVenues(plan.getId(), venueIds);
+        }
+        updatePlanMapView(plan, placeId, venueIds);
     }
 
     @Override
@@ -92,4 +102,59 @@ public class PlanServiceImpl implements PlanService {
         return pb;
     }
 
+
+    @Override
+    public PageBean<Plan> listMyPlan(Integer pageNum, Integer pageSize, Long placeId, Integer planId, String planTitle) {
+        PageBean<Plan> pb = new PageBean<>();
+        PageHelper.startPage(pageNum, pageSize);
+        Map<String, Object> map = ThreadLocalUtil.get();
+        Integer userId = (Integer) map.get("id");
+        List<Plan> plans = planMapper.listPlan(userId, planId, placeId, planTitle);
+        Page<Plan> p = (Page<Plan>) plans;
+
+        pb.setTotal(p.getTotal());
+        pb.setItems(p.getResult());
+        return pb;
+    }
+
+    @Override
+    public List<Venue> listNearestVenuesByPlaceVenueId(Long placeId, Long venueId, String venueName, String type, Integer radius) {
+        PageBean<Venue> pb = new PageBean<>();
+        List<Venue> venues = venueMapper.listByPlaceId(placeId, venueName, type);
+        Venue targetVenue = venueMapper.findVenueByVenueId(venueId);
+
+        return NearestVenueUtil.findNearestVenues(venues, targetVenue.getLatitude(), targetVenue.getLongitude(), radius);
+    }
+
+    private void updatePlanMapView(Plan plan, Long placeId, List<Long> venueIds) {
+        try {
+            MapViewGenerationUtil mapGenerator = new MapViewGenerationUtil();
+            Place place = placeMapper.findPlaceById(placeId);
+
+            String place_formatted = place.getFormattedName();
+            StringBuilder queryString = new StringBuilder("-r " + plan.getId() +
+                    (plan.getStrategy().equals("DIST") ? " 0" : " 1") +
+                    (plan.getStrategy().equals("TIME") ? " 0 " : " 1 ") +
+                    place_formatted + " ");
+            for (Long venueId : venueIds) {
+                queryString.append(venueId.toString()).append(" ");
+            }
+            mapGenerator.creatQuery(queryString.toString());
+            int requiredTime = 0; // (int) Double.parseDouble(result);
+            try {
+                requiredTime = (int) Double.parseDouble(mapGenerator.endProcess());
+                String savePath = System.getenv("MAP_DATA") + "\\map_view_html_test\\"
+                        + plan.getId() + ".html";
+                planMapper.insertPlanMapViewAndTime(plan.getId(), savePath, requiredTime);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+    }
 }

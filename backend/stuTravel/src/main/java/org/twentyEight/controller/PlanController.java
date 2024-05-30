@@ -17,7 +17,7 @@ public class PlanController {
     private PlanService planService;
 
     @PostMapping("/createPlan")
-    public Result createPlan(@RequestBody PlanRequest planRequest) {
+    public Result createPlan(@RequestBody PlanRequest planRequest){
         planService.createPlanWithVenues(planRequest.getPlan(), planRequest.getPlaceId(), planRequest.getVenueIds());
         return Result.success();
     }
@@ -32,6 +32,16 @@ public class PlanController {
         return Result.success(pb);
     }
 
+    @GetMapping("/place/{placeId}/{venueId}/nearestVenue")
+    public Result<List<Venue>> listNearestVenuesByPlaceVenueId(@PathVariable Long placeId,
+                                                               @PathVariable Long venueId,
+                                                               @RequestParam(required = false) String venueName,
+                                                               @RequestParam(required = false) String type,
+                                                               @RequestParam(defaultValue = "200") String radius) {
+        List<Venue> nearestVenues = planService.listNearestVenuesByPlaceVenueId(placeId, venueId, venueName, type, Integer.parseInt(radius));
+        return Result.success(nearestVenues);
+    }
+
     @GetMapping("/places")
     public Result<PageBean<Place>> listPlace(
             @RequestParam Integer pageNum,
@@ -44,8 +54,9 @@ public class PlanController {
     }
 
     @GetMapping("/place/{placeId}")
-    public Place getPlaceById(@PathVariable Long placeId) {
-        return planService.getPlaceById(placeId);
+    public Result<Place> getPlaceById(@PathVariable Long placeId) {
+        Place place = planService.getPlaceById(placeId);
+        return Result.success(place);
     }
 
     @DeleteMapping("/deletePlan")
@@ -62,6 +73,18 @@ public class PlanController {
         Long placeId = planRequest.getPlaceId();
         planService.updatePlanWithVenues(plan, placeId, venueIds);
         return Result.success();
+    }
+
+    @GetMapping("/myPlans")
+    public Result<PageBean<Plan>> listMyPlan(
+            @RequestParam Integer pageNum,
+            @RequestParam Integer pageSize,
+            @RequestParam(required = false) Integer planId,
+            @RequestParam(required = false) Long placeId,
+            @RequestParam(required = false) String planTitle
+    ) {
+        PageBean<Plan> pb = planService.listMyPlan(pageNum, pageSize, placeId, planId, planTitle);
+        return Result.success(pb);
     }
 
     @Data

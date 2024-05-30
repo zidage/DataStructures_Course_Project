@@ -48,7 +48,7 @@ def list_subdirectories(root_dir):
     return subdirectories
 
 
-def delete_folders_with_few_files(root_dir, min_files=2):
+def delete_folders_with_few_files(root_dir, min_files=5):
     """
     该函数可以删除给定根目录下文件个数少于等于min_files个数的子文件夹
 
@@ -60,7 +60,7 @@ def delete_folders_with_few_files(root_dir, min_files=2):
     void
     """
     for dirpath, dirnames, filenames in os.walk(root_dir, topdown=False):
-        if len(filenames) <= min_files and dirpath != root_dir:  # 排除根文件夹
+        if len(filenames) < min_files and dirpath != root_dir:  # 排除根文件夹
             for file in filenames:
                 os.remove(os.path.join(dirpath, file))  # 删除文件
             os.rmdir(dirpath)  # 删除空文件夹
@@ -95,9 +95,9 @@ def info_parser(file):
     Returns:
     str: 地点中文名
     """
-    with open(file, 'r', encoding='gb2312') as f:
+    with open(file, 'r', encoding='utf-8') as f:
         js = json.load(f)
-        return js["university"]["name"], js["university"]["address"], js["university"]["rating"]
+        return js["place"]["name"], js["place"]["address"], js["place"]["description"], js["place"]["img"], js["place"]["rating"]
 
 
 def regular_parser(file):
@@ -225,6 +225,8 @@ def export_data_object(map_basket, amenity_basket, university):
         "rating": map_basket["rating"],
         "popularity": map_basket["popularity"],
         "data_path": f"map_data/university_map/{file_name}",
+        "description": map_basket["description"],
+        "images": map_basket["images"],
         "amenity": amenity_basket
     }
     with open(f"{save_path}/{file_name}_map.json", 'w', encoding='utf-8') as file:
@@ -283,21 +285,26 @@ def get_graph(map_basket):
 
 
 # main函数
-root_dir = f'{os.environ["MAP_DATA"]}/university_map_test'
+root_dir = f'{os.environ["MAP_DATA"]}/place_map_test'
 delete_folders_with_few_files(root_dir)
 place_directories = list_subdirectories(root_dir)
 
 def update_map_data_all():
     for place in place_directories:
         files_path = get_files_in_folder(place)
-        map_basket = {"id": None, "name": None, "address": None, "rating": None, "popularity": None, "graph": None, "area": None,
-                    "building": None, "amenity": None, "route": None, "adj_list": None, "nd_list": None, "walk_speed": None, "bike_speed": None}
+
+        map_basket = {"id": None, "name": None, "address": None, "description": None, 
+                      "images": None, "rating": None, "popularity": None, 
+                      "graph": None, "area": None, "building": None, 
+                      "amenity": None, "route": None, "adj_list": None, 
+                      "nd_list": None, "walk_speed": None, "bike_speed": None}
+        
         amenity_basket = {"affiliation": None, "amenity_list": None}
         for file in files_path:
             parsed_line = file.split('_')  # 把下划线分隔的文件名拆成一个数组
             file_type = parsed_line[-1]  # 得到文件类型
             if file_type == 'info.json':
-                map_basket["name"], map_basket["address"], map_basket["rating"] = info_parser(file)
+                map_basket["name"], map_basket["address"], map_basket["description"], map_basket["images"], map_basket["rating"] = info_parser(file)
                 map_basket["id"] = hash(map_basket["name"])  # 计算该地点的哈希值
                 map_basket["popularity"] = int(
                     map_basket["rating"]) * randint(10, 25)  # 根据地点评分随机生成一个欢迎度

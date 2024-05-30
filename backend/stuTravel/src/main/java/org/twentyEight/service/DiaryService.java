@@ -9,4 +9,12 @@ public interface DiaryService {
 
     // 条件分页列表查询
     PageBean<Diary> list(Integer pageNum, Integer pageSize, Integer planId, String state);
+
+    PageBean<Diary> listCommunity(Integer pageNum, Integer pageSize, Long placeId);
+
+    Diary getByDiaryId(Integer placeId);
+
+    void incrementPopularityByDiaryId(Integer diaryId);
+
+    void updateRating(Diary diary);
 }

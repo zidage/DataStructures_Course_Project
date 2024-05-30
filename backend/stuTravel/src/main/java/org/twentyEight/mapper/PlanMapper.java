@@ -22,7 +22,7 @@ public interface PlanMapper {
     })
     void insertPlanVenues(Integer planId, List<Long> venueIds);
 
-    @Delete("DELETE FROM Plan_Venue WHERE plan_id = #{planId}")
+    @Delete("DELETE FROM plan_venue WHERE plan_id = #{planId}")
     void deletePlanVenuesByPlanId(@Param("planId") Integer planId);
 
     @Delete("DELETE FROM Plan WHERE id = #{id}")
@@ -30,4 +30,9 @@ public interface PlanMapper {
 
     @Update("update Plan set title=#{title}, transport=#{transport}, update_time=now() where id=#{id}")
     void updatePlan(Plan plan);
+
+    List<Plan> listPlan(Integer userId, Integer planId, Long placeId, String planTitle);
+
+    @Update("update plan set map_view=#{savePath}, required_time=#{requiredTime}, update_time=now() where id=#{id}")
+    void insertPlanMapViewAndTime(Integer id, String savePath, int requiredTime);
 }

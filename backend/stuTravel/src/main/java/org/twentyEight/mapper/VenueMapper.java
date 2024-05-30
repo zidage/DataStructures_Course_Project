@@ -1,9 +1,6 @@
 package org.twentyEight.mapper;
 
-import org.apache.ibatis.annotations.Insert;
-import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Param;
-import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.*;
 import org.twentyEight.pojo.Venue;
 
 import java.util.List;
@@ -17,4 +14,11 @@ public interface VenueMapper {
     List<Venue> findVenuesByPlaceId(Long placeId);
 
     List<Venue> listByPlaceId(Long placeId, String venueName, String type);
+
+    @Select("SELECT * FROM venue WHERE id = #{venueId}")
+    Venue findVenueByVenueId(Long venueId);
+
+
+    @Update("update venue set popularity=popularity+1 where id=#{venueId}")
+    void incrementPopularityByVenueId(Long venueId);
 }

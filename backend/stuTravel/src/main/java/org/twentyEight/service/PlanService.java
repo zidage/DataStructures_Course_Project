@@ -19,4 +19,9 @@ public interface PlanService {
     PageBean<Place> listPlace(Integer pageNum, Integer pageSize, String name, String address);
 
     PageBean<Venue> listVenuesByPlaceId(Long placeId, Integer pageNum, Integer pageSize, String venueName, String type);
+
+    PageBean<Plan> listMyPlan(Integer pageNum, Integer pageSize, Long placeId, Integer planId, String planTitle);
+
+
+    List<Venue> listNearestVenuesByPlaceVenueId(Long placeId, Long venueId, String venueName, String type, Integer radius);
 }
