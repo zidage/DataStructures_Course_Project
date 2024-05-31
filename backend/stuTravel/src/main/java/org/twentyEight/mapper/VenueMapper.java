@@ -21,4 +21,7 @@ public interface VenueMapper {
 
     @Update("update venue set popularity=popularity+1 where id=#{venueId}")
     void incrementPopularityByVenueId(Long venueId);
+
+    @Select("select venue.* from venue join plan_venue on venue.id = plan_venue.venue_id where plan_venue.plan_id = #{planId}")
+    List<Long> listByPlanId(Integer planId);
 }

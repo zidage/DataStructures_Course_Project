@@ -7,6 +7,9 @@ import java.util.List;
 
 @Mapper
 public interface PlanMapper {
+    @Select("select * from plan where id = #{planId} and create_user = #{userId}")
+    Plan getPlanById(Integer planId, Integer userId);
+
     @Insert("insert into " +
             "plan (create_user, title, transport, place_id, create_time, update_time) " +
             "values (#{createUser}, #{title}, #{transport}, #{placeId}, #{createTime}, #{updateTime})")

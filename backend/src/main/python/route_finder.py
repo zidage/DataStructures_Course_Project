@@ -1,8 +1,9 @@
 import osmnx as ox
 from os import environ
-import pickle
+from route_optimizer import optimize_route
 from datetime import datetime
 import heapq
+
 
 DISTANCE_FIRST = 0
 TIME_FIRST = 1
@@ -78,6 +79,8 @@ def astar(adjacency_list, node_list, start, end, strategy=DISTANCE_FIRST, transp
 
 
 def route_find_test(place, map_basket, waypoints, strategy=DISTANCE_FIRST, transport=WALK):
+    optimize_route(map_basket, waypoints, strategy, transport)
+    
     route = []
     for i in range(len(waypoints) - 1):
         orig_node = ox.nearest_nodes(map_basket["graph"], waypoints[i][0], waypoints[i][1])
@@ -86,5 +89,7 @@ def route_find_test(place, map_basket, waypoints, strategy=DISTANCE_FIRST, trans
         route.append((path, wt))
     
     return route
+
+
     
 

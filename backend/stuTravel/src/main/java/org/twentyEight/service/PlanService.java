@@ -24,4 +24,13 @@ public interface PlanService {
 
 
     List<Venue> listNearestVenuesByPlaceVenueId(Long placeId, Long venueId, String venueName, String type, Integer radius);
+
+
+    void optimizePlan(Plan plan, List<Long> venueIds, Long placeId);
+
+    Plan getPlanById(Integer planId);
+
+    List<Long> getVenuesByPlanId(Integer planId);
+
+    List<Venue> getVenuesByVenueIds(List<Long> venueIds);
 }

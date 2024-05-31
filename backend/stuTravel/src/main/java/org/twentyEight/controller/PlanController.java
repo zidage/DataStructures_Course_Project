@@ -17,17 +17,17 @@ public class PlanController {
     private PlanService planService;
 
     @PostMapping("/createPlan")
-    public Result createPlan(@RequestBody PlanRequest planRequest){
+    public Result createPlan(@RequestBody PlanRequest planRequest) {
         planService.createPlanWithVenues(planRequest.getPlan(), planRequest.getPlaceId(), planRequest.getVenueIds());
         return Result.success();
     }
 
     @GetMapping("/place/{placeId}/venues")
     public Result<PageBean<Venue>> listVenuesByPlaceIdAndQuery(@PathVariable Long placeId,
-                                                  @RequestParam Integer pageNum,
-                                                  @RequestParam Integer pageSize,
-                                                  @RequestParam(required = false) String venueName,
-                                                  @RequestParam(required = false) String type) {
+                                                               @RequestParam Integer pageNum,
+                                                               @RequestParam Integer pageSize,
+                                                               @RequestParam(required = false) String venueName,
+                                                               @RequestParam(required = false) String type) {
         PageBean<Venue> pb = planService.listVenuesByPlaceId(placeId, pageNum, pageSize, venueName, type);
         return Result.success(pb);
     }
@@ -75,6 +75,16 @@ public class PlanController {
         return Result.success();
     }
 
+    @PutMapping("/editPlan/{id}/optimize")
+    public Result optimizePlan(@PathVariable Integer id, @RequestBody PlanRequest planRequest) {
+        Plan plan = planRequest.getPlan();
+        plan.setId(id);
+        List<Long> venueIds = planRequest.getVenueIds();
+        Long placeId = planRequest.getPlaceId();
+        planService.optimizePlan(plan, venueIds, placeId);
+        return Result.success();
+    }
+
     @GetMapping("/myPlans")
     public Result<PageBean<Plan>> listMyPlan(
             @RequestParam Integer pageNum,
@@ -87,12 +97,38 @@ public class PlanController {
         return Result.success(pb);
     }
 
+    @GetMapping("/myPlans/{planId}")
+    public Result<PlanResponse> getPlanById(
+            @PathVariable Integer planId
+    ) {
+        PlanResponse planResponse = new PlanResponse();
+        Plan plan = planService.getPlanById(planId);
+        if (plan == null) {
+            return Result.error("计划不存在或访问的计划不属于该用户");
+        }
+        Long placeId = plan.getPlaceId();
+        List<Long> venueIds = planService.getVenuesByPlanId(planId);
+        List<Venue> venues = planService.getVenuesByVenueIds(venueIds);
+        planResponse.setPlan(plan);
+        planResponse.setPlaceId(placeId);
+        planResponse.setVenues(venues);
+        return Result.success(planResponse);
+    }
+
     @Data
     static
     class PlanRequest {
         private Plan plan;
         private Long placeId;
         private List<Long> venueIds;
+    }
+
+    @Data
+    static
+    class PlanResponse {
+        private Plan plan;
+        private Long placeId;
+        private List<Venue> venues;
     }
 }
 

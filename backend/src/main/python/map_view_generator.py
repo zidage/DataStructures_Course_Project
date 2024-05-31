@@ -18,6 +18,7 @@ import pickle
 from math import isnan
 import route_finder
 from shapely.geometry import Point
+import route_optimizer
 
 
 route_color = ["#f94144", "#f3722c", "#f8961e", "#f9c74f",
@@ -39,6 +40,7 @@ def get_place(amn_list, place_id):
             place_coor.append(float(place["longitude"]))
             place_coor.append(float(place["latitude"]))
             place_coor.append(place["name"])
+            place_coor.append(place_id)
         
     return place_coor
 
@@ -129,7 +131,7 @@ else:
             new_view_generator(place, map_basket, plan_id)
             # view_generator(map_basket, university, output_dir,
             # None, None, scale_factor=float(user_input[2]))
-        elif (mode == '-r'):  # -b模式，该模式将显示路径, 并需要client程序输入起点及终点
+        elif (mode == '-r' or mode == '-o'):  # -b模式，该模式将显示路径, 并需要client程序输入起点及终点
             with open(f"{root_dir}/{place}/{place}_map.json", "r", encoding='utf-8') as js_file:
                 js = json.load(js_file)
                 amn_list = js["amenity"]["amenity_list"]
@@ -145,6 +147,15 @@ else:
                 waypoints["name"].append(dest_venue[2])
                 waypoints["geometry"].append(Point(dest_venue[0], dest_venue[1]))
                 wpt.append(dest_venue)
+                if (mode == '-o'):
+                    result = route_optimizer.optimize_route(map_basket, wpt, strategy, transport)
+                    if result is None:
+                       print("None")
+                       exit(0)
+                    for i in range(len(result) - 1):
+                        print(result[i] + ",", end='')
+                    print(result[-1])
+                    exit(0)
                 wpt_gdf = gpd.GeoDataFrame(waypoints)
                 map_basket["route"] = route_finder.route_find_test(place, map_basket, wpt, int(strategy), int(transport))
                 new_view_generator(place, map_basket, plan_id, wpt_gdf, ROUTE_OVERLAY)
