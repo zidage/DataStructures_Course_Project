@@ -84,4 +84,9 @@ public class DiaryServiceImpl implements DiaryService {
         Integer ratingCount = diary.getRatingCount();
         diaryMapper.updateRating(diaryId, rating, ratingCount);
     }
+
+    @Override
+    public void updateDiary(Diary editDiary) {
+        diaryMapper.updateDiary(editDiary);
+    }
 }

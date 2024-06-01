@@ -48,6 +48,14 @@ public class DiaryController {
         return Result.success();
     }
 
+
+    @PutMapping("/editDiary")
+    public Result editDiary(@RequestBody Diary editDiary) {
+        diaryService.updateDiary(editDiary);
+        return Result.success();
+    }
+
+
     @GetMapping("/myDiaries")
     public Result<PageBean<Diary>> list(
             Integer pageNum,

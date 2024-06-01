@@ -26,4 +26,8 @@ public interface DiaryMapper {
 
     @Update("update diary set rating=#{rating}, rating_count=#{ratingCount} where id=#{diaryId}")
     void updateRating(Integer diaryId, Double rating, Integer ratingCount);
+
+    @Update("update diary set title=#{title}, content=#{content}, cover_img=#{coverImg}, state=#{state}, update_time=now(), " +
+            "plan_id=#{planId}, place_id=#{placeId} where id=#{id}")
+    void updateDiary(Diary editDiary);
 }

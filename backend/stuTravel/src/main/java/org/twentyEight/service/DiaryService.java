@@ -17,4 +17,6 @@ public interface DiaryService {
     void incrementPopularityByDiaryId(Integer diaryId);
 
     void updateRating(Diary diary);
+
+    void updateDiary(Diary editDiary);
 }

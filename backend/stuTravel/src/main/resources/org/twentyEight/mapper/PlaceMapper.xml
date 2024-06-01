@@ -13,5 +13,6 @@
                 and address like concat('%', #{address}, '%')
             </if>
         </where>
+        order by popularity desc
     </select>
 </mapper>

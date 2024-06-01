@@ -11,8 +11,8 @@ public interface PlanMapper {
     Plan getPlanById(Integer planId, Integer userId);
 
     @Insert("insert into " +
-            "plan (create_user, title, transport, place_id, create_time, update_time) " +
-            "values (#{createUser}, #{title}, #{transport}, #{placeId}, #{createTime}, #{updateTime})")
+            "plan (create_user, title, transport, place_id, create_time, update_time, strategy) " +
+            "values (#{createUser}, #{title}, #{transport}, #{placeId}, #{createTime}, #{updateTime}, #{strategy})")
     @Options(useGeneratedKeys = true, keyProperty = "id")
     void insertPlan(Plan plan);
 
