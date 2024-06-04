@@ -63,37 +63,27 @@ def new_view_generator(place, map_basket, file_name,
         return
     
     trip_time = 0
-    path = []
-    path_name = []
+    trip_dist = 0
 
     m = None
 
     for index, route in enumerate(map_basket["route"], start=0):
-        prev_name = None
         route_edges = ox.routing.route_to_gdf(
             map_basket["graph"], route[0], weight="length")
-        try:
-            for idx, name in enumerate(route_edges["name"], start=0):
-                if prev_name != name or idx == 0:
-                    prev_name = name
-                    path_name.append('未知道路' if isnan(name if type(name) != str else 1) else name)
-            path.append(path_name)
-            path_name = []
-        except:
-            path.append(['未知道路'])
-            path_name = []
+        
         if m is not None:
             m = route_edges.explore(m=m, style_kwds={
                                     "weight": 6, "opacity": 0.8}, color=route_color[index % len(route_color)])
         else:
             m = route_edges.explore(style_kwds={
                                     "weight": 6, "opacity": 0.8}, color=route_color[index % len(route_color)])
-        trip_time += route[1]
+        trip_dist += route[1][0]
+        trip_time += route[1][1]
     m = wpt_gdf.explore(m=m, tooltip="name", marker_kwds=mk)
 
     
     
-    print(str(trip_time))
+    print(str(trip_time)+","+str(trip_dist))
     # print("Throuth road" + str(path))
     #if waypoints is not None:
         #for index, w in enumerate(waypoints, start=0):

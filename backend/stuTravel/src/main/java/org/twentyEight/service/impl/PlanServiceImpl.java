@@ -199,12 +199,15 @@ public class PlanServiceImpl implements PlanService {
                 queryString.append(venueId.toString()).append(" ");
             }
             mapGenerator.creatQuery(queryString.toString());
-            int requiredTime = 0; // (int) Double.parseDouble(result);
+            Integer requiredTime = 0; // (int) Double.parseDouble(result);
+            Integer distance = 0;
             try {
-                requiredTime = (int) Double.parseDouble(mapGenerator.endProcess());
+                String[] response = mapGenerator.endProcess().split(",");
+                distance = (int) Double.parseDouble(response[0]);
+                requiredTime = (int) Double.parseDouble(response[1]);
                 String savePath = System.getenv("MAP_DATA") + "\\map_view_html_test\\"
                         + plan.getId() + ".html";
-                planMapper.insertPlanMapViewAndTime(plan.getId(), savePath, requiredTime);
+                planMapper.insertPlanMapViewAndTime(plan.getId(), savePath, requiredTime, distance);
             } catch (Exception e) {
                 e.printStackTrace();
             }

@@ -17,9 +17,9 @@ public class PlanController {
     private PlanService planService;
 
     @PostMapping("/createPlan")
-    public Result createPlan(@RequestBody PlanRequest planRequest) {
+    public Result<Integer> createPlan(@RequestBody PlanRequest planRequest) {
         planService.createPlanWithVenues(planRequest.getPlan(), planRequest.getPlaceId(), planRequest.getVenueIds());
-        return Result.success();
+        return Result.success(planRequest.getPlan().getId());
     }
 
     @GetMapping("/place/{placeId}/venues")

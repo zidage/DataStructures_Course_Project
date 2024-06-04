@@ -31,11 +31,11 @@ public interface PlanMapper {
     @Delete("DELETE FROM Plan WHERE id = #{id}")
     void deletePlan(@Param("id") Integer id);
 
-    @Update("update Plan set title=#{title}, transport=#{transport}, update_time=now() where id=#{id}")
+    @Update("update Plan set title=#{title}, transport=#{transport}, strategy=#{strategy}, update_time=now() where id=#{id}")
     void updatePlan(Plan plan);
 
     List<Plan> listPlan(Integer userId, Integer planId, Long placeId, String planTitle);
 
-    @Update("update plan set map_view=#{savePath}, required_time=#{requiredTime}, update_time=now() where id=#{id}")
-    void insertPlanMapViewAndTime(Integer id, String savePath, int requiredTime);
+    @Update("update plan set map_view=#{savePath}, required_time=#{requiredTime}, distance=#{distance}, update_time=now() where id=#{id}")
+    void insertPlanMapViewAndTime(Integer id, String savePath, int requiredTime, Integer distance);
 }

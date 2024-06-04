@@ -14,5 +14,6 @@
                 and type = #{type}
             </if>
         </where>
+        order by popularity desc
     </select>
 </mapper>

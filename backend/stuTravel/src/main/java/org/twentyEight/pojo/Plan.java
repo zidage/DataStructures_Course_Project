@@ -13,6 +13,7 @@ public class Plan {
     private String transport;
     private String strategy;
     private Integer requiredTime;
+    private Integer distance;
     private String mapView;
     private LocalDateTime createTime;
     private LocalDateTime updateTime;
