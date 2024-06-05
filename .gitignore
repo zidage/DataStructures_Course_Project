@@ -6,8 +6,6 @@ cache
 
 # Compiled class file
 *.class
-
-# Log file
 *.log
 
 # BlueJ files
@@ -267,4 +265,5 @@ test*
 *.iml
 *.idea
 
+.vite
 database/
