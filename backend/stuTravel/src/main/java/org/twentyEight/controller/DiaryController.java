@@ -1,12 +1,15 @@
 package org.twentyEight.controller;
 
 import com.github.pagehelper.Page;
+import lombok.Data;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import org.twentyEight.pojo.Diary;
 import org.twentyEight.pojo.PageBean;
+import org.twentyEight.pojo.Plan;
 import org.twentyEight.pojo.Result;
 import org.twentyEight.service.DiaryService;
+import org.twentyEight.service.PlanService;
 
 @RestController
 @RequestMapping("/diary")
@@ -14,6 +17,8 @@ public class DiaryController {
 
     @Autowired
     private DiaryService diaryService;
+    @Autowired
+    private PlanService planService;
 
     @PostMapping("/newDiary")
     public Result add(@RequestBody Diary diary) {
@@ -22,13 +27,19 @@ public class DiaryController {
     }
 
     @GetMapping("/{diaryId}")
-    public Result<Diary> getByDiaryId(@PathVariable Integer diaryId) {
+    public Result<DiaryResponse> getByDiaryId(@PathVariable Integer diaryId) {
+        DiaryResponse diaryResponse = new DiaryResponse();
         Diary diary = diaryService.getByDiaryId(diaryId);
         incrementPopularityByDiaryId(diaryId);
         if (diary == null) {
             return Result.error("日记不存在或不可见");
         }
-        return Result.success(diary);
+        diaryResponse.setDiary(diary);
+        String placeName = planService.getPlaceById(diary.getPlaceId()).getName();
+        Plan plan = planService.getPlanById(diary.getPlanId());
+        diaryResponse.setPlaceName(placeName);
+        diaryResponse.setPlan(plan);
+        return Result.success(diaryResponse);
     }
 
     private void incrementPopularityByDiaryId(Integer diaryId) {
@@ -78,4 +89,17 @@ public class DiaryController {
         return Result.success(pb);
     }
 
+    @DeleteMapping("/deleteDiary")
+    public Result deleteDiaryById(@RequestParam Integer id) {
+        diaryService.deleteDiaryById(id);
+        return Result.success();
+    }
+
+    @Data
+    static class DiaryResponse {
+        Diary diary;
+        String placeName;
+        Plan plan;
+
+    }
 }

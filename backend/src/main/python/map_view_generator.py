@@ -58,7 +58,7 @@ def new_view_generator(place, map_basket, file_name,
         m = edges.explore(column="bike_speed", cmap="jet_r")
         # m = map_basket["amenity"].explore(tooltip="name")
         print(0)
-        m.save(f"{os.environ['MAP_DATA']}\\map_view_html_test\\{plan_id}.html")
+        m.save("D:\\Projects\\DataStructures_Course_Project\\database\\files\\" + f"{plan_id}.html")
         # print(f"{plan_id} html saved!")
         return
     
@@ -90,7 +90,7 @@ def new_view_generator(place, map_basket, file_name,
             #map_basket["amenity"].loc[map_basket["amenity"]["name"] == w[2]].explore(m=m, tooltip="name", marker_kwds=mk,
                                                                                   #color=route_color[index % len(route_color)])
 
-    m.save(f"{os.environ['MAP_DATA']}\\map_view_html_test\\{plan_id}.html")
+    m.save("D:\\Projects\\DataStructures_Course_Project\\database\\files\\" + f"{plan_id}.html")
     # print(f"{plan_id} html saved!")
 
 

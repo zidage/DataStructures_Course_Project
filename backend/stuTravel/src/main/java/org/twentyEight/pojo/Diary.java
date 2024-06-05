@@ -19,4 +19,5 @@ public class Diary {
     private Integer ratingCount;
     private LocalDateTime createTime;
     private LocalDateTime updateTime;
+    private String createNickname;
 }

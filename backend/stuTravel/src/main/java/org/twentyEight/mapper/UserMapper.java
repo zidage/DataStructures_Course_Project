@@ -25,4 +25,7 @@ public interface UserMapper {
 
     @Update("update user set password=#{md5String}, update_time=now() where id=#{id}")
     void updatePwd(String md5String, Integer id);
+
+    @Select("select nickname from user where id=#{id}")
+    String getNickNameById(Integer id);
 }

@@ -266,3 +266,5 @@ test*
 
 *.iml
 *.idea
+
+database/

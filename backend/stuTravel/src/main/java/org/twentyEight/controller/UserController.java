@@ -70,6 +70,12 @@ public class UserController {
         return Result.success(user);
     }
 
+    @GetMapping("/nickname")
+    public Result<String> getNickNameById(@RequestParam Integer id) {
+        String nickname = userService.getUserByName(id);
+        return Result.success(nickname);
+    }
+
     @PutMapping("/update")
     public Result update(@RequestBody @Validated User user) {
         userService.update(user);

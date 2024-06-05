@@ -4,6 +4,7 @@ import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.twentyEight.mapper.DiaryMapper;
 import org.twentyEight.mapper.PlaceMapper;
 import org.twentyEight.mapper.PlanMapper;
 import org.twentyEight.mapper.VenueMapper;
@@ -30,6 +31,8 @@ public class PlanServiceImpl implements PlanService {
     private VenueMapper venueMapper;
     @Autowired
     private PlaceMapper placeMapper;
+    @Autowired
+    private DiaryMapper diaryMapper;
 
 
 
@@ -60,6 +63,7 @@ public class PlanServiceImpl implements PlanService {
     public void deletePlan(Integer planId) {
         // 删除关联的Plan-Venue记录
         planMapper.deletePlanVenuesByPlanId(planId);
+        diaryMapper.deleteDiaryForeignKey(planId);
         // 然后删除计划本身
         planMapper.deletePlan(planId);
     }
@@ -205,7 +209,7 @@ public class PlanServiceImpl implements PlanService {
                 String[] response = mapGenerator.endProcess().split(",");
                 distance = (int) Double.parseDouble(response[0]);
                 requiredTime = (int) Double.parseDouble(response[1]);
-                String savePath = System.getenv("MAP_DATA") + "\\map_view_html_test\\"
+                String savePath = "http://localhost:8080/upload/"
                         + plan.getId() + ".html";
                 planMapper.insertPlanMapViewAndTime(plan.getId(), savePath, requiredTime, distance);
             } catch (Exception e) {

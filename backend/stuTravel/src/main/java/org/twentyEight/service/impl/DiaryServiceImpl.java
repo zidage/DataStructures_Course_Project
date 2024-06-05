@@ -5,6 +5,7 @@ import com.github.pagehelper.PageHelper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.twentyEight.mapper.DiaryMapper;
+import org.twentyEight.mapper.UserMapper;
 import org.twentyEight.pojo.Diary;
 import org.twentyEight.pojo.PageBean;
 import org.twentyEight.service.DiaryService;
@@ -13,12 +14,16 @@ import org.twentyEight.utils.ThreadLocalUtil;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Map;
+import java.util.Objects;
 
 @Service
 public class DiaryServiceImpl implements DiaryService {
 
     @Autowired
     private DiaryMapper diaryMapper;
+
+    @Autowired
+    private UserMapper userMapper;
 
     @Override
     public void add(Diary diary) {
@@ -29,6 +34,7 @@ public class DiaryServiceImpl implements DiaryService {
         Map<String, Object> map = ThreadLocalUtil.get();
         Integer userId = (Integer) map.get("id");
         diary.setCreateUser(userId);
+        diary.setCreateNickname(userMapper.getNickNameById(userId));
         diaryMapper.add(diary);
     }
 
@@ -88,5 +94,16 @@ public class DiaryServiceImpl implements DiaryService {
     @Override
     public void updateDiary(Diary editDiary) {
         diaryMapper.updateDiary(editDiary);
+    }
+
+    @Override
+    public void deleteDiaryById(Integer diaryId) {
+        Map<String, Object> map = ThreadLocalUtil.get();
+        Integer userId = (Integer) map.get("id");
+        Diary diary = getByDiaryId(diaryId);
+        if (!Objects.equals(diary.getCreateUser(), userId)) {
+            return;
+        }
+        diaryMapper.deleteDiaryById(diaryId);
     }
 }
