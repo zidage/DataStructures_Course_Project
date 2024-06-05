@@ -1,151 +1,166 @@
-<script>
-import axios from '@/axios';
+<script setup>
+  import { User, Lock } from '@element-plus/icons-vue'
+  import { ref } from 'vue'
+  import { userRegisterService, userLoginService } from '@/api/user.js';
+  import { ElMessage } from 'element-plus'
+  import { useRouter } from 'vue-router'
+  import { useTokenStore } from '@/stores/token.js';
 
-export default {
-  name: "Login",
-  data () {
-    return {
-      // 输入的数据
-      loginForm: {
-        username: '',
-        password: ''
-      },
-      // 注册的数据
-      registerForm: {
-        username: '',
-        password: '',
-        passwordAgain: ''
-      },
-    }
-  },
-  methods: {
-    // 处理登录事件
-    handleLogin () {
-      // 判断输入是否合法
-      if (!this.loginForm.username || !this.loginForm.password) {
-        this.$message.error('请输入用户名和密码')
-        return
-      }
-      axios.post('/user/login', {
-        username: this.loginForm.username,
-        password: this.loginForm.password
-      }).then(res => {
-        this.$store.commit('setUser', res.data) 
-        location.reload()
-        this.$router.push({ name: 'Home' })
-      }).catch(err => {
-        console.log(err)
-      })
-    },
-    // 处理注册事件
-    handleRegister () {
-      // 输入判断
-      if (!this.registerForm.username || !this.registerForm.password || !this.registerForm.passwordAgain) {
-        this.$message.error('请输入用户名和密码')
-        return
-      }
-      // 两次密码不一致
-      if (this.registerForm.password !== this.registerForm.passwordAgain) {
-        this.$message.error('两次密码不一致')
-        return
-      }
-      // 注册
-      axios.post('/user/regist', {
-        username: this.registerForm.username,
-        password: this.registerForm.password
-      }).then(res => {
-        this.$store.commit('setUser', res.data) 
-        location.reload()
-        this.$router.push({ name: 'Home' })
-      }).catch(err => {
-        console.log(err)
-        this.$message.error('注册失败')
-      })
+  const router = useRouter()
+  const tokenStore = useTokenStore()
+  tokenStore.removeToken()
+  //控制注册与登录表单的显示， 默认显示注册
+  const isRegister = ref(false)
+  //定义数据模型
+  const registerData = ref({
+    username: '',
+    password: '',
+    rePassword: ''
+  })
+  //校验密码函数
+  const checkRePassword = (rule, value, callback) => {
+    if (value === '') {
+      callback(new Error('请再次输入密码'))
+    } else if (value !== registerData.value.password) {
+      callback(new Error('两次输入密码不一致'))
+    } else {
+      callback()
     }
   }
-}
+  //定义表单校验规则，复用于注册和登录
+  const rules = {
+    username: [
+      { required: true, message: '请输入用户名', trigger: 'blur' },
+      { min: 5, max: 16, message: '长度为1~16位', trigger: 'blur' }
+    ],
+    password: [
+      { required: true, message: '请输入密码', trigger: 'blur' },
+      { min: 5, max: 16, message: '长度为8~32位字母和数字', trigger: 'blur' }
+    ],
+    rePassword: [
+      { validator: checkRePassword, trigger: 'blur' }
+    ]
+  }
+  //调用后台接口，完成注册
+  const register = async () => {
+    let result = await userRegisterService(registerData.value);
+    ElMessage.success(result.msg ? result.msg : '注册成功');
+  }
+
+  //调用后台接口，完成登录
+  const login = async () => {
+    let result = await userLoginService(registerData.value);
+    ElMessage.success(result.msg ? result.msg : '登录成功');
+    //存储token
+    tokenStore.setToken(result.data);
+    router.push('/');
+  }
+
+  //清空数据模型的数据
+  const clearRegisterData = () => {
+    registerData.value = {
+      username: '',
+      password: '',
+      rePassword: ''
+    }
+  }
 </script>
+
 <template>
-  <!-- 登陆界面 -->
-  <div class="main">
-    <!-- 左边登录，右边注册 -->
-    <div class="login">
-      <!-- 标题 -->
-      <h1 class="title">登录</h1>
-      <a-form class="form">
-        <!-- 输入框 -->
-        <a-form-item class="form-item">
-          <a-input placeholder="用户名" v-model:value="loginForm.username" />
-        </a-form-item>
-        <a-form-item class="form-item">
-          <a-input-password placeholder="密码" v-model:value="loginForm.password" />
-        </a-form-item>
-        <a-form-item class="form-item">
-          <a-button type="primary" class="button" @click="handleLogin">登录</a-button>
-        </a-form-item>
-      </a-form>
-    </div>
-    <div class="register">
-      <h1 class="title">注册</h1>
-      <a-form class="form">
-        <a-form-item class="form-item">
-          <a-input placeholder="用户名" v-model:value="registerForm.username" />
-        </a-form-item>
-        <a-form-item class="form-item">
-          <a-input-password placeholder="密码" v-model:value="registerForm.password" />
-        </a-form-item>
-        <a-form-item class="form-item">
-          <a-input-password placeholder="再次输入密码" v-model:value="registerForm.passwordAgain"/>
-        </a-form-item>
-        <a-form-item class="form-item">
-          <a-button type="primary" class="button" @click="handleRegister">注册</a-button>
-        </a-form-item>
-      </a-form>
-    </div>
-  </div>
+  <el-row class="login-page">
+    <el-col :span="12" class="bg"></el-col>
+    <el-col :span="6" :offset="3" class="form">
+      <!-- 注册表单 -->
+      <el-form ref="form" size="large" autocomplete="off" v-if="isRegister" :model="registerData" :rules="rules">
+        <el-form-item>
+          <h1>注册</h1>
+        </el-form-item>
+        <el-form-item prop="username">
+          <el-input :prefix-icon="User" placeholder="请输入用户名" v-model="registerData.username"></el-input>
+        </el-form-item>
+        <el-form-item prop="password">
+          <el-input :prefix-icon="Lock" type="password" placeholder="请输入密码" v-model="registerData.password"></el-input>
+        </el-form-item>
+        <el-form-item prop="rePassword">
+          <el-input :prefix-icon="Lock" type="password" placeholder="请再次输入密码"
+            v-model="registerData.rePassword"></el-input>
+        </el-form-item>
+        <!-- 注册按钮 -->
+        <el-form-item>
+          <el-button class="button" type="primary" auto-insert-space @click="register">
+            注册
+          </el-button>
+        </el-form-item>
+        <el-form-item class="flex">
+          <el-link type="info" :underline="false" @click="isRegister = false; clearRegisterData()">
+            ← 返回
+          </el-link>
+        </el-form-item>
+      </el-form>
+      <!-- 登录表单 -->
+      <el-form ref="form" size="large" autocomplete="off" v-else :model="registerData" :rules="rules">
+        <el-form-item>
+          <h1>登录</h1>
+        </el-form-item>
+        <el-form-item prop="username">
+          <el-input :prefix-icon="User" placeholder="请输入用户名" v-model="registerData.username"></el-input>
+        </el-form-item>
+        <el-form-item prop="password">
+          <el-input name="password" :prefix-icon="Lock" type="password" placeholder="请输入密码"
+            v-model="registerData.password"></el-input>
+        </el-form-item>
+        <el-form-item class="flex">
+          <div class="flex">
+            <el-checkbox>记住我</el-checkbox>
+            <el-link type="primary" :underline="false">忘记密码？</el-link>
+          </div>
+        </el-form-item>
+        <!-- 登录按钮 -->
+        <el-form-item>
+          <el-button class="button" type="primary" auto-insert-space @click="login">登录</el-button>
+        </el-form-item>
+        <el-form-item class="flex">
+          <el-link type="info" :underline="false" @click="isRegister = true; clearRegisterData()">
+            注册 →
+          </el-link>
+        </el-form-item>
+      </el-form>
+    </el-col>
+  </el-row>
 </template>
-<style scoped>
-.main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-.login {
-  width: 50%;
-}
-.register {
-  width: 50%;
-}
-/* 左右两边剧中 */
-.form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-/* 放大输入框 */
-.form-item {
-  width: 70%;
-  margin-bottom: 20px;
-}
-/* 标题居中 */
-.title {
-  text-align: center;
-}
-/* 按钮剧中 */
-.button {
-  width: 100%;
-}
-/* 左右中间加分割线 */
-.login::after {
-  content: '';
-  display: block;
-  width: 1px;
-  height: 100%;
-  background-color: #e3e3e3;
-  position: absolute;
-  right: 50%;
-  top: 0;
-}
+
+<style lang="scss" scoped>
+
+  /* 样式 */
+  .login-page {
+    height: 100vh;
+    background-color: #fff;
+
+    .bg {
+      background: url('@/assets/logo2.png') no-repeat 60% center / 240px auto,
+        url('@/assets/login_bg.jpg') no-repeat center / cover;
+      border-radius: 0 20px 20px 0;
+    }
+
+    .form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      user-select: none;
+
+      .title {
+        margin: 0 auto;
+      }
+
+      .button {
+        width: 100%;
+      }
+
+      .flex {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
 </style>

@@ -1,17 +1,26 @@
+import './assets/main.scss'
 import { createApp } from 'vue'
+import ElementPlus from 'element-plus'
+import 'element-plus/dist/index.css'
 import App from './App.vue'
-import Antd from 'ant-design-vue';
-import router from './router';
-import store from './store';
-import axios from '@/axios'
+import zhCn from 'element-plus/es/locale/lang/zh-cn'
+import router from '@/router'
+import { createPinia } from 'pinia'
+import { createPersistedState } from 'pinia-persistedstate-plugin'
 
-if (localStorage.getItem('token')) {
-  await axios.post('/user/token').then(res => {
-    store.commit('setUser', res.data)
-  }).catch(() => {
-    store.commit('userLogout')
-  })
-}
 
 const app = createApp(App)
-app.use(Antd).use(router).use(store).mount('#app')
+const pinia = createPinia()
+const persist = createPersistedState()
+
+pinia.use(persist)
+app.use(ElementPlus, {
+  locale: zhCn,
+}
+)
+
+app.use(pinia)
+app.use(router)
+
+app.mount('#app')
+
