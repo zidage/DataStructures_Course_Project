@@ -1,35 +1,4 @@
-<template>
-  <!-- 选择大学 -->
-  <el-card style="width: 630px; margin: 20px auto;" shadow="always">
-    <el-form class="form-container">
-      <el-form-item label="请选择大学或公园">
-        <div class="input-container">
-          <el-select v-model="selectedLocation" filterable placeholder="请输入地点名称" @change="onSelect" @input="onInput"
-            class="input">
-            <el-option v-for="university in filteredLocations" :key="university.id" :label="university.name"
-              :value="university.name" />
-          </el-select>
-          <el-button type="primary" @click="confirmSelection">确认</el-button>
-        </div>
-      </el-form-item>
-    </el-form>
-  </el-card>
 
-  <!-- 展示选中大学图片 -->
-  <el-carousel :interval="4000" type="card" height="200px" class="carousel-margin">
-    <el-carousel-item v-for="item in 6" :key="item">
-      <h3 text="2xl" justify="center">{{ item }}</h3>
-    </el-carousel-item>
-  </el-carousel>
-
-  <!-- 热门大学展示 -->
-  <div class="demo-image hot-university-margin">
-    <div v-for="university in locations" :key="university.id" class="block" @click="selectUniversity(university)">
-      <span class="demonstration">{{ university.name }}</span>
-      <el-image style="width: 100px; height: 100px" :src="university.images[0]" fit="cover" />
-    </div>
-  </div>
-</template>
 
 <script setup>
   import { useLocationStore } from '@/stores/location.js';  // 导入大学存储
@@ -42,11 +11,7 @@
   const locationStore = useLocationStore();
 
   // 测试数据
-  const locations = ref([
-    { id: 1, name: '哈佛大学', popularity: 100, rating: 4.5, formattedName: 'Harvard University', address: '美国麻省', description: '这是哈佛大学的描述。', images: ['https://via.placeholder.com/150'] },
-    { id: 2, name: '斯坦福大学', popularity: 80, rating: 4.0, formattedName: 'Stanford University', address: '美国加州', description: '这是斯坦福大学的描述。', images: ['https://via.placeholder.com/150'] },
-    { id: 3, name: '麻省理工学院', popularity: 60, rating: 3.5, formattedName: 'MIT', address: '美国麻省', description: '这是麻省理工学院的描述。', images: ['https://via.placeholder.com/150'] }
-  ]);
+  const locations = ref([]);
 
   const query = ref('');
   const selectedLocation = ref(locationStore.location ? locationStore.location.name : '');
@@ -103,6 +68,39 @@
 
   watch(query, onInput);
 </script>
+
+<template>
+  <!-- 选择大学 -->
+  <el-card style="width: 630px; margin: 20px auto;" shadow="always">
+    <el-form class="form-container">
+      <el-form-item label="请选择大学或公园">
+        <div class="input-container">
+          <el-select v-model="selectedLocation" filterable placeholder="请输入地点名称" @change="onSelect" @input="onInput"
+            class="input">
+            <el-option v-for="university in filteredLocations" :key="university.id" :label="university.name"
+              :value="university.name" />
+          </el-select>
+          <el-button type="primary" @click="confirmSelection">确认</el-button>
+        </div>
+      </el-form-item>
+    </el-form>
+  </el-card>
+
+  <!-- 展示选中大学图片 -->
+  <el-carousel :interval="4000" type="card" height="200px" class="carousel-margin">
+    <el-carousel-item v-for="item in 6" :key="item">
+      <h3 text="2xl" justify="center">{{ item }}</h3>
+    </el-carousel-item>
+  </el-carousel>
+
+  <!-- 热门大学展示 -->
+  <div class="demo-image hot-university-margin">
+    <div v-for="university in locations" :key="university.id" class="block" @click="selectUniversity(university)">
+      <span class="demonstration">{{ university.name }}</span>
+      <el-image style="width: 100px; height: 100px" :src="university.images[0]" fit="cover" />
+    </div>
+  </div>
+</template>
 
 <style scoped>
   .page-container {

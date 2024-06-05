@@ -4,12 +4,14 @@ import LoginVue from '@/views/Login.vue'
 import LayoutVue from '@/views/Layout.vue'
 import UserAvatarvue from '@/views/user/UserAvatar.vue'
 import UserInfoVue from '@/views/user/UserInfo.vue'
-import UserDiaryVue from '@/views/user/UserDiary.vue'
+import DiaryManage from '@/views/diary/DiaryManage.vue'
 import CommunityVue from '@/views/Community.vue'
-import PlanVue from '@/views/plan/Plan.vue'
+import PlanManageVue from '@/views/plan/PlanManage.vue'
+import PlanWorkBench from '@/views/plan/PlanWorkBench.vue'
 import SelectLocation from '@/views/plan/SelectLocation.vue'
 import UserResetPasswordVue from '@/views/user/UserResetPassword.vue'
 import ShowDiaryVue from '@/views/diary/ShowDiary.vue'
+import ShowPlanVue from '@/views/plan/ShowPlan.vue'
 import { useTokenStore } from '@/stores/token.js';
 //定义路由关系
 const routes = [
@@ -22,10 +24,11 @@ const routes = [
       { path: '/user/info', component: UserInfoVue },
       { path: '/user/resetPassword', component: UserResetPasswordVue },
       { path: '/community', component: CommunityVue },
-      { path: '/user/diary', component: UserDiaryVue },
-      { path: '/plan', component: PlanVue },
-      { path: '/plan/selectLocation', component: SelectLocation },
-      { path: '/diary/show', component: ShowDiaryVue }
+      { path: '/user/diaryManage', component: DiaryManage },
+      { path: '/plan/planManagement', component: PlanManageVue },
+      { path: '/plan/PlanWorkbench', component: PlanWorkBench },
+      { path: '/diary/show', component: ShowDiaryVue },
+      { path: '/plan/show', component: ShowPlanVue }
     ]
   }
 ]

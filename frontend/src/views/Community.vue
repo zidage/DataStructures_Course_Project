@@ -49,12 +49,11 @@
     diaryStore.setDiaryId(id);
     // ElMessage.success(`Selected Diary ID: ${id}`);
     router.push('/diary/show');
-
   };
 
   const items = ref([]);
   const total = ref(0);
-  const pageSize = ref(24);
+  const pageSize = ref(10);
   const pageNum = ref(1);
 
   const fetchCommunities = async () => {

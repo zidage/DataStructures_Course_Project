@@ -1,17 +1,10 @@
 import request from '@/utils/request.js';
 
-// 获取个人日记列表
-export const getMyDiaries = (query) => {
-  const validParams = {};
-  for (const key in query) {
-    if (query[key] !== null && query[key] !== undefined && query[key] !== '') {
-      validParams[key] = query[key];
-    }
-  }
 
-  return request.get('/diary/myDiaries', {
-    params: validParams
-  });
+
+// 获取个人日记列表
+export const getMyDiaries = (params) => {
+  return request.get('/diary/myDiaries', {params : params})
 };
 
 // 新增日记
@@ -38,14 +31,10 @@ export const rateDiaryService = (diaryId, rating) => {
     throw new Error("Diary ID is required");
   }
 
-  const params = {};
-  if (rating) {
-    params.rating = rating;
-  }
-
-  return request.get('/diary/${diaryId}/rating', {
-    params
-  });
+  const validParams = new URLSearchParams();
+  
+  // console.log(diaryId)
+  return request.put(`/diary/${diaryId}/rating?rating=${rating}`);
 };
 
 // 更新日记
@@ -54,7 +43,7 @@ export const updateDiaryService = (data) => {
     throw new Error("Missing required diary fields");
   }
 
-  return request.post('/diary/update', data);
+  return request.put('/diary/editDiary', data);
 };
 
 //获取社区日记
@@ -70,3 +59,12 @@ export const communityListService = (query) => {
     params: validParams
   });
 };
+
+// 日记添加
+export const diaryAddService = (diaryData) => {
+  return request.post('/diary/newDiary', diaryData);
+}
+
+export const diaryDeleteService = (diaryId) => {
+  return request.delete(`/diary/deleteDiary?id=${diaryId}`)
+}

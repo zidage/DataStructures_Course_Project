@@ -14,6 +14,10 @@ export const getAllPlacesService = (params) => {
   });
 };
 
+export const getAllPlacesServiceNoPaging = () => {
+  return request.get(`/plans/listPlaceNoPaging`);
+};
+
 // 获取周边地点
 export const getSurroundingPlacesService = (placeId, venueId, params) => {
   if (!placeId || !venueId) {
@@ -102,14 +106,9 @@ export const getPlanByIdService = (id) => {
 
 // 获取已生成全部计划服务
 export const getPlansService = (params) => {
-  const validParams = {};
-  for (const key in params) {
-    if (params[key] !== null && params[key] !== undefined && params[key] !== '') {
-      validParams[key] = params[key];
-    }
-  }
+  return request.get('/plans/myPlans', {params : params})
+};
 
-  return request.get('/plans/myPlans', {
-    params: validParams
-  });
+export const getPlansNoPagingService = (params) => {
+  return request.get('/plans/myPlansNoPaging', { params: params })
 };

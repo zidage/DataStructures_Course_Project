@@ -53,11 +53,11 @@
       <div class="el-aside__logo"></div>
       <el-menu active-text-color="#ffd04b" background-color="#232323" text-color="#fff" router>
         <!-- 菜单标签 -->
-        <el-menu-item index="/plan">
+        <el-menu-item index="/plan/PlanWorkbench">
           <el-icon>
             <Promotion />
           </el-icon>
-          <span>规划路线</span>
+          <span>新建计划</span>
         </el-menu-item>
         <el-menu-item index="/community">
           <el-icon>
@@ -73,13 +73,13 @@
             </el-icon>
             <span>个人中心</span>
           </template>
-          <el-menu-item index="/user/diary">
+          <el-menu-item index="/user/diaryManage">
             <el-icon>
               <Reading />
             </el-icon>
             <span>我的日记</span>
           </el-menu-item>
-          <el-menu-item index="/user/plan">
+          <el-menu-item index="/plan/planManagement">
             <el-icon>
               <Promotion />
             </el-icon>
