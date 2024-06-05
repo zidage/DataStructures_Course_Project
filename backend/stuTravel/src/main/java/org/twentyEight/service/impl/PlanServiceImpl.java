@@ -137,6 +137,18 @@ public class PlanServiceImpl implements PlanService {
     }
 
     @Override
+    public List<Place> listPlaceNoPaging(String name) {
+        return placeMapper.list(name, null);
+    }
+
+    @Override
+    public List<Plan> listMyPlanNoPaging(Long placeId, String planTitle) {
+        Map<String, Object> map = ThreadLocalUtil.get();
+        Integer userId = (Integer) map.get("id");
+        return planMapper.listPlan(userId, null, placeId, planTitle);
+    }
+
+    @Override
     public PageBean<Place> listPlace(Integer pageNum, Integer pageSize, String name, String address) {
         PageBean<Place> pb = new PageBean<>();
         PageHelper.startPage(pageNum, pageSize);

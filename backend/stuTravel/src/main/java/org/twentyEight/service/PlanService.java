@@ -33,4 +33,8 @@ public interface PlanService {
     List<Long> getVenuesByPlanId(Integer planId);
 
     List<Venue> getVenuesByVenueIds(List<Long> venueIds);
+
+    List<Place> listPlaceNoPaging(String name);
+
+    List<Plan> listMyPlanNoPaging(Long placeId, String planTitle);
 }

@@ -13,8 +13,8 @@ public class FileUploadController {
     @PostMapping("/upload")
     public Result<String> upload(MultipartFile file) throws IOException {
         String originalFilename = file.getOriginalFilename();
-        file.transferTo(new File("D:\\Projects\\DataStructures_Course_Project\\database\\files"
+        file.transferTo(new File("D:\\Projects\\DataStructures_Course_Project\\database\\files\\"
          + originalFilename));
-        return Result.success("url地址");
+        return Result.success("http://localhost:8080/upload/" + originalFilename);
     }
 }

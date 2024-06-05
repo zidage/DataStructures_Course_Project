@@ -53,6 +53,14 @@ public class PlanController {
         return Result.success(pb);
     }
 
+    @GetMapping("/listPlaceNoPaging")
+    public Result<List<Place>> listPlaceWithoutPaging(
+            @RequestParam(required = false) String name
+    ) {
+        List<Place> places = planService.listPlaceNoPaging(name);
+        return Result.success(places);
+    }
+
     @GetMapping("/place/{placeId}")
     public Result<Place> getPlaceById(@PathVariable Long placeId) {
         Place place = planService.getPlaceById(placeId);
@@ -96,6 +104,18 @@ public class PlanController {
         PageBean<Plan> pb = planService.listMyPlan(pageNum, pageSize, placeId, planId, planTitle);
         return Result.success(pb);
     }
+
+
+    @GetMapping("/myPlansNoPaging")
+    public Result<List<Plan>> listMyPlanNoPaging(
+
+            @RequestParam(required = false) Long placeId,
+            @RequestParam(required = false) String planTitle
+    ) {
+        List<Plan> plans = planService.listMyPlanNoPaging(placeId, planTitle);
+        return Result.success(plans);
+    }
+
 
     @GetMapping("/myPlans/{planId}")
     public Result<PlanResponse> getPlanById(

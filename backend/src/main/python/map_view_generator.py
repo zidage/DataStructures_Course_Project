@@ -52,13 +52,10 @@ def new_view_generator(place, map_basket, file_name,
     # nodes, edges = ox.graph_to_gdfs(map_basket["graph"])
 
     if (mode == MAP_ONLY):
-        _, edges = ox.graph_to_gdfs(map_basket["graph"])
-        edges["walk_speed"] = map_basket["walk_speed"]
-        edges["bike_speed"] = map_basket["bike_speed"]
-        m = edges.explore(column="bike_speed", cmap="jet_r")
+        m = map_basket["amenity"].explore()
         # m = map_basket["amenity"].explore(tooltip="name")
         print(0)
-        m.save("D:\\Projects\\DataStructures_Course_Project\\database\\files\\" + f"{plan_id}.html")
+        m.save("D:\\Projects\\DataStructures_Course_Project\\database\\files\\" + "place_holder.html")
         # print(f"{plan_id} html saved!")
         return
     

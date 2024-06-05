@@ -47,13 +47,14 @@ public class DiaryController {
     }
 
     @PutMapping("/{diaryId}/rating")
-    public Result rateDiaryById(@PathVariable Integer diaryId, @RequestParam Double rating) {
+    public Result rateDiaryById(@PathVariable Integer diaryId, @RequestParam String rating) {
         Diary diary = diaryService.getByDiaryId(diaryId);
         if (diary == null) {
             return Result.error("日记不存在或不可见");
         }
         Integer ratingCount = diary.getRatingCount();
-        diary.setRating((diary.getRating() * ratingCount + rating) / (ratingCount + 1));
+        Double numericRating = Double.parseDouble(rating);
+        diary.setRating((diary.getRating() * ratingCount + numericRating) / (ratingCount + 1));
         diary.setRatingCount(ratingCount + 1);
         diaryService.updateRating(diary);
         return Result.success();
@@ -71,10 +72,11 @@ public class DiaryController {
     public Result<PageBean<Diary>> list(
             Integer pageNum,
             Integer pageSize,
-            @RequestParam(required = false) Integer planId,
-            @RequestParam(required = false) String state
+            @RequestParam(required = false) Long placeId,
+            @RequestParam(required = false) String state,
+            @RequestParam(required = false) String title
     ) {
-        PageBean<Diary> pb = diaryService.list(pageNum, pageSize, planId, state);
+        PageBean<Diary> pb = diaryService.list(pageNum, pageSize, placeId, state, title);
         return Result.success(pb);
     }
 

@@ -39,7 +39,7 @@ public class DiaryServiceImpl implements DiaryService {
     }
 
     @Override
-    public PageBean<Diary> list(Integer pageNum, Integer pageSize, Integer placeId, String state) {
+    public PageBean<Diary> list(Integer pageNum, Integer pageSize, Long placeId, String state, String title) {
         // 创建PageBean对象
         PageBean<Diary> pb = new PageBean<>();
         // 开启分页查询 PageHelper
@@ -47,7 +47,7 @@ public class DiaryServiceImpl implements DiaryService {
         // 调用Mapper完成查询
         Map<String, Object> map = ThreadLocalUtil.get();
         Integer userId = (Integer) map.get("id");
-        List<Diary> as = diaryMapper.list(userId, placeId, state);
+        List<Diary> as = diaryMapper.list(userId, placeId, state, title);
         // Page中提供了方法，可以获取PageHelper分页查询后，得到的总记录条数和当前页数据
         Page<Diary> p = (Page<Diary>) as;
 

@@ -6,13 +6,15 @@
     <select id="list" resultType="org.twentyEight.pojo.Diary">
         select * from diary
         <where>
-            <if test="planId!=null">
-                plan_id = #{planId}
+            <if test="placeId!=null">
+                and place_id = #{placeId}
             </if>
             <if test="state!=null">
                 and state=#{state}
             </if>
-
+            <if test="title!=null and title!=''">
+                and title like concat('%', #{title}, '%')
+            </if>
             and create_user=#{userId}
         </where>
     </select>
