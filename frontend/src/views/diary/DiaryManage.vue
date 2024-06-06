@@ -116,6 +116,18 @@ const planList = async () => {
     plans.value = result.data;
     console.log(plans)
 }
+
+const planListEdit = async () => {
+    let params = {
+        placeId: editDiaryForm.value.placeId ? editDiaryForm.value.placeId : null,
+        planTitle: title_p.value ? title_p.value : null
+    }
+    let result = await getPlansNoPagingService(params);
+    // 渲染视图
+    plans.value = result.data;
+    // console.log(plans)
+}
+
 planList();
 
 
@@ -148,6 +160,7 @@ const showEditBox = (row) => {
     editDiaryForm.value.state = row.state
     editDiaryForm.value.content = row.content
     editDiaryForm.value.coverImg = row.coverImg
+    planListEdit()
     console.log(editDiaryForm)
 }
 
@@ -196,7 +209,7 @@ onMounted(() => {
                 <el-input v-model="editDiaryForm.title" placeholder="请输入标题"></el-input>
             </el-form-item>
             <el-form-item label="目的地">
-                <el-select placeholder="请选择" v-model="editDiaryForm.placeId" filterable @change="planList">
+                <el-select placeholder="请选择" v-model="editDiaryForm.placeId" filterable @change="planListEdit">
                     <el-option v-for="c in places" :key="c.id" :label="c.name" :value="c.id">
                     </el-option>
                 </el-select>
@@ -208,13 +221,6 @@ onMounted(() => {
                 </el-select>
             </el-form-item>
             <el-form-item label="文章封面">
-                <!--
-                        auto-upload:设置是否上传
-                        action：设置服务器接口路径
-                        name: 设置上传的文件字段名
-                        headers: 设置上传的请求头
-                        on-success:设置上传成功的回调函数
-                    -->
                 <el-upload class="avatar-uploader" :auto-upload="true" :show-file-list="false" action="/api/upload"
                     name="file" :on-success="uploadSuccess">
                     <img v-if="editDiaryForm.coverImg" :src="editDiaryForm.coverImg" class="avatar" />

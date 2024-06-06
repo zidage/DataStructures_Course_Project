@@ -81,8 +81,23 @@ export const updatePlanService = (planId, data) => {
     throw new Error('Missing required plan fields');
   }
 
-  return request.put(`/plans/updatePlan/${planId}`, data);
+  return request.put(`/plans/editPlan/${planId}`, data);
 };
+
+
+export const optimizePlanService = (planId, data) => {
+  if (!planId || !data.plan || !data.placeId || !data.venueIds) {
+    throw new Error('Missing required fields');
+  }
+
+  const { plan } = data;
+  if (!plan.title || !plan.transport || !plan.strategy) {
+    throw new Error('Missing required plan fields');
+  }
+
+  return request.put(`/plans/optimizePlan/${planId}`, data);
+};
+
 
 // 删除计划服务
 export const deletePlanService = (planId) => {

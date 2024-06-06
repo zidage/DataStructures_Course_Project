@@ -8,6 +8,7 @@ import {
 import { ref } from 'vue'
 import { usePlanStore } from '@/stores/plan.js';
 import { useRouter } from 'vue-router'
+import { ElMessage, ElMessageBox } from 'element-plus';
 
 const router = useRouter()
 
@@ -35,7 +36,7 @@ const onCurrentChange = (num) => {
 }
 
 // 回显文章分类
-import { getAllPlacesServiceNoPaging } from '@/api/plan.js';
+import { getAllPlacesServiceNoPaging, deletePlanService } from '@/api/plan.js';
 
 const placeList = async () => {
     let result = await getAllPlacesServiceNoPaging();
@@ -79,6 +80,33 @@ const clickPlan = (id) => {
 };
 
 
+const showDeleteBox = (row) => {
+    ElMessageBox.confirm(
+        '确定删除',
+        '提醒',
+        {
+            confirmButtonText: '确认',
+            cancelButtonText: '取消',
+            type: 'warning',
+        }
+    )
+        .then(() => {
+            deletePlanService(row.id)
+            ElMessage({
+                type: 'success',
+                message: '删除成功',
+            })
+            location.reload()
+        })
+        .catch(() => {
+            ElMessage({
+                type: 'info',
+                message: '删除取消',
+            })
+        })
+}
+
+
 
 </script>
 <template>
@@ -114,7 +142,7 @@ const clickPlan = (id) => {
             <el-table-column label="操作" width="100">
                 <template #default="{ row }">
                     <el-button :icon="View" circle plain type="primary" @click="clickPlan(row.id)"></el-button>
-                    <el-button :icon="Delete" circle plain type="danger"></el-button>
+                    <el-button :icon="Delete" circle plain type="danger" @click="showDeleteBox(row)"></el-button>
                 </template>
             </el-table-column>
             <template #empty>

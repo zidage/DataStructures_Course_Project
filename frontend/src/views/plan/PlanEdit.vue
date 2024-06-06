@@ -1,23 +1,38 @@
 <script setup>
+import {
+  Edit,
+  Timer,
+  Guide,
+  Bicycle,
+  Finished
+} from '@element-plus/icons-vue'
 import { ref, computed, onMounted } from 'vue';
+import { ElMessage, ElLoading } from 'element-plus';
+import { getDiaryByIdService, updateDiaryService } from '@/api/diary.js';
+import { rateDiaryService } from '@/api/diary.js';
 import { useRouter } from 'vue-router';
-import { ElMessage } from 'element-plus';
-import { useLocationStore } from '@/stores/location.js';
-import { ArrowLeft, ArrowRight, Delete, Search, Place, View } from '@element-plus/icons-vue';
+import { usePlanStore } from '@/stores/plan.js';
+import { QuillEditor } from '@vueup/vue-quill'
 import placeTypes from '@/assets/placeTypes.js';
 import testData from '@/assets/testData.js';
-import { getVenuesByPlaceIdService, getSurroundingPlacesService, createPlanService } from '@/api/plan.js';
+import { getVenuesByPlaceIdService, getSurroundingPlacesService, createPlanService, updatePlanService, optimizePlanService, getAllPlacesService } from '@/api/plan.js';
 import { getPlanByIdService } from '@/api/plan.js';
-import { usePlanStore } from '@/stores/plan.js';
-import { ElLoading } from 'element-plus'
+import '@vueup/vue-quill/dist/vue-quill.snow.css'
+const value2 = ref(0)
+const colors = ref(['#99A9BF', '#F7BA2A', '#FF9900'])
+const currentRating = ref(0)
+
+
+const planResponse = ref(null);
+let place = ref(null);
+const myRating = ref(0);
+let route = useRouter();
+
+let planStore = usePlanStore();
 
 
 
-const router = useRouter();
-const locationStore = useLocationStore();
-
-// 返回上一页事件
-
+const places = ref([])
 const findPlaceVisible = ref(false)
 const placeDetailVisible = ref(false)
 const detailedDisplayPlace = ref()
@@ -25,64 +40,6 @@ const detailedDisplayPlace = ref()
 const placePageNum = ref(1)//当前地点页
 const placeTotal = ref(20)//每页地点总树
 const placePageSize = ref(3)//每页条数
-
-
-
-
-
-const places = ref([
-  {
-    "id": 3087627617,
-    "name": "北京邮电大学",
-    "popularity": 96,
-    "rating": 4.6,
-    "formattedName": "Beijing_University_of_Posts_and_Telecommunications",
-    "address": "中国北京市海淀区北太平庄西土城路10号 邮政编码: 100876",
-    "description": "北京邮电大学（英語：Beijing University of Posts and Telecommunications，缩写：BUPT），简称北邮，是中华人民共和国的第一所邮电高等学府，是教育部直属、工业和信息化部共建的全国重点大学，是一所以信息科技为特色、工学门类为主体、工管文理交叉融合的研究型大学，是中国信息科技人才的重要培养基地，是“双一流计划”、原“211工程”和原“985工程优势学科创新平台”高校。\n\n",
-    "images": "[\"https://upload.wikimedia.org/wikipedia/commons/1/17/BUPT_Gate.jpg\", \"https://upload.wikimedia.org/wikipedia/commons/5/5e/BUPT_Hongfu_Campus_%2820220406141922%29.jpg\", \"https://upload.wikimedia.org/wikipedia/commons/4/47/BUPT_Shahe_Campus_%2820231202143149%29.jpg\", \"https://upload.wikimedia.org/wikipedia/commons/3/3d/BUPT_shahe_all.jpg\", \"https://upload.wikimedia.org/wikipedia/commons/3/33/BUPT_shahe_canteen.jpg\", \"https://upload.wikimedia.org/wikipedia/commons/0/0c/BUPT_shahe_dormitory.jpg\", \"https://upload.wikimedia.org/wikipedia/commons/f/f6/BUPT_shahe_library.jpg\", \"https://upload.wikimedia.org/wikipedia/commons/0/03/BUPT_shahe_teaching.jpg\", \"https://upload.wikimedia.org/wikipedia/commons/6/6e/BUPT_xitucheng_library.jpg\", \"https://upload.wikimedia.org/wikipedia/commons/6/6c/BUPT_xitucheng_main.jpg\"]"
-  },
-  {
-    "id": 3254197874,
-    "name": "北京科技大学",
-    "popularity": 88,
-    "rating": 4.6,
-    "formattedName": "University_of_Science_and_Technology_Beijing",
-    "address": "中国北京市海淀区学院路30号 邮政编码: 100083",
-    "description": "北京科技大学（英語：University of Science and Technology Beijing，縮寫：USTB），简称北科、北科大或北京科大，是位于北京市海淀区学院路的一所教育部直属的全国重点大学，是211工程、2011计划、985优势学科创新平台等高水平大学建设方案入选高校。学校占地约80.39万平方米，校舍建筑总面积97万平方米。\n\n",
-    "images": "[\"https://upload.wikimedia.org/wikipedia/commons/5/50/Mechanical_and_Information_Engineering_Building_of_USTB.jpg\", \"https://upload.wikimedia.org/wikipedia/commons/0/0b/Platopainting.jpg\", \"https://upload.wikimedia.org/wikipedia/commons/8/89/School_of_Materials_Science_and_Engineering_USTB.jpg\", \"https://upload.wikimedia.org/wikipedia/commons/2/24/USTB_Gym.jpg\", \"https://upload.wikimedia.org/wikipedia/commons/1/1c/USTB_west_gate.jpg\"]"
-  },
-  {
-    "id": 3380461192,
-    "name": "北京师范大学",
-    "popularity": 88,
-    "rating": 4.5,
-    "formattedName": "Beijing_Normal_University",
-    "address": "中国北京市海淀区北太平庄新外大街19号 邮政编码: 100875",
-    "description": "北京师范大学（英語：Beijing Normal University，縮寫：BNU），简称北师大。学校的前身是1902年创立的京师大学堂师范馆，1908年改称京师优级师范学堂，独立设校，1912年改名为北京高等师范学校。1923年学校更名为北京师范大学，成为中国历史上第一所师范大学。1931年、1952年北平女子师范大学、辅仁大学先后并入北京师范大学。北京师范大学是中华人民共和国顶尖高校之一，是“双一流A类”和原“985工程”、原“211工程”重点建设大学，是以基础文理学科、教育学、心理学为主要特色的中华人民共和国教育部直属全国重点大学。\n北京师范大学是公立综合性研究型大学。2002年，北京师范大学成为首批拥有自主设置本科专业审批权的6所高校之一。学科点覆盖了除军事学以外的12个学科门类，形成了综合性学科布局。根据中华人民共和国教育部学位与研究生教育发展中心发布的2017年一级学科评估（第四轮）结果，北师大教育学、心理学、中国语言文学、中国史、戏剧与影视学、地理学6个一级学科获评A＋，居中国第六位，2个一级学科获评A，7个一级学科获评A-。在英国高等教育调查公司（QS）公布的2024世界大学排行榜中，北师大排名第271位，在中国内地高校中排名第11位。2017年，北京师范大学进入中国“世界一流大学”建设A类名单，11个学科进入中国“世界一流学科”建设名单，位居中国第8位。\n北京师范大学有两个校区：北京校区（海淀校园、西城校园、昌平校园、育荣校园）和珠海校区。同时也成立了北京师范大学珠海分校（将于2024年终止办学）和北京师范大学-香港浸会大学联合国际学院。\n\n",
-    "images": "[\"https://upload.wikimedia.org/wikipedia/commons/4/4f/BNU_Gate.jpg\", \"https://upload.wikimedia.org/wikipedia/commons/3/3e/Beijing_road_1.jpg\", \"https://upload.wikimedia.org/wikipedia/commons/7/7e/East_gate_of_Beijing_Normal_University_%2820200921153346%29.jpg\", \"https://upload.wikimedia.org/wikipedia/commons/1/1c/May_Fourth_Movement_students.jpg\", \"https://upload.wikimedia.org/wikipedia/commons/b/b6/Site_of_Fu_Jen_Catholic_University_in_Peking_%2820201009172530%29.jpg\", \"https://upload.wikimedia.org/wikipedia/commons/d/d4/%E5%8C%97%E4%BA%AC%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%E7%A0%94%E7%A9%B6%E6%89%80.jpg\", \"https://upload.wikimedia.org/wikipedia/commons/4/4c/%E5%8C%97%E5%B8%88%E5%A4%A7%E5%90%AF%E5%8A%9F%E5%83%8F2.jpg\", \"https://upload.wikimedia.org/wikipedia/commons/9/99/%E5%8C%97%E5%B8%88%E5%A4%A7%E6%9C%A8%E9%93%8E2.jpg\", \"https://upload.wikimedia.org/wikipedia/commons/1/1c/%E5%8C%97%E5%B8%88%E5%A4%A7%E6%A0%A1%E8%AE%AD%E7%A2%91.jpg\"]"
-  },
-  {
-    "id": 2761923711,
-    "name": "北京工业大学",
-    "popularity": 80,
-    "rating": 4.7,
-    "formattedName": "Beijing_University_of_Technology",
-    "address": "中国北京市朝阳区 邮政编码: 100021",
-    "description": "北京工业大学（英語：Beijing University of Technology，缩写：BJUT），简称北工大，创立于1960年，是一所以工学为主，理学、工学、文学、法学、经济学、管理学、教育学、艺术学相结合的综合性市属重点大学，于1981年成为国家教育部批准的第一批硕士学位授予单位，1985年成为博士学位授予单位，1996年通过国家“211工程”预审。2017年9月，学校正式进入国家一流学科建设高校行列。2020年8月，2020软科世界大学学术排名发布，北京工业大学首次进入全球500强。2021年，工程学，材料科学，化学，环境科学与生态学、计算机科学、生物学与生物化学共6个学科进入ESI前%1。现时为QS世界大学排名中国内地50强大学，是“双一流”和原“211工程”重点建设大学。\n北京工业大学共有平乐园、通州、中蓝、管庄、花园村、琉璃井和惠新东街7个校区，总占地约96.0151万平方米，其中平乐园校区为校本部，通州校区为大部分大一新生所在校区。学校定期出版《北京工业大学学报》《北京工业大学学报（社会科学版）》等学术刊物。\n校训是“不息为体，日新为道”，取自唐代哲学家刘禹锡的《问大钧赋》“以不息为体，以日新为道”。“不息”源自《周易》“乾”卦的象词“天行健，君子以自强不息”，“体”则有物质存在的状态、本体、本性、禀性之意；“日新”源自《尚书·盘铭》“苟日新，日日新，又日新”，“道”，则有本质、法则、规律、主张、宗旨之意。学校校花为海棠花，校树为银杏树。\n\n",
-    "images": "[\"https://upload.wikimedia.org/wikipedia/commons/b/b9/BU_Tech.jpg\", \"https://upload.wikimedia.org/wikipedia/commons/0/00/BU_Tech2.jpg\", \"https://upload.wikimedia.org/wikipedia/commons/1/15/BU_Tech3.jpg\", \"https://upload.wikimedia.org/wikipedia/commons/b/b9/BU_Tech4.jpg\", \"https://upload.wikimedia.org/wikipedia/commons/a/a0/BU_Tech5.jpg\", \"https://upload.wikimedia.org/wikipedia/commons/d/dc/Beijing_University_of_Technology_Entrance.jpg\", \"https://upload.wikimedia.org/wikipedia/commons/e/e8/Beijing_University_of_Technology_Stadium.jpg\", \"https://upload.wikimedia.org/wikipedia/commons/0/0b/Platopainting.jpg\", \"https://upload.wikimedia.org/wikipedia/commons/6/6d/%E5%8C%97%E4%BA%AC%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6%28%E9%80%9A%E5%B7%9E%E6%A0%A1%E5%8C%BA%29_%E6%93%8D%E5%9C%BA%E5%90%8E%E6%96%B9%E5%B0%8F%E8%B7%AF_01.jpg\", \"https://upload.wikimedia.org/wikipedia/commons/4/43/%E5%8C%97%E4%BA%AC%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6_%E6%B1%B2%E5%AD%A6%E6%A5%BC_01.jpg\"]"
-  },
-  {
-    "id": 2866460375,
-    "name": "北京交通大学",
-    "popularity": 72,
-    "rating": 4.7,
-    "formattedName": "Beijing_Jiaotong_University",
-    "address": "中国北京市海淀区交大东路",
-    "description": "北京交通大学（英語：Beijing Jiaotong University，縮寫：BJTU），简称北京交大、北交大，原名北方交通大学，校本部座落在北京市海淀区西直门外上园村3号，是中国第一所专门培养管理人才的高等学校，是中国近代铁路管理、电信教育的发祥地。\n北京交通大学是教育部直属、教育部、交通运输部、北京市人民政府和中国国家铁路集团有限公司共建的全国重点大学，“211工程”、“985工程优势学科创新平台”（小985）项目建设高校、国家首批“双一流”建设高校，首轮建设任务已顺利完成，“智慧交通”一流学科领域建设得到评审专家高度评价。牵头的“2011计划”“轨道交通安全协同创新中心”是国家首批14个认定的协同创新中心之一。校训为王阳明之“知行”。\n\n",
-    "images": "[\"https://upload.wikimedia.org/wikipedia/commons/e/ea/BJTUgate.jpg\", \"https://upload.wikimedia.org/wikipedia/commons/4/4c/Bjtu_siyuan_building.JPG\", \"https://upload.wikimedia.org/wikipedia/commons/5/54/Bjtudoor1920.jpg\", \"https://upload.wikimedia.org/wikipedia/commons/0/02/Bjtugingko.JPG\", \"https://upload.wikimedia.org/wikipedia/commons/4/41/Bjtulibrary.jpg\", \"https://upload.wikimedia.org/wikipedia/commons/7/7c/Fanghua_park_bjtu.JPG\", \"https://upload.wikimedia.org/wikipedia/commons/1/14/Graduation_Jiaoda.JPG\", \"https://upload.wikimedia.org/wikipedia/commons/9/95/Maoyishengbjtu.jpg\", \"https://upload.wikimedia.org/wikipedia/commons/2/2f/Ming_pool_bjtu.jpg\", \"https://upload.wikimedia.org/wikipedia/commons/0/0b/Platopainting.jpg\"]"
-  }
-])
-
 
 const planRequestModel = ref(
   {
@@ -96,84 +53,34 @@ const planRequestModel = ref(
   }
 )
 
-
-
-
-const venues = ref([
-  {
-    "id": 399008789,
-    "name": "主教学楼",
-    "type": "nan",
-    "latitude": 39.95992864753576,
-    "longitude": 116.35219703998455,
-    "placeId": 3087627617,
-    "popularity": 0,
-    "osmid": 399008789
-  },
-  {
-    "id": 399008790,
-    "name": "图书馆",
-    "type": "nan",
-    "latitude": 39.96145138789443,
-    "longitude": 116.35189501307093,
-    "placeId": 3087627617,
-    "popularity": 0,
-    "osmid": 399008790
-  },
-  {
-    "id": 399008979,
-    "name": "教一楼",
-    "type": "nan",
-    "latitude": 39.96053895523992,
-    "longitude": 116.35179344616746,
-    "placeId": 3087627617,
-    "popularity": 0,
-    "osmid": 399008979
-  },
-  {
-    "id": 399008980,
-    "name": "行政办公楼",
-    "type": "nan",
-    "latitude": 39.960700489509705,
-    "longitude": 116.351777726217,
-    "placeId": 3087627617,
-    "popularity": 0,
-    "osmid": 399008980
-  },
-  {
-    "id": 399008981,
-    "name": "财务处",
-    "type": "nan",
-    "latitude": 39.96077154667922,
-    "longitude": 116.35140472766149,
-    "placeId": 3087627617,
-    "popularity": 0,
-    "osmid": 399008981
-  },
-  {
-    "id": 399008982,
-    "name": "后勤处",
-    "type": "nan",
-    "latitude": 39.96070367196975,
-    "longitude": 116.35141965603697,
-    "placeId": 3087627617,
-    "popularity": 0,
-    "osmid": 399008982
-  }
-]
-)
-
-
-
-
-
 const mapView = ref('')
 const placeName = ref('')
 const placeAddress = ref('')
+const selectedPlace = ref('请选择游学目的地（编辑后显示）')
 
-const selectedPlace = ref('请选择游学目的地')
+const fetchPlan = async () => {
+  planRequestModel.value.venueIds = []
+  const planId = planStore.currentPlanId;
+  if (planId) {
+    // console.log(planId)
+    const response = await getPlanByIdService(planId);
+    planResponse.value = response.data;
+    planRequestModel.value.plan.title = planResponse.value.plan.title;
+    planRequestModel.value.plan.transport = planResponse.value.plan.transport;
+    planRequestModel.value.plan.strategy = planResponse.value.plan.strategy;
+    planRequestModel.value.placeId = planResponse.value.placeId;
+    planRequestModel.value.plan.mapView = planResponse.value.plan.mapView;
+    mapView.value = planRequestModel.value.plan.mapView
+    selectedVenues.value = planResponse.value.venues;
+    for (let i = 0; i < planResponse.value.venues.length; i++) {
+      planRequestModel.value.venueIds.push(planResponse.value.venues[i].id);
+    }
+    
+  }
 
-import { getAllPlacesService } from '@/api/plan.js';
+};
+
+fetchPlan()
 
 const getPlaces = async () => {
   const response = await getAllPlacesService({
@@ -199,11 +106,7 @@ const placeOnCurrentChange = (num) => {
   // location.reload()
 }
 
-
-
-onMounted(getPlaces)
-
-
+const venues = ref([])
 
 const selectedVenues = ref([])
 const venueSelectorVisible = ref(false)
@@ -320,29 +223,40 @@ const getLabelByValue = (value) => {
   return type ? type.label : value;
 }
 
-const createPlan = async () => {
+const updatePlan = async () => {
   const loadingScreen = ElLoading.service({ fullscreen: true })
-  loadingScreen.close()
-  let response = await createPlanService(planRequestModel.value);
-  let newPlanId = response.data;
   
-  let planResponse = await getPlanByIdService(newPlanId);
-  mapView.value = planResponse.data.plan.mapView
-  ElMessage.success("添加成功")
+  let response = await updatePlanService(planStore.currentPlanId, planRequestModel.value);
+  if (response.code == 1) {
+    ElMessage.error("更新失败")
+  }
+  // let newPlanId = response.data;
+  route.push("/plan/show")
+  ElMessage.success("更新成功")
+  loadingScreen.close()
+}
+
+const optimizePlan = async () => {
+  if (planRequestModel.value.venueIds[0] != planRequestModel.value.venueIds[planRequestModel.value.venueIds.length - 1]) {
+    ElMessage.error("只有回到出发点的方案可以被优化");
+    return
+  }
+  const loadingScreen = ElLoading.service({ fullscreen: true })
+  
+  let response = await optimizePlanService(planStore.currentPlanId, planRequestModel.value);
+
+  route.push("/plan/show")
+  ElMessage.success("优化成功")
+  loadingScreen.close()
 }
 
 
-
-
-
-
-
-
-//fetchOriginalItems();
 </script>
 
+
+
 <template>
-  <el-row style="height: 100vh;">
+  <el-row style="height: 100vh;" v-if="planResponse">
     <!-- 左侧可滑动部分 -->
     <el-col :span="12" class="left-column">
       <el-scrollbar class="scrollbar">
@@ -351,10 +265,16 @@ const createPlan = async () => {
           <template #header>
             <div class="card-header">
               <h3>stuTravel™游学计划</h3>
-              <el-button type="primary" class="next-button" @click="createPlan">
-                生成计划
+              <el-button type="primary" class="next-button" @click="optimizePlan">
+                优化计划
                 <el-icon class="el-icon--right">
-                  <ArrowRight />
+                  <Finished />
+                </el-icon>
+              </el-button>
+              <el-button type="primary" class="next-button" @click="updatePlan">
+                更新计划
+                <el-icon class="el-icon--right">
+                  <Edit />
                 </el-icon>
               </el-button>
             </div>
@@ -364,8 +284,9 @@ const createPlan = async () => {
               <div style="flex: 30%;"><el-button type="primary"
                   @click="findPlaceVisible = true; getPlaces()">选择游学目的地</el-button>
               </div>
+              <div></div>
               <div style="flex: 70%;">
-                {{ selectedPlace }}
+                {{ planResponse.plan.title }} {{ selectedPlace }}
               </div>
             </div>
           </div>
@@ -420,7 +341,7 @@ const createPlan = async () => {
                     </p>
                     <p>
                       <el-button type="primary"
-                        @click="selectedPlace = item.name; planRequestModel.placeId = item.id; selectedVenues = []; findPlaceVisible = false">添加为游学目的地</el-button>
+                        @click="selectedPlace = item.name; planRequestModel.placeId = item.id; selectedVenues = []; findPlaceVisible = false, planRequestModel.venueIds = []">添加为游学目的地</el-button>
                     </p>
                   </div>
                 </div>
@@ -735,7 +656,8 @@ const createPlan = async () => {
 
     <!-- 右侧固定部分 -->
     <el-col :span="12" class="right-column">
-      <iframe :src="mapView == '' ? 'http://127.0.0.1:8080/upload/place_holder.html' : mapView" frameborder="0" height="100%" width="100%"></iframe>
+      <iframe :src="mapView == '' ? 'http://127.0.0.1:8080/upload/place_holder.html' : mapView" frameborder="0"
+        height="100%" width="100%"></iframe>
     </el-col>
   </el-row>
 </template>

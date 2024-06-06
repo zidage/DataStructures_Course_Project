@@ -12,6 +12,8 @@ import SelectLocation from '@/views/plan/SelectLocation.vue'
 import UserResetPasswordVue from '@/views/user/UserResetPassword.vue'
 import ShowDiaryVue from '@/views/diary/ShowDiary.vue'
 import ShowPlanVue from '@/views/plan/ShowPlan.vue'
+import PlanEditVue from '@/views/plan/PlanEdit.vue'
+
 import { useTokenStore } from '@/stores/token.js';
 //定义路由关系
 const routes = [
@@ -28,7 +30,8 @@ const routes = [
       { path: '/plan/planManagement', component: PlanManageVue },
       { path: '/plan/PlanWorkbench', component: PlanWorkBench },
       { path: '/diary/show', component: ShowDiaryVue },
-      { path: '/plan/show', component: ShowPlanVue }
+      { path: '/plan/show', component: ShowPlanVue },
+      { path: '/plan/edit', component: PlanEditVue }
     ]
   }
 ]
