@@ -83,7 +83,7 @@ public class PlanController {
         return Result.success();
     }
 
-    @PutMapping("/editPlan/{id}/optimize")
+    @PutMapping("/optimizePlan/{id}")
     public Result optimizePlan(@PathVariable Integer id, @RequestBody PlanRequest planRequest) {
         Plan plan = planRequest.getPlan();
         plan.setId(id);

@@ -39,6 +39,11 @@
       <artifactId>mysql-connector-j</artifactId>
     </dependency>
 
+    <dependency>
+      <groupId>org.mariadb.jdbc</groupId>
+      <artifactId>mariadb-java-client</artifactId>
+      <version>2.7.4</version> <!-- 使用最新版本 -->
+    </dependency>
     <!--lombok-->
     <dependency>
       <groupId>org.projectlombok</groupId>

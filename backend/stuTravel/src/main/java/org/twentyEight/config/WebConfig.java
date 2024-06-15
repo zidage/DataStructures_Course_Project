@@ -21,6 +21,6 @@ public class WebConfig implements WebMvcConfigurer {
 
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
-        registry.addResourceHandler("/upload/**").addResourceLocations("file:" + "D:/Projects/DataStructures_Course_Project/database/files/");
+        registry.addResourceHandler("/upload/**").addResourceLocations("file:" + System.getenv("DS_FILES") + "/");
     }
 }

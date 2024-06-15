@@ -55,7 +55,7 @@ def new_view_generator(place, map_basket, file_name,
         m = map_basket["amenity"].explore()
         # m = map_basket["amenity"].explore(tooltip="name")
         print(0)
-        m.save("D:\\Projects\\DataStructures_Course_Project\\database\\files\\" + "place_holder.html")
+        m.save(os.environ("DS_FILES") + "\\" + "place_holder.html")
         # print(f"{plan_id} html saved!")
         return
     
@@ -87,13 +87,13 @@ def new_view_generator(place, map_basket, file_name,
             #map_basket["amenity"].loc[map_basket["amenity"]["name"] == w[2]].explore(m=m, tooltip="name", marker_kwds=mk,
                                                                                   #color=route_color[index % len(route_color)])
 
-    m.save("D:\\Projects\\DataStructures_Course_Project\\database\\files\\" + f"{plan_id}.html")
+    m.save(os.environ("DS_FILES") + "\\" + f"{plan_id}.html")
     # print(f"{plan_id} html saved!")
 
 
 # main函数
-root_dir = f'{os.environ["MAP_DATA"]}/map_exports_test'
-output_dir = f'{os.environ["MAP_DATA"]}/map_view_test'
+root_dir = f'{os.environ["MAP_DATA"]}/map_exports'
+# output_dir = f'{os.environ["MAP_DATA"]}/map_view_test'
 
 
 # 用户输入
@@ -135,7 +135,7 @@ else:
                 waypoints["geometry"].append(Point(dest_venue[0], dest_venue[1]))
                 wpt.append(dest_venue)
                 if (mode == '-o'):
-                    result = route_optimizer.optimize_route(map_basket, wpt, strategy, transport)
+                    result = route_optimizer.optimize_route(map_basket, wpt, int(strategy), int(transport))
                     if result is None:
                        print("None")
                        exit(0)

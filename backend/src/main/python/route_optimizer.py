@@ -17,18 +17,18 @@ def heuristic(node, target, strategy):
 
 
 def astar(adjacency_list, node_list, start, end, strategy=DISTANCE_FIRST, transport=WALK):
-    wts = {node: float('inf') for node in adjacency_list}
-    wts[start] = 0
-    heap = [(0, 0, start)]
+    wts = {node: (float('inf'), float('inf')) for node in adjacency_list}
+    wts[start] = (0, 0) # wts[][0]是距离 wts[][1]是时间
+    heap = [(0, 0, 0, start)] # 第一项是heuristic函数返回的值 第二项是当前策略下的权值 第三项是与当前策略对立的另一策略的权值
     previous = {}
 
     if start == end:
-        return 0, [start]
+        return (0, 0), [start]
 
     weight_select = 0 if strategy == DISTANCE_FIRST else strategy + transport
 
     while heap:
-        _, current_g, current_node = heapq.heappop(heap)
+        _, current_g, current_other_g, current_node = heapq.heappop(heap)
 
         if current_node == end:
             break
@@ -36,16 +36,24 @@ def astar(adjacency_list, node_list, start, end, strategy=DISTANCE_FIRST, transp
         for neighbor, weight in adjacency_list[current_node].items():
             try:
                 wt = current_g + weight[weight_select]
-                if wt < wts[neighbor]:
-                    wts[neighbor] = wt
+                wt_another = 0
+                if strategy == DISTANCE_FIRST:
+                    wt_another = current_other_g + weight[1 + transport]
+                elif strategy == TIME_FIRST:
+                    wt_another = current_other_g + weight[0]
+                if wt < wts[neighbor][strategy]:
+                    if strategy == DISTANCE_FIRST:
+                        wts[neighbor] = (wt, wt_another)
+                    elif strategy == TIME_FIRST:
+                        wts[neighbor] = (wt_another, wt)
                     f = wt + heuristic(node_list[neighbor], node_list[end], strategy)
-                    heapq.heappush(heap, (f, wt, neighbor))
+                    heapq.heappush(heap, (f, wt, wt_another, neighbor))
                     previous[neighbor] = current_node
             except:
                 continue
     
     if end not in previous:
-        return float('inf'), []
+        return (0, 0), []
     
     path_node = []
     node = end
@@ -73,7 +81,7 @@ def optimize_route(map_basket, waypoints, strategy, transport):
             wt, path = astar(adj_list, nd_list, orig_node, dest_node, strategy, transport)
             if wt == 0:
                 return None
-            tsp_graph.append((wpt_a[-1], wpt_b[-1], wt, path))
+            tsp_graph.append((wpt_a[-1], wpt_b[-1], wt[strategy], path))
         wpt.append(int(wpt_a[-1]))
     wpt.append(int(waypoints[-1][-1]))
     
@@ -84,7 +92,7 @@ def optimize_route(map_basket, waypoints, strategy, transport):
     
     try:
         optimized_wpt, _ = christofides_tsp(G)
-        return optimized_wpt[:-1]
+        return optimized_wpt
     except:
         return None
     # print(tsp_graph)

@@ -7,7 +7,7 @@ import java.util.List;
 
 @Mapper
 public interface PlanMapper {
-    @Select("select * from plan where id = #{planId} and create_user = #{userId}")
+    @Select("select * from plan where id = #{planId}")
     Plan getPlanById(Integer planId, Integer userId);
 
     @Insert("insert into " +
@@ -28,10 +28,10 @@ public interface PlanMapper {
     @Delete("DELETE FROM plan_venue WHERE plan_id = #{planId}")
     void deletePlanVenuesByPlanId(@Param("planId") Integer planId);
 
-    @Delete("DELETE FROM Plan WHERE id = #{id}")
+    @Delete("DELETE FROM plan WHERE id = #{id}")
     void deletePlan(@Param("id") Integer id);
 
-    @Update("update Plan set title=#{title}, transport=#{transport}, strategy=#{strategy}, update_time=now() where id=#{id}")
+    @Update("update plan set title=#{title}, transport=#{transport}, strategy=#{strategy}, update_time=now() where id=#{id}")
     void updatePlan(Plan plan);
 
     List<Plan> listPlan(Integer userId, Integer planId, Long placeId, String planTitle);

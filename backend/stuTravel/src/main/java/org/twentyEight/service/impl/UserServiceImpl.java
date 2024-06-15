@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.twentyEight.mapper.UserMapper;
 import org.twentyEight.pojo.User;
+import org.twentyEight.service.MapUpdateService;
 import org.twentyEight.service.UserService;
 import org.twentyEight.utils.Md5Util;
 import org.twentyEight.utils.ThreadLocalUtil;
@@ -15,6 +16,8 @@ import java.util.Map;
 public class UserServiceImpl implements UserService {
     @Autowired
     private UserMapper userMapper;
+
+
     @Override
     public User findByUserName(String username) {
         User u = userMapper.findByUserName(username);
@@ -26,6 +29,7 @@ public class UserServiceImpl implements UserService {
         // 加密
         String md5String = Md5Util.getMD5String(password);
         // 添加
+
         userMapper.add(username, md5String);
     }
 

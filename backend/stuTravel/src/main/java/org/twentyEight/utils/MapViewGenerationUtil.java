@@ -12,7 +12,7 @@ public class MapViewGenerationUtil {
 
     public MapViewGenerationUtil() throws IOException {
         script_path = System.getenv("DS_PY_UTIL");
-        pb = new ProcessBuilder("python", script_path + "\\map_view_generator.py");
+        pb = new ProcessBuilder("python3", script_path + "/map_view_generator.py");
         process = pb.start();
         writer = new OutputStreamWriter(process.getOutputStream());
         reader = new BufferedReader(new InputStreamReader(process.getInputStream(), Charset.forName("GBK")));

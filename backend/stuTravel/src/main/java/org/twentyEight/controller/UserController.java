@@ -8,6 +8,7 @@ import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 import org.twentyEight.pojo.Result;
 import org.twentyEight.pojo.User;
+import org.twentyEight.service.MapUpdateService;
 import org.twentyEight.service.UserService;
 import org.twentyEight.utils.JwtUtil;
 import org.twentyEight.utils.Md5Util;
@@ -23,6 +24,8 @@ public class UserController {
 
     @Autowired
     private UserService userService;
+    @Autowired
+    private MapUpdateService mapUpdateService;
 
     @PostMapping("/regist")
     public Result register(@Pattern(regexp = "^\\S{1,16}$")String username,
@@ -55,6 +58,7 @@ public class UserController {
             claims.put("id", loginUser.getId());
             claims.put("username", loginUser.getUsername());
             String token = JwtUtil.genToken(claims);
+            mapUpdateService.importJsonFilesFromDisk(System.getenv("MAP_DATA") + "/map_exports");
             return Result.success(token);
         }
 

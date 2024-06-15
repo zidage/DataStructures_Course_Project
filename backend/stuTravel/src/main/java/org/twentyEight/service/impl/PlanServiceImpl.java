@@ -89,7 +89,7 @@ public class PlanServiceImpl implements PlanService {
             String place_formatted = place.getFormattedName();
             StringBuilder queryString = new StringBuilder("-o " + plan.getId() +
                     (plan.getStrategy().equals("DIST") ? " 0" : " 1") +
-                    (plan.getStrategy().equals("TIME") ? " 0 " : " 1 ") +
+                    (plan.getTransport().equals("WALK") ? " 0 " : " 1 ") +
                     place_formatted + " ");
             for (Long venueId : venueIds) {
                 queryString.append(venueId.toString()).append(" ");
@@ -209,7 +209,7 @@ public class PlanServiceImpl implements PlanService {
             String place_formatted = place.getFormattedName();
             StringBuilder queryString = new StringBuilder("-r " + plan.getId() +
                     (plan.getStrategy().equals("DIST") ? " 0" : " 1") +
-                    (plan.getStrategy().equals("TIME") ? " 0 " : " 1 ") +
+                    (plan.getTransport().equals("WALK") ? " 0 " : " 1 ") +
                     place_formatted + " ");
             for (Long venueId : venueIds) {
                 queryString.append(venueId.toString()).append(" ");
@@ -219,8 +219,8 @@ public class PlanServiceImpl implements PlanService {
             Integer distance = 0;
             try {
                 String[] response = mapGenerator.endProcess().split(",");
-                distance = (int) Double.parseDouble(response[0]);
-                requiredTime = (int) Double.parseDouble(response[1]);
+                distance = (int) Double.parseDouble(response[1]);
+                requiredTime = (int) Double.parseDouble(response[0]);
                 String savePath = "http://localhost:8080/upload/"
                         + plan.getId() + ".html";
                 planMapper.insertPlanMapViewAndTime(plan.getId(), savePath, requiredTime, distance);

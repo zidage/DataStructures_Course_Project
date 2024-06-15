@@ -10,11 +10,14 @@ import org.twentyEight.pojo.Diary;
 import org.twentyEight.pojo.PageBean;
 import org.twentyEight.service.DiaryService;
 import org.twentyEight.utils.ThreadLocalUtil;
+import org.twentyEight.utils.GZipUtils;
 
+import java.io.IOException;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
+
 
 @Service
 public class DiaryServiceImpl implements DiaryService {
@@ -30,6 +33,11 @@ public class DiaryServiceImpl implements DiaryService {
         // 补充属性值
         diary.setCreateTime(LocalDateTime.now());
         diary.setUpdateTime(LocalDateTime.now());
+        try {
+            diary.setContent(GZipUtils.compressString(diary.getContent(), "UTF-8"));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
         Map<String, Object> map = ThreadLocalUtil.get();
         Integer userId = (Integer) map.get("id");
@@ -75,7 +83,15 @@ public class DiaryServiceImpl implements DiaryService {
 
     @Override
     public Diary getByDiaryId(Integer diaryId) {
-        return diaryMapper.getByDiaryId(diaryId);
+        Diary diary = diaryMapper.getByDiaryId(diaryId);
+        try {
+            diary.setContent(GZipUtils.decompressString(diary.getContent(), "UTF-8"));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        return diary;
+
     }
 
     @Override
@@ -93,6 +109,11 @@ public class DiaryServiceImpl implements DiaryService {
 
     @Override
     public void updateDiary(Diary editDiary) {
+        try {
+            editDiary.setContent(GZipUtils.compressString(editDiary.getContent(), "UTF-8"));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         diaryMapper.updateDiary(editDiary);
     }
 
